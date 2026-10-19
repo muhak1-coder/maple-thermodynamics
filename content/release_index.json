@@ -1,0 +1,488 @@
+{
+  "schema_version": "1.0.0",
+  "release": "REGIONAL WEBSITE RELEASE 1.0",
+  "visibility": "public-student",
+  "base_path": "public-student",
+  "chapters": [
+    {
+      "id": "U1-C01",
+      "unit_id": "U1",
+      "markdown_path": "lessons/U1-C01.md",
+      "worksheet_id": "WS01",
+      "status": "complete"
+    },
+    {
+      "id": "U1-C02",
+      "unit_id": "U1",
+      "markdown_path": "lessons/U1-C02.md",
+      "worksheet_id": "WS02",
+      "status": "complete"
+    },
+    {
+      "id": "U1-C03",
+      "unit_id": "U1",
+      "markdown_path": "lessons/U1-C03.md",
+      "worksheet_id": "WS03",
+      "status": "complete"
+    },
+    {
+      "id": "U1-C04",
+      "unit_id": "U1",
+      "markdown_path": "lessons/U1-C04.md",
+      "worksheet_id": "WS04",
+      "status": "complete"
+    },
+    {
+      "id": "U1-C05",
+      "unit_id": "U1",
+      "markdown_path": "lessons/U1-C05.md",
+      "worksheet_id": "WS05",
+      "status": "complete"
+    },
+    {
+      "id": "U1-C06",
+      "unit_id": "U1",
+      "markdown_path": "lessons/U1-C06.md",
+      "worksheet_id": "WS06",
+      "status": "complete"
+    },
+    {
+      "id": "U2-C01",
+      "unit_id": "U2",
+      "markdown_path": "lessons/U2-C01.md",
+      "worksheet_id": "WS07",
+      "status": "complete"
+    },
+    {
+      "id": "U2-C02",
+      "unit_id": "U2",
+      "markdown_path": "lessons/U2-C02.md",
+      "worksheet_id": "WS08",
+      "status": "complete"
+    },
+    {
+      "id": "U2-C03",
+      "unit_id": "U2",
+      "markdown_path": "lessons/U2-C03.md",
+      "worksheet_id": "WS09",
+      "status": "complete"
+    },
+    {
+      "id": "U2-C04",
+      "unit_id": "U2",
+      "markdown_path": "lessons/U2-C04.md",
+      "worksheet_id": "WS10",
+      "status": "complete"
+    },
+    {
+      "id": "U2-C05",
+      "unit_id": "U2",
+      "markdown_path": "lessons/U2-C05.md",
+      "worksheet_id": "WS11",
+      "status": "complete"
+    },
+    {
+      "id": "U2-C06",
+      "unit_id": "U2",
+      "markdown_path": "lessons/U2-C06.md",
+      "worksheet_id": "WS12",
+      "status": "complete"
+    },
+    {
+      "id": "U2-C07",
+      "unit_id": "U2",
+      "markdown_path": "lessons/U2-C07.md",
+      "worksheet_id": "WS13",
+      "status": "complete"
+    },
+    {
+      "id": "U3-C01",
+      "unit_id": "U3",
+      "markdown_path": "lessons/U3-C01.md",
+      "worksheet_id": "WS14",
+      "status": "complete",
+      "json_path": "lessons/U3-C01.json"
+    },
+    {
+      "id": "U3-C02",
+      "unit_id": "U3",
+      "markdown_path": "lessons/U3-C02.md",
+      "worksheet_id": "WS15",
+      "status": "complete",
+      "json_path": "lessons/U3-C02.json"
+    },
+    {
+      "id": "U3-C03",
+      "unit_id": "U3",
+      "markdown_path": "lessons/U3-C03.md",
+      "worksheet_id": "WS16",
+      "status": "complete",
+      "json_path": "lessons/U3-C03.json"
+    },
+    {
+      "id": "U3-C04",
+      "unit_id": "U3",
+      "markdown_path": "lessons/U3-C04.md",
+      "worksheet_id": "WS17",
+      "status": "complete",
+      "json_path": "lessons/U3-C04.json"
+    },
+    {
+      "id": "U3-C05",
+      "unit_id": "U3",
+      "markdown_path": "lessons/U3-C05.md",
+      "worksheet_id": "WS18",
+      "status": "complete",
+      "json_path": "lessons/U3-C05.json"
+    },
+    {
+      "id": "U3-C06",
+      "unit_id": "U3",
+      "markdown_path": "lessons/U3-C06.md",
+      "worksheet_id": "WS19",
+      "status": "complete",
+      "json_path": "lessons/U3-C06.json"
+    },
+    {
+      "id": "U3-C07",
+      "unit_id": "U3",
+      "markdown_path": "lessons/U3-C07.md",
+      "worksheet_id": "WS20",
+      "status": "complete",
+      "json_path": "lessons/U3-C07.json"
+    },
+    {
+      "id": "U4-C01",
+      "unit_id": "U4",
+      "markdown_path": "lessons/U4-C01.md",
+      "worksheet_id": "WS21",
+      "status": "complete",
+      "json_path": "lessons/U4-C01.json"
+    },
+    {
+      "id": "U4-C02",
+      "unit_id": "U4",
+      "markdown_path": "lessons/U4-C02.md",
+      "worksheet_id": "WS22",
+      "status": "complete",
+      "json_path": "lessons/U4-C02.json"
+    },
+    {
+      "id": "U4-C03",
+      "unit_id": "U4",
+      "markdown_path": "lessons/U4-C03.md",
+      "worksheet_id": "WS23",
+      "status": "complete",
+      "json_path": "lessons/U4-C03.json"
+    },
+    {
+      "id": "U4-C04",
+      "unit_id": "U4",
+      "markdown_path": "lessons/U4-C04.md",
+      "worksheet_id": "WS24",
+      "status": "complete",
+      "json_path": "lessons/U4-C04.json"
+    },
+    {
+      "id": "U4-C05",
+      "unit_id": "U4",
+      "markdown_path": "lessons/U4-C05.md",
+      "worksheet_id": "WS25",
+      "status": "complete",
+      "json_path": "lessons/U4-C05.json"
+    },
+    {
+      "id": "U4-C06",
+      "unit_id": "U4",
+      "markdown_path": "lessons/U4-C06.md",
+      "worksheet_id": "WS26",
+      "status": "complete",
+      "json_path": "lessons/U4-C06.json"
+    },
+    {
+      "id": "U4-C07",
+      "unit_id": "U4",
+      "markdown_path": "lessons/U4-C07.md",
+      "worksheet_id": "WS27",
+      "status": "complete",
+      "json_path": "lessons/U4-C07.json"
+    },
+    {
+      "id": "U4-C08",
+      "unit_id": "U4",
+      "markdown_path": "lessons/U4-C08.md",
+      "worksheet_id": "WS28",
+      "status": "complete",
+      "json_path": "lessons/U4-C08.json"
+    },
+    {
+      "id": "U5-C01",
+      "unit_id": "U5",
+      "markdown_path": "lessons/U5-C01.md",
+      "worksheet_id": "WS29",
+      "status": "complete",
+      "json_path": "lessons/U5-C01.json"
+    },
+    {
+      "id": "U5-C02",
+      "unit_id": "U5",
+      "markdown_path": "lessons/U5-C02.md",
+      "worksheet_id": "WS30",
+      "status": "complete",
+      "json_path": "lessons/U5-C02.json"
+    },
+    {
+      "id": "U5-C03",
+      "unit_id": "U5",
+      "markdown_path": "lessons/U5-C03.md",
+      "worksheet_id": "WS31",
+      "status": "complete",
+      "json_path": "lessons/U5-C03.json"
+    },
+    {
+      "id": "U5-C04",
+      "unit_id": "U5",
+      "markdown_path": "lessons/U5-C04.md",
+      "worksheet_id": "WS32",
+      "status": "complete",
+      "json_path": "lessons/U5-C04.json"
+    },
+    {
+      "id": "U5-C05",
+      "unit_id": "U5",
+      "markdown_path": "lessons/U5-C05.md",
+      "worksheet_id": "WS33",
+      "status": "complete",
+      "json_path": "lessons/U5-C05.json"
+    }
+  ],
+  "worksheets": [
+    {
+      "id": "WS01",
+      "json_path": "worksheets/WS01.json",
+      "markdown_path": "worksheets/WS01.md"
+    },
+    {
+      "id": "WS02",
+      "json_path": "worksheets/WS02.json",
+      "markdown_path": "worksheets/WS02.md"
+    },
+    {
+      "id": "WS03",
+      "json_path": "worksheets/WS03.json",
+      "markdown_path": "worksheets/WS03.md"
+    },
+    {
+      "id": "WS04",
+      "json_path": "worksheets/WS04.json",
+      "markdown_path": "worksheets/WS04.md"
+    },
+    {
+      "id": "WS05",
+      "json_path": "worksheets/WS05.json",
+      "markdown_path": "worksheets/WS05.md"
+    },
+    {
+      "id": "WS06",
+      "json_path": "worksheets/WS06.json",
+      "markdown_path": "worksheets/WS06.md"
+    },
+    {
+      "id": "WS07",
+      "json_path": "worksheets/WS07.json",
+      "markdown_path": "worksheets/WS07.md"
+    },
+    {
+      "id": "WS08",
+      "json_path": "worksheets/WS08.json",
+      "markdown_path": "worksheets/WS08.md"
+    },
+    {
+      "id": "WS09",
+      "json_path": "worksheets/WS09.json",
+      "markdown_path": "worksheets/WS09.md"
+    },
+    {
+      "id": "WS10",
+      "json_path": "worksheets/WS10.json",
+      "markdown_path": "worksheets/WS10.md"
+    },
+    {
+      "id": "WS11",
+      "json_path": "worksheets/WS11.json",
+      "markdown_path": "worksheets/WS11.md"
+    },
+    {
+      "id": "WS12",
+      "json_path": "worksheets/WS12.json",
+      "markdown_path": "worksheets/WS12.md"
+    },
+    {
+      "id": "WS13",
+      "json_path": "worksheets/WS13.json",
+      "markdown_path": "worksheets/WS13.md"
+    },
+    {
+      "id": "WS14",
+      "json_path": "worksheets/WS14.json",
+      "markdown_path": "worksheets/WS14.md"
+    },
+    {
+      "id": "WS15",
+      "json_path": "worksheets/WS15.json",
+      "markdown_path": "worksheets/WS15.md"
+    },
+    {
+      "id": "WS16",
+      "json_path": "worksheets/WS16.json",
+      "markdown_path": "worksheets/WS16.md"
+    },
+    {
+      "id": "WS17",
+      "json_path": "worksheets/WS17.json",
+      "markdown_path": "worksheets/WS17.md"
+    },
+    {
+      "id": "WS18",
+      "json_path": "worksheets/WS18.json",
+      "markdown_path": "worksheets/WS18.md"
+    },
+    {
+      "id": "WS19",
+      "json_path": "worksheets/WS19.json",
+      "markdown_path": "worksheets/WS19.md"
+    },
+    {
+      "id": "WS20",
+      "json_path": "worksheets/WS20.json",
+      "markdown_path": "worksheets/WS20.md"
+    },
+    {
+      "id": "WS21",
+      "json_path": "worksheets/WS21.json",
+      "markdown_path": "worksheets/WS21.md"
+    },
+    {
+      "id": "WS22",
+      "json_path": "worksheets/WS22.json",
+      "markdown_path": "worksheets/WS22.md"
+    },
+    {
+      "id": "WS23",
+      "json_path": "worksheets/WS23.json",
+      "markdown_path": "worksheets/WS23.md"
+    },
+    {
+      "id": "WS24",
+      "json_path": "worksheets/WS24.json",
+      "markdown_path": "worksheets/WS24.md"
+    },
+    {
+      "id": "WS25",
+      "json_path": "worksheets/WS25.json",
+      "markdown_path": "worksheets/WS25.md"
+    },
+    {
+      "id": "WS26",
+      "json_path": "worksheets/WS26.json",
+      "markdown_path": "worksheets/WS26.md"
+    },
+    {
+      "id": "WS27",
+      "json_path": "worksheets/WS27.json",
+      "markdown_path": "worksheets/WS27.md"
+    },
+    {
+      "id": "WS28",
+      "json_path": "worksheets/WS28.json",
+      "markdown_path": "worksheets/WS28.md"
+    },
+    {
+      "id": "WS29",
+      "json_path": "worksheets/WS29.json",
+      "markdown_path": "worksheets/WS29.md"
+    },
+    {
+      "id": "WS30",
+      "json_path": "worksheets/WS30.json",
+      "markdown_path": "worksheets/WS30.md"
+    },
+    {
+      "id": "WS31",
+      "json_path": "worksheets/WS31.json",
+      "markdown_path": "worksheets/WS31.md"
+    },
+    {
+      "id": "WS32",
+      "json_path": "worksheets/WS32.json",
+      "markdown_path": "worksheets/WS32.md"
+    },
+    {
+      "id": "WS33",
+      "json_path": "worksheets/WS33.json",
+      "markdown_path": "worksheets/WS33.md"
+    }
+  ],
+  "tests": [
+    {
+      "id": "T01",
+      "json_path": "tests/T01.json",
+      "markdown_path": "tests/T01.md",
+      "pdf_path": "downloads/MAPLE_Test_1.pdf"
+    },
+    {
+      "id": "T02",
+      "json_path": "tests/T02.json",
+      "markdown_path": "tests/T02.md",
+      "pdf_path": "downloads/MAPLE_Test_2.pdf"
+    },
+    {
+      "id": "T03",
+      "json_path": "tests/T03.json",
+      "markdown_path": "tests/T03.md",
+      "pdf_path": "downloads/MAPLE_Test_3.pdf"
+    },
+    {
+      "id": "T04",
+      "json_path": "tests/T04.json",
+      "markdown_path": "tests/T04.md",
+      "pdf_path": "downloads/MAPLE_Test_4.pdf"
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": "D01",
+      "json_path": "diagnostics/D01.json"
+    }
+  ],
+  "public_test_bundle": "downloads/MAPLE_All_Tests.pdf",
+  "deferred_units": [
+    "U6",
+    "U7"
+  ],
+  "deferred_worksheets": [
+    "WS34",
+    "WS35",
+    "WS36",
+    "WS37",
+    "WS38",
+    "WS39",
+    "WS40",
+    "WS41",
+    "WS42",
+    "WS43",
+    "WS44",
+    "WS45",
+    "WS46",
+    "WS47"
+  ],
+  "deferred_quizzes": [
+    "QZ01",
+    "QZ02",
+    "QZ03",
+    "QZ04",
+    "QZ05",
+    "QZ06"
+  ],
+  "grading_policy": "No private keys in the static site; objective correctness requires authorized private checking. See CODEX_WEBSITE_HANDOFF.md."
+}

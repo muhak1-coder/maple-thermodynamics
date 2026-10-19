@@ -1,0 +1,18 @@
+{
+  "id": "F41",
+  "title": "Two-reservoir reversible bound",
+  "visibility": "public-student",
+  "unit_id": "U4",
+  "topic_ids": [
+    "TOP27",
+    "TOP28"
+  ],
+  "equation": "η_max=1−T_C/T_H",
+  "variables_and_units": {
+    "T_C,T_H": "K",
+    "η_max": "dimensionless fraction"
+  },
+  "use_case": "Hot/cold positive absolute temperatures; actual efficiency cannot exceed this ideal bound.",
+  "mini_example": "1−300 K/500 K=.40=40%.",
+  "status": "complete"
+}

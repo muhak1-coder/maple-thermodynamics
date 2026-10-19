@@ -1,0 +1,18 @@
+{
+  "id": "F05",
+  "title": "Temperature changes",
+  "visibility": "public-student",
+  "unit_id": "U1",
+  "topic_ids": [
+    "TOP05"
+  ],
+  "equation": "ΔT=T_final−T_initial; ΔT_K=ΔT_C; ΔT_F=1.8ΔT_C",
+  "variables_and_units": {
+    "ΔT_C": "°C change",
+    "ΔT_K": "K change",
+    "ΔT_F": "°F change"
+  },
+  "use_case": "Never add 273.15 or 32 to a change.",
+  "mini_example": "A +10 °C rise is +10 K and +18 °F.",
+  "status": "complete"
+}

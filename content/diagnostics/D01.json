@@ -1,0 +1,133 @@
+{
+  "id": "D01",
+  "title": "Prerequisite diagnostic",
+  "visibility": "public-student",
+  "level": "All competition levels",
+  "objectives": "Check signed arithmetic, decimals, unit conversions, one-variable algebra, geometry and table reading.",
+  "suggested_duration": "15 minutes",
+  "difficulty": "Beginner through application; final question is a challenge",
+  "total_points": 20,
+  "instructions": "Show reasoning and units. Use a calculator when useful. For conversions use 273.15 and 4.184 J/cal. Numeric checking alone cannot award reasoning points.",
+  "questions": [
+    {
+      "id": "D01-Q01",
+      "assessment_id": "D01",
+      "topic_ids": [
+        "PREREQ"
+      ],
+      "prompt": "Calculate 48−65.",
+      "question_type": "numeric",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "D01-Q02",
+      "assessment_id": "D01",
+      "topic_ids": [
+        "PREREQ"
+      ],
+      "prompt": "Calculate 0.25×120.",
+      "question_type": "numeric",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "D01-Q03",
+      "assessment_id": "D01",
+      "topic_ids": [
+        "PREREQ"
+      ],
+      "prompt": "Convert 3 minutes to seconds; use 60 seconds per minute.",
+      "question_type": "numeric",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "D01-Q04",
+      "assessment_id": "D01",
+      "topic_ids": [
+        "PREREQ"
+      ],
+      "prompt": "Solve 5x=35.",
+      "question_type": "numeric",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "D01-Q05",
+      "assessment_id": "D01",
+      "topic_ids": [
+        "PREREQ"
+      ],
+      "prompt": "Solve y=2x+6 for x when y=20.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "D01-Q06",
+      "assessment_id": "D01",
+      "topic_ids": [
+        "PREREQ"
+      ],
+      "prompt": "Find the area of a rectangle 8 cm long and 3 cm wide.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "D01-Q07",
+      "assessment_id": "D01",
+      "topic_ids": [
+        "PREREQ"
+      ],
+      "prompt": "A table lists time (min) 0, 2, 4 and a reading (°C) 20, 23, 25. What is the reading at 2 min, and how much does it change from 0 to 4 min?",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "D01-Q08",
+      "assessment_id": "D01",
+      "topic_ids": [
+        "PREREQ"
+      ],
+      "prompt": "Find 10% of 250, then explain whether the result should be greater or less than 250.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "F35",
+  "title": "Adiabatic first law",
+  "visibility": "public-student",
+  "unit_id": "U4",
+  "topic_ids": [
+    "TOP24"
+  ],
+  "equation": "Q=0;ΔU=−W",
+  "variables_and_units": {
+    "Q,ΔU,W": "J"
+  },
+  "use_case": "Adiabatic refers to heat; work may still occur.",
+  "mini_example": "W_by=−120 J gives ΔU=+120 J.",
+  "status": "complete"
+}

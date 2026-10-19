@@ -1,0 +1,17 @@
+{
+  "id": "F32",
+  "title": "Isothermal ideal-gas ratio",
+  "visibility": "public-student",
+  "unit_id": "U4",
+  "topic_ids": [
+    "TOP23"
+  ],
+  "equation": "P_iV_i=P_fV_f",
+  "variables_and_units": {
+    "P": "same absolute-pressure unit",
+    "V": "same volume unit"
+  },
+  "use_case": "Fixed amount of ideal gas at constant T; not every constant-temperature material.",
+  "mini_example": "200 kPa×3 L/6 L=100 kPa.",
+  "status": "complete"
+}

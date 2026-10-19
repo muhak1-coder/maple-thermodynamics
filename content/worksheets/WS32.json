@@ -1,0 +1,171 @@
+{
+  "id": "WS32",
+  "title": "Ludwig Boltzmann and James Clerk Maxwell",
+  "visibility": "public-student",
+  "level": "All competition levels",
+  "unit_id": "U5",
+  "objectives": "Connect microscopic motion to macroscopic gas properties; read a speed distribution; use a small counting model to explain multiplicity; distinguish statistical entropy from a vague claim of disorder.",
+  "suggested_duration": "25–30 minutes",
+  "difficulty": "foundation through challenge",
+  "total_points": 20,
+  "instructions": "Explain historical significance, not only names. Use modern equations with their assumptions. Show units and reasoning. Unless labeled otherwise, data are original illustrative models.",
+  "questions": [
+    {
+      "id": "WS32-Q01",
+      "assessment_id": "WS32",
+      "topic_ids": [
+        "TOP32"
+      ],
+      "prompt": "Which claim best matches Maxwell’s equilibrium gas description? A. All molecules have one fixed speed. B. Molecules have a range of speeds described statistically. C. Warm gases have no slow molecules. D. Collisions stop at equilibrium. Explain.",
+      "question_type": "multiple-choice",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS32-Q02",
+      "assessment_id": "WS32",
+      "topic_ids": [
+        "TOP32"
+      ],
+      "prompt": "Match Clausius and Boltzmann to (i) naming entropy and (ii) developing its statistical interpretation. Explain why these are complementary contributions.",
+      "question_type": "matching",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS32-Q03",
+      "assessment_id": "WS32",
+      "topic_ids": [
+        "TOP32"
+      ],
+      "prompt": "In the WS32 reference table, cooler and warmer samples both occupy several of the same speed bins. Does this mean the warmer sample cannot have a higher temperature? Explain for the same gas species.",
+      "question_type": "data-interpretation",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS32-Q04",
+      "assessment_id": "WS32",
+      "topic_ids": [
+        "TOP32"
+      ],
+      "prompt": "A student describes Maxwell’s demon as “a tiny animal Maxwell found inside a gas.” Correct the description and explain the purpose of the idea.",
+      "question_type": "identify-the-error",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS32-Q05",
+      "assessment_id": "WS32",
+      "topic_ids": [
+        "TOP32"
+      ],
+      "prompt": "Use the WS32 table. What percentage of the warmer sample lies in the two fastest bins? Compare with the cooler sample and state one limitation of the table.",
+      "question_type": "calculation-data",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS32-Q06",
+      "assessment_id": "WS32",
+      "topic_ids": [
+        "TOP32"
+      ],
+      "prompt": "Four labeled tokens A,B,C,D independently choose left or right with equal chance. List the six choices of which two are on the left. Find the probability of a two-and-two split and compare it with all four specifically on the left.",
+      "question_type": "counting",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS32-Q07",
+      "assessment_id": "WS32",
+      "topic_ids": [
+        "TOP32"
+      ],
+      "prompt": "Explain why “entropy just means how messy a picture looks” is an inadequate account of Boltzmann’s contribution. Use microstate and macrostate correctly.",
+      "question_type": "extended-response",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS32-Q08",
+      "assessment_id": "WS32",
+      "topic_ids": [
+        "TOP32"
+      ],
+      "prompt": "A proposed demon sorts molecules repeatedly, but the inventor counts entropy only in the gas and ignores the controller’s information storage and restoration. Identify the missing analysis. Does a local gas entropy decrease alone establish a violation?",
+      "question_type": "competition-reasoning",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    }
+  ],
+  "reference_material": {
+    "description": "Original illustrative counts for two 100-particle samples of the same gas species. Speed bins have equal width; these are teaching data, not original Maxwell measurements.",
+    "figure_path": "../lessons/figures/U5-C04.svg",
+    "figure_alt": "Overlapping cooler/warmer speed-bin histograms; token multiplicity bars.",
+    "columns": [
+      "Speed bin (illustrative units)",
+      "Cooler count",
+      "Warmer count"
+    ],
+    "rows": [
+      [
+        "0–1",
+        8,
+        4
+      ],
+      [
+        "1–2",
+        32,
+        16
+      ],
+      [
+        "2–3",
+        40,
+        32
+      ],
+      [
+        "3–4",
+        16,
+        32
+      ],
+      [
+        "4–5",
+        4,
+        16
+      ]
+    ]
+  }
+}

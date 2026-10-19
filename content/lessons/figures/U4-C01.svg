@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="494.64pt" height="256.758281pt" viewBox="0 0 494.64 256.758281" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-17T19:36:58.341690</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 256.758281 
+L 494.64 256.758281 
+L 494.64 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 25.9344 209.658281 
+L 199.2276 209.658281 
+L 199.2276 84.258281 
+L 25.9344 84.258281 
+L 25.9344 209.658281 
+z
+" clip-path="url(#pfe8b59cbf9)" style="fill: none; stroke: #216761; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 25.9344 209.658281 
+L 138.3408 209.658281 
+L 138.3408 84.258281 
+L 25.9344 84.258281 
+z
+" clip-path="url(#pfe8b59cbf9)" style="fill: #e6f0ee"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 138.3408 209.658281 
+L 138.3408 84.258281 
+" clip-path="url(#pfe8b59cbf9)" style="fill: none; stroke: #526d7a; stroke-width: 6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 138.3408 146.958281 
+L 217.962 146.958281 
+" clip-path="url(#pfe8b59cbf9)" style="fill: none; stroke: #526d7a; stroke-width: 3; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="72.7704" y="146.958281" transform="rotate(-0 72.7704 146.958281)">Gas</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="180.4932" y="232.458281" transform="rotate(-0 180.4932 232.458281)">External load</text>
+   </g>
+   <g id="patch_4">
+    <path d="M 149.710479 55.758281 
+Q 182.834379 55.758281 213.72221 55.758281 
+" style="fill: none; stroke: #a44923; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 209.32221 53.558281 
+L 213.72221 55.758281 
+L 209.32221 57.958281 
+" style="fill: none; stroke: #a44923; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="180.4932" y="38.658281" transform="rotate(-0 180.4932 38.658281)">Piston motion</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="124.29" y="15.558281" transform="rotate(-0 124.29 15.558281)">Expansion: work leaves gas</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_5">
+    <path d="M 271.9944 209.658281 
+L 445.2876 209.658281 
+L 445.2876 84.258281 
+L 271.9944 84.258281 
+L 271.9944 209.658281 
+z
+" clip-path="url(#p9cf27b9814)" style="fill: none; stroke: #216761; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 271.9944 209.658281 
+L 384.4008 209.658281 
+L 384.4008 84.258281 
+L 271.9944 84.258281 
+z
+" clip-path="url(#p9cf27b9814)" style="fill: #e6f0ee"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 384.4008 209.658281 
+L 384.4008 84.258281 
+" clip-path="url(#p9cf27b9814)" style="fill: none; stroke: #526d7a; stroke-width: 6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 384.4008 146.958281 
+L 464.022 146.958281 
+" clip-path="url(#p9cf27b9814)" style="fill: none; stroke: #526d7a; stroke-width: 3; stroke-linecap: square"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="318.8304" y="146.958281" transform="rotate(-0 318.8304 146.958281)">Gas</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="426.5532" y="232.458281" transform="rotate(-0 426.5532 232.458281)">External load</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 462.019521 55.758281 
+Q 428.895621 55.758281 398.00779 55.758281 
+" style="fill: none; stroke: #a44923; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 402.40779 57.958281 
+L 398.00779 55.758281 
+L 402.40779 53.558281 
+" style="fill: none; stroke: #a44923; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="426.5532" y="38.658281" transform="rotate(-0 426.5532 38.658281)">Piston motion</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="370.35" y="15.558281" transform="rotate(-0 370.35 15.558281)">Compression: work enters gas</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pfe8b59cbf9">
+   <rect x="7.2" y="21.558281" width="234.18" height="228"/>
+  </clipPath>
+  <clipPath id="p9cf27b9814">
+   <rect x="253.26" y="21.558281" width="234.18" height="228"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,17 @@
+{
+  "id": "F03",
+  "title": "Celsius to Fahrenheit",
+  "visibility": "public-student",
+  "unit_id": "U1",
+  "topic_ids": [
+    "TOP05"
+  ],
+  "equation": "T_F=(9/5)T_C+32",
+  "variables_and_units": {
+    "T_F": "°F",
+    "T_C": "°C"
+  },
+  "use_case": "Convert a reading.",
+  "mini_example": "5 °C → 41 °F.",
+  "status": "complete"
+}

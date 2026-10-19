@@ -1,0 +1,134 @@
+{
+  "id": "WS33",
+  "title": "Historical Discoveries and Contributions",
+  "visibility": "public-student",
+  "level": "All competition levels",
+  "unit_id": "U5",
+  "objectives": "Place major developments in order; explain how experiments and theories corrected or extended earlier ideas; evaluate claims about priority and collaboration; connect all eight scientists to modern thermodynamics.",
+  "suggested_duration": "25–30 minutes",
+  "difficulty": "foundation through challenge",
+  "total_points": 20,
+  "instructions": "Explain historical significance, not only names. Use modern equations with their assumptions. Show units and reasoning. Unless labeled otherwise, data are original illustrative models.",
+  "questions": [
+    {
+      "id": "WS33-Q01",
+      "assessment_id": "WS33",
+      "topic_ids": [
+        "TOP33"
+      ],
+      "prompt": "Identify the scientist for each description: (i) specific and latent heat; (ii) absolute-temperature development; (iii) mechanical equivalent of heat; (iv) ideal engine limits.",
+      "question_type": "identification",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS33-Q02",
+      "assessment_id": "WS33",
+      "topic_ids": [
+        "TOP33"
+      ],
+      "prompt": "Identify the scientist for each description: (i) entropy named in 1865; (ii) statistical interpretation of entropy; (iii) molecular speed distribution; (iv) radiation energy elements in 1900.",
+      "question_type": "identification",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS33-Q03",
+      "assessment_id": "WS33",
+      "topic_ids": [
+        "TOP33"
+      ],
+      "prompt": "Order these events from earliest to latest: Planck’s radiation breakthrough; Carnot’s book; Black’s 1762 presentation; Clausius naming entropy; Maxwell’s 1860 distribution paper. Include the corresponding years.",
+      "question_type": "chronological-order",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS33-Q04",
+      "assessment_id": "WS33",
+      "topic_ids": [
+        "TOP33"
+      ],
+      "prompt": "Classify these as documented historical relationship or modern conceptual connection: (i) Joule and Thomson investigated gases together; (ii) Black’s melting observations and Planck’s radiation problem both show how data can challenge a model. Explain why the distinction matters.",
+      "question_type": "source-reasoning",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS33-Q05",
+      "assessment_id": "WS33",
+      "topic_ids": [
+        "TOP33"
+      ],
+      "prompt": "A hypothetical historian writes: “Carnot’s caloric assumptions were replaced, so none of his work matters.” Explain what was corrected, what remained useful, and how later scientists developed the account.",
+      "question_type": "historical-analysis",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS33-Q06",
+      "assessment_id": "WS33",
+      "topic_ids": [
+        "TOP33"
+      ],
+      "prompt": "A museum displays a paddlewheel cataloged c.1860 and says it illustrates Joule’s experimental method from the 1840s. Is this necessarily inconsistent? Explain what the label should and should not claim.",
+      "question_type": "evidence-evaluation",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS33-Q07",
+      "assessment_id": "WS33",
+      "topic_ids": [
+        "TOP33"
+      ],
+      "prompt": "A proposed cyclic engine absorbs 1500 J, delivers 750 J of work and rejects 750 J. The reservoirs are 600 K and 300 K. Calculate actual efficiency and the ideal bound. Explain what the result establishes and name the historical ideas involved.",
+      "question_type": "cumulative-calculation",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS33-Q08",
+      "assessment_id": "WS33",
+      "topic_ids": [
+        "TOP33"
+      ],
+      "prompt": "Write a four-to-six-sentence explanation connecting at least four of the eight scientists. Include (a) an experimental contribution, (b) a theoretical contribution, (c) one correction or extension of an earlier idea, and (d) an explicit distinction between a conceptual connection and a documented collaboration.",
+      "question_type": "extended-synthesis",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    }
+  ]
+}

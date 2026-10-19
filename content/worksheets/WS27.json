@@ -1,0 +1,161 @@
+{
+  "id": "WS27",
+  "title": "Heat Engines and Thermal Efficiency",
+  "visibility": "public-student",
+  "level": "All competition levels",
+  "unit_id": "U4",
+  "objectives": "Relate hot/cold reservoirs, work and heat rejection; compute actual efficiency and the Carnot upper bound; use Kelvin correctly and distinguish possible from proven performance.",
+  "suggested_duration": "25–30 minutes",
+  "difficulty": "Beginner through application; final question is a challenge",
+  "total_points": 20,
+  "instructions": "Use ΔU=Q−W: Q positive into the system and W positive by the system. Show the equation, signed substitution, arithmetic and units for numerical answers. Explain physical meaning. Use given constants. Retain intermediate digits and round final answers as requested; for unspecified precision, accept sensible rounding. Graphs and data are simulated educational models.",
+  "questions": [
+    {
+      "id": "WS27-Q01",
+      "assessment_id": "WS27",
+      "topic_ids": [
+        "TOP27"
+      ],
+      "prompt": "In an engine balance, Q_H and Q_C are defined as positive heat magnitudes. Write the cycle work equation and efficiency equation.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS27-Q02",
+      "assessment_id": "WS27",
+      "topic_ids": [
+        "TOP27"
+      ],
+      "prompt": "An engine produces 240 J of work from 800 J heat input. Calculate efficiency as a fraction and a percent.",
+      "question_type": "numeric",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS27-Q03",
+      "assessment_id": "WS27",
+      "topic_ids": [
+        "TOP27"
+      ],
+      "prompt": "Why does the efficiency denominator use heat absorbed rather than net heat for a complete cycle?",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS27-Q04",
+      "assessment_id": "WS27",
+      "topic_ids": [
+        "TOP27"
+      ],
+      "prompt": "Convert 76.85 °C and 26.85 °C to Kelvin for a reservoir-ratio calculation.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS27-Q05",
+      "assessment_id": "WS27",
+      "topic_ids": [
+        "TOP27"
+      ],
+      "prompt": "An engine absorbs 1500 J per cycle and rejects 1050 J. Find work and thermal efficiency.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS27-Q06",
+      "assessment_id": "WS27",
+      "topic_ids": [
+        "TOP27"
+      ],
+      "prompt": "An engine supplies 360 J/cycle at efficiency.40. Determine required Q_H and Q_C.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS27-Q07",
+      "assessment_id": "WS27",
+      "topic_ids": [
+        "TOP27"
+      ],
+      "prompt": "Reservoirs are at 500 K and 300 K. Find the maximum ideal efficiency and decide whether a claimed 45% engine between them is possible.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS27-Q08",
+      "assessment_id": "WS27",
+      "topic_ids": [
+        "TOP27"
+      ],
+      "prompt": "Challenge: Use the WS 27 reservoir diagram: hot 126.85 °C, cold 26.85 °C; Q_H=1200 J/cycle. Find maximum work output and minimum rejected heat. Explain why real work is lower.",
+      "question_type": "diagram",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    }
+  ],
+  "reference_material": {
+    "description": "Two-reservoir cyclic heat-engine model. Input is a positive heat magnitude of1200 J/cycle. Temperatures are given in Celsius and require conversion for the ideal bound.",
+    "figure_path": "../lessons/figures/U4-WS27.svg",
+    "figure_alt": "Hot reservoir126.85 °C; cold26.85 °C; input1200 J/cycle.",
+    "columns": [
+      "quantity",
+      "value",
+      "unit"
+    ],
+    "rows": [
+      [
+        "hot temperature",
+        126.85,
+        "°C"
+      ],
+      [
+        "cold temperature",
+        26.85,
+        "°C"
+      ],
+      [
+        "heat absorbed",
+        1200,
+        "J/cycle"
+      ]
+    ]
+  }
+}

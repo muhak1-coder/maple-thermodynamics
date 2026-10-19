@@ -1,0 +1,17 @@
+{
+  "id": "F25",
+  "title": "Boundary energy ledger",
+  "visibility": "public-student",
+  "unit_id": "U3",
+  "topic_ids": [
+    "TOP17",
+    "TOP20"
+  ],
+  "equation": "Q_net=ΣQ_in−ΣQ_out",
+  "variables_and_units": {
+    "Q_net,Q_in,Q_out": "J"
+  },
+  "use_case": "Add distinct crossings over the same interval; do not add successive descriptions of the same path.",
+  "mini_example": "500 J+200 J−100 J=600 J.",
+  "status": "complete"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "F26",
+  "title": "Power from a temperature interval",
+  "visibility": "public-student",
+  "unit_id": "U3",
+  "topic_ids": [
+    "TOP20"
+  ],
+  "equation": "P_avg=C_total(T_2−T_1)/(t_2−t_1)",
+  "variables_and_units": {
+    "P_avg": "W",
+    "C_total": "J/K",
+    "T": "°C or K",
+    "t": "s"
+  },
+  "use_case": "Known constant capacity, common temperature, no phase change or significant work.",
+  "mini_example": "400 J/K×3 K/120 s=10 W.",
+  "status": "complete"
+}

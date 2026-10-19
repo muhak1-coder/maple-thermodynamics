@@ -1,0 +1,17 @@
+{
+  "id": "F24",
+  "title": "Ideal two-part mixing",
+  "visibility": "public-student",
+  "unit_id": "U3",
+  "topic_ids": [
+    "TOP19"
+  ],
+  "equation": "T_f=(C_1T_1+C_2T_2)/(C_1+C_2)",
+  "variables_and_units": {
+    "C_1,C_2": "J/K",
+    "T_1,T_2,T_f": "same temperature scale"
+  },
+  "use_case": "Isolated, constant capacities, negligible work and no phase change; add cup terms as required.",
+  "mini_example": "(100×60+300×20)/400=30 °C.",
+  "status": "complete"
+}

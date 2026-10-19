@@ -1,0 +1,17 @@
+{
+  "id": "F02",
+  "title": "Kelvin to Celsius",
+  "visibility": "public-student",
+  "unit_id": "U1",
+  "topic_ids": [
+    "TOP05"
+  ],
+  "equation": "T_C=T_K−273.15",
+  "variables_and_units": {
+    "T_K": "K",
+    "T_C": "°C"
+  },
+  "use_case": "Convert a Kelvin reading.",
+  "mini_example": "300.00 K → 26.85 °C.",
+  "status": "complete"
+}

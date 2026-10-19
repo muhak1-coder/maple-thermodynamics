@@ -1,0 +1,161 @@
+{
+  "id": "WS16",
+  "title": "Thermal Radiation",
+  "visibility": "public-student",
+  "level": "All competition levels",
+  "unit_id": "U3",
+  "objectives": "Explain thermal radiation and net exchange; distinguish absorption, reflection and transmission; calculate energy budgets from supplied incident power and fractions.",
+  "suggested_duration": "25–30 minutes",
+  "difficulty": "Beginner through application; final question is a challenge",
+  "total_points": 20,
+  "instructions": "Show the equation, substitution, arithmetic and units for numerical answers. Explain physical meaning. Use given constants. Retain intermediate digits and round final answers as requested; for unspecified precision, accept sensible rounding. Graphs and data are simulated educational models.",
+  "questions": [
+    {
+      "id": "WS16-Q01",
+      "assessment_id": "WS16",
+      "topic_ids": [
+        "TOP16"
+      ],
+      "prompt": "Why can radiation cross a vacuum while convection cannot?",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS16-Q02",
+      "assessment_id": "WS16",
+      "topic_ids": [
+        "TOP16"
+      ],
+      "prompt": "An ice cube at −5 °C is in a 20 °C room. Does it emit thermal radiation? Explain without using an advanced radiation formula.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS16-Q03",
+      "assessment_id": "WS16",
+      "topic_ids": [
+        "TOP16"
+      ],
+      "prompt": "An opaque surface absorbs 0.30 of a specified incident beam. Find its reflected fraction, assuming no other destination for that beam.",
+      "question_type": "numeric",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS16-Q04",
+      "assessment_id": "WS16",
+      "topic_ids": [
+        "TOP16"
+      ],
+      "prompt": "Two coatings look equally black in visible light. Must they have identical infrared absorption? Explain.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS16-Q05",
+      "assessment_id": "WS16",
+      "topic_ids": [
+        "TOP16"
+      ],
+      "prompt": "A surface receives 20 W of radiation with α=.60, ρ=.25 and τ=.15. Calculate all three power destinations and check the sum.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS16-Q06",
+      "assessment_id": "WS16",
+      "topic_ids": [
+        "TOP16"
+      ],
+      "prompt": "A sample absorbs 9.0 W and emits 4.0 W for 3.0 min; other transfers are negligible and rates are constant. Calculate net radiative heat input.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS16-Q07",
+      "assessment_id": "WS16",
+      "topic_ids": [
+        "TOP16"
+      ],
+      "prompt": "The WS 16 bar chart gives absorbed fractions for four opaque surfaces under the same lamp. Which absorbs the most of a 10 W incident beam, and how much does that surface reflect?",
+      "question_type": "graph",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS16-Q08",
+      "assessment_id": "WS16",
+      "topic_ids": [
+        "TOP16"
+      ],
+      "prompt": "Challenge: A student uses a 100 W bulb rating and a surface absorptivity of .80 to claim water receives 80 W net. Identify two missing links and state what can actually be calculated if only 15 W reaches that surface.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    }
+  ],
+  "reference_material": {
+    "description": "Supplied absorption fractions for opaque surfaces under the same lamp radiation. These are illustrative properties, not measured claims about named materials.",
+    "figure_path": "../lessons/figures/U3-WS16.svg",
+    "figure_alt": "A absorbs .20, B .50, C .80 and D .65.",
+    "columns": [
+      "surface",
+      "absorbed_fraction"
+    ],
+    "rows": [
+      [
+        "A",
+        0.2
+      ],
+      [
+        "B",
+        0.5
+      ],
+      [
+        "C",
+        0.8
+      ],
+      [
+        "D",
+        0.65
+      ]
+    ]
+  }
+}

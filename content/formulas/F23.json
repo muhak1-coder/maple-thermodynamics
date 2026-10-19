@@ -1,0 +1,20 @@
+{
+  "id": "F23",
+  "title": "Sample heat capacity",
+  "visibility": "public-student",
+  "unit_id": "U3",
+  "topic_ids": [
+    "TOP19"
+  ],
+  "equation": "C=mc; Q=CΔT",
+  "variables_and_units": {
+    "C": "J/K",
+    "m": "g",
+    "c": "J/(g·°C)",
+    "Q": "J",
+    "ΔT": "K or °C change"
+  },
+  "use_case": "Constant c, single phase and stated sensible-heat model; C depends on mass.",
+  "mini_example": "50 g×4 J/(g·°C)=200 J/K; 5 K rise needs1000 J.",
+  "status": "complete"
+}

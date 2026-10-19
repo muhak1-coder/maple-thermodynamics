@@ -1,0 +1,18 @@
+{
+  "id": "F07",
+  "title": "Energy at constant power",
+  "visibility": "public-student",
+  "unit_id": "U1",
+  "topic_ids": [
+    "TOP06"
+  ],
+  "equation": "E=Pt",
+  "variables_and_units": {
+    "E": "J",
+    "P": "W (J/s)",
+    "t": "s"
+  },
+  "use_case": "Only if the stated transfer power is constant; supplied energy need not all reach the water.",
+  "mini_example": "2 W×30 s=60 J.",
+  "status": "complete"
+}

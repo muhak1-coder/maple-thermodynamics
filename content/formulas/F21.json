@@ -1,0 +1,20 @@
+{
+  "id": "F21",
+  "title": "Infer conductivity",
+  "visibility": "public-student",
+  "unit_id": "U3",
+  "topic_ids": [
+    "TOP18"
+  ],
+  "equation": "k=P_cond L/(AΔT)",
+  "variables_and_units": {
+    "k": "W/(m·K)",
+    "P_cond": "W",
+    "L": "m",
+    "A": "m²",
+    "ΔT": "K"
+  },
+  "use_case": "Use actual conducted power, not an uncorrected heater rating.",
+  "mini_example": "2 W×.01 m/(.02 m²×10 K)=.10 W/(m·K).",
+  "status": "complete"
+}

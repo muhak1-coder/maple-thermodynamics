@@ -1,0 +1,138 @@
+{
+  "id": "WS07",
+  "title": "States of matter and particle behavior",
+  "visibility": "public-student",
+  "level": "All competition levels",
+  "unit_id": "U2",
+  "objectives": "Describe solids, liquids and gases with a particle model; connect structure to shape, volume and compressibility; distinguish a model drawing from actual particle size.",
+  "suggested_duration": "20–25 minutes",
+  "difficulty": "Beginner through application; final question is a challenge",
+  "total_points": 20,
+  "instructions": "Show the equation, substitution, arithmetic and units for numerical answers. Explain physical meaning. Use given constants. Retain intermediate digits and round final answers as requested; for unspecified precision, accept sensible rounding. Graphs and data are simulated educational models.",
+  "questions": [
+    {
+      "id": "WS07-Q01",
+      "assessment_id": "WS07",
+      "topic_ids": [
+        "TOP07"
+      ],
+      "prompt": "Describe the particle arrangement and motion in a typical crystalline solid.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS07-Q02",
+      "assessment_id": "WS07",
+      "topic_ids": [
+        "TOP07"
+      ],
+      "prompt": "Which pair best describes a liquid under ordinary conditions? A. Fixed shape and widely separated particles. B. Nearly fixed volume and particles that rearrange past close neighbors. C. No volume and no motion. Explain your choice.",
+      "question_type": "multiple-choice",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [
+        "A. Fixed shape; widely separated particles",
+        "B. Nearly fixed volume; rearranging close neighbors",
+        "C. No volume; no motion"
+      ],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS07-Q03",
+      "assessment_id": "WS07",
+      "topic_ids": [
+        "TOP07"
+      ],
+      "prompt": "Why is a gas usually much easier to compress than a liquid?",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS07-Q04",
+      "assessment_id": "WS07",
+      "topic_ids": [
+        "TOP07"
+      ],
+      "prompt": "A sealed sample changes from solid to liquid. Does its total mass change? Explain without assuming the two phases have equal volume.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS07-Q05",
+      "assessment_id": "WS07",
+      "topic_ids": [
+        "TOP07"
+      ],
+      "prompt": "A hypothetical solid has mass 54.0 g and volume 60.0 mL. Calculate its density to three significant figures.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS07-Q06",
+      "assessment_id": "WS07",
+      "topic_ids": [
+        "TOP07"
+      ],
+      "prompt": "Draw the same 10 model particles first as a liquid and then as a gas in equal-size boxes. Add motion arrows and explain one limitation of your drawing.",
+      "question_type": "diagram",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS07-Q07",
+      "assessment_id": "WS07",
+      "topic_ids": [
+        "TOP07"
+      ],
+      "prompt": "The solid in Q05 melts into 50.0 mL of liquid without losing mass. Calculate the new density and state which phase is denser.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS07-Q08",
+      "assessment_id": "WS07",
+      "topic_ids": [
+        "TOP07"
+      ],
+      "prompt": "Challenge: A sealed gas model contains 30 dots in 2.0 L. It expands to 5.0 L. Find the model dot density before and after, then explain why the gas particles have not grown larger.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    }
+  ]
+}

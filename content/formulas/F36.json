@@ -1,0 +1,20 @@
+{
+  "id": "F36",
+  "title": "Internal-energy temperature model",
+  "visibility": "public-student",
+  "unit_id": "U4",
+  "topic_ids": [
+    "TOP22",
+    "TOP24",
+    "TOP25"
+  ],
+  "equation": "ΔU=C_U(T_f−T_i)",
+  "variables_and_units": {
+    "ΔU": "J",
+    "C_U": "J/K for the sample",
+    "T_f−T_i": "K or °C change"
+  },
+  "use_case": "Use only when the coefficient/model is supplied and valid; do not automatically replace ΔU with Q.",
+  "mini_example": "C_U=10 J/K andΔT=−8 K give ΔU=−80 J.",
+  "status": "complete"
+}

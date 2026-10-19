@@ -1,0 +1,161 @@
+{
+  "id": "WS31",
+  "title": "Max Planck and Rudolf Clausius",
+  "visibility": "public-student",
+  "level": "All competition levels",
+  "unit_id": "U5",
+  "objectives": "Explain why a radiation spectrum challenged classical models; describe energy quantization at an introductory level; connect Clausius’s entropy to irreversible processes and distinguish it from energy.",
+  "suggested_duration": "25–30 minutes",
+  "difficulty": "foundation through challenge",
+  "total_points": 20,
+  "instructions": "Explain historical significance, not only names. Use modern equations with their assumptions. Show units and reasoning. Unless labeled otherwise, data are original illustrative models.",
+  "questions": [
+    {
+      "id": "WS31-Q01",
+      "assessment_id": "WS31",
+      "topic_ids": [
+        "TOP31"
+      ],
+      "prompt": "Which scientist introduced the name entropy in 1865? A. Planck. B. Clausius. C. Black. D. Kelvin. Add one sentence explaining why entropy is useful.",
+      "question_type": "multiple-choice",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS31-Q02",
+      "assessment_id": "WS31",
+      "topic_ids": [
+        "TOP31"
+      ],
+      "prompt": "Match each contribution to Planck or Clausius: (i) energy elements in a radiation-spectrum explanation; (ii) a second-law account of why heat does not move cold-to-hot as the sole effect.",
+      "question_type": "matching",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS31-Q03",
+      "assessment_id": "WS31",
+      "topic_ids": [
+        "TOP31"
+      ],
+      "prompt": "Explain why the phrase “a blackbody emits no radiation because it is black” is incorrect. Keep your answer conceptual.",
+      "question_type": "conceptual",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS31-Q04",
+      "assessment_id": "WS31",
+      "topic_ids": [
+        "TOP31"
+      ],
+      "prompt": "A timeline lists “1900: Planck’s radiation breakthrough” and “1918: Planck’s Nobel Prize.” Another student combines them as “1918: quantum theory first proposed.” Correct the timeline and explain the mistake.",
+      "question_type": "chronology",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS31-Q05",
+      "assessment_id": "WS31",
+      "topic_ids": [
+        "TOP31"
+      ],
+      "prompt": "The WS31 reference sketch contrasts a finite radiation spectrum with a classical trend that rises excessively at short wavelength. Explain what a failed spectral prediction means, what Planck introduced, and why this does not mean energy conservation failed.",
+      "question_type": "graph-interpretation",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS31-Q06",
+      "assessment_id": "WS31",
+      "topic_ids": [
+        "TOP31"
+      ],
+      "prompt": "An isolated cup-plus-room combination has supplied entropy changes ΔS_cup=−4 J/K and ΔS_room=+6 J/K. Find the total. Is the cup’s decrease a violation? Explain the units and physical meaning.",
+      "question_type": "calculation",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS31-Q07",
+      "assessment_id": "WS31",
+      "topic_ids": [
+        "TOP31"
+      ],
+      "prompt": "A refrigerator removes energy from a cold interior and releases it to a warmer room. Explain why this does not contradict Clausius’s second-law idea, and identify an extra effect that must appear in the energy account.",
+      "question_type": "conceptual-application",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS31-Q08",
+      "assessment_id": "WS31",
+      "topic_ids": [
+        "TOP31"
+      ],
+      "prompt": "Evaluate this proposed exhibit text: “Clausius discovered that entropy is destroyed energy. Planck then proved every kind of energy is a fixed identical packet and discovered the complete photon theory in 1900.” Replace it with an accurate account of both contributions.",
+      "question_type": "extended-response",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    }
+  ],
+  "reference_material": {
+    "description": "The spectral panel is a qualitative teaching sketch: a finite peak contrasts with a failing classical short-wavelength trend. It has no numerical wavelength or power scale. The separate entropy panel illustrates a complete ledger and is not data for Q06.",
+    "figure_path": "../lessons/figures/U5-C03.svg",
+    "figure_alt": "Finite spectrum and excessive short-wavelength classical trend; separate entropy bars.",
+    "columns": [
+      "Feature",
+      "Interpretation"
+    ],
+    "rows": [
+      [
+        "Horizontal spectral axis",
+        "Wavelength, increasing rightward"
+      ],
+      [
+        "Vertical spectral axis",
+        "Relative spectral emission"
+      ],
+      [
+        "Solid curve",
+        "Finite peaked spectrum"
+      ],
+      [
+        "Dashed curve",
+        "Failing short-wavelength trend"
+      ]
+    ]
+  }
+}

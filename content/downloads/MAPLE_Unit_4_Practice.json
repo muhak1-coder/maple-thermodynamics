@@ -1,0 +1,1267 @@
+{
+  "id": "MAPLE_Unit_4_Practice",
+  "unit_id": "U4",
+  "visibility": "public-student",
+  "status": "complete",
+  "assessments": [
+    {
+      "id": "WS21",
+      "title": "Internal Energy, Heat, and Work",
+      "visibility": "public-student",
+      "level": "All competition levels",
+      "unit_id": "U4",
+      "objectives": "Distinguish stored internal energy from heat and work transfers; explain expansion/compression; calculate constant-pressure boundary work and interpret energy arrows.",
+      "suggested_duration": "25–30 minutes",
+      "difficulty": "Beginner through application; final question is a challenge",
+      "total_points": 20,
+      "instructions": "Use ΔU=Q−W: Q positive into the system and W positive by the system. Show the equation, signed substitution, arithmetic and units for numerical answers. Explain physical meaning. Use given constants. Retain intermediate digits and round final answers as requested; for unspecified precision, accept sensible rounding. Graphs and data are simulated educational models.",
+      "questions": [
+        {
+          "id": "WS21-Q01",
+          "assessment_id": "WS21",
+          "topic_ids": [
+            "TOP21"
+          ],
+          "prompt": "Classify U, Q and W as a stored state property or a transfer during a process. Explain why the phrase “stored work” is misleading.",
+          "question_type": "short-answer",
+          "difficulty": "foundation",
+          "points": 2,
+          "choices": [],
+          "response_space_lines": 4,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS21-Q02",
+          "assessment_id": "WS21",
+          "topic_ids": [
+            "TOP21"
+          ],
+          "prompt": "A gas is compressed by an external piston. Is work BY the gas positive or negative in this unit? What sign describes work ON it?",
+          "question_type": "short-answer",
+          "difficulty": "foundation",
+          "points": 2,
+          "choices": [],
+          "response_space_lines": 4,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS21-Q03",
+          "assessment_id": "WS21",
+          "topic_ids": [
+            "TOP21"
+          ],
+          "prompt": "Which can occur in a rigid closed container? A. Pressure-volume boundary work from a moving wall. B. Energy input by an electrical interaction across the system boundary. Explain.",
+          "question_type": "multiple-choice",
+          "difficulty": "foundation",
+          "points": 2,
+          "choices": [
+            "A. Moving-wall pressure-volume work",
+            "B. Electrical energy input across the boundary"
+          ],
+          "response_space_lines": 4,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS21-Q04",
+          "assessment_id": "WS21",
+          "topic_ids": [
+            "TOP21"
+          ],
+          "prompt": "Convert a 450 mL volume increase into liters. State the energy unit equivalent to kPa·L.",
+          "question_type": "short-answer",
+          "difficulty": "foundation",
+          "points": 2,
+          "choices": [],
+          "response_space_lines": 4,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS21-Q05",
+          "assessment_id": "WS21",
+          "topic_ids": [
+            "TOP21"
+          ],
+          "prompt": "A gas expands from 1.5 L to 4.0 L against constant external pressure 80 kPa. Calculate signed work by the gas.",
+          "question_type": "numeric",
+          "difficulty": "application",
+          "points": 3,
+          "choices": [],
+          "response_space_lines": 6,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS21-Q06",
+          "assessment_id": "WS21",
+          "topic_ids": [
+            "TOP21"
+          ],
+          "prompt": "A gas is compressed from .0060 m³ to .0020 m³ against constant 125000 Pa. Calculate work BY the gas and the magnitude of work supplied ON it.",
+          "question_type": "short-answer",
+          "difficulty": "application",
+          "points": 3,
+          "choices": [],
+          "response_space_lines": 6,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS21-Q07",
+          "assessment_id": "WS21",
+          "topic_ids": [
+            "TOP21"
+          ],
+          "prompt": "Use the WS 21 piston diagram. Label the work arrow during expansion and compression as entering or leaving the gas. Explain why these arrows are not heat arrows.",
+          "question_type": "diagram",
+          "difficulty": "application",
+          "points": 3,
+          "choices": [],
+          "response_space_lines": 6,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS21-Q08",
+          "assessment_id": "WS21",
+          "topic_ids": [
+            "TOP21"
+          ],
+          "prompt": "Challenge: An ideal gas freely expands into vacuum inside an insulated rigid enclosure. Its occupied volume increases. Is W=P_extΔV positive? Determine W and Q, and explain why the volume change alone is insufficient.",
+          "question_type": "short-answer",
+          "difficulty": "challenge",
+          "points": 3,
+          "choices": [],
+          "response_space_lines": 6,
+          "state_national_only": false,
+          "visibility": "public-student"
+        }
+      ],
+      "reference_material": {
+        "description": "Schematic expansion/compression against a load. Arrows indicate piston motion; identify the corresponding mechanical energy-transfer direction for the gas. Not a scale drawing.",
+        "figure_path": "../lessons/figures/U4-C01.svg",
+        "figure_alt": "Gas pushes piston outward in expansion; surroundings push inward in compression.",
+        "columns": [
+          "panel",
+          "motion"
+        ],
+        "rows": [
+          [
+            "expansion",
+            "outward"
+          ],
+          [
+            "compression",
+            "inward"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "WS22",
+      "title": "First Law of Thermodynamics",
+      "visibility": "public-student",
+      "level": "All competition levels",
+      "unit_id": "U4",
+      "objectives": "Apply ΔU=Q−W consistently; solve for any one unknown; translate work-on language; compare processes with the same endpoints and identify model limits.",
+      "suggested_duration": "25–30 minutes",
+      "difficulty": "Beginner through application; final question is a challenge",
+      "total_points": 20,
+      "instructions": "Use ΔU=Q−W: Q positive into the system and W positive by the system. Show the equation, signed substitution, arithmetic and units for numerical answers. Explain physical meaning. Use given constants. Retain intermediate digits and round final answers as requested; for unspecified precision, accept sensible rounding. Graphs and data are simulated educational models.",
+      "questions": [
+        {
+          "id": "WS22-Q01",
+          "assessment_id": "WS22",
+          "topic_ids": [
+            "TOP22"
+          ],
+          "prompt": "State the Unit 4 first law and define both transfer signs.",
+          "question_type": "short-answer",
+          "difficulty": "foundation",
+          "points": 2,
+          "choices": [],
+          "response_space_lines": 4,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS22-Q02",
+          "assessment_id": "WS22",
+          "topic_ids": [
+            "TOP22"
+          ],
+          "prompt": "A gas receives 90 J of heat and does 30 J of work. Find ΔU.",
+          "question_type": "numeric",
+          "difficulty": "foundation",
+          "points": 2,
+          "choices": [],
+          "response_space_lines": 4,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS22-Q03",
+          "assessment_id": "WS22",
+          "topic_ids": [
+            "TOP22"
+          ],
+          "prompt": "A source says 40 J of work is done ON the gas. What value belongs in W in ΔU=Q−W?",
+          "question_type": "short-answer",
+          "difficulty": "foundation",
+          "points": 2,
+          "choices": [],
+          "response_space_lines": 4,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS22-Q04",
+          "assessment_id": "WS22",
+          "topic_ids": [
+            "TOP22"
+          ],
+          "prompt": "True or false: If ΔU=0, both Q and W must be zero. Give a numerical counterexample or justification.",
+          "question_type": "short-answer",
+          "difficulty": "foundation",
+          "points": 2,
+          "choices": [],
+          "response_space_lines": 4,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS22-Q05",
+          "assessment_id": "WS22",
+          "topic_ids": [
+            "TOP22"
+          ],
+          "prompt": "A closed gas releases 120 J as heat while surroundings do 200 J of work on it. Calculate ΔU and explain the direction of its change.",
+          "question_type": "numeric",
+          "difficulty": "application",
+          "points": 3,
+          "choices": [],
+          "response_space_lines": 6,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS22-Q06",
+          "assessment_id": "WS22",
+          "topic_ids": [
+            "TOP22"
+          ],
+          "prompt": "A process has ΔU=−150 J and W=+250 J. Find Q and explain how heat input can accompany decreasing U.",
+          "question_type": "numeric",
+          "difficulty": "application",
+          "points": 3,
+          "choices": [],
+          "response_space_lines": 6,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS22-Q07",
+          "assessment_id": "WS22",
+          "topic_ids": [
+            "TOP22"
+          ],
+          "prompt": "Use the WS 22 energy ledger: 600 J heat enters, 100 J heat leaves and 220 J work leaves the gas. Calculate net Q and ΔU.",
+          "question_type": "diagram",
+          "difficulty": "application",
+          "points": 3,
+          "choices": [],
+          "response_space_lines": 6,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS22-Q08",
+          "assessment_id": "WS22",
+          "topic_ids": [
+            "TOP22"
+          ],
+          "prompt": "Challenge: Routes A and B connect exactly the same initial and final states of a closed gas. A has Q=400 J and W=150 J. B has W=−50 J. Find ΔU for each and Q for B; explain why the heats can differ.",
+          "question_type": "short-answer",
+          "difficulty": "challenge",
+          "points": 3,
+          "choices": [],
+          "response_space_lines": 6,
+          "state_national_only": false,
+          "visibility": "public-student"
+        }
+      ],
+      "reference_material": {
+        "description": "All arrows cross the boundary of one closed gas system. Whole-system motion and height changes are negligible. The heat arrows are separate transfers, not already net quantities.",
+        "figure_path": "../lessons/figures/U4-WS22.svg",
+        "figure_alt": "600 J heat enters,100 J heat leaves,220 J work leaves.",
+        "columns": [
+          "transfer",
+          "energy_J",
+          "direction"
+        ],
+        "rows": [
+          [
+            "heat",
+            600,
+            "in"
+          ],
+          [
+            "heat",
+            100,
+            "out"
+          ],
+          [
+            "work",
+            220,
+            "out"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "WS23",
+      "title": "Isothermal Processes",
+      "visibility": "public-student",
+      "level": "All competition levels",
+      "unit_id": "U4",
+      "objectives": "Explain constant-temperature ideal-gas behavior; use Boyle’s law and Kelvin; interpret curved P–V paths; connect ΔU=0 to heat and work without calculating curved-path areas.",
+      "suggested_duration": "25–30 minutes",
+      "difficulty": "Beginner through application; final question is a challenge",
+      "total_points": 20,
+      "instructions": "Use ΔU=Q−W: Q positive into the system and W positive by the system. Show the equation, signed substitution, arithmetic and units for numerical answers. Explain physical meaning. Use given constants. Retain intermediate digits and round final answers as requested; for unspecified precision, accept sensible rounding. Graphs and data are simulated educational models.",
+      "questions": [
+        {
+          "id": "WS23-Q01",
+          "assessment_id": "WS23",
+          "topic_ids": [
+            "TOP23"
+          ],
+          "prompt": "Define isothermal. Does merely ending at the starting temperature prove that an entire process was isothermal?",
+          "question_type": "short-answer",
+          "difficulty": "foundation",
+          "points": 2,
+          "choices": [],
+          "response_space_lines": 4,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS23-Q02",
+          "assessment_id": "WS23",
+          "topic_ids": [
+            "TOP23"
+          ],
+          "prompt": "A fixed ideal gas doubles its volume isothermally. What happens to its absolute pressure?",
+          "question_type": "short-answer",
+          "difficulty": "foundation",
+          "points": 2,
+          "choices": [],
+          "response_space_lines": 4,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS23-Q03",
+          "assessment_id": "WS23",
+          "topic_ids": [
+            "TOP23"
+          ],
+          "prompt": "For fixed ideal gas undergoing isothermal expansion, choose the correct statement: A. Q=0 always. B. ΔU=0 and Q=W. Explain.",
+          "question_type": "multiple-choice",
+          "difficulty": "foundation",
+          "points": 2,
+          "choices": [
+            "A. Q=0 always",
+            "B. ΔU=0 and Q=W"
+          ],
+          "response_space_lines": 4,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS23-Q04",
+          "assessment_id": "WS23",
+          "topic_ids": [
+            "TOP23"
+          ],
+          "prompt": "Why should an isothermal melting process not automatically be assigned ΔU=0 using the ideal-gas rule?",
+          "question_type": "short-answer",
+          "difficulty": "foundation",
+          "points": 2,
+          "choices": [],
+          "response_space_lines": 4,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS23-Q05",
+          "assessment_id": "WS23",
+          "topic_ids": [
+            "TOP23"
+          ],
+          "prompt": "Fixed ideal gas starts at 300 kPa and 2.0 L. It expands isothermally to 5.0 L. Find final absolute pressure.",
+          "question_type": "numeric",
+          "difficulty": "application",
+          "points": 3,
+          "choices": [],
+          "response_space_lines": 6,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS23-Q06",
+          "assessment_id": "WS23",
+          "topic_ids": [
+            "TOP23"
+          ],
+          "prompt": "A fixed ideal gas does 180 J of work during isothermal expansion. Find Q and ΔU.",
+          "question_type": "short-answer",
+          "difficulty": "application",
+          "points": 3,
+          "choices": [],
+          "response_space_lines": 6,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS23-Q07",
+          "assessment_id": "WS23",
+          "topic_ids": [
+            "TOP23"
+          ],
+          "prompt": "Use the WS 23 curve. Verify PV at A and B, then state why P_A(V_B−V_A) is not a valid work calculation for this curved path.",
+          "question_type": "graph",
+          "difficulty": "application",
+          "points": 3,
+          "choices": [],
+          "response_space_lines": 6,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS23-Q08",
+          "assessment_id": "WS23",
+          "topic_ids": [
+            "TOP23"
+          ],
+          "prompt": "Challenge: Surroundings do 110 J of work ON a fixed ideal gas compressed isothermally. A student writes Q=+110 J because “compression heats gas.” Correct the signs and explain how temperature remains fixed.",
+          "question_type": "short-answer",
+          "difficulty": "challenge",
+          "points": 3,
+          "choices": [],
+          "response_space_lines": 6,
+          "state_national_only": false,
+          "visibility": "public-student"
+        }
+      ],
+      "reference_material": {
+        "description": "Fixed amount of ideal gas on a slow, mechanically balanced isothermal expansion. The curve has PV=600 kPa·L. Do not calculate its curved-path work using a rectangle.",
+        "figure_path": "../lessons/figures/U4-WS23.svg",
+        "figure_alt": "A at2 L and300 kPa; B at5 L and120 kPa.",
+        "columns": [
+          "state",
+          "volume_L",
+          "absolute_pressure_kPa"
+        ],
+        "rows": [
+          [
+            "A",
+            2,
+            300
+          ],
+          [
+            "B",
+            5,
+            120
+          ]
+        ]
+      }
+    },
+    {
+      "id": "WS24",
+      "title": "Adiabatic Processes",
+      "visibility": "public-student",
+      "level": "All competition levels",
+      "unit_id": "U4",
+      "objectives": "Explain Q=0; apply the first law to expansion and compression; distinguish insulation, speed and reversibility; interpret a conceptual adiabatic P–V curve.",
+      "suggested_duration": "25–30 minutes",
+      "difficulty": "Beginner through application; final question is a challenge",
+      "total_points": 20,
+      "instructions": "Use ΔU=Q−W: Q positive into the system and W positive by the system. Show the equation, signed substitution, arithmetic and units for numerical answers. Explain physical meaning. Use given constants. Retain intermediate digits and round final answers as requested; for unspecified precision, accept sensible rounding. Graphs and data are simulated educational models.",
+      "questions": [
+        {
+          "id": "WS24-Q01",
+          "assessment_id": "WS24",
+          "topic_ids": [
+            "TOP24"
+          ],
+          "prompt": "Define adiabatic. Which quantity is constrained to zero?",
+          "question_type": "short-answer",
+          "difficulty": "foundation",
+          "points": 2,
+          "choices": [],
+          "response_space_lines": 4,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS24-Q02",
+          "assessment_id": "WS24",
+          "topic_ids": [
+            "TOP24"
+          ],
+          "prompt": "Adiabatic gas does 70 J of work. Calculate ΔU.",
+          "question_type": "numeric",
+          "difficulty": "foundation",
+          "points": 2,
+          "choices": [],
+          "response_space_lines": 4,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS24-Q03",
+          "assessment_id": "WS24",
+          "topic_ids": [
+            "TOP24"
+          ],
+          "prompt": "Explain why rapid motion alone does not prove a process is exactly adiabatic.",
+          "question_type": "short-answer",
+          "difficulty": "foundation",
+          "points": 2,
+          "choices": [],
+          "response_space_lines": 4,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS24-Q04",
+          "assessment_id": "WS24",
+          "topic_ids": [
+            "TOP24"
+          ],
+          "prompt": "An insulated gas is compressed and 90 J of work is done on it. Give W_by and ΔU.",
+          "question_type": "short-answer",
+          "difficulty": "foundation",
+          "points": 2,
+          "choices": [],
+          "response_space_lines": 4,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS24-Q05",
+          "assessment_id": "WS24",
+          "topic_ids": [
+            "TOP24"
+          ],
+          "prompt": "Adiabatic ideal gas begins at 310 K with supplied C_U=10 J/K. It does 150 J of work. Find final temperature.",
+          "question_type": "numeric",
+          "difficulty": "application",
+          "points": 3,
+          "choices": [],
+          "response_space_lines": 6,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS24-Q06",
+          "assessment_id": "WS24",
+          "topic_ids": [
+            "TOP24"
+          ],
+          "prompt": "Use the qualitative WS 24 graph. At the same enlarged volume, which path has lower pressure: reversible adiabatic or isothermal expansion from the same initial ideal-gas state? Explain.",
+          "question_type": "graph",
+          "difficulty": "application",
+          "points": 3,
+          "choices": [],
+          "response_space_lines": 6,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS24-Q07",
+          "assessment_id": "WS24",
+          "topic_ids": [
+            "TOP24"
+          ],
+          "prompt": "An insulated ideal gas expands into vacuum with no resisting load. Compare its endpoint ΔU and ΔT with those of an adiabatic expansion that does positive work.",
+          "question_type": "short-answer",
+          "difficulty": "application",
+          "points": 3,
+          "choices": [],
+          "response_space_lines": 6,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS24-Q08",
+          "assessment_id": "WS24",
+          "topic_ids": [
+            "TOP24"
+          ],
+          "prompt": "Challenge: A gas with C_U=8 J/K falls from 300 K to 280 K while doing 200 J of work. Is the process adiabatic? Calculate Q and justify.",
+          "question_type": "short-answer",
+          "difficulty": "challenge",
+          "points": 3,
+          "choices": [],
+          "response_space_lines": 6,
+          "state_national_only": false,
+          "visibility": "public-student"
+        }
+      ],
+      "reference_material": {
+        "description": "Conceptual comparison only: reversible ideal-gas expansion from the same state. Arbitrary-unit axes have no quantitative ticks. Use the relative curves, not invented numerical coordinates.",
+        "figure_path": "../lessons/figures/U4-C04.svg",
+        "figure_alt": "Adiabatic expansion falls below the isotherm at the same enlarged volume.",
+        "columns": [
+          "path",
+          "temperature_condition"
+        ],
+        "rows": [
+          [
+            "isothermal",
+            "constant T"
+          ],
+          [
+            "reversible adiabatic",
+            "Q=0 with positive work output"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "WS25",
+      "title": "Isochoric and Isobaric Processes",
+      "visibility": "public-student",
+      "level": "All competition levels",
+      "unit_id": "U4",
+      "objectives": "Apply constant-volume and constant-pressure conditions; use Kelvin gas ratios; calculate work and first-law changes; compare four process types without confusing their constraints.",
+      "suggested_duration": "25–30 minutes",
+      "difficulty": "Beginner through application; final question is a challenge",
+      "total_points": 20,
+      "instructions": "Use ΔU=Q−W: Q positive into the system and W positive by the system. Show the equation, signed substitution, arithmetic and units for numerical answers. Explain physical meaning. Use given constants. Retain intermediate digits and round final answers as requested; for unspecified precision, accept sensible rounding. Graphs and data are simulated educational models.",
+      "questions": [
+        {
+          "id": "WS25-Q01",
+          "assessment_id": "WS25",
+          "topic_ids": [
+            "TOP25"
+          ],
+          "prompt": "Match isochoric and isobaric with (a) constant volume, (b) constant pressure. State which is a vertical line on a standard P–V graph.",
+          "question_type": "short-answer",
+          "difficulty": "foundation",
+          "points": 2,
+          "choices": [],
+          "response_space_lines": 4,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS25-Q02",
+          "assessment_id": "WS25",
+          "topic_ids": [
+            "TOP25"
+          ],
+          "prompt": "A fixed ideal gas at constant volume warms from 300 K to 330 K. If initial pressure is 100 kPa, find final pressure.",
+          "question_type": "numeric",
+          "difficulty": "foundation",
+          "points": 2,
+          "choices": [],
+          "response_space_lines": 4,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS25-Q03",
+          "assessment_id": "WS25",
+          "topic_ids": [
+            "TOP25"
+          ],
+          "prompt": "A rigid gas container receives 60 J of heat; no other work occurs. Find pressure-volume work and ΔU.",
+          "question_type": "short-answer",
+          "difficulty": "foundation",
+          "points": 2,
+          "choices": [],
+          "response_space_lines": 4,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS25-Q04",
+          "assessment_id": "WS25",
+          "topic_ids": [
+            "TOP25"
+          ],
+          "prompt": "Why can a constant-pressure warming ideal gas require more heat than its increase in internal energy?",
+          "question_type": "short-answer",
+          "difficulty": "foundation",
+          "points": 2,
+          "choices": [],
+          "response_space_lines": 4,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS25-Q05",
+          "assessment_id": "WS25",
+          "topic_ids": [
+            "TOP25"
+          ],
+          "prompt": "Fixed ideal gas at constant pressure has V_i=3.0 L at 27.0 °C. It warms to 87.0 °C. Find V_f using 273.15 for the Celsius-to-Kelvin offset.",
+          "question_type": "numeric",
+          "difficulty": "application",
+          "points": 3,
+          "choices": [],
+          "response_space_lines": 6,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS25-Q06",
+          "assessment_id": "WS25",
+          "topic_ids": [
+            "TOP25"
+          ],
+          "prompt": "Balanced isobaric expansion at 120 kPa takes gas from 2.0 to 4.5 L. If ΔU=180 J and only PV work occurs, find W and Q.",
+          "question_type": "short-answer",
+          "difficulty": "application",
+          "points": 3,
+          "choices": [],
+          "response_space_lines": 6,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS25-Q07",
+          "assessment_id": "WS25",
+          "topic_ids": [
+            "TOP25"
+          ],
+          "prompt": "Use the WS 25 paths. For A→B→D, calculate work on the vertical stage and horizontal stage. Compare total work with A→C→D.",
+          "question_type": "graph",
+          "difficulty": "application",
+          "points": 3,
+          "choices": [],
+          "response_space_lines": 6,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS25-Q08",
+          "assessment_id": "WS25",
+          "topic_ids": [
+            "TOP25"
+          ],
+          "prompt": "Challenge: A student says “the gas is insulated, so pressure is constant and no work occurs.” Identify each error and state what insulation actually permits you to conclude.",
+          "question_type": "short-answer",
+          "difficulty": "challenge",
+          "points": 3,
+          "choices": [],
+          "response_space_lines": 6,
+          "state_national_only": false,
+          "visibility": "public-student"
+        }
+      ],
+      "reference_material": {
+        "description": "Fixed gas, mechanically balanced paths, only PV work. A→B→D and A→C→D are two alternatives, not one closed cycle. Straight horizontal/vertical segments are exact model assumptions.",
+        "figure_path": "../lessons/figures/U4-WS25.svg",
+        "figure_alt": "Upper route expands at200 kPa; lower route at100 kPa.",
+        "columns": [
+          "state",
+          "volume_L",
+          "absolute_pressure_kPa"
+        ],
+        "rows": [
+          [
+            "A",
+            2,
+            100
+          ],
+          [
+            "B",
+            2,
+            200
+          ],
+          [
+            "C",
+            4,
+            100
+          ],
+          [
+            "D",
+            4,
+            200
+          ]
+        ]
+      }
+    },
+    {
+      "id": "WS26",
+      "title": "Thermodynamic Cycles",
+      "visibility": "public-student",
+      "level": "All competition levels",
+      "unit_id": "U4",
+      "objectives": "Explain return to the initial state; calculate rectangular and triangular cycle work geometrically; use ΔU_cycle=0; interpret direction and net heat.",
+      "suggested_duration": "25–30 minutes",
+      "difficulty": "Beginner through application; final question is a challenge",
+      "total_points": 20,
+      "instructions": "Use ΔU=Q−W: Q positive into the system and W positive by the system. Show the equation, signed substitution, arithmetic and units for numerical answers. Explain physical meaning. Use given constants. Retain intermediate digits and round final answers as requested; for unspecified precision, accept sensible rounding. Graphs and data are simulated educational models.",
+      "questions": [
+        {
+          "id": "WS26-Q01",
+          "assessment_id": "WS26",
+          "topic_ids": [
+            "TOP26"
+          ],
+          "prompt": "What must return to its starting value in a complete thermodynamic cycle: U, total heat transferred, or total work transferred? Explain.",
+          "question_type": "short-answer",
+          "difficulty": "foundation",
+          "points": 2,
+          "choices": [],
+          "response_space_lines": 4,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS26-Q02",
+          "assessment_id": "WS26",
+          "topic_ids": [
+            "TOP26"
+          ],
+          "prompt": "On a P-vertical, V-horizontal diagram, what sign is net PV work by the gas for a simple clockwise loop?",
+          "question_type": "short-answer",
+          "difficulty": "foundation",
+          "points": 2,
+          "choices": [],
+          "response_space_lines": 4,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS26-Q03",
+          "assessment_id": "WS26",
+          "topic_ids": [
+            "TOP26"
+          ],
+          "prompt": "A cycle receives net 300 J of heat. Determine ΔU_cycle and W_net.",
+          "question_type": "short-answer",
+          "difficulty": "foundation",
+          "points": 2,
+          "choices": [],
+          "response_space_lines": 4,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS26-Q04",
+          "assessment_id": "WS26",
+          "topic_ids": [
+            "TOP26"
+          ],
+          "prompt": "A gas moves vertically on a standard P–V plot. What is its PV work and why?",
+          "question_type": "short-answer",
+          "difficulty": "foundation",
+          "points": 2,
+          "choices": [],
+          "response_space_lines": 4,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS26-Q05",
+          "assessment_id": "WS26",
+          "topic_ids": [
+            "TOP26"
+          ],
+          "prompt": "Use the WS 26 rectangle A→B→C→D→A. Find the work on each horizontal segment and the net work.",
+          "question_type": "graph",
+          "difficulty": "application",
+          "points": 3,
+          "choices": [],
+          "response_space_lines": 6,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS26-Q06",
+          "assessment_id": "WS26",
+          "topic_ids": [
+            "TOP26"
+          ],
+          "prompt": "A clockwise triangular cycle encloses a right triangle with base 3.0 L and pressure height 160 kPa. Find net work and net heat per cycle.",
+          "question_type": "short-answer",
+          "difficulty": "application",
+          "points": 3,
+          "choices": [],
+          "response_space_lines": 6,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS26-Q07",
+          "assessment_id": "WS26",
+          "topic_ids": [
+            "TOP26"
+          ],
+          "prompt": "A cycle absorbs 900 J and rejects 650 J. Find W_net. If it completes 4 cycles each second at these values, find average mechanical output power.",
+          "question_type": "short-answer",
+          "difficulty": "application",
+          "points": 3,
+          "choices": [],
+          "response_space_lines": 6,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS26-Q08",
+          "assessment_id": "WS26",
+          "topic_ids": [
+            "TOP26"
+          ],
+          "prompt": "Challenge: Reverse the WS 26 rectangular cycle. Find signed W_net and Q_net. Explain why negative work by the gas means work input, and why the diagram alone does not fully specify a refrigerator.",
+          "question_type": "short-answer",
+          "difficulty": "challenge",
+          "points": 3,
+          "choices": [],
+          "response_space_lines": 6,
+          "state_national_only": false,
+          "visibility": "public-student"
+        }
+      ],
+      "reference_material": {
+        "description": "Clockwise cycle A→B→C→D→A. Mechanically balanced, only PV work, closed gas returns to its original state. All segments are horizontal or vertical.",
+        "figure_path": "../lessons/figures/U4-WS26.svg",
+        "figure_alt": "Rectangle from1 to5 L and80 to200 kPa with clockwise arrows.",
+        "columns": [
+          "state",
+          "volume_L",
+          "absolute_pressure_kPa"
+        ],
+        "rows": [
+          [
+            "A",
+            1,
+            80
+          ],
+          [
+            "B",
+            1,
+            200
+          ],
+          [
+            "C",
+            5,
+            200
+          ],
+          [
+            "D",
+            5,
+            80
+          ]
+        ]
+      }
+    },
+    {
+      "id": "WS27",
+      "title": "Heat Engines and Thermal Efficiency",
+      "visibility": "public-student",
+      "level": "All competition levels",
+      "unit_id": "U4",
+      "objectives": "Relate hot/cold reservoirs, work and heat rejection; compute actual efficiency and the Carnot upper bound; use Kelvin correctly and distinguish possible from proven performance.",
+      "suggested_duration": "25–30 minutes",
+      "difficulty": "Beginner through application; final question is a challenge",
+      "total_points": 20,
+      "instructions": "Use ΔU=Q−W: Q positive into the system and W positive by the system. Show the equation, signed substitution, arithmetic and units for numerical answers. Explain physical meaning. Use given constants. Retain intermediate digits and round final answers as requested; for unspecified precision, accept sensible rounding. Graphs and data are simulated educational models.",
+      "questions": [
+        {
+          "id": "WS27-Q01",
+          "assessment_id": "WS27",
+          "topic_ids": [
+            "TOP27"
+          ],
+          "prompt": "In an engine balance, Q_H and Q_C are defined as positive heat magnitudes. Write the cycle work equation and efficiency equation.",
+          "question_type": "short-answer",
+          "difficulty": "foundation",
+          "points": 2,
+          "choices": [],
+          "response_space_lines": 4,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS27-Q02",
+          "assessment_id": "WS27",
+          "topic_ids": [
+            "TOP27"
+          ],
+          "prompt": "An engine produces 240 J of work from 800 J heat input. Calculate efficiency as a fraction and a percent.",
+          "question_type": "numeric",
+          "difficulty": "foundation",
+          "points": 2,
+          "choices": [],
+          "response_space_lines": 4,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS27-Q03",
+          "assessment_id": "WS27",
+          "topic_ids": [
+            "TOP27"
+          ],
+          "prompt": "Why does the efficiency denominator use heat absorbed rather than net heat for a complete cycle?",
+          "question_type": "short-answer",
+          "difficulty": "foundation",
+          "points": 2,
+          "choices": [],
+          "response_space_lines": 4,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS27-Q04",
+          "assessment_id": "WS27",
+          "topic_ids": [
+            "TOP27"
+          ],
+          "prompt": "Convert 76.85 °C and 26.85 °C to Kelvin for a reservoir-ratio calculation.",
+          "question_type": "short-answer",
+          "difficulty": "foundation",
+          "points": 2,
+          "choices": [],
+          "response_space_lines": 4,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS27-Q05",
+          "assessment_id": "WS27",
+          "topic_ids": [
+            "TOP27"
+          ],
+          "prompt": "An engine absorbs 1500 J per cycle and rejects 1050 J. Find work and thermal efficiency.",
+          "question_type": "short-answer",
+          "difficulty": "application",
+          "points": 3,
+          "choices": [],
+          "response_space_lines": 6,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS27-Q06",
+          "assessment_id": "WS27",
+          "topic_ids": [
+            "TOP27"
+          ],
+          "prompt": "An engine supplies 360 J/cycle at efficiency.40. Determine required Q_H and Q_C.",
+          "question_type": "short-answer",
+          "difficulty": "application",
+          "points": 3,
+          "choices": [],
+          "response_space_lines": 6,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS27-Q07",
+          "assessment_id": "WS27",
+          "topic_ids": [
+            "TOP27"
+          ],
+          "prompt": "Reservoirs are at 500 K and 300 K. Find the maximum ideal efficiency and decide whether a claimed 45% engine between them is possible.",
+          "question_type": "short-answer",
+          "difficulty": "application",
+          "points": 3,
+          "choices": [],
+          "response_space_lines": 6,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS27-Q08",
+          "assessment_id": "WS27",
+          "topic_ids": [
+            "TOP27"
+          ],
+          "prompt": "Challenge: Use the WS 27 reservoir diagram: hot 126.85 °C, cold 26.85 °C; Q_H=1200 J/cycle. Find maximum work output and minimum rejected heat. Explain why real work is lower.",
+          "question_type": "diagram",
+          "difficulty": "challenge",
+          "points": 3,
+          "choices": [],
+          "response_space_lines": 6,
+          "state_national_only": false,
+          "visibility": "public-student"
+        }
+      ],
+      "reference_material": {
+        "description": "Two-reservoir cyclic heat-engine model. Input is a positive heat magnitude of1200 J/cycle. Temperatures are given in Celsius and require conversion for the ideal bound.",
+        "figure_path": "../lessons/figures/U4-WS27.svg",
+        "figure_alt": "Hot reservoir126.85 °C; cold26.85 °C; input1200 J/cycle.",
+        "columns": [
+          "quantity",
+          "value",
+          "unit"
+        ],
+        "rows": [
+          [
+            "hot temperature",
+            126.85,
+            "°C"
+          ],
+          [
+            "cold temperature",
+            26.85,
+            "°C"
+          ],
+          [
+            "heat absorbed",
+            1200,
+            "J/cycle"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "WS28",
+      "title": "Second Law and Entropy",
+      "visibility": "public-student",
+      "level": "All competition levels",
+      "unit_id": "U4",
+      "objectives": "Explain natural heat-flow direction, total entropy and irreversibility; distinguish reversible from merely repeatable; connect the first and second laws without advanced entropy mathematics.",
+      "suggested_duration": "25–30 minutes",
+      "difficulty": "Beginner through application; final question is a challenge",
+      "total_points": 20,
+      "instructions": "Use ΔU=Q−W: Q positive into the system and W positive by the system. Show the equation, signed substitution, arithmetic and units for numerical answers. Explain physical meaning. Use given constants. Retain intermediate digits and round final answers as requested; for unspecified precision, accept sensible rounding. Graphs and data are simulated educational models.",
+      "questions": [
+        {
+          "id": "WS28-Q01",
+          "assessment_id": "WS28",
+          "topic_ids": [
+            "TOP28"
+          ],
+          "prompt": "State the natural direction of net heat transfer between two objects with different temperatures and no external driving device.",
+          "question_type": "short-answer",
+          "difficulty": "foundation",
+          "points": 2,
+          "choices": [],
+          "response_space_lines": 4,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS28-Q02",
+          "assessment_id": "WS28",
+          "topic_ids": [
+            "TOP28"
+          ],
+          "prompt": "Does a refrigerator moving heat from cold food to a warmer room violate the second law? Explain.",
+          "question_type": "short-answer",
+          "difficulty": "foundation",
+          "points": 2,
+          "choices": [],
+          "response_space_lines": 4,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS28-Q03",
+          "assessment_id": "WS28",
+          "topic_ids": [
+            "TOP28"
+          ],
+          "prompt": "Which is a more reliable entropy statement? A. Entropy is simply visible messiness. B. Entropy is a state property related to microscopic energy distribution, and total entropy of an isolated combination cannot decrease. Explain.",
+          "question_type": "multiple-choice",
+          "difficulty": "foundation",
+          "points": 2,
+          "choices": [
+            "A. Entropy is visible messiness",
+            "B. Entropy is a state property with an isolated-total constraint"
+          ],
+          "response_space_lines": 4,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS28-Q04",
+          "assessment_id": "WS28",
+          "topic_ids": [
+            "TOP28"
+          ],
+          "prompt": "State the unit of entropy and explain why it should not be confused with internal energy.",
+          "question_type": "short-answer",
+          "difficulty": "foundation",
+          "points": 2,
+          "choices": [],
+          "response_space_lines": 4,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS28-Q05",
+          "assessment_id": "WS28",
+          "topic_ids": [
+            "TOP28"
+          ],
+          "prompt": "Supplied entropy changes for a complete isolated combination are ΔS_system=−3 J/K and ΔS_surroundings=+5 J/K. Find the total and assess consistency with the second law.",
+          "question_type": "numeric",
+          "difficulty": "application",
+          "points": 3,
+          "choices": [],
+          "response_space_lines": 6,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS28-Q06",
+          "assessment_id": "WS28",
+          "topic_ids": [
+            "TOP28"
+          ],
+          "prompt": "A claimed isolated process has supplied changes +1 J/K for the system and−2 J/K for all its surroundings. Find total entropy change and assess the claim.",
+          "question_type": "short-answer",
+          "difficulty": "application",
+          "points": 3,
+          "choices": [],
+          "response_space_lines": 6,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS28-Q07",
+          "assessment_id": "WS28",
+          "topic_ids": [
+            "TOP28"
+          ],
+          "prompt": "A working gas completes a cycle and returns to its initial entropy. Does this prove the cycle is reversible? Explain with the surroundings included.",
+          "question_type": "short-answer",
+          "difficulty": "application",
+          "points": 3,
+          "choices": [],
+          "response_space_lines": 6,
+          "state_national_only": false,
+          "visibility": "public-student"
+        },
+        {
+          "id": "WS28-Q08",
+          "assessment_id": "WS28",
+          "topic_ids": [
+            "TOP28"
+          ],
+          "prompt": "Challenge: A proposed cyclic engine takes 1000 J from 600 K, rejects 300 J to 300 K, and delivers 700 J work. Check both energy conservation and the two-reservoir efficiency limit. Which law rules it out?",
+          "question_type": "short-answer",
+          "difficulty": "challenge",
+          "points": 3,
+          "choices": [],
+          "response_space_lines": 6,
+          "state_national_only": false,
+          "visibility": "public-student"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "id": "WS13",
+  "title": "Ideal gas law and units",
+  "visibility": "public-student",
+  "level": "All competition levels",
+  "unit_id": "U2",
+  "objectives": "Explain the particle basis of PV=nRT; choose consistent pressure, volume and temperature units; solve for one unknown and test whether the ideal model is appropriate.",
+  "suggested_duration": "25–30 minutes",
+  "difficulty": "Beginner through application; final question is a challenge",
+  "total_points": 20,
+  "instructions": "Show the equation, substitution, arithmetic and units for numerical answers. Explain physical meaning. Use given constants. Retain intermediate digits and round final answers as requested; for unspecified precision, accept sensible rounding. Graphs and data are simulated educational models.",
+  "questions": [
+    {
+      "id": "WS13-Q01",
+      "assessment_id": "WS13",
+      "topic_ids": [
+        "TOP13"
+      ],
+      "prompt": "A gas is at 22.0 °C. Give the unrounded Kelvin conversion used in PV=nRT. Explain why 22.0 is not the correct temperature input.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS13-Q02",
+      "assessment_id": "WS13",
+      "topic_ids": [
+        "TOP13"
+      ],
+      "prompt": "Which R is appropriate for P in kPa, V in L, n in mol and T in K? A. 8.314 kPa·L/(mol·K). B. 0.08206 L·atm/(mol·K) without any conversion. Explain.",
+      "question_type": "multiple-choice",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [
+        "A. 8.314 kPa·L/(mol·K)",
+        "B. 0.08206 L·atm/(mol·K), with no conversion"
+      ],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS13-Q03",
+      "assessment_id": "WS13",
+      "topic_ids": [
+        "TOP13"
+      ],
+      "prompt": "A gas sample is compressed at constant T and n from 4.0 L to 2.0 L. Predict how its ideal-gas pressure changes and give the factor.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS13-Q04",
+      "assessment_id": "WS13",
+      "topic_ids": [
+        "TOP13"
+      ],
+      "prompt": "A gauge reads 30 kPa above local atmospheric pressure of 100 kPa. What pressure belongs in PV=nRT?",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS13-Q05",
+      "assessment_id": "WS13",
+      "topic_ids": [
+        "TOP13"
+      ],
+      "prompt": "An ideal gas has n=0.150 mol, T=320 K and V=4.00 L. Use R=8.314 kPa·L/(mol·K). Find absolute pressure to three significant figures.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS13-Q06",
+      "assessment_id": "WS13",
+      "topic_ids": [
+        "TOP13"
+      ],
+      "prompt": "A gas occupies 6.00 L at 100 kPa absolute and 300 K. Use R=8.314 kPa·L/(mol·K). Find n to three significant figures.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS13-Q07",
+      "assessment_id": "WS13",
+      "topic_ids": [
+        "TOP13"
+      ],
+      "prompt": "A sealed rigid vessel contains ideal gas at 120 kPa absolute and 300 K. It cools to 270 K with no gas lost. Find the final pressure and name the two fixed quantities that justify the shortcut.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS13-Q08",
+      "assessment_id": "WS13",
+      "topic_ids": [
+        "TOP13"
+      ],
+      "prompt": "Challenge: A 2.00 g gas sample has molar mass 4.00 g/mol, temperature 27.0 °C and absolute pressure 100 kPa. Use R=8.314 kPa·L/(mol·K). Calculate volume and name one condition that could make the ideal model unreliable.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    }
+  ]
+}

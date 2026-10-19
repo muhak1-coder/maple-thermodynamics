@@ -1,0 +1,166 @@
+{
+  "id": "WS25",
+  "title": "Isochoric and Isobaric Processes",
+  "visibility": "public-student",
+  "level": "All competition levels",
+  "unit_id": "U4",
+  "objectives": "Apply constant-volume and constant-pressure conditions; use Kelvin gas ratios; calculate work and first-law changes; compare four process types without confusing their constraints.",
+  "suggested_duration": "25–30 minutes",
+  "difficulty": "Beginner through application; final question is a challenge",
+  "total_points": 20,
+  "instructions": "Use ΔU=Q−W: Q positive into the system and W positive by the system. Show the equation, signed substitution, arithmetic and units for numerical answers. Explain physical meaning. Use given constants. Retain intermediate digits and round final answers as requested; for unspecified precision, accept sensible rounding. Graphs and data are simulated educational models.",
+  "questions": [
+    {
+      "id": "WS25-Q01",
+      "assessment_id": "WS25",
+      "topic_ids": [
+        "TOP25"
+      ],
+      "prompt": "Match isochoric and isobaric with (a) constant volume, (b) constant pressure. State which is a vertical line on a standard P–V graph.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS25-Q02",
+      "assessment_id": "WS25",
+      "topic_ids": [
+        "TOP25"
+      ],
+      "prompt": "A fixed ideal gas at constant volume warms from 300 K to 330 K. If initial pressure is 100 kPa, find final pressure.",
+      "question_type": "numeric",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS25-Q03",
+      "assessment_id": "WS25",
+      "topic_ids": [
+        "TOP25"
+      ],
+      "prompt": "A rigid gas container receives 60 J of heat; no other work occurs. Find pressure-volume work and ΔU.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS25-Q04",
+      "assessment_id": "WS25",
+      "topic_ids": [
+        "TOP25"
+      ],
+      "prompt": "Why can a constant-pressure warming ideal gas require more heat than its increase in internal energy?",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS25-Q05",
+      "assessment_id": "WS25",
+      "topic_ids": [
+        "TOP25"
+      ],
+      "prompt": "Fixed ideal gas at constant pressure has V_i=3.0 L at 27.0 °C. It warms to 87.0 °C. Find V_f using 273.15 for the Celsius-to-Kelvin offset.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS25-Q06",
+      "assessment_id": "WS25",
+      "topic_ids": [
+        "TOP25"
+      ],
+      "prompt": "Balanced isobaric expansion at 120 kPa takes gas from 2.0 to 4.5 L. If ΔU=180 J and only PV work occurs, find W and Q.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS25-Q07",
+      "assessment_id": "WS25",
+      "topic_ids": [
+        "TOP25"
+      ],
+      "prompt": "Use the WS 25 paths. For A→B→D, calculate work on the vertical stage and horizontal stage. Compare total work with A→C→D.",
+      "question_type": "graph",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS25-Q08",
+      "assessment_id": "WS25",
+      "topic_ids": [
+        "TOP25"
+      ],
+      "prompt": "Challenge: A student says “the gas is insulated, so pressure is constant and no work occurs.” Identify each error and state what insulation actually permits you to conclude.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    }
+  ],
+  "reference_material": {
+    "description": "Fixed gas, mechanically balanced paths, only PV work. A→B→D and A→C→D are two alternatives, not one closed cycle. Straight horizontal/vertical segments are exact model assumptions.",
+    "figure_path": "../lessons/figures/U4-WS25.svg",
+    "figure_alt": "Upper route expands at200 kPa; lower route at100 kPa.",
+    "columns": [
+      "state",
+      "volume_L",
+      "absolute_pressure_kPa"
+    ],
+    "rows": [
+      [
+        "A",
+        2,
+        100
+      ],
+      [
+        "B",
+        2,
+        200
+      ],
+      [
+        "C",
+        4,
+        100
+      ],
+      [
+        "D",
+        4,
+        200
+      ]
+    ]
+  }
+}

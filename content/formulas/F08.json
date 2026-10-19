@@ -1,0 +1,18 @@
+{
+  "id": "F08",
+  "title": "Energy conversions",
+  "visibility": "public-student",
+  "unit_id": "U1",
+  "topic_ids": [
+    "TOP06"
+  ],
+  "equation": "1 kJ=1000 J; 1 cal=4.184 J; 1 kcal=1 Cal=4184 J; 1 Wh=3600 J",
+  "variables_and_units": {
+    "cal": "thermochemical small calorie",
+    "Cal": "food Calorie",
+    "Wh": "watt-hour"
+  },
+  "use_case": "Specify calorie convention and capitalize carefully.",
+  "mini_example": "0.50 kcal=2.092 kJ before rounding.",
+  "status": "complete"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "F31",
+  "title": "Work units and sign translation",
+  "visibility": "public-student",
+  "unit_id": "U4",
+  "topic_ids": [
+    "TOP21",
+    "TOP22"
+  ],
+  "equation": "1 Pa·m³=1 J;1 kPa·L=1 J;W_on=−W_by",
+  "variables_and_units": {
+    "W_on,W_by": "J"
+  },
+  "use_case": "Use the full opposing pressure and compatible volume units.",
+  "mini_example": "80 J work on gas means W_by=−80 J.",
+  "status": "complete"
+}

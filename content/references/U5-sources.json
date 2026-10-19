@@ -1,0 +1,91 @@
+{
+  "id": "U5-SOURCES",
+  "unit_id": "U5",
+  "visibility": "public-student",
+  "sources": [
+    {
+      "id": "H01",
+      "title": "University of Edinburgh, School of Chemistry. Joseph Black (1728–1799).",
+      "url": "https://chem.ed.ac.uk/about-us/history/professors/joseph-black",
+      "verified_scope": "Life dates; Glasgow investigations; 1762 presentation. Institutional history."
+    },
+    {
+      "id": "H02",
+      "title": "Joseph Black. Lectures on the Elements of Chemistry, edited posthumously by John Robison (1803). Excerpts hosted by Le Moyne College, from Magie’s Source Book.",
+      "url": "https://webserver.lemoyne.edu/giunta/blackheat.html",
+      "verified_scope": "Primary-source excerpts: distinction between temperature and thermal quantity, material heat capacities and melting observations. Old terminology is translated, not adopted as modern physics."
+    },
+    {
+      "id": "H03",
+      "title": "MacTutor, University of St Andrews. William Thomson (1824–1907).",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Thomson/",
+      "verified_scope": "Biographical context; 1848 temperature-scale proposal; development of thermodynamics and Joule collaboration."
+    },
+    {
+      "id": "H04",
+      "title": "BIPM. SI base unit: kelvin.",
+      "url": "https://www.bipm.org/en/si-base-units/kelvin",
+      "verified_scope": "Authoritative modern definition and exact Boltzmann constant, 1.380649×10⁻²³ J/K. Not a description of Kelvin’s 1848 definition."
+    },
+    {
+      "id": "H05",
+      "title": "Science and Industry Museum. James Joule’s radical ideas about energy; Science Museum Group paddlewheel catalog.",
+      "url": "https://blog.scienceandindustrymuseum.org.uk/james-joules-energy/",
+      "verified_scope": "Joule’s work-to-warming experimental program. Companion object record: https://collection.sciencemuseumgroup.org.uk/objects/co8404691/paddlewheel-used-by-james-joule ; this particular apparatus is dated c.1860, not the first experiment."
+    },
+    {
+      "id": "H06",
+      "title": "MacTutor, University of St Andrews. Sadi Carnot (1796–1832).",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Carnot_Sadi/",
+      "verified_scope": "1824 book, caloric setting, 1834 Clapeyron reformulation and later Clausius/Thomson interpretation."
+    },
+    {
+      "id": "H07",
+      "title": "MacTutor, University of St Andrews. Rudolf Clausius (1822–1888).",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Clausius/",
+      "verified_scope": "1850 mechanical theory of heat paper; entropy development and naming in 1865."
+    },
+    {
+      "id": "H08",
+      "title": "NobelPrize.org. Max Planck: Facts.",
+      "url": "https://www.nobelprize.org/prizes/physics/1918/planck/facts/",
+      "verified_scope": "Life dates, 1900 work and 1918 award. These dates refer to different events."
+    },
+    {
+      "id": "H09",
+      "title": "NobelPrize.org. The dual nature of light as reflected in the Nobel archives.",
+      "url": "https://www.nobelprize.org/prizes/physics/the-dual-nature-of-light-as-reflected-in-the-nobel-archives/",
+      "verified_scope": "Distinguishes Planck’s energy-quanta contribution from the later light-quantum interpretation and particle-nature attribution."
+    },
+    {
+      "id": "H10",
+      "title": "James Clerk Maxwell. Illustrations of the dynamical theory of gases, Part I (1860), Philosophical Magazine 19. DOI: 10.1080/14786446008642818.",
+      "url": "https://doi.org/10.1080/14786446008642818",
+      "verified_scope": "Primary-paper bibliographic record confirms author, title and original 1860 publication; later online publication metadata is not the original date."
+    },
+    {
+      "id": "H11",
+      "title": "MacTutor, University of St Andrews. James Clerk Maxwell (1831–1879).",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Maxwell/",
+      "verified_scope": "Life context and development of kinetic theory alongside electromagnetism. Used with the original-paper date."
+    },
+    {
+      "id": "H12",
+      "title": "Ludwig Boltzmann (1877), translated by Kim Sharp and Franz Matschinsky (2015). On the Relationship between the Second Fundamental Theorem of the Mechanical Theory of Heat and Probability Calculations Regarding the Conditions for Thermal Equilibrium. Entropy 17, 1971–2009.",
+      "url": "https://doi.org/10.3390/e17041971",
+      "verified_scope": "Translation of a primary work on probability and entropy. Distinguish the 1877 original from the 2015 translation."
+    },
+    {
+      "id": "H13",
+      "title": "MacTutor, University of St Andrews. Ludwig Boltzmann (1844–1906).",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Boltzmann/",
+      "verified_scope": "Life dates and kinetic/statistical research context."
+    },
+    {
+      "id": "H14",
+      "title": "American Physical Society. June 1871: Maxwell and His Demon.",
+      "url": "https://www.aps.org/apsnews/2002/06/maxwell",
+      "verified_scope": "1867 private thought-experiment communication and 1871 public treatment; historical context for a conceptual boundary discussion."
+    }
+  ]
+}

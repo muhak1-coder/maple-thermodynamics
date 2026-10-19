@@ -1,0 +1,171 @@
+{
+  "id": "WS29",
+  "title": "Lord Kelvin and Joseph Black",
+  "visibility": "public-student",
+  "level": "All competition levels",
+  "unit_id": "U5",
+  "objectives": "Explain what a thermometer measures; distinguish sensible and latent heating; connect Black’s measurements to calorimetry and Kelvin’s temperature ideas to gas ratios and engine limits.",
+  "suggested_duration": "25–30 minutes",
+  "difficulty": "foundation through challenge",
+  "total_points": 20,
+  "instructions": "Explain historical significance, not only names. Use modern equations with their assumptions. Show units and reasoning. Unless labeled otherwise, data are original illustrative models.",
+  "questions": [
+    {
+      "id": "WS29-Q01",
+      "assessment_id": "WS29",
+      "topic_ids": [
+        "TOP29"
+      ],
+      "prompt": "Which contribution is most closely associated with Joseph Black? A. Naming entropy. B. Distinguishing latent heat and specific heat. C. Developing molecular speed distributions. D. Introducing radiation energy quanta. Explain your choice.",
+      "question_type": "multiple-choice",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS29-Q02",
+      "assessment_id": "WS29",
+      "topic_ids": [
+        "TOP29"
+      ],
+      "prompt": "Match each observation to the most relevant scientist, Kelvin or Black, and explain briefly: (i) an absolute temperature is needed for an engine-temperature ratio; (ii) melting ice absorbs energy with nearly constant temperature.",
+      "question_type": "matching",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS29-Q03",
+      "assessment_id": "WS29",
+      "topic_ids": [
+        "TOP29"
+      ],
+      "prompt": "Two equal-mass samples reach the same final temperature after different amounts of heating. A student says this violates thermal equilibrium. Explain the error.",
+      "question_type": "conceptual",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS29-Q04",
+      "assessment_id": "WS29",
+      "topic_ids": [
+        "TOP29"
+      ],
+      "prompt": "A museum caption says: “Black discovered latent heat in 1803 when his collected lectures were published.” Use his lifespan, 1728–1799, and the 1762 presentation date to correct it.",
+      "question_type": "identify-the-error",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS29-Q05",
+      "assessment_id": "WS29",
+      "topic_ids": [
+        "TOP29"
+      ],
+      "prompt": "A 0.15 kg sample with c=800 J/(kg·K) warms by 6 K without a phase change. Assume no losses. Find the energy supplied, and explain how the result illustrates a Black-associated concept.",
+      "question_type": "calculation",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS29-Q06",
+      "assessment_id": "WS29",
+      "topic_ids": [
+        "TOP29"
+      ],
+      "prompt": "An ideal engine operates between 26.85 °C and 126.85 °C. Convert both to Kelvin, calculate the modern Carnot maximum efficiency, and explain why dividing the Celsius readings would be wrong.",
+      "question_type": "calculation",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS29-Q07",
+      "assessment_id": "WS29",
+      "topic_ids": [
+        "TOP29"
+      ],
+      "prompt": "Use the WS29 reference graph. Energy continues to enter between 0 and 20 illustrative energy units while temperature stays at 0 °C. Explain where the energy goes, why Q=mcΔT alone fails here, and what observation should accompany the thermometer record.",
+      "question_type": "graph-interpretation",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS29-Q08",
+      "assessment_id": "WS29",
+      "topic_ids": [
+        "TOP29"
+      ],
+      "prompt": "A coach claims: “Black proved that heat is a stored fluid, and Kelvin proved that at 0 K all forms of energy vanish.” Write a scientifically accurate correction preserving what each scientist contributed.",
+      "question_type": "extended-response",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    }
+  ],
+  "reference_material": {
+    "description": "Illustrative constant-input heating model. From energy 0 to 20 units, pure ice/water coexist near 0 °C at fixed pressure; after melting, the liquid warms. Read the graph with the phase observations.",
+    "figure_path": "../lessons/figures/U5-C01.svg",
+    "figure_alt": "Melting plateau from 0 to 20 energy units, followed by a rising liquid-water temperature.",
+    "columns": [
+      "Energy added (illustrative units)",
+      "Temperature (°C)",
+      "Observed phase"
+    ],
+    "rows": [
+      [
+        0,
+        0,
+        "Ice + water"
+      ],
+      [
+        10,
+        0,
+        "Ice + water"
+      ],
+      [
+        20,
+        0,
+        "Melting completes"
+      ],
+      [
+        30,
+        5,
+        "Liquid"
+      ],
+      [
+        40,
+        10,
+        "Liquid"
+      ]
+    ]
+  }
+}

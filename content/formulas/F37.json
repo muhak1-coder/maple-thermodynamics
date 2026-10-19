@@ -1,0 +1,18 @@
+{
+  "id": "F37",
+  "title": "Cycle energy balance",
+  "visibility": "public-student",
+  "unit_id": "U4",
+  "topic_ids": [
+    "TOP26",
+    "TOP27"
+  ],
+  "equation": "ΔU_cycle=0;W_net=Q_net=Q_H−Q_C",
+  "variables_and_units": {
+    "Q_H,Q_C": "positive heat magnitudes,J/cycle",
+    "W_net": "signed work by system,J/cycle"
+  },
+  "use_case": "Complete return to starting state with stated energy assumptions.",
+  "mini_example": "900 J absorbed−600 J rejected=300 J work.",
+  "status": "complete"
+}

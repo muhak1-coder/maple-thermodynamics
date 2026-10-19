@@ -1,0 +1,133 @@
+{
+  "id": "WS02",
+  "title": "Thermodynamic systems and surroundings",
+  "visibility": "public-student",
+  "level": "All competition levels",
+  "objectives": "Choose a useful system boundary; classify open, closed and ideal isolated systems; distinguish matter exchange from energy exchange.",
+  "suggested_duration": "20–25 minutes",
+  "difficulty": "Beginner through application; final question is a challenge",
+  "total_points": 20,
+  "instructions": "Show reasoning and units. Use a calculator when useful. For conversions use 273.15 and 4.184 J/cal. Numeric checking alone cannot award reasoning points.",
+  "questions": [
+    {
+      "id": "WS02-Q01",
+      "assessment_id": "WS02",
+      "topic_ids": [
+        "TOP02"
+      ],
+      "prompt": "Define the system and surroundings if the question asks only about the water in an open cup.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS02-Q02",
+      "assessment_id": "WS02",
+      "topic_ids": [
+        "TOP02"
+      ],
+      "prompt": "A sealed, leak-free bottle warms in sunlight. Is it open, closed or isolated? Explain.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS02-Q03",
+      "assessment_id": "WS02",
+      "topic_ids": [
+        "TOP02"
+      ],
+      "prompt": "An uncovered dish loses water by evaporation. Classify the water system and identify what crosses its boundary.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS02-Q04",
+      "assessment_id": "WS02",
+      "topic_ids": [
+        "TOP02"
+      ],
+      "prompt": "A model container exchanges neither matter nor energy. Give its system type and one reason a real container may only approximate this.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS02-Q05",
+      "assessment_id": "WS02",
+      "topic_ids": [
+        "TOP02"
+      ],
+      "prompt": "A tank initially holds 220 g of water. Add 35 g and remove 18 g. Find the final mass and classify this during the exchange.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS02-Q06",
+      "assessment_id": "WS02",
+      "topic_ids": [
+        "TOP02"
+      ],
+      "prompt": "Draw a boundary around a sealed bottle plus its contents. Mark an energy arrow entering and state whether any matter arrow is allowed under the leak-free assumption.",
+      "question_type": "diagram",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS02-Q07",
+      "assessment_id": "WS02",
+      "topic_ids": [
+        "TOP02"
+      ],
+      "prompt": "A closed gas cylinder has a moving piston. Can the gas exchange energy by work without exchanging matter? Explain using the boundary.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS02-Q08",
+      "assessment_id": "WS02",
+      "topic_ids": [
+        "TOP02"
+      ],
+      "prompt": "Challenge: A student calls an open, insulated cup isolated. Identify two separate checks needed before accepting that claim.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    }
+  ]
+}

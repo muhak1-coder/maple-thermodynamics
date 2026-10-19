@@ -1,0 +1,1351 @@
+# Maple Thermodynamics Academy
+
+Unit 4: Thermodynamic Processes and Laws
+
+Student textbook | All competition levels | Batch 4
+
+Eight complete chapters, 26 worked examples, original energy-flow and P–V diagrams, formula packet, glossary and review. Prerequisites: Units1–3.
+
+Convention throughout: ΔU=Q−W; Q positive into the system, W positive by the system.
+
+Contents: Internal energy, heat and work; First law; Isothermal processes; Adiabatic processes; Isochoric and isobaric processes; Cycles; Heat engines and efficiency; Second law and entropy.
+
+Use WS21–WS28 after the matching chapters. No calculus, logarithms or trigonometry is required. This volume is part of a curriculum still in production.
+
+
+# U4-C01 - Internal Energy, Heat, and Work
+
+Unit 4 | All competition levels | public-student | Rule alignment: 5.c.iv, printed B57
+
+## Learning objectives
+Distinguish stored internal energy from heat and work transfers; explain expansion/compression; calculate constant-pressure boundary work and interpret energy arrows.
+
+## Prerequisites
+Units 1–3: particles, systems, heat, ideal gas and joules. Pressure is force per area. A pascal is one newton per square meter; a newton is a force unit.
+
+## Energy inside and energy crossing a boundary
+A sealed sample of gas has internal energy even when it is not being heated. Its molecules move, rotate and, when those modes are active, vibrate. Interactions among particles also contribute potential energy in real materials. Internal energy U represents microscopic energy associated with the system's state. It excludes the kinetic energy of the whole container moving across the room and the gravitational potential energy of the whole container at a height.
+
+Temperature is related to microscopic energy but is not the same quantity as U. Two equal-temperature samples can have different internal energies because they contain different amounts or types of matter. A phase change can alter internal energy without changing temperature. For a fixed amount of ideal gas, a particularly useful simplification is that U depends only on temperature. That statement does not apply unchanged to every real substance or phase transition.
+
+Heat Q is energy transferred because of a temperature difference. Work W is energy transferred by organized forces acting through motion or by other nonthermal means. Pushing a piston and turning a paddle are work interactions. Once transferred, energy is part of the system's energy accounting; it does not retain a label saying that it is stored heat or stored work. A bank balance is a useful analogy for U, while deposits and withdrawals resemble transfers. The analogy does not explain the microscopic physics, but it clarifies the difference between a state and an event.
+
+## The system matters
+Choose the gas inside a piston-cylinder as the system. Its boundary includes the cylinder walls and the moving piston face. Energy entering through a warmer wall is heat. Energy transferred when the gas pushes the piston outward is work done by the gas. If the piston is pushed inward by the surroundings, work is done on the gas. The same piston interaction is an output for one side and an input for the other, so always identify whose work you are discussing.
+
+Our convention throughout Unit 4 is Q positive into the system and W positive when the system does work on its surroundings. Thus an outward expansion against resistance has positive boundary work, and an inward compression has negative boundary work. Negative work by the system means positive work on it; it does not mean that no force acts.
+
+## From a force to pressure-volume work
+Imagine a flat piston of area A moving a distance d. With a constant opposing pressure P_ext, the resisting force is P_ext A. Work is force times distance along the motion, so W=P_ext A d. The volume change is A d. Therefore the signed boundary work is W=P_ext(V_f−V_i). You do not need a force calculation once pressure and volume change are known.
+
+Expansion makes V_f−V_i positive. Compression makes it negative. The pressure in this expression is the external pressure resisting the boundary motion. For a sufficiently slow, mechanically balanced idealization, the gas pressure closely matches the external pressure. In that situation the pressure plotted on a gas P–V diagram may be used. For a rapid, strongly unbalanced process, a gas-pressure curve is not automatically an exact work calculation.
+
+The expression applies directly when the external pressure is constant. Do not multiply an arbitrary starting pressure by a changing volume if the pressure varies substantially along the path. Later chapters use simple geometric areas for specified mechanically balanced paths. Work for curved isothermal and adiabatic paths will be supplied when needed, so no calculus or logarithms is required.
+
+## Units connect pressure to energy
+Using pascals and cubic meters gives Pa·m³=(N/m²)·m³=N·m=J. A useful alternative is kPa and liters: 1 kPa=1000 Pa and 1 L=.001 m³, so 1 kPa·L=1 J. This cancellation is exact. A milliliter is .001 L, not .001 m³. Write the conversion before substitution when volume is in mL.
+
+Pressure on a gas-state diagram is absolute pressure unless stated otherwise. Atmospheric pressure can oppose a moving piston even if a gauge reads zero relative to the room. A gauge reading alone is therefore not necessarily the full opposing pressure needed for work. In this unit problems provide the relevant absolute or external pressure rather than asking students to invent it.
+
+## Stored energy changes through more than one route
+A gas can warm because heat enters through a wall, because compression work enters, or through both routes. It can receive heat while doing even more work and end with less internal energy. Chapter 2 turns this bookkeeping into the first-law equation. For now, follow the arrows: heat entering adds energy, work done by the gas carries energy away, and work done on the gas adds energy.
+
+Expansion alone does not guarantee positive work. In ideal free expansion into an evacuated region there is no opposing pressure, so the boundary work is zero even though volume increases. Likewise, constant volume means zero pressure-volume boundary work but does not rule out electrical work or paddle work. Those distinctions prevent an otherwise useful piston model from becoming an incorrect universal rule.
+
+## Visual model
+![A piston expansion pushes the boundary outward against an external load; compression reverses boundary motion. Arrows show work leaving or entering the gas. The drawings are schematic, not quantitative geometry.](../lessons/figures/U4-C01.svg)
+
+A piston expansion pushes the boundary outward against an external load; compression reverses boundary motion. Arrows show work leaving or entering the gas. The drawings are schematic, not quantitative geometry.
+
+## Definitions and units
+U: internal energy, J, a state property. Q: signed heat transfer, J, positive into the selected system. W: signed work by the system, J. P_ext: constant opposing pressure, Pa or kPa. V: volume, m³ or L. ΔV=V_f−V_i. Closed system: no matter crosses its boundary; energy may cross.
+
+## Equations and their meaning
+Constant opposing-pressure work: W=P_extΔV. For a slow mechanically balanced path, use the common gas/external pressure. 1 Pa·m³=1 J; 1 kPa·L=1 J. Heat and work describe a process, while ΔU compares initial and final states.
+
+## Worked example: Expansion against a load
+
+**Given:** P_ext=120 kPa; V_i=2.0 L; V_f=5.0 L.
+
+**Find:** Signed boundary work by the gas.
+
+**Formula:** W=P_ext(V_f−V_i).
+
+**Substitution:** W=120 kPa×(5.0−2.0) L.
+
+**Calculation:** ΔV=3.0 L; 120×3.0=360.
+
+**Final answer:** W=+360 J.
+
+**Physical interpretation:** The gas transfers 360 J to the surroundings by pushing the piston outward.
+
+## Worked example: Compression in SI units
+
+**Given:** P_ext=150000 Pa; V_i=.0040 m³; V_f=.0020 m³.
+
+**Find:** Work by and on the gas.
+
+**Formula:** W_by=P_extΔV; W_on=−W_by.
+
+**Substitution:** W_by=150000×(.0020−.0040) Pa·m³.
+
+**Calculation:** ΔV=−.0020 m³; product=−300.
+
+**Final answer:** W_by=−300 J; W_on=+300 J.
+
+**Physical interpretation:** Compression supplies energy to the gas through work.
+
+## Worked example: A milliliter conversion
+
+**Given:** A gas expands from 200 mL to 500 mL against constant 100 kPa.
+
+**Find:** Work by the gas.
+
+**Formula:** W=P_extΔV; 1000 mL=1 L.
+
+**Substitution:** ΔV=(500−200)/1000 L=.300 L; W=100×.300.
+
+**Calculation:** 100×.300=30.0.
+
+**Final answer:** W=+30.0 J.
+
+**Physical interpretation:** A small volume change at atmospheric-scale pressure corresponds to tens of joules.
+
+## Common misconceptions
+A system contains internal energy, not stored heat or stored work. Expanding volume need not mean heating or positive work. Constant volume eliminates boundary displacement work only. A negative sign describes direction relative to a chosen system, not an impossible energy.
+
+## Real-world application and safe exploration
+A bicycle pump can warm through compression work as well as friction. Analyze its gas separately from its barrel. Use a paper piston diagram or a teacher-operated, unpressurized model to identify arrows. Do not heat sealed containers, block syringe outlets or improvise pressure vessels; the supplied calculations provide a complete data-based alternative.
+
+## Chapter recap
+Internal energy is a property of the system; heat and work are ways energy crosses its boundary. Constant-pressure boundary work is pressure times signed volume change. Identify the system, opposing pressure and units before calculating.
+
+## Chapter review
+1. Why is “the gas stores 50 J of heat” imprecise?
+2. Why does compression give negative W in this unit?
+3. How can an expanding gas do zero boundary work?
+
+## Practice
+[WS21](../worksheets/WS21.md) progresses from foundations to competition reasoning.
+
+## Mastery checklist
+- [ ] I can distinguish U, Q and W.
+- [ ] I can calculate signed constant-pressure work.
+- [ ] I can explain the assumptions behind a piston model.
+
+
+# U4-C02 - First Law of Thermodynamics
+
+Unit 4 | All competition levels | public-student | Rule alignment: 5.c.iv, printed B57
+
+## Learning objectives
+Apply ΔU=Q−W consistently; solve for any one unknown; translate work-on language; compare processes with the same endpoints and identify model limits.
+
+## Prerequisites
+Chapter 1 definitions, signed numbers and joules. Δ means final minus initial. We first use closed systems with negligible changes in whole-system kinetic and gravitational potential energies.
+
+## Conservation is a balance, not a new source
+Energy cannot appear without an accounting source or disappear without an accounting destination. For a closed system whose overall motion and height do not change appreciably, the change in internal energy equals net heat entering minus net work done by the system: ΔU=Q−W. This is the first law in the convention used throughout this curriculum.
+
+The minus sign does physical work in the equation. When the gas pushes an external load, energy leaves the gas as work, so positive W reduces the energy retained. When surroundings compress it, W is negative; subtracting a negative adds energy. Heat leaving has Q negative. Decide these signs from the words and arrows before typing numbers into a calculator.
+
+The general conservation principle also includes changes in macroscopic kinetic and potential energies and energy carried by matter in open systems. Our simplified ΔU equation is appropriate only when those contributions are absent or negligible. A steam turbine with flowing matter is a real engine component, but its full accounting requires a broader model than this closed piston exercise.
+
+## A reliable sign routine
+First name the system. Second draw each heat and work arrow across its boundary. Third write Q and W with signs, treating multiple inputs and outputs as net signed totals. Fourth substitute into ΔU=Q−W. Finally state the meaning of the resulting sign. Positive ΔU means the system's internal energy increased; negative means it decreased.
+
+A statement such as “80 J of work is done on the gas” usually gives a positive magnitude in words. Convert it to W=−80 J before using our equation. A source using W_on may instead write ΔU=Q+W_on. The two forms agree because W_on=−W. Do not combine the plus sign from one convention with the work-by definition from the other.
+
+## Solve one unknown at a time
+If Q and W are known, subtract to find ΔU. If ΔU and W are known, rearrange to Q=ΔU+W. If Q and ΔU are known, rearrange to W=Q−ΔU. These are the same conservation relationship, not three independent physical laws. In every case the dimensions remain energy units.
+
+A single equation cannot determine two missing independent transfers. For example, knowing ΔU=0 tells us Q=W but does not tell us either magnitude. Additional data or process conditions are required. Refusing to invent a missing value is part of a correct scientific solution.
+
+## Temperature is evidence, with assumptions
+For a fixed amount of ideal gas, increasing U means increasing T, because its internal energy depends only on temperature. For solids, liquids and gases in more general circumstances, phase changes, chemical changes or interactions can complicate this relationship. The Unit 2 melting plateau is a reminder that energy can change without a temperature rise.
+
+When a problem supplies an internal-energy temperature coefficient C_U with ΔU=C_UΔT, use that stated model. C_U has units J/K and refers to the internal-energy change of the particular sample. For an ideal gas with approximately constant heat capacities, it corresponds to the sample's constant-volume heat capacity. It is not automatically the heat supplied per degree during every process, because heat may also supply expansion work.
+
+## Same endpoints, different routes
+Internal energy is a state property. If two processes take the same system between the same initial and final states, they have the same ΔU. Their heat and work can differ. One route may receive a great deal of heat and do a great deal of work; another may receive less and do less. Conservation requires the same difference Q−W.
+
+This is why heat and work are called path-dependent process quantities. A pressure-volume graph can show different routes between the same points. The endpoint information constrains state changes, but it does not uniquely determine all transfers. Later, a complete cycle returns to its starting state and therefore has ΔU_cycle=0 even while Q_net and W_net can be nonzero.
+
+## Balance alone does not decide possibility
+A proposed engine may satisfy energy conservation yet still be impossible because it would move energy in a forbidden overall direction or convert heat from a single reservoir entirely into work in a cycle. The first law checks the amount of energy. The second law, introduced in Chapter 8, constrains direction and attainable performance. Neither law replaces the other.
+
+For everyday reasoning, distinguish the isolated system from one part. A cooling mug loses internal energy, but that energy can enter the room. A frictional brake warms because organized mechanical energy is converted into microscopic energy; energy is not destroyed merely because it becomes less available for useful work. Explicit boundaries keep such explanations consistent.
+
+## Visual model
+![Example energy ledger: 500 J enters as heat, 180 J leaves as work, and internal energy increases by 320 J. Arrow labels are transfers; the interior label is a state change.](../lessons/figures/U4-C02.svg)
+
+Example energy ledger: 500 J enters as heat, 180 J leaves as work, and internal energy increases by 320 J. Arrow labels are transfers; the interior label is a state change.
+
+## Definitions and units
+ΔU=U_f−U_i: internal-energy change, J. Q: net heat into system, J. W: net work by system, J. W_on=−W. C_U: supplied sample coefficient relating ΔU to ΔT, J/K. State property: depends on state rather than the process path.
+
+## Equations and their meaning
+ΔU=Q−W; Q=ΔU+W; W=Q−ΔU. Translate work-on statements with W=−W_on. If explicitly supplied, ΔU=C_UΔT. Closed-system calculations here neglect changes in bulk kinetic and potential energies.
+
+## Worked example: Heat enters while the gas expands
+
+**Given:** Q=+500 J; gas does 180 J of work.
+
+**Find:** ΔU.
+
+**Formula:** ΔU=Q−W.
+
+**Substitution:** ΔU=500−180 J.
+
+**Calculation:** 500−180=320.
+
+**Final answer:** ΔU=+320 J.
+
+**Physical interpretation:** Some incoming heat leaves as work; the rest increases internal energy.
+
+## Worked example: Cooling during compression
+
+**Given:** Gas releases 90 J of heat; surroundings do 140 J of work on it.
+
+**Find:** ΔU.
+
+**Formula:** ΔU=Q−W with Q=−90 J and W=−140 J.
+
+**Substitution:** ΔU=−90−(−140) J.
+
+**Calculation:** −90+140=50.
+
+**Final answer:** ΔU=+50 J.
+
+**Physical interpretation:** Compression input exceeds heat loss, so internal energy increases despite cooling by heat transfer.
+
+## Worked example: Find the missing heat
+
+**Given:** ΔU=−60 J; work by gas W=+100 J.
+
+**Find:** Q.
+
+**Formula:** Q=ΔU+W.
+
+**Substitution:** Q=−60+100 J.
+
+**Calculation:** −60+100=40.
+
+**Final answer:** Q=+40 J.
+
+**Physical interpretation:** Heat enters, but the gas exports more energy as work than it receives as heat.
+
+## Worked example: Two routes between the same states
+
+**Given:** Both routes have ΔU=+200 J. Route A does 50 J work; route B does 130 J work.
+
+**Find:** Heat for each route.
+
+**Formula:** Q=ΔU+W.
+
+**Substitution:** Q_A=200+50; Q_B=200+130.
+
+**Calculation:** Q_A=250; Q_B=330.
+
+**Final answer:** Q_A=250 J; Q_B=330 J.
+
+**Physical interpretation:** The state change agrees while transfers differ by route.
+
+## Common misconceptions
+Positive Q does not guarantee positive ΔU. Negative W is work input, not negative effort. Zero ΔU does not force Q and W separately to zero. Never use ΔU=Q+W while still defining W as work by the system.
+
+## Real-world application and safe exploration
+Compression, stirring and resistive heating illustrate different transfer descriptions. A paper energy-ledger activity is enough: label supplied arrows, calculate a net change and explain it in words. Physical heating and pressurized demonstrations are unnecessary. In the event water-heating model, neglecting work may be useful, but it is an assumption rather than the full first law.
+
+## Chapter recap
+The first law tracks net energy without confusing direction. State the convention once, assign signs from the physical situation and check the meaning of the result. Path-dependent transfers can give the same internal-energy change.
+
+## Chapter review
+1. Can heat enter while internal energy decreases?
+2. How does work-on notation translate into this unit?
+3. Why does a zero internal-energy change not determine heat individually?
+
+## Practice
+[WS22](../worksheets/WS22.md) progresses from foundations to competition reasoning.
+
+## Mastery checklist
+- [ ] I can assign both Q and W signs.
+- [ ] I can rearrange for one missing quantity.
+- [ ] I can distinguish conservation from a claim of physical feasibility.
+
+
+# U4-C03 - Isothermal Processes
+
+Unit 4 | All competition levels | public-student | Rule alignment: 5.c.iv, printed B57
+
+## Learning objectives
+Explain constant-temperature ideal-gas behavior; use Boyle’s law and Kelvin; interpret curved P–V paths; connect ΔU=0 to heat and work without calculating curved-path areas.
+
+## Prerequisites
+Unit 2 ideal gas law PV=nRT, Kelvin and absolute pressure; Chapters 1–2 sign convention. A fixed amount of gas means no molecules are added or removed.
+
+## Constant temperature is a process condition
+An isothermal process keeps the system's temperature constant throughout the process. Returning to the same temperature only at the end is not sufficient. A gas can expand isothermally if energy exchange and motion are arranged so that its temperature stays essentially unchanged. A very large surrounding body at a fixed temperature can serve as a thermal reservoir.
+
+A slow piston motion with good thermal contact is a useful approximate model. Slow motion gives time for heat transfer to compensate for energy carried away or supplied by work. Slow alone does not guarantee isothermal behavior; thermal contact and the surroundings also matter. Nor does constant temperature imply that all energy transfer has stopped.
+
+## Boyle’s law comes from fixed n and T
+The ideal-gas equation is PV=nRT. If n and T remain constant, their product with R is constant, giving P_iV_i=P_fV_f. Pressure is inversely proportional to volume: doubling volume halves pressure, while compressing to half the volume doubles pressure. Use absolute pressure. Celsius can label the constant temperature on a diagram, but any ideal-gas calculation involving the numerical T must use Kelvin.
+
+Rearrange the single equation to find one unknown. For final pressure, P_f=P_iV_i/V_f. For final volume, V_f=P_iV_i/P_f. Use consistent pressure and volume units on both sides. Converting every value to SI is optional in a simple ratio if the units match, but mixing liters and milliliters without conversion is not acceptable.
+
+## Read an isotherm on a P–V graph
+A P–V graph places volume horizontally and pressure vertically. Each point represents a state with a particular pressure and volume. A constant-temperature ideal-gas path is a decreasing curved line, not a straight line between endpoints. At each point PV has the same value. The curve becomes less steep as volume increases.
+
+Direction arrows tell whether the gas is expanding or compressing. Moving right increases volume; moving left decreases it. Pressure decreasing does not by itself prove heat is leaving: during an ordinary slow isothermal expansion, heat enters to replace energy exported as work. A graph labels a process path, so read both coordinates and the direction before assigning signs.
+
+The area beneath a mechanically balanced P–V path represents boundary work, but evaluating a curved isotherm generally requires mathematics outside this unit's assessed scope. We will not replace that curve with an arbitrary rectangle or demand logarithms. When a question needs the amount of isothermal work, it supplies W or supplies Q so conservation can determine the other.
+
+## Why ideal-gas internal energy stays constant
+For a fixed amount of ideal gas, U depends only on T. Therefore isothermal ideal-gas motion has ΔU=0. The first law then gives 0=Q−W, or Q=W. This is a statement about signed transfers. During a slow expansion against positive pressure, W is positive, so Q is positive. During compression W is negative, so Q is negative.
+
+Incoming heat during expansion does not raise the temperature because an equal amount of energy leaves through work. During compression, work enters, but heat leaves by an equal amount, holding U and T fixed. The equality does not mean heat and work are identical physical mechanisms; it means their signed amounts balance in this particular process.
+
+The ideal-gas qualification is essential. A real substance can change phase at constant temperature and absorb latent heat. Its internal energy can change even though T does not. Do not conclude that every isothermal process of every material has ΔU=0. The statement belongs to the fixed-amount ideal-gas model, not the definition of isothermal itself.
+
+## Contrast with neighboring processes
+Isothermal specifies temperature; adiabatic specifies no heat transfer. They are different constraints. A typical gas expanding adiabatically does work without replacement heat and cools, whereas an isothermal expansion receives replacement heat. Isochoric specifies volume and isobaric specifies pressure. These words identify what is held fixed, not a universal answer for every energy quantity.
+
+A special free expansion of ideal gas into vacuum can have Q=0, W=0 and ΔU=0, with equal initial and final temperatures. Its nonequilibrium intermediate states need not form a well-defined equilibrium isotherm. Thus equal endpoint temperatures alone cannot justify drawing a slow reversible path. Distinguish an endpoint comparison from a description of every intermediate state.
+
+## Use the model thoughtfully
+An expanding gas in thermal contact with a bath is an educational idealization. Real temperature control is imperfect and friction can create additional effects. A graph or recorded data set can illustrate the relationships safely without students creating a heated piston or sealed pressure apparatus. The important skill is stating which assumptions allow each equation, not reproducing a dangerous laboratory setup.
+
+## Visual model
+![Quantitative isotherm for a fixed ideal gas with PV=480 kPa·L. Points are (2 L,240 kPa), (3 L,160 kPa), (4 L,120 kPa) and (6 L,80 kPa). The arrow points toward expansion; no curved-area calculation is required.](../lessons/figures/U4-C03.svg)
+
+Quantitative isotherm for a fixed ideal gas with PV=480 kPa·L. Points are (2 L,240 kPa), (3 L,160 kPa), (4 L,120 kPa) and (6 L,80 kPa). The arrow points toward expansion; no curved-area calculation is required.
+
+## Definitions and units
+Isothermal: constant temperature throughout a process. Isotherm: constant-temperature curve on a state diagram. Thermal reservoir: large body idealized as maintaining a fixed temperature while exchanging heat. Boyle’s law: PV constant for fixed n and T in an ideal gas.
+
+## Equations and their meaning
+P_iV_i=P_fV_f for fixed n,T and ideal gas. ΔU=0 and Q=W for that ideal-gas isothermal process under the unit’s energy assumptions. Do not use a single constant P times ΔV along the curved isotherm. Numerical curved-path work is provided, not derived.
+
+## Worked example: Pressure after expansion
+
+**Given:** Ideal gas at constant T expands from 2.0 L, 240 kPa to 6.0 L; n fixed.
+
+**Find:** Final pressure.
+
+**Formula:** P_f=P_iV_i/V_f.
+
+**Substitution:** P_f=240×2.0/6.0 kPa.
+
+**Calculation:** 480/6.0=80.
+
+**Final answer:** P_f=80 kPa absolute.
+
+**Physical interpretation:** Tripling volume reduces pressure to one third.
+
+## Worked example: Energy during isothermal expansion
+
+**Given:** Fixed ideal gas expands isothermally and does 160 J work.
+
+**Find:** ΔU and Q.
+
+**Formula:** ΔU=0; Q=ΔU+W.
+
+**Substitution:** Q=0+160 J.
+
+**Calculation:** Q=160.
+
+**Final answer:** ΔU=0 J; Q=+160 J.
+
+**Physical interpretation:** The heat input replaces the work output while temperature stays constant.
+
+## Worked example: Compression and heat rejection
+
+**Given:** Surroundings do 75 J work on an ideal gas compressed isothermally.
+
+**Find:** Signed heat transfer.
+
+**Formula:** W=−75 J; Q=W because ΔU=0.
+
+**Substitution:** Q=−75 J.
+
+**Calculation:** 0=−75−(−75) verifies conservation.
+
+**Final answer:** Q=−75 J; the gas releases 75 J.
+
+**Physical interpretation:** Work input does not accumulate as internal energy because equal heat leaves.
+
+## Common misconceptions
+Constant temperature does not mean Q=0. Boyle’s law needs fixed gas amount and absolute pressure. A curved isotherm is not a straight diagonal. The rule ΔU=0 requires the stated ideal gas; it does not apply to isothermal melting.
+
+## Real-world application and safe exploration
+Temperature-controlled gas models help explain slow compression or expansion with a surrounding bath. Use the supplied points to verify PV and sketch the curve. A sealed heated container is not needed. In a device context, water held briefly at steady temperature is not automatically an isothermal ideal-gas process; identify the material first.
+
+## Chapter recap
+Isothermal means constant temperature throughout. Fixed ideal gas then has PV constant and ΔU=0, so signed heat and work balance. Graph direction gives expansion/compression, while supplied transfer data avoid disallowed curved-work mathematics.
+
+## Chapter review
+1. Why can an isothermal expansion require heat input?
+2. Why is PV constant along the pictured curve?
+3. Why does constant-temperature melting not obey the same ΔU conclusion?
+
+## Practice
+[WS23](../worksheets/WS23.md) progresses from foundations to competition reasoning.
+
+## Mastery checklist
+- [ ] I can use Boyle’s law with consistent units.
+- [ ] I can explain Q=W with the correct signs.
+- [ ] I can distinguish an isotherm from a constant-pressure line.
+
+
+# U4-C04 - Adiabatic Processes
+
+Unit 4 | All competition levels | public-student | Rule alignment: 5.c.iv, printed B57
+
+## Learning objectives
+Explain Q=0; apply the first law to expansion and compression; distinguish insulation, speed and reversibility; interpret a conceptual adiabatic P–V curve.
+
+## Prerequisites
+Chapters 1–3, ideal-gas temperature/internal-energy relationship. An ideal insulating boundary prevents heat transfer during the process; real insulation only approximates this.
+
+## No heat crossing does not mean no energy crossing
+An adiabatic process transfers no heat across the chosen system boundary: Q=0. Work can still cross. A gas can therefore change internal energy and temperature without exchanging heat. This is a direct extension of the distinction between heat and temperature developed in Unit 1.
+
+Insulating walls can approximate adiabatic conditions over a chosen time interval. A sufficiently rapid process may also exchange little heat because there is little time for it, but rapid motion alone does not prove Q=0. Wall properties, area and temperature differences still matter. Conversely, a slow process with ideal insulation can be adiabatic. Treat the word as a heat-transfer condition rather than a synonym for fast.
+
+## Expansion spends internal energy
+For the closed-system model, ΔU=Q−W becomes ΔU=−W. If gas expands against positive external pressure and does positive work, its internal energy decreases. A fixed ideal gas consequently cools. There is no requirement that cold enter: microscopic energy has been transferred outward through work.
+
+A mechanical analogy is a battery powering a motor with no charger attached: energy output reduces the energy stored. The gas is not chemically a battery, but the accounting idea is similar. The cooling is not caused by molecules becoming intrinsically smaller, nor simply by having more space. It follows from the stated energy export and ideal-gas relation between U and T.
+
+## Compression supplies internal energy
+During compression, surroundings do positive work on the gas, so W_by is negative. With Q=0, subtracting that negative W gives positive ΔU. The ideal gas warms. A bicycle pump can exhibit this trend, although friction and heat exchange with the barrel mean an actual pump is not a perfect isolated piston model.
+
+Do not assume that a compressed gas always warms under every process. Isothermal compression deliberately rejects heat to maintain temperature. Compression determines the sign of boundary work against positive pressure; the full balance determines the internal-energy change. Words such as adiabatic or isothermal supply essential extra information.
+
+## Convert energy change to temperature only with a model
+If the sample has a supplied approximately constant internal-energy coefficient C_U, use ΔU=C_U(T_f−T_i). Then ΔT=−W/C_U for an adiabatic process. C_U is a sample quantity in J/K, not the conductivity k and not a mass-specific heat by itself. We provide it directly so no molecular heat-capacity derivation is required.
+
+A Celsius degree of change equals a kelvin of change, but the starting absolute temperature for a gas-law calculation must still be in Kelvin. After finding ΔT, add it to T_i to obtain T_f. Check that the final absolute temperature remains positive and that the assumed gas model and heat-capacity approximation remain reasonable.
+
+## What the P–V picture says
+Starting at the same state, a reversible adiabatic expansion of an ordinary ideal gas with positive heat capacities drops in pressure more steeply than an isothermal expansion. Both paths expand, but the adiabatic gas also cools, while the isothermal gas keeps T constant. Since P=nRT/V, lower T at the same larger V means lower P.
+
+The comparison graph is qualitative. Its arbitrary-unit axes and schematic curves are not a data table for numerical work. Students should identify the common starting point, the lower-pressure adiabatic expansion path and the direction of motion. No power-law adiabatic formula, exponent derived from heat capacities, integration or logarithm is assessed here.
+
+The word reversible adds a separate condition. A reversible idealization has no entropy production and proceeds through appropriately balanced states. An insulated process with friction can be adiabatic but irreversible. Therefore an arbitrary fast adiabatic process should not automatically be drawn as a reversible equilibrium curve. Entropy provides the vocabulary for this distinction in Chapter 8.
+
+## An important limiting case
+An ideal gas freely expanding into vacuum inside an insulated enclosure has Q=0 and W=0. Therefore ΔU=0, and its initial and final equilibrium temperatures are the same in the ideal-gas model. This does not contradict adiabatic expansion cooling when positive work is done: the premise about work is different. The intervening free expansion is not a sequence of equilibrium states on the reversible adiabatic curve.
+
+The example also shows why “adiabatic means temperature decreases” is false. Adiabatic compression can raise temperature; free expansion of ideal gas can leave endpoint temperature unchanged; work-producing expansion can lower it. The shared condition is Q=0, not a predetermined sign of ΔT.
+
+## Decide what evidence supports the approximation
+If a prompt explicitly says heat exchange is negligible, use Q≈0 over that interval. If it merely says the container is wrapped or the piston moves quickly, explain that this supports an approximation rather than an exact conclusion. A before-and-after temperature change alone does not reveal Q separately from W. Record both the model and what would need measuring to test it.
+
+## Visual model
+![Qualitative comparison from one starting state: during reversible ideal-gas expansion, the adiabatic curve lies below the isotherm because the gas cools. Axes use arbitrary units; no numerical coordinates or work should be inferred.](../lessons/figures/U4-C04.svg)
+
+Qualitative comparison from one starting state: during reversible ideal-gas expansion, the adiabatic curve lies below the isotherm because the gas cools. Axes use arbitrary units; no numerical coordinates or work should be inferred.
+
+## Definitions and units
+Adiabatic: Q=0 across the specified boundary for the process. Insulation: reduces thermal transfer, not necessarily all energy exchange. Free expansion: expansion into vacuum with no resisting-pressure work in the ideal model. C_U: sample internal-energy coefficient, J/K. Reversible: ideal limit with no entropy generation, distinct from adiabatic.
+
+## Equations and their meaning
+Adiabatic first law: ΔU=−W. If supplied, ΔU=C_UΔT, so T_f=T_i−W/C_U. No general adiabatic P–V power equation is required. For ideal free expansion in an insulated enclosure: Q=W=ΔU=0.
+
+## Worked example: Work-producing expansion
+
+**Given:** Q=0; gas does 210 J of work.
+
+**Find:** ΔU.
+
+**Formula:** ΔU=Q−W.
+
+**Substitution:** ΔU=0−210 J.
+
+**Calculation:** 0−210=−210.
+
+**Final answer:** ΔU=−210 J.
+
+**Physical interpretation:** Internal energy supplies the exported work; a fixed ideal gas cools.
+
+## Worked example: Compression temperature
+
+**Given:** Adiabatic ideal gas: 240 J work done on it; C_U=12 J/K; T_i=300 K.
+
+**Find:** Final temperature.
+
+**Formula:** W=−240 J; ΔU=−W; ΔT=ΔU/C_U.
+
+**Substitution:** ΔU=240 J; ΔT=240/12 K; T_f=300+ΔT.
+
+**Calculation:** ΔT=20 K; 300+20=320.
+
+**Final answer:** T_f=320 K.
+
+**Physical interpretation:** Work input raises the gas temperature without heat input.
+
+## Worked example: A free-expansion exception
+
+**Given:** Insulated ideal gas expands into vacuum; Q=0 and P_ext=0. Initial equilibrium temperature is 290 K.
+
+**Find:** Work, internal-energy change and final equilibrium temperature.
+
+**Formula:** W=P_extΔV=0; ΔU=Q−W; U depends only on T.
+
+**Substitution:** ΔU=0−0 J.
+
+**Calculation:** W=0 and ΔU=0.
+
+**Final answer:** W=0 J; ΔU=0 J; T_f=290 K.
+
+**Physical interpretation:** Equal endpoint temperatures do not imply the actual nonequilibrium path was a reversible isotherm.
+
+## Common misconceptions
+Adiabatic does not mean constant temperature, and it does not mean no work. Fast is not a proof of Q=0. Insulated does not imply reversible. Not every expansion cools; identify whether work leaves.
+
+## Real-world application and safe exploration
+Air rising in the atmosphere can expand and cool approximately adiabatically under suitable conditions; moisture and other effects can complicate real weather. Use a recorded parcel model or the supplied diagram. Avoid compression heating demonstrations with sealed improvised equipment. No device modification is suggested by these piston examples.
+
+## Chapter recap
+Adiabatic sets heat transfer to zero, leaving work to determine ΔU. Work-producing expansion cools an ideal gas; compression warms it. Conditions and reversibility must be stated before interpreting a P–V curve.
+
+## Chapter review
+1. Why can an insulated gas warm?
+2. Why can free expansion differ from expansion against a load?
+3. What extra condition is implied by a reversible adiabatic curve?
+
+## Practice
+[WS24](../worksheets/WS24.md) progresses from foundations to competition reasoning.
+
+## Mastery checklist
+- [ ] I can set Q to zero without setting W to zero.
+- [ ] I can compute ΔU and a supplied-model temperature change.
+- [ ] I can explain adiabatic versus isothermal and reversible versus irreversible.
+
+
+# U4-C05 - Isochoric and Isobaric Processes
+
+Unit 4 | All competition levels | public-student | Rule alignment: 5.c.iv, printed B57
+
+## Learning objectives
+Apply constant-volume and constant-pressure conditions; use Kelvin gas ratios; calculate work and first-law changes; compare four process types without confusing their constraints.
+
+## Prerequisites
+Ideal gas law, first law, pressure-volume work and Kelvin conversion T_K=T_C+273.15. Assume fixed gas amount unless explicitly stated.
+
+## Different constraints give different outcomes
+Process names specify conditions imposed on a system. Isochoric means constant volume; isobaric means constant pressure. Neither word by itself says that temperature is fixed or heat transfer is zero. A gas can be heated at fixed volume in a rigid container or at fixed pressure beneath a freely moving loaded piston, and the two responses differ.
+
+A rigid sealed container and a movable piston are educational models. Real containers can expand slightly and real pistons have friction. The assumptions are stated so students know which simplified relationships to use. Do not test these models by heating sealed containers; drawings and provided data are sufficient.
+
+## Constant volume: pressure can change
+For a fixed amount of ideal gas, PV=nRT. If V is constant, P/T is constant, giving P_f/P_i=T_f/T_i. Pressure is absolute and temperature must be Kelvin. Heating raises molecular motion and collision effects, so pressure rises even though the container volume stays the same.
+
+A constant-volume path is vertical on a P–V diagram. Moving upward increases pressure; moving downward decreases it. The horizontal displacement is zero, so pressure-volume boundary work is zero. With no other work interactions, the first law simplifies to ΔU=Q. Incoming heat increases U; outgoing heat decreases it.
+
+The restriction to boundary work matters. An electric heater or rotating paddle inside a rigid container can still transfer energy as work across an appropriately chosen system boundary. Therefore “constant volume implies no work of any kind” is too broad. Our isochoric numerical exercises explicitly exclude other work unless a question asks students to identify the limitation.
+
+## Constant pressure: volume can change
+For fixed n and constant pressure, V/T is constant, giving V_f/V_i=T_f/T_i. A heated gas under a constant load can expand as it warms, preserving pressure. A slowly cooled gas under the same load can contract. Again use Kelvin for ratios, not Celsius.
+
+A constant-pressure path is horizontal on a P–V graph. For a mechanically balanced model, W=P(V_f−V_i). The rectangle under the path has area P times the horizontal width, with expansion positive and compression negative. This is a permitted geometry calculation. The use of gas pressure assumes it matches the opposing pressure closely enough for the model.
+
+Heat entering during constant-pressure warming must supply both the internal-energy increase and the work exported: Q=ΔU+W. Thus Q need not equal ΔU even if temperature rises. If a sample internal-energy coefficient C_U is supplied, compute ΔU=C_UΔT and add the boundary work. No advanced gas heat-capacity identity is needed.
+
+## Heat capacity depends on the process
+In Unit 3, ordinary solid/liquid heating often used Q=mcΔT with negligible work. Gases can expand appreciably, so the amount of heat per degree depends on what the gas is allowed to do. At constant volume with only boundary work, all net heat changes internal energy. At constant pressure, some of the heat can do expansion work.
+
+This explains qualitatively why a gas's constant-pressure heat capacity exceeds its constant-volume heat capacity under the usual ideal-gas model. Do not insert a heat capacity from one process into another without checking its definition. When this unit provides C_U, it relates to ΔU rather than automatically to Q for every path.
+
+## Compare all four names carefully
+The comparison table summarizes definitions and common ideal-gas consequences. Each row assumes a fixed amount of gas and the unit's closed-system energy model. “Not fixed by the name” means more information is required; it does not mean the quantity must be nonzero. Special cases can satisfy more than one constraint, such as a system that does not change at all.
+
+| Process | Defining condition | Boundary work | Ideal-gas consequence |
+| --- | --- | --- | --- |
+| Isothermal | T constant | Generally nonzero; supplied for curves | ΔU=0; Q=W; PV constant |
+| Adiabatic | Q=0 | Can be positive, negative or zero | ΔU=−W; T may change |
+| Isochoric | V constant | W_PV=0 | P/T constant; ΔU=Q if no other work |
+| Isobaric | P constant | W_PV=PΔV for balanced motion | V/T constant; Q=ΔU+W if only PV work |
+
+## Translate a description before calculating
+“Rigid” points toward constant volume, not zero heat transfer. “Insulated” points toward adiabatic, not constant pressure. “In good contact with a fixed-temperature bath and moved slowly” supports isothermal behavior. “Slowly moving beneath a fixed load” supports constant pressure if friction and load changes are negligible. Find the physical constraint instead of selecting a formula from a single familiar word.
+
+When more than one stage occurs, label each stage separately. A vertical segment followed by a horizontal segment is not one globally isobaric or isochoric process. Compute work and internal-energy changes for each suitable stage, then add signed values. The next chapter extends this bookkeeping around a closed loop.
+
+## Visual model
+![Two paths from A=(2 L,100 kPa): A→B is vertical to B=(2 L,150 kPa), and A→C is horizontal to C=(4 L,100 kPa). Vertical means fixed volume; horizontal means fixed pressure. These are separate possible paths.](../lessons/figures/U4-C05.svg)
+
+Two paths from A=(2 L,100 kPa): A→B is vertical to B=(2 L,150 kPa), and A→C is horizontal to C=(4 L,100 kPa). Vertical means fixed volume; horizontal means fixed pressure. These are separate possible paths.
+
+## Definitions and units
+Isochoric: constant V. Isobaric: constant P. W_PV: pressure-volume boundary work, J. Absolute pressure: measured from vacuum. C_U: internal-energy temperature coefficient of a sample, J/K. A Celsius change equals a Kelvin change, but absolute ratios require Kelvin.
+
+## Equations and their meaning
+Fixed n,V ideal gas: P_f=P_iT_f/T_i. Fixed n,P ideal gas: V_f=V_iT_f/T_i. Isochoric boundary work W_PV=0. Balanced isobaric work W=PΔV. For all stages, ΔU=Q−W with every work mode included.
+
+## Worked example: Rigid-container heating
+
+**Given:** Fixed ideal gas: P_i=100 kPa, T_i=300 K, T_f=360 K; V constant.
+
+**Find:** Final pressure.
+
+**Formula:** P_f=P_iT_f/T_i.
+
+**Substitution:** P_f=100×360/300 kPa.
+
+**Calculation:** 360/300=1.20; 100×1.20=120.
+
+**Final answer:** P_f=120 kPa absolute.
+
+**Physical interpretation:** A 20% Kelvin-temperature increase produces a 20% pressure increase at fixed volume.
+
+## Worked example: Volume under constant load
+
+**Given:** Ideal gas: V_i=2.0 L at 300 K; T_f=450 K; P constant and n fixed.
+
+**Find:** Final volume.
+
+**Formula:** V_f=V_iT_f/T_i.
+
+**Substitution:** V_f=2.0×450/300 L.
+
+**Calculation:** 450/300=1.5; 2.0×1.5=3.0.
+
+**Final answer:** V_f=3.0 L.
+
+**Physical interpretation:** Volume grows in the same ratio as absolute temperature.
+
+## Worked example: Heat at constant pressure
+
+**Given:** Balanced P=100 kPa; V increases from 2.0 to 3.0 L; ΔU=150 J; only boundary work.
+
+**Find:** W and Q.
+
+**Formula:** W=PΔV; Q=ΔU+W.
+
+**Substitution:** W=100×(3−2) J; Q=150+W.
+
+**Calculation:** W=100; Q=150+100=250.
+
+**Final answer:** W=+100 J; Q=+250 J.
+
+**Physical interpretation:** Heat supplies internal-energy growth and expansion work.
+
+## Worked example: Isochoric cooling
+
+**Given:** Rigid closed gas releases 80 J; no electrical, paddle or other work.
+
+**Find:** W and ΔU.
+
+**Formula:** W=0; ΔU=Q−W.
+
+**Substitution:** Q=−80 J; ΔU=−80−0.
+
+**Calculation:** ΔU=−80.
+
+**Final answer:** W=0 J; ΔU=−80 J.
+
+**Physical interpretation:** No boundary displacement occurs; heat loss lowers internal energy.
+
+## Common misconceptions
+Use Kelvin in P/T and V/T ratios. Constant volume does not mean constant pressure or prohibit every work mode. Constant pressure does not mean zero work. Isothermal and adiabatic are not interchangeable constraints.
+
+## Real-world application and safe exploration
+A flexible balloon is sometimes a rough constant-pressure illustration, but membrane tension changes pressure, so a constant-load piston is cleaner for calculations. A sealed rigid tank illustrates constant volume conceptually; do not heat one in class. Use virtual states or supplied recordings and discuss how real apparatus departs from each idealization.
+
+## Chapter recap
+Isochoric keeps volume fixed; isobaric keeps pressure fixed. Gas ratios require Kelvin, and first-law accounting remains valid for every stage. Use the process definition to simplify the law rather than replacing it.
+
+## Chapter review
+1. Why does isochoric heating raise ideal-gas pressure?
+2. Why can isobaric heat input exceed ΔU?
+3. Why does a rigid container not rule out electrical work?
+
+## Practice
+[WS25](../worksheets/WS25.md) progresses from foundations to competition reasoning.
+
+## Mastery checklist
+- [ ] I can distinguish vertical and horizontal P–V paths.
+- [ ] I can apply Kelvin ratios and constant-pressure work.
+- [ ] I can compare all four process conditions and their assumptions.
+
+
+# U4-C06 - Thermodynamic Cycles
+
+Unit 4 | All competition levels | public-student | Rule alignment: 5.c.iv, printed B57
+
+## Learning objectives
+Explain return to the initial state; calculate rectangular and triangular cycle work geometrically; use ΔU_cycle=0; interpret direction and net heat.
+
+## Prerequisites
+First law, P–V graphs, rectangle area=base×height and triangle area=base×height/2. Cycle paths used for work are slow mechanically balanced idealizations with only pressure-volume work.
+
+## A cycle returns the working substance to its state
+An engine can repeatedly produce work because its working substance follows a repeating cycle. A thermodynamic cycle returns to the starting thermodynamic state: not merely the same temperature, but the same relevant state properties. For a fixed amount of ideal gas, returning to the same P and V returns it to the same T and U.
+
+Internal energy is a state property, so ΔU_cycle=0. This does not mean U itself is zero or that no energy flowed during the cycle. The first law gives Q_net=W_net over the complete cycle. Individual stages can have nonzero ΔU; their signed changes cancel when the cycle closes.
+
+Heat and work are process transfers. They can have nonzero net values around a loop precisely because they are not stored state properties. A positive-work engine must receive a net positive heat input over its full cycle under the stated model. “Net heat” means absorbed heat minus released heat, not the total heat absorbed alone.
+
+## Work along horizontal and vertical segments
+For a horizontal expansion at pressure P_high, W=P_highΔV is positive. A horizontal compression at a smaller pressure P_low has negative work W=P_low(−ΔV). Vertical segments have ΔV=0 and zero boundary work. Adding the signed segment works yields W_net=(P_high−P_low)ΔV.
+
+This difference is the area enclosed by the rectangular loop. The full area under the upper expansion line is not the cycle work, because compression consumes some work. The net output is what remains after subtracting that input. If pressure is in kPa and volume in L, the area unit is J.
+
+A useful step-by-step check is to list each segment's direction before using the equation. Students often obtain the correct area magnitude but the wrong sign because they ignore the arrows. Labeling A, B, C and D and following them in order prevents this error.
+
+## Clockwise and counterclockwise
+On the standard plot with V horizontal and P vertical, a simple clockwise loop expands at higher pressures and compresses at lower pressures. Its net pressure-volume work by the gas is positive. Reversing the same loop makes it counterclockwise and gives negative net work by the gas: work is supplied to the system.
+
+A refrigerator or heat pump requires work input to move heat from a colder region toward warmer surroundings. A counterclockwise cycle is consistent with such operation, but a bare P–V loop alone does not describe every thermal contact needed for a functioning refrigerator. Specific heat exchanges and reservoir interactions must also be identified.
+
+For a self-crossing or complicated cycle, signed areas would need careful accounting. This unit uses simple non-self-crossing loops so direction and elementary geometry are sufficient. We do not ask students to integrate a general curve.
+
+## Triangular cycles and straight sloping paths
+A triangular loop encloses area one half of its base times its perpendicular height. If its arrows are clockwise, that area is positive net work; if counterclockwise, it is negative. A sloping straight segment can be treated using the area of a trapezoid under the line, provided the path is the stated mechanically balanced idealization.
+
+For a straight pressure-versus-volume segment, the mean endpoint pressure times ΔV gives the same trapezoid area. This is an elementary geometry result for a straight line, not permission to average endpoints on an arbitrary curve. Work on a curved isotherm or adiabatic path is not calculated this way.
+
+## Close the energy ledger
+Suppose a cyclic engine absorbs Q_H and releases a positive heat magnitude Q_C. Its signed net heat is Q_H−Q_C. With ΔU_cycle=0, W_net=Q_H−Q_C. The gas can warm on one part, cool on another and return to its starting temperature while exporting work each cycle.
+
+Be careful to separate a single stroke from the entire loop. A stroke can have ΔU≠0, so its heat need not equal its work. Only the closed-cycle sum has zero internal-energy change. If a proposed “cycle” ends at a different state, the cycle shortcut is not justified.
+
+## What a simple engine diagram does and does not show
+Rectangular and triangular loops are instructional models chosen for permitted mathematics. They are not claims that a real car engine follows those exact pressure paths, or that every drawn cycle can be implemented reversibly with only two reservoirs. Real engines have friction, finite-temperature heat transfer, moving matter and other complications.
+
+Even an internally consistent loop must obey the second law. Knowing its area and total heat input allows an efficiency calculation, but attainable performance also depends on temperatures and irreversibilities. The next chapter adds reservoirs and the efficiency limit so energy conservation is not mistaken for a complete design test.
+
+## Visual model
+![Clockwise rectangle A=(2 L,100 kPa), B=(2 L,300 kPa), C=(5 L,300 kPa), D=(5 L,100 kPa), returning to A. The shaded enclosed area is 600 J of net work; horizontal stages supply opposite-signed work.](../lessons/figures/U4-C06.svg)
+
+Clockwise rectangle A=(2 L,100 kPa), B=(2 L,300 kPa), C=(5 L,300 kPa), D=(5 L,100 kPa), returning to A. The shaded enclosed area is 600 J of net work; horizontal stages supply opposite-signed work.
+
+## Definitions and units
+Cycle: sequence returning to the starting thermodynamic state. Working substance: material undergoing the cycle. W_net: signed net work by the system per cycle, J/cycle. Q_net: signed net heat entering per cycle. Q_H,Q_C: positive magnitudes of absorbed and rejected heat.
+
+## Equations and their meaning
+ΔU_cycle=0; Q_net=W_net. Rectangle: |W_net|=(P_high−P_low)(V_max−V_min). Triangle: |W_net|=base×height/2. Sign comes from direction. W_net=Q_H−Q_C for a cyclic engine with only those heat exchanges.
+
+## Worked example: A rectangular cycle
+
+**Given:** Clockwise loop: V=2–5 L and P=100–300 kPa.
+
+**Find:** Net work by the gas.
+
+**Formula:** W_net=(P_high−P_low)(V_max−V_min).
+
+**Substitution:** W_net=(300−100)×(5−2) kPa·L.
+
+**Calculation:** 200×3=600.
+
+**Final answer:** W_net=+600 J per cycle.
+
+**Physical interpretation:** Expansion gives 900 J and compression uses 300 J, leaving 600 J net.
+
+## Worked example: A triangular loop
+
+**Given:** Clockwise right-triangle cycle has volume base 4 L and pressure height 150 kPa.
+
+**Find:** Net work and net heat.
+
+**Formula:** W_net=base×height/2; Q_net=W_net.
+
+**Substitution:** W_net=4×150/2 J.
+
+**Calculation:** 600/2=300.
+
+**Final answer:** W_net=+300 J; Q_net=+300 J per cycle.
+
+**Physical interpretation:** The gas returns to its initial U while heat supplies its net output.
+
+## Worked example: Find rejected heat
+
+**Given:** Engine cycle absorbs 1000 J and produces 250 J net work.
+
+**Find:** Rejected heat magnitude.
+
+**Formula:** W_net=Q_H−Q_C; Q_C=Q_H−W_net.
+
+**Substitution:** Q_C=1000−250 J.
+
+**Calculation:** 1000−250=750.
+
+**Final answer:** Q_C=750 J per cycle.
+
+**Physical interpretation:** The remaining absorbed energy leaves as heat; it is not destroyed.
+
+## Common misconceptions
+Zero ΔU_cycle does not mean zero work or zero heat. Use enclosed area, not only the area below the expansion segment. Clockwise gives positive work only with the standard P-vertical, V-horizontal axes and the stated boundary-work model. Returning to one property alone is not necessarily a cycle.
+
+## Real-world application and safe exploration
+Cycle diagrams explain repeated operation without requiring a physical steam engine. Trace the arrows on the supplied plots and compute segment work using paper rectangles. No high-pressure apparatus is needed. Real engine details belong to later study; these geometry models develop conservation and sign reasoning.
+
+## Chapter recap
+A closed state loop has no net internal-energy change but can exchange net heat and work. Simple enclosed areas give net boundary work, with sign determined by direction. Separate full-cycle statements from individual-stage balances.
+
+## Chapter review
+1. Why is ΔU zero over a complete cycle but not necessarily each stage?
+2. Why must compression work be subtracted from expansion work?
+3. What changes if the same simple loop is traversed backward?
+
+## Practice
+[WS26](../worksheets/WS26.md) progresses from foundations to competition reasoning.
+
+## Mastery checklist
+- [ ] I can follow arrows and assign segment-work signs.
+- [ ] I can calculate rectangular and triangular enclosed areas.
+- [ ] I can use the cyclic heat/work balance without erasing individual transfers.
+
+
+# U4-C07 - Heat Engines and Thermal Efficiency
+
+Unit 4 | All competition levels | public-student | Rule alignment: 5.c.iv, printed B57
+
+## Learning objectives
+Relate hot/cold reservoirs, work and heat rejection; compute actual efficiency and the Carnot upper bound; use Kelvin correctly and distinguish possible from proven performance.
+
+## Prerequisites
+Cycles and the first law; fractions and percentages. A reservoir is idealized as maintaining a nearly constant temperature while accepting or supplying heat.
+
+## An engine uses a temperature difference
+A heat engine takes heat from a hotter source, converts part of that input into net work, and rejects heat to a colder sink while its working substance completes a cycle. The source and sink are called hot and cold reservoirs. They are surroundings of the working substance, not quantities stored inside it.
+
+A power station may use a high-temperature heating source and a cooling environment. A fuel-burning engine has additional chemistry and flow, so a simple two-reservoir cycle is an idealized description of its thermal role, not a complete engineering model. Our diagrams focus on the energy amounts relevant to cyclic heat-to-work conversion.
+
+Let Q_H be the positive heat-input magnitude from the hot reservoir and Q_C the positive heat-rejection magnitude to the cold reservoir. Let W_net be positive net work output. The cycle first law gives W_net=Q_H−Q_C. In the signed convention, Q_net=Q_H−Q_C and ΔU_cycle=0. The labels Q_H and Q_C are magnitudes, so Q_C is not a negative number in this formula.
+
+## Efficiency compares useful output with required input
+Thermal efficiency η is the fraction of absorbed heat converted into net work: η=W_net/Q_H. Combining the cycle balance gives η=1−Q_C/Q_H. Efficiency is dimensionless. Multiplying a fraction by 100 gives a percentage; .25 means 25%, not .25%.
+
+The denominator is heat absorbed, not net heat. Since Q_net=W_net for the cycle, dividing W by Q_net would give 100% and conceal the rejected heat. The correct denominator measures what the engine had to take from the hot source to deliver its output. Rejected heat is still energy; “waste heat” means it was not converted into the desired work output, not that it disappeared.
+
+Efficiency differs from power. An engine can have high efficiency and small output because its input rate is small. If heat-input power and work-output power refer to the same steady operating conditions, their ratio gives the same efficiency. Energy per cycle, cycles per second and watts must not be mixed without the time relationship.
+
+## Why a cyclic heat engine cannot use all the heat
+The first law alone allows an equation with Q_C=0 and W_net=Q_H. The second law rules out a device whose only overall effect is to absorb heat from a single reservoir and turn it entirely into work while returning the working substance to its starting state. Heat transfer has direction and entropy consequences in addition to energy magnitude.
+
+A gas can convert heat into equal work during one isothermal expansion, as Chapter 3 showed. That stroke is not a complete cycle; the gas ends at a different volume. Restoring the initial state requires additional transfers. A device must account for its reset as well as its productive stroke. This distinction resolves the apparent contradiction between Q=W on one stroke and less-than-100% cyclic heat-engine efficiency.
+
+For an engine exchanging heat only with two reservoirs at finite positive temperatures, rejected heat is required. Other energy converters, such as an electric motor or fuel cell, are not simply the same thermal cycle and should not be judged by substituting arbitrary temperatures into the heat-engine formula.
+
+## Carnot’s contribution and the ideal upper bound
+Carnot studied the limits of heat-engine performance and the role of a reversible cycle. In modern thermodynamics, a reversible engine between two reservoirs sets the greatest possible efficiency between those temperatures. All reversible engines operating between the same two temperatures have the same efficiency, independent of working substance.
+
+The maximum is η_max=1−T_C/T_H, where both temperatures are in Kelvin and T_H>T_C>0. Kelvin is required because the ratio refers to absolute thermodynamic temperature. Converting only the hot temperature or using Celsius can produce absurd answers. A temperature difference can use Celsius degrees, but a temperature ratio cannot substitute them for Kelvin.
+
+The expression is an upper bound, not the promised efficiency of a real engine. Friction, finite-temperature heat transfer and other irreversible effects make real performance lower. A proposed efficiency below the bound is not automatically achievable by a particular design; it merely passes this one necessary limit. A value above it is impossible under the stated two-reservoir conditions.
+
+## Read the limit physically
+Raising T_H while holding T_C fixed increases the ideal bound. Lowering T_C while holding T_H fixed also increases it. If the temperatures approach equality, the maximum efficiency approaches zero: no useful thermal advantage remains. A 100% bound would require the cold-temperature ratio to vanish; ordinary finite positive reservoir temperatures do not allow that.
+
+Do not interpret the formula as instructions to seek dangerous temperatures. It is a comparison tool. Materials, environment and practical safety impose additional constraints. Unit 6 addresses the third law separately; no advanced low-temperature theory is needed to see that the stated positive-temperature ratio produces a bound below one.
+
+## Visual model
+![Engine energy-flow model: hot reservoir supplies 1200 J/cycle; engine exports 360 J/cycle as work and rejects 840 J/cycle to the cold reservoir. A proportional bar divides the input into 30% work and 70% rejected heat.](../lessons/figures/U4-C07.svg)
+
+Engine energy-flow model: hot reservoir supplies 1200 J/cycle; engine exports 360 J/cycle as work and rejects 840 J/cycle to the cold reservoir. A proportional bar divides the input into 30% work and 70% rejected heat.
+
+## Definitions and units
+η: thermal efficiency, dimensionless fraction. Q_H: heat absorbed per cycle, J. Q_C: heat rejected per cycle, positive magnitude in J. W_net: net work output per cycle, J. T_H,T_C: reservoir temperatures in K. Reversible limit: ideal operation with no entropy generation.
+
+## Equations and their meaning
+W_net=Q_H−Q_C; η=W_net/Q_H=1−Q_C/Q_H; percent efficiency=100η. Two-reservoir upper bound η_max=1−T_C/T_H with Kelvin. Actual efficiency cannot exceed this bound under the stated conditions. T_K=T_Celsius+273.15.
+
+## Worked example: Actual cycle efficiency
+
+**Given:** Q_H=1200 J; Q_C=840 J.
+
+**Find:** Work and efficiency.
+
+**Formula:** W=Q_H−Q_C; η=W/Q_H.
+
+**Substitution:** W=1200−840; η=360/1200.
+
+**Calculation:** W=360; η=.300.
+
+**Final answer:** W=360 J/cycle; η=30.0%.
+
+**Physical interpretation:** Thirty percent of heat input becomes net work; the remaining 70% is rejected.
+
+## Worked example: Input needed for a desired output
+
+**Given:** Engine delivers 200 J/cycle at η=.25.
+
+**Find:** Required heat input and rejected heat.
+
+**Formula:** Q_H=W/η; Q_C=Q_H−W.
+
+**Substitution:** Q_H=200/.25; Q_C=800−200.
+
+**Calculation:** 200/.25=800; 800−200=600.
+
+**Final answer:** Q_H=800 J; Q_C=600 J per cycle.
+
+**Physical interpretation:** The required heat input exceeds the useful output.
+
+## Worked example: A Kelvin upper bound
+
+**Given:** Reservoirs at T_H=600 K and T_C=300 K.
+
+**Find:** Maximum ideal efficiency.
+
+**Formula:** η_max=1−T_C/T_H.
+
+**Substitution:** η_max=1−300/600.
+
+**Calculation:** 300/600=.50; 1−.50=.50.
+
+**Final answer:** η_max=50%.
+
+**Physical interpretation:** Real engines between these reservoirs have efficiencies below the reversible limit.
+
+## Worked example: Celsius must be converted
+
+**Given:** Reservoirs at 126.85 °C and 26.85 °C.
+
+**Find:** Ideal maximum efficiency.
+
+**Formula:** T_K=T_Celsius+273.15; η_max=1−T_C/T_H.
+
+**Substitution:** T_H=400 K; T_C=300 K; η_max=1−300/400.
+
+**Calculation:** 300/400=.75; 1−.75=.25.
+
+**Final answer:** η_max=25%.
+
+**Physical interpretation:** Using 26.85/126.85 would compare the wrong zero points and overstate the limit.
+
+## Visualize the efficiency fraction
+![A 1200 J input bar contains 360 J work and840 J rejected heat.](../lessons/figures/U4-efficiency.svg)
+
+The bar uses a quantitative energy scale. The work portion occupies30% of the total width, matching the first worked example.
+
+## Common misconceptions
+Use Q_H, not Q_net, in the efficiency denominator. Q_C is a positive magnitude in engine formulas. An isothermal expansion is not a complete engine cycle. Carnot efficiency is a maximum, not every engine’s actual efficiency. Kelvin is essential in temperature ratios.
+
+## Real-world application and safe exploration
+Cooling towers and radiators make sense once rejected heat is included in the ledger. Compare the supplied reservoir cases using paper energy arrows. No burning fuel, steam or high-temperature apparatus is required. Carnot’s historical context is expanded in Unit 5; this chapter teaches the physical limit used in calculations.
+
+## Chapter recap
+A heat engine converts some absorbed heat to net work and rejects the rest during a cycle. Efficiency measures the useful fraction, while the Carnot bound sets a two-reservoir limit. Conservation and the second law must both be satisfied.
+
+## Chapter review
+1. Why is rejected heat not destroyed energy?
+2. Why can one Q=W stroke not establish a 100% efficient cyclic engine?
+3. Why must reservoir temperatures be Kelvin?
+
+## Practice
+[WS27](../worksheets/WS27.md) progresses from foundations to competition reasoning.
+
+## Mastery checklist
+- [ ] I can calculate W, Q_H, Q_C and efficiency.
+- [ ] I can check a proposed efficiency against a Kelvin bound.
+- [ ] I can distinguish real performance from an ideal limit.
+
+
+# U4-C08 - Second Law and Entropy
+
+Unit 4 | All competition levels | public-student | Rule alignment: 5.c.iv, printed B57
+
+## Learning objectives
+Explain natural heat-flow direction, total entropy and irreversibility; distinguish reversible from merely repeatable; connect the first and second laws without advanced entropy mathematics.
+
+## Prerequisites
+Thermal equilibrium, heat-transfer mechanisms, cycles and engine efficiency. Entropy S is a state property measured in J/K; this chapter uses qualitative meaning and supplied changes only.
+
+## Conservation does not choose a direction
+Place a warm object next to a cooler one with a conducting path. Net heat flows spontaneously from warmer to cooler until thermal equilibrium is approached. The reverse energy accounting could also conserve the total number of joules, but that reverse transfer does not occur as the sole spontaneous effect. The second law adds a direction constraint that the first law alone does not provide.
+
+A refrigerator can move heat from a cold interior to a warmer room because it requires work input and has additional effects on the surroundings. This does not violate the natural hot-to-cold rule. The rule concerns unassisted net heat flow or a proposed device whose only effect is moving heat from cold to hot. Always include the power supply and the warm-side heat rejection in the larger account.
+
+“Spontaneous” here means a process can proceed without an external agent continually driving that overall direction under the given conditions. It does not mean instantaneous. A thermal transfer can be slow because an insulating layer restricts the rate. Direction and speed are separate questions.
+
+## Entropy is more useful than the word disorder
+Entropy S is a thermodynamic state property associated with how energy and microscopic arrangements are distributed among accessible possibilities. For this introductory unit, think of the tendency of energy to spread among available degrees of freedom when constraints allow. This physical interpretation is more useful than treating entropy as a score for how messy a room looks.
+
+The word disorder can sometimes suggest a trend, but it can also mislead. It does not provide a reliable calculation for a gas, a crystal or a heat engine. A cold object gaining heat can increase its entropy while the warmer object losing heat decreases its own entropy. The second law concerns the total change for a complete isolated combination, not necessarily each part separately.
+
+Entropy is not energy and has a different unit: J/K rather than J. Conserving energy does not imply conserving entropy. Energy can remain constant while its distribution changes and total entropy increases. This distinction helps explain why frictional warming can conserve energy while reducing the ability to recover the original organized motion as useful work.
+
+## System and surroundings must be counted together
+For the chosen system plus all relevant surroundings, ΔS_total=ΔS_system+ΔS_surroundings. An isolated total cannot have decreasing entropy. In the reversible ideal limit the total change is zero; in an irreversible process it is positive. A zero total is a necessary criterion for reversibility in a fully accounted process, not proof supplied by an incomplete measurement of one part.
+
+A subsystem can have ΔS<0 if its surroundings gain enough entropy. Freezing water is a useful example: the forming solid can have lower entropy, while heat released to the surroundings contributes entropy there. The full conditions determine the total. It is wrong to declare every local entropy decrease impossible.
+
+In this unit, any numerical entropy changes are supplied directly and simply added with signs. We do not require logarithms, microscopic counting equations or an entropy integral. The supplied changes are a way to practice the system/surroundings logic; they are not a new unintroduced method for computing entropy from arbitrary temperature data.
+
+## Reversible is stronger than repeatable
+A reversible process is an ideal limiting process that could be reversed while restoring both system and surroundings without a net change elsewhere. Real friction, uncontrolled expansion and heat transfer across a finite temperature difference generate entropy and make a process irreversible. Driving a piston backward is not enough to erase these effects.
+
+A process may be slow yet irreversible if friction remains. A fast event may transfer negligible heat but still generate entropy. Thus reversible, adiabatic and slow describe different aspects. For a reversible adiabatic closed process, entropy remains constant. For an irreversible adiabatic closed process, entropy can increase despite Q=0. Heat transfer is not the only way the entropy of a system can change.
+
+A cycle returns the working substance to its initial state, so its entropy change over the cycle is zero, just as its internal-energy change is zero. The surroundings may still have positive entropy change, so a real engine cycle can be irreversible. The working substance's return does not reset the entire environment.
+
+## Equilibrium and the loss of a thermal opportunity
+Two finite objects can exchange heat until their temperatures match. At thermal equilibrium, net heat transfer driven by their temperature difference stops. Particle motion and two-way microscopic exchanges continue. The energy has not disappeared; it is less concentrated in a temperature difference that could drive a heat engine.
+
+For an isolated system under fixed constraints, equilibrium is associated with maximum entropy compatible with those constraints. This does not mean every imaginable change is possible: barriers and slow processes can restrict access. The practical lesson is that removing a temperature difference removes a source of useful thermal work, even while total energy is conserved.
+
+## Connect the laws to a proposed machine
+First check energy: over a cycle, does absorbed heat equal work output plus rejected heat? Then check direction and feasibility: does the proposed efficiency exceed the two-reservoir limit, or would it decrease total entropy for an isolated combination? Passing the first check does not guarantee passing the second.
+
+An engine claiming 100% heat-to-work conversion from a single reservoir over a full cycle violates the second law even if its joule ledger balances. Conversely, an engine claiming more work than all its energy inputs violates conservation immediately. These are different reasons for rejection, and a strong competition explanation identifies the applicable reason rather than simply saying the machine is impossible.
+
+## Visual model
+![Separate hot and cold objects exchange heat spontaneously toward the colder object. The example entropy ledger has −2 J/K for the selected subsystem and +3 J/K for surroundings, giving +1 J/K total. It illustrates signs, not a temperature-based entropy calculation.](../lessons/figures/U4-C08.svg)
+
+Separate hot and cold objects exchange heat spontaneously toward the colder object. The example entropy ledger has −2 J/K for the selected subsystem and +3 J/K for surroundings, giving +1 J/K total. It illustrates signs, not a temperature-based entropy calculation.
+
+## Definitions and units
+S: entropy, J/K, a state property. ΔS_total: sum for system and relevant surroundings. Irreversible: produces entropy in the full accounting. Reversible: ideal reversal restores both system and surroundings. Spontaneous: allowed overall natural direction under stated conditions, not necessarily rapid.
+
+## Equations and their meaning
+ΔS_total=ΔS_system+ΔS_surroundings. For an isolated complete combination, ΔS_total≥0; zero for a reversible ideal process, positive for irreversible processes. ΔS_working substance,cycle=0. Only supplied entropy changes are added; no general entropy formula is assessed.
+
+## Worked example: A local decrease can be allowed
+
+**Given:** Supplied changes: ΔS_system=−2.0 J/K and ΔS_surroundings=+3.0 J/K for the entire isolated combination.
+
+**Find:** Total change and second-law assessment.
+
+**Formula:** ΔS_total=ΔS_system+ΔS_surroundings.
+
+**Substitution:** ΔS_total=−2.0+3.0 J/K.
+
+**Calculation:** −2.0+3.0=1.0.
+
+**Final answer:** ΔS_total=+1.0 J/K; consistent with an irreversible process.
+
+**Physical interpretation:** The subsystem decrease is permitted because the surroundings gain more.
+
+## Worked example: An energy-balanced but forbidden engine
+
+**Given:** A proposed cycle takes 1000 J from 500 K and rejects 200 J to 300 K, claiming 800 J work.
+
+**Find:** Check conservation and efficiency limit.
+
+**Formula:** W=Q_H−Q_C; η=W/Q_H; η_max=1−T_C/T_H.
+
+**Substitution:** W=1000−200; η=800/1000; η_max=1−300/500.
+
+**Calculation:** W=800 J; η=.80; η_max=.40.
+
+**Final answer:** Energy balances, but 80% exceeds the 40% maximum: impossible for the stated reservoirs.
+
+**Physical interpretation:** The second law rejects a claim that the first-law arithmetic alone would accept.
+
+## Common misconceptions
+Entropy is not conserved energy, not simply visual messiness, and not required to increase in every subsystem. A cycle’s working substance can return to its original entropy while total entropy rises. Adiabatic does not automatically mean constant entropy. Spontaneous does not mean fast.
+
+## Real-world application and safe exploration
+A cooling drink, frictional braking and a refrigerator illustrate direction and irreversibility. Discuss them using energy and entropy arrows rather than hazardous demonstrations. A safe alternative is to compare supplied signed entropy changes for system and surroundings, explaining why the local sign alone is insufficient.
+
+## Chapter recap
+The first law conserves energy; the second law limits direction and useful conversion. Total entropy of an isolated complete system does not decrease. Reversibility requires restoration of both system and surroundings, not merely returning one object to its starting temperature.
+
+## Chapter review
+1. How can a subsystem’s entropy decrease without violating the second law?
+2. Why is a slow frictional process not reversible?
+3. Why does a cyclic working substance’s zero entropy change not prove zero total entropy production?
+
+## Practice
+[WS28](../worksheets/WS28.md) progresses from foundations to competition reasoning.
+
+## Mastery checklist
+- [ ] I can distinguish energy conservation from entropy production.
+- [ ] I can add supplied entropy changes with correct units.
+- [ ] I can explain heat-flow direction and engine limits using the full system.
+
+# Unit 4 formula packet
+
+public-student | All competition levels | F29–F42 extend the unchanged earlier formulas.
+
+Convention: ΔU=Q−W, Q positive into the system, W positive by the system. Gas ratios and reservoir-temperature ratios use Kelvin. Constant-pressure work and simple geometric cycles avoid curved-area calculus.
+
+## F29 - First law: work-by convention
+ΔU=Q−W
+
+Variables: ΔU: J, final minus initial; Q: J, positive into system; W: J, positive by system
+
+Use: Closed system with negligible bulk kinetic/potential changes; include all work modes.
+
+Mini example: Q=300 J,W=80 J gives ΔU=220 J.
+
+## F30 - Constant-pressure boundary work
+W=P_ext(V_f−V_i)
+
+Variables: W: J; P_ext: kPa; V: L
+
+Use: Constant opposing pressure; positive expansion. A balanced gas path permits using gas pressure.
+
+Mini example: 100 kPa×(4−2) L=+200 J.
+
+## F31 - Work units and sign translation
+1 Pa·m³=1 J;1 kPa·L=1 J;W_on=−W_by
+
+Variables: W_on,W_by: J
+
+Use: Use the full opposing pressure and compatible volume units.
+
+Mini example: 80 J work on gas means W_by=−80 J.
+
+## F32 - Isothermal ideal-gas ratio
+P_iV_i=P_fV_f
+
+Variables: P: same absolute-pressure unit; V: same volume unit
+
+Use: Fixed amount of ideal gas at constant T; not every constant-temperature material.
+
+Mini example: 200 kPa×3 L/6 L=100 kPa.
+
+## F33 - Isochoric gas ratio
+P_f=P_iT_f/T_i
+
+Variables: P: absolute pressure; T: K
+
+Use: Fixed amount of ideal gas and fixed volume.
+
+Mini example: 100 kPa×330 K/300 K=110 kPa.
+
+## F34 - Isobaric gas ratio
+V_f=V_iT_f/T_i
+
+Variables: V: consistent volume units; T: K
+
+Use: Fixed amount of ideal gas and fixed pressure.
+
+Mini example: 2 L×450 K/300 K=3 L.
+
+## F35 - Adiabatic first law
+Q=0;ΔU=−W
+
+Variables: Q,ΔU,W: J
+
+Use: Adiabatic refers to heat; work may still occur.
+
+Mini example: W_by=−120 J gives ΔU=+120 J.
+
+## F36 - Internal-energy temperature model
+ΔU=C_U(T_f−T_i)
+
+Variables: ΔU: J; C_U: J/K for the sample; T_f−T_i: K or °C change
+
+Use: Use only when the coefficient/model is supplied and valid; do not automatically replace ΔU with Q.
+
+Mini example: C_U=10 J/K andΔT=−8 K give ΔU=−80 J.
+
+## F37 - Cycle energy balance
+ΔU_cycle=0;W_net=Q_net=Q_H−Q_C
+
+Variables: Q_H,Q_C: positive heat magnitudes,J/cycle; W_net: signed work by system,J/cycle
+
+Use: Complete return to starting state with stated energy assumptions.
+
+Mini example: 900 J absorbed−600 J rejected=300 J work.
+
+## F38 - Rectangular cycle area
+|W_net|=(P_high−P_low)(V_max−V_min)
+
+Variables: P: kPa; V: L; W_net: J/cycle
+
+Use: Simple mechanically balanced PV cycle; clockwise positive, reverse negative.
+
+Mini example: (250−100) kPa×(4−2) L=300 J magnitude.
+
+## F39 - Triangular cycle area
+|W_net|=base×height/2
+
+Variables: base: L; height: kPa; W_net: J/cycle
+
+Use: Simple triangular PV loop with perpendicular pressure height and volume base; sign from arrows.
+
+Mini example: 2 L×100 kPa/2=100 J magnitude.
+
+## F40 - Thermal efficiency
+η=W_net/Q_H=1−Q_C/Q_H
+
+Variables: η: dimensionless fraction; W_net,Q_H,Q_C: J/cycle
+
+Use: Heat engine; Q_H and Q_C positive magnitudes. Percent=100η.
+
+Mini example: 300/1000=.30=30%.
+
+## F41 - Two-reservoir reversible bound
+η_max=1−T_C/T_H
+
+Variables: T_C,T_H: K; η_max: dimensionless fraction
+
+Use: Hot/cold positive absolute temperatures; actual efficiency cannot exceed this ideal bound.
+
+Mini example: 1−300 K/500 K=.40=40%.
+
+## F42 - Total entropy bookkeeping
+ΔS_total=ΔS_system+ΔS_surroundings
+
+Variables: ΔS: J/K
+
+Use: For a complete isolated combination, total≥0. Add supplied values; no advanced entropy calculation required.
+
+Mini example: −1 J/K+2 J/K=+1 J/K.
+
+# Unit 4 glossary
+
+public-student | All competition levels
+
+## Absolute pressure
+Pressure measured relative to vacuum; use in gas-state relationships.
+
+## Adiabatic
+No heat crosses the selected boundary during the process:Q=0.
+
+## Boundary work
+Work associated with displacement of a system boundary, such as a piston.
+
+## Boyle’s law
+PV is constant for a fixed amount of ideal gas at constant temperature.
+
+## Carnot bound
+Maximum heat-engine efficiency between two reservoirs:1−T_C/T_H with Kelvin.
+
+## Closed system
+No matter crosses its boundary, although energy can cross.
+
+## Compression
+Decrease of gas volume; against positive pressure, work by gas is negative.
+
+## Cycle
+Process sequence returning the working substance to its starting thermodynamic state.
+
+## Efficiency
+Useful net work output divided by heat input for the specified heat engine.
+
+## Entropy
+State property associated with microscopic energy distribution; unit J/K.
+
+## Expansion
+Increase of gas volume; positive boundary work requires an opposing load.
+
+## External pressure
+Pressure exerted by surroundings against a moving boundary.
+
+## First law
+Energy conservation; here ΔU=Q−W under stated closed-system assumptions.
+
+## Free expansion
+Expansion into vacuum; no resisting-pressure work in the idealized model.
+
+## Heat
+Energy transfer driven by temperature difference, not a stored state property.
+
+## Heat engine
+Cyclic device converting some heat from a hot source into work and rejecting heat.
+
+## Heat rejection
+Heat leaving the engine toward a sink; Q_C denotes its positive magnitude.
+
+## Internal energy
+Microscopic energy of the system, distinct from whole-system motion and height.
+
+## Irreversible
+Generates entropy in the full system-plus-surroundings accounting.
+
+## Isobaric
+Constant pressure throughout the process.
+
+## Isochoric
+Constant volume throughout the process.
+
+## Isolated combination
+Complete chosen system with neither matter nor energy exchanged externally.
+
+## Isothermal
+Constant temperature throughout the process, not just equal endpoint temperatures.
+
+## Kelvin
+Absolute-temperature scale required for ideal-gas and Carnot temperature ratios.
+
+## Net heat
+Signed heat input after subtracting all outgoing heat over the chosen interval.
+
+## Net work
+Signed work output after accounting for work input over the chosen interval.
+
+## Path dependence
+Transfer totals can differ for different routes between the same states.
+
+## Pressure-volume diagram
+Plot of pressure vertically against volume horizontally.
+
+## Reservoir
+Large body idealized as maintaining fixed temperature while exchanging heat.
+
+## Reversible
+Ideal limit reversible without net changes to both system and surroundings.
+
+## Second law
+Constrains natural direction and attainable performance; isolated total entropy cannot decrease.
+
+## Spontaneous
+Allowed overall natural direction under given conditions, not necessarily fast.
+
+## State property
+Quantity determined by the state rather than the route used to reach it.
+
+## Thermal equilibrium
+No net heat transfer driven by temperature difference between equilibrated parts.
+
+## Work
+Energy transfer by organized force/displacement or other nonthermal interactions.
+
+## Working substance
+Material that undergoes the state changes in an engine or other cycle.
+
+# Unit 4 review and reasoning guide
+
+public-student | All competition levels
+
+## The one convention to keep visible
+ΔU=Q−W. Heat entering is positive Q. Work done by the system is positive W. Convert a statement about work ON the system before substitution. Positive ΔU means internal energy increased. For a fixed ideal gas this implies a temperature increase, but phase changes and more general substances need additional care.
+
+## A five-step problem routine
+1. Name the system and confirm whether matter, macroscopic motion or other work terms matter.
+2. Identify the process constraint: constant T, no Q, constant V or constant P.
+3. List given quantities with signs and compatible units. Convert absolute gas temperatures to Kelvin.
+4. Select and rearrange one appropriate equation; do not invent missing information.
+5. State the result with units and explain whether it is consistent with the physical direction and model.
+
+## Process comparison
+| Process | Constraint | Common simplification | Important limit |
+| --- | --- | --- | --- |
+| Isothermal | T fixed | Ideal gas ΔU=0,Q=W | Not the rule for a melting solid |
+| Adiabatic | Q=0 | ΔU=−W | T may rise,fall or stay unchanged |
+| Isochoric | V fixed | PV work=0 | Electrical/paddle work still possible |
+| Isobaric | P fixed | Balanced PV work=PΔV | Use Kelvin for V/T ratios |
+
+## Read the graph before calculating
+V is horizontal and P vertical. Rightward means expansion, upward means pressure increase. Vertical paths have no PV boundary work. Horizontal paths allow a rectangle. A simple closed-loop area gives net work, positive clockwise under the stated model. A curved isothermal path is not a rectangle; use supplied work or heat rather than an unauthorized curved-area calculation.
+
+## Separate stages from cycles
+A stage can change U. A complete cycle returns U to its initial value, so the signed sum of stage changes is zero and Q_net=W_net. Distinguish absorbed heat Q_H from net heat Q_H−Q_C. Efficiency uses absorbed heat in its denominator, not the net amount. Q_H and Q_C are positive magnitudes in the engine equations.
+
+## Check two different laws
+An energy ledger can balance while a proposed engine exceeds the Carnot bound. First check Q_H=W+Q_C. Then compare η=W/Q_H to1−T_C/T_H using Kelvin. Falling below the bound passes one necessary check but does not validate a real design. At finite positive reservoir temperatures the reversible bound is below100%.
+
+## Entropy and boundaries
+A local entropy decrease can coexist with an allowed positive total increase. Count all surroundings. A gas that completes a cycle returns its entropy to its initial value, but the environment can have positive entropy change. Repeating a cycle is not the same as reversing it without leaving effects elsewhere.
+
+## Independent review prompts
+1. Explain why a gas can warm without receiving heat.
+2. Explain why incoming heat does not always increase U.
+3. Compare isothermal and adiabatic work-producing expansion.
+4. State why Kelvin ratios and Celsius differences are different operations.
+5. Explain why two paths between the same states can do different work.
+6. Explain the sign of net work in a clockwise P–V rectangle.
+7. Distinguish actual engine efficiency, output power and the ideal efficiency bound.
+8. Explain how an energy-balanced machine can still violate the second law.
+
+## Ready for Unit 5
+Complete WS21–WS28 and correct sign, graph and assumption errors with the instructor. Unit5 connects these ideas to the historical contributions of scientists; this unit’s Carnot introduction supplies the physical meaning before the historical comparison.

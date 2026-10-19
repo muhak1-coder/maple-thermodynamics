@@ -1,0 +1,165 @@
+{
+  "id": "WS18",
+  "title": "Thermal Conductivity",
+  "visibility": "public-student",
+  "level": "All competition levels",
+  "unit_id": "U3",
+  "objectives": "Use the steady slab model; distinguish material conductivity from whole-object performance; convert area and thickness units; interpret conductivity data.",
+  "suggested_duration": "25–30 minutes",
+  "difficulty": "Beginner through application; final question is a challenge",
+  "total_points": 20,
+  "instructions": "Show the equation, substitution, arithmetic and units for numerical answers. Explain physical meaning. Use given constants. Retain intermediate digits and round final answers as requested; for unspecified precision, accept sensible rounding. Graphs and data are simulated educational models.",
+  "questions": [
+    {
+      "id": "WS18-Q01",
+      "assessment_id": "WS18",
+      "topic_ids": [
+        "TOP18"
+      ],
+      "prompt": "State the SI unit of thermal conductivity k and explain why k alone is not a heat-transfer rate.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS18-Q02",
+      "assessment_id": "WS18",
+      "topic_ids": [
+        "TOP18"
+      ],
+      "prompt": "Convert 250 cm² to m² and 8.0 mm to m.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS18-Q03",
+      "assessment_id": "WS18",
+      "topic_ids": [
+        "TOP18"
+      ],
+      "prompt": "With k,A and face-temperature difference fixed, how does doubling slab thickness affect the ideal steady rate?",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS18-Q04",
+      "assessment_id": "WS18",
+      "topic_ids": [
+        "TOP18"
+      ],
+      "prompt": "Two equal-geometry slabs have k=.20 and .050 W/(m·K) with the same face temperatures. Find the ratio of their rates, first to second.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS18-Q05",
+      "assessment_id": "WS18",
+      "topic_ids": [
+        "TOP18"
+      ],
+      "prompt": "A slab has k=.060 W/(m·K), area .40 m², thickness .030 m and face-temperature difference 20 K. Calculate steady conducting rate.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS18-Q06",
+      "assessment_id": "WS18",
+      "topic_ids": [
+        "TOP18"
+      ],
+      "prompt": "A steady test conducts 2.4 W through area .020 m² and thickness .010 m with a 15 K face difference. Determine k.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS18-Q07",
+      "assessment_id": "WS18",
+      "topic_ids": [
+        "TOP18"
+      ],
+      "prompt": "Use the WS 18 reference graph. Find its P-versus-ΔT slope. For A=.10 m² and L=.020 m, infer k.",
+      "question_type": "graph",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS18-Q08",
+      "assessment_id": "WS18",
+      "topic_ids": [
+        "TOP18"
+      ],
+      "prompt": "Challenge: Layer A has k=.040 W/(m·K), thickness .010 m; layer B has k=.060 W/(m·K), thickness .020 m. Compare separate slabs with equal area and equal fixed face differences. Which conducts less, and by what fraction relative to A?",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    }
+  ],
+  "reference_material": {
+    "description": "Ideal steady slab values at fixed geometry and uniform conductivity; negligible edge and contact losses.",
+    "figure_path": "../lessons/figures/U3-WS18.svg",
+    "figure_alt": "Rate rises3 W for each10 K of face difference.",
+    "columns": [
+      "face_difference_K",
+      "rate_W"
+    ],
+    "rows": [
+      [
+        0,
+        0
+      ],
+      [
+        10,
+        3
+      ],
+      [
+        20,
+        6
+      ],
+      [
+        30,
+        9
+      ],
+      [
+        40,
+        12
+      ]
+    ]
+  }
+}

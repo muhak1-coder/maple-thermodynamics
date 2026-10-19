@@ -1,0 +1,18 @@
+{
+  "id": "F14",
+  "title": "Average graph slope",
+  "visibility": "public-student",
+  "unit_id": "U2",
+  "topic_ids": [
+    "TOP09"
+  ],
+  "equation": "rate=(T_2−T_1)/(t_2−t_1)",
+  "variables_and_units": {
+    "T": "°C",
+    "t": "min",
+    "rate": "°C/min"
+  },
+  "use_case": "Read both axes; a cooling rate is negative under final-minus-initial convention.",
+  "mini_example": "(40−20) °C/(6−2) min=5 °C/min.",
+  "status": "complete"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "F01",
+  "title": "Celsius to Kelvin",
+  "visibility": "public-student",
+  "unit_id": "U1",
+  "topic_ids": [
+    "TOP05"
+  ],
+  "equation": "T_K=T_C+273.15",
+  "variables_and_units": {
+    "T_K": "K",
+    "T_C": "°C"
+  },
+  "use_case": "An absolute reading, not a temperature change.",
+  "mini_example": "20.0 °C → 293.15 K before rounding.",
+  "status": "complete"
+}

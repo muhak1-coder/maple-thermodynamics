@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "checks": [
+    "33 full chapters and all lesson images loaded under /maple-thermodynamics/",
+    "Lesson completion, bookmarks, mastery persistence, full-text search",
+    "All 368 prompts and response controls across 38 assessments; references load",
+    "Choice/numeric drafts persist; review flags, separate attempt, self-reported score and retry work; timer start/pause/reset",
+    "All 42 formulas and nine calculators render",
+    "All 21 PDF URLs return original PDF bytes",
+    "Real file export, reset and validated import restore progress",
+    "Malicious IDs and malformed imports rejected without storage changes; HTML-like response text remains inert before and after reload",
+    "390px mobile layout: seven page types without viewport overflow; menu and theme controls",
+    "Print stylesheet hides navigation",
+    "No uncaught JavaScript errors or failed HTTP responses"
+  ],
+  "errors": [],
+  "failed": []
+}

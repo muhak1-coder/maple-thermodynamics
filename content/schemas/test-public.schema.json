@@ -1,0 +1,192 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Maple public test schema 1.1.0",
+  "type": "object",
+  "required": [
+    "id",
+    "schema_version",
+    "visibility",
+    "release",
+    "question_count",
+    "total_points",
+    "reference_materials",
+    "questions"
+  ],
+  "properties": {
+    "id": {
+      "enum": [
+        "T01",
+        "T02",
+        "T03",
+        "T04"
+      ]
+    },
+    "schema_version": {
+      "const": "1.1.0"
+    },
+    "visibility": {
+      "const": "public-student"
+    },
+    "question_count": {
+      "const": 24
+    },
+    "total_points": {
+      "const": 60
+    },
+    "questions": {
+      "type": "array",
+      "minItems": 24,
+      "maxItems": 24,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "assessment_id",
+          "prompt",
+          "question_type",
+          "points",
+          "choices",
+          "rule_category",
+          "visibility",
+          "response_fields"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^T0[1-4]-Q(0[1-9]|1[0-9]|2[0-4])$"
+          },
+          "assessment_id": {
+            "enum": [
+              "T01",
+              "T02",
+              "T03",
+              "T04"
+            ]
+          },
+          "prompt": {
+            "type": "string",
+            "minLength": 10
+          },
+          "points": {
+            "enum": [
+              2,
+              3
+            ]
+          },
+          "visibility": {
+            "const": "public-student"
+          },
+          "state_national_only": {
+            "const": false
+          },
+          "rule_category": {
+            "enum": [
+              "5.c.i",
+              "5.c.ii",
+              "5.c.iii",
+              "5.c.iv",
+              "5.c.v"
+            ]
+          },
+          "choices": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "text"
+              ],
+              "properties": {
+                "id": {
+                  "enum": [
+                    "A",
+                    "B",
+                    "C",
+                    "D"
+                  ]
+                },
+                "text": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "response_fields": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "label",
+                "input_type",
+                "expected_unit"
+              ],
+              "properties": {
+                "input_type": {
+                  "const": "number"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "expected_unit": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "not": {
+          "anyOf": [
+            {
+              "required": [
+                "answer"
+              ]
+            },
+            {
+              "required": [
+                "solution_explanation"
+              ]
+            },
+            {
+              "required": [
+                "grading_spec"
+              ]
+            },
+            {
+              "required": [
+                "numeric_answer"
+              ]
+            },
+            {
+              "required": [
+                "correct_choice_id"
+              ]
+            },
+            {
+              "required": [
+                "rubric"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "reference_materials": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "description",
+          "columns",
+          "rows"
+        ]
+      }
+    }
+  }
+}

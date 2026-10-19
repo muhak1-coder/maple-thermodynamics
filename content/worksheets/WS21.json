@@ -1,0 +1,156 @@
+{
+  "id": "WS21",
+  "title": "Internal Energy, Heat, and Work",
+  "visibility": "public-student",
+  "level": "All competition levels",
+  "unit_id": "U4",
+  "objectives": "Distinguish stored internal energy from heat and work transfers; explain expansion/compression; calculate constant-pressure boundary work and interpret energy arrows.",
+  "suggested_duration": "25–30 minutes",
+  "difficulty": "Beginner through application; final question is a challenge",
+  "total_points": 20,
+  "instructions": "Use ΔU=Q−W: Q positive into the system and W positive by the system. Show the equation, signed substitution, arithmetic and units for numerical answers. Explain physical meaning. Use given constants. Retain intermediate digits and round final answers as requested; for unspecified precision, accept sensible rounding. Graphs and data are simulated educational models.",
+  "questions": [
+    {
+      "id": "WS21-Q01",
+      "assessment_id": "WS21",
+      "topic_ids": [
+        "TOP21"
+      ],
+      "prompt": "Classify U, Q and W as a stored state property or a transfer during a process. Explain why the phrase “stored work” is misleading.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS21-Q02",
+      "assessment_id": "WS21",
+      "topic_ids": [
+        "TOP21"
+      ],
+      "prompt": "A gas is compressed by an external piston. Is work BY the gas positive or negative in this unit? What sign describes work ON it?",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS21-Q03",
+      "assessment_id": "WS21",
+      "topic_ids": [
+        "TOP21"
+      ],
+      "prompt": "Which can occur in a rigid closed container? A. Pressure-volume boundary work from a moving wall. B. Energy input by an electrical interaction across the system boundary. Explain.",
+      "question_type": "multiple-choice",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [
+        "A. Moving-wall pressure-volume work",
+        "B. Electrical energy input across the boundary"
+      ],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS21-Q04",
+      "assessment_id": "WS21",
+      "topic_ids": [
+        "TOP21"
+      ],
+      "prompt": "Convert a 450 mL volume increase into liters. State the energy unit equivalent to kPa·L.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS21-Q05",
+      "assessment_id": "WS21",
+      "topic_ids": [
+        "TOP21"
+      ],
+      "prompt": "A gas expands from 1.5 L to 4.0 L against constant external pressure 80 kPa. Calculate signed work by the gas.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS21-Q06",
+      "assessment_id": "WS21",
+      "topic_ids": [
+        "TOP21"
+      ],
+      "prompt": "A gas is compressed from .0060 m³ to .0020 m³ against constant 125000 Pa. Calculate work BY the gas and the magnitude of work supplied ON it.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS21-Q07",
+      "assessment_id": "WS21",
+      "topic_ids": [
+        "TOP21"
+      ],
+      "prompt": "Use the WS 21 piston diagram. Label the work arrow during expansion and compression as entering or leaving the gas. Explain why these arrows are not heat arrows.",
+      "question_type": "diagram",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS21-Q08",
+      "assessment_id": "WS21",
+      "topic_ids": [
+        "TOP21"
+      ],
+      "prompt": "Challenge: An ideal gas freely expands into vacuum inside an insulated rigid enclosure. Its occupied volume increases. Is W=P_extΔV positive? Determine W and Q, and explain why the volume change alone is insufficient.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    }
+  ],
+  "reference_material": {
+    "description": "Schematic expansion/compression against a load. Arrows indicate piston motion; identify the corresponding mechanical energy-transfer direction for the gas. Not a scale drawing.",
+    "figure_path": "../lessons/figures/U4-C01.svg",
+    "figure_alt": "Gas pushes piston outward in expansion; surroundings push inward in compression.",
+    "columns": [
+      "panel",
+      "motion"
+    ],
+    "rows": [
+      [
+        "expansion",
+        "outward"
+      ],
+      [
+        "compression",
+        "inward"
+      ]
+    ]
+  }
+}

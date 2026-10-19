@@ -1,0 +1,138 @@
+{
+  "id": "WS01",
+  "title": "Heat, temperature, thermal energy",
+  "visibility": "public-student",
+  "level": "All competition levels",
+  "objectives": "Distinguish temperature, internal energy and heat; predict the direction of spontaneous heat transfer; explain why sample size matters.",
+  "suggested_duration": "20–25 minutes",
+  "difficulty": "Beginner through application; final question is a challenge",
+  "total_points": 20,
+  "instructions": "Show reasoning and units. Use a calculator when useful. For conversions use 273.15 and 4.184 J/cal. Numeric checking alone cannot award reasoning points.",
+  "questions": [
+    {
+      "id": "WS01-Q01",
+      "assessment_id": "WS01",
+      "topic_ids": [
+        "TOP01"
+      ],
+      "prompt": "Which statement best defines heat? A. The temperature of an object. B. Energy transferred because of a temperature difference. C. The number of particles. D. Energy permanently stored as a substance.",
+      "question_type": "multiple-choice",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [
+        "A. Temperature",
+        "B. Energy transfer due to temperature difference",
+        "C. Particle number",
+        "D. Stored substance"
+      ],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS01-Q02",
+      "assessment_id": "WS01",
+      "topic_ids": [
+        "TOP01"
+      ],
+      "prompt": "A 42 °C block touches a 17 °C block. State the initial direction of net heat transfer and its cause.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS01-Q03",
+      "assessment_id": "WS01",
+      "topic_ids": [
+        "TOP01"
+      ],
+      "prompt": "A 40 g water sample and a 400 g water sample are both at 22 °C. Compare their temperatures and their total internal energies under the same phase and conditions.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS01-Q04",
+      "assessment_id": "WS01",
+      "topic_ids": [
+        "TOP01"
+      ],
+      "prompt": "Rewrite this sentence: “The cup contains heat, measured in degrees Celsius.”",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS01-Q05",
+      "assessment_id": "WS01",
+      "topic_ids": [
+        "TOP01"
+      ],
+      "prompt": "No work occurs. A sample receives 460 J and transfers 125 J out. Find its net internal-energy change. Show the subtraction.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS01-Q06",
+      "assessment_id": "WS01",
+      "topic_ids": [
+        "TOP01"
+      ],
+      "prompt": "A student says a 90 °C drop must have more total internal energy than a large 40 °C bucket of the same water. Explain why the stated temperatures do not prove the claim.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS01-Q07",
+      "assessment_id": "WS01",
+      "topic_ids": [
+        "TOP01"
+      ],
+      "prompt": "Draw two objects, each at 25 °C, in thermal contact. Label the net heat transfer and state whether their particles have stopped moving.",
+      "question_type": "diagram",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS01-Q08",
+      "assessment_id": "WS01",
+      "topic_ids": [
+        "TOP01"
+      ],
+      "prompt": "Challenge: A metal piece loses 240 J while water gains 205 J. No work occurs. How much energy goes to other surroundings? Explain why this need not violate conservation.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    }
+  ]
+}

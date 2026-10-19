@@ -1,0 +1,17 @@
+{
+  "id": "F33",
+  "title": "Isochoric gas ratio",
+  "visibility": "public-student",
+  "unit_id": "U4",
+  "topic_ids": [
+    "TOP25"
+  ],
+  "equation": "P_f=P_iT_f/T_i",
+  "variables_and_units": {
+    "P": "absolute pressure",
+    "T": "K"
+  },
+  "use_case": "Fixed amount of ideal gas and fixed volume.",
+  "mini_example": "100 kPa×330 K/300 K=110 kPa.",
+  "status": "complete"
+}

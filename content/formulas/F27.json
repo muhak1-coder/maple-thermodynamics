@@ -1,0 +1,17 @@
+{
+  "id": "F27",
+  "title": "Area and thickness conversions",
+  "visibility": "public-student",
+  "unit_id": "U3",
+  "topic_ids": [
+    "TOP18"
+  ],
+  "equation": "1 cm²=0.0001 m²; 1 mm=0.001 m",
+  "variables_and_units": {
+    "A": "m²",
+    "L": "m"
+  },
+  "use_case": "Square the length conversion when converting area.",
+  "mini_example": "300 cm²=.0300 m²;6 mm=.006 m.",
+  "status": "complete"
+}

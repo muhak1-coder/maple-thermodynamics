@@ -1,0 +1,17 @@
+{
+  "id": "F22",
+  "title": "Radiation partition",
+  "visibility": "public-student",
+  "unit_id": "U3",
+  "topic_ids": [
+    "TOP16"
+  ],
+  "equation": "α+ρ+τ=1; P_abs=αP_inc",
+  "variables_and_units": {
+    "α,ρ,τ": "dimensionless fractions",
+    "P_abs,P_inc": "W"
+  },
+  "use_case": "Fractions refer to the specified incident radiation. Here ρ is reflectivity, not density.",
+  "mini_example": "α=.7 and P_inc=10 W give P_abs=7 W.",
+  "status": "complete"
+}

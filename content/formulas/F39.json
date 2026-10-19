@@ -1,0 +1,18 @@
+{
+  "id": "F39",
+  "title": "Triangular cycle area",
+  "visibility": "public-student",
+  "unit_id": "U4",
+  "topic_ids": [
+    "TOP26"
+  ],
+  "equation": "|W_net|=base×height/2",
+  "variables_and_units": {
+    "base": "L",
+    "height": "kPa",
+    "W_net": "J/cycle"
+  },
+  "use_case": "Simple triangular PV loop with perpendicular pressure height and volume base; sign from arrows.",
+  "mini_example": "2 L×100 kPa/2=100 J magnitude.",
+  "status": "complete"
+}

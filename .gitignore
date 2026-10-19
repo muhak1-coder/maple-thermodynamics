@@ -1,0 +1,10 @@
+node_modules/
+dist/
+test-results/
+*.zip
+.env*
+private-instructor/
+**/*-key.*
+**/*Answer_Keys*
+**/student-records/
+reports/progress-test-export.json

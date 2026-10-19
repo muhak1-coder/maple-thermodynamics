@@ -1,0 +1,134 @@
+{
+  "id": "WS10",
+  "title": "Sensible heat",
+  "visibility": "public-student",
+  "level": "All competition levels",
+  "unit_id": "U2",
+  "objectives": "Choose and rearrange Q=mcΔT for a single phase; keep units and signs consistent; separate heat received by water from energy supplied to a whole setup.",
+  "suggested_duration": "25–30 minutes",
+  "difficulty": "Beginner through application; final question is a challenge",
+  "total_points": 20,
+  "instructions": "Show the equation, substitution, arithmetic and units for numerical answers. Explain physical meaning. Use given constants. Retain intermediate digits and round final answers as requested; for unspecified precision, accept sensible rounding. Graphs and data are simulated educational models.",
+  "questions": [
+    {
+      "id": "WS10-Q01",
+      "assessment_id": "WS10",
+      "topic_ids": [
+        "TOP10"
+      ],
+      "prompt": "What does c represent in Q=mcΔT? Give one consistent unit for c.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS10-Q02",
+      "assessment_id": "WS10",
+      "topic_ids": [
+        "TOP10"
+      ],
+      "prompt": "A sample warms from 12.0 °C to 29.0 °C. Find ΔT and the sign of Q in the single-phase heating model.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS10-Q03",
+      "assessment_id": "WS10",
+      "topic_ids": [
+        "TOP10"
+      ],
+      "prompt": "Which requires more heat for the same rise: 50 g or 150 g of the same liquid, with the same c? Give the ratio.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS10-Q04",
+      "assessment_id": "WS10",
+      "topic_ids": [
+        "TOP10"
+      ],
+      "prompt": "A problem gives m=0.200 kg and c=4.18 J/(g·°C). What mass should be used with that c?",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS10-Q05",
+      "assessment_id": "WS10",
+      "topic_ids": [
+        "TOP10"
+      ],
+      "prompt": "Calculate heat needed to warm 120 g water from 20.0 °C to 35.0 °C. Use c=4.18 J/(g·°C); ignore container effects and losses. Give three significant figures.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS10-Q06",
+      "assessment_id": "WS10",
+      "topic_ids": [
+        "TOP10"
+      ],
+      "prompt": "A 50.0 g metal sample with c=0.450 J/(g·°C) cools from 80.0 °C to 30.0 °C. Give signed Q and the amount released.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS10-Q07",
+      "assessment_id": "WS10",
+      "topic_ids": [
+        "TOP10"
+      ],
+      "prompt": "An 80.0 g water sample starts at 18.0 °C and receives 1672 J. Use c=4.18 J/(g·°C). Find final temperature under the single-phase model.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS10-Q08",
+      "assessment_id": "WS10",
+      "topic_ids": [
+        "TOP10"
+      ],
+      "prompt": "Challenge: A device source supplies 12.0 kJ during an illustrative trial. The 100 g water warms by 8.0 °C, with c=4.18 J/(g·°C). Find the modeled heat gained by the water and the percentage of source energy this represents. Explain why the remainder need not violate conservation.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    }
+  ]
+}

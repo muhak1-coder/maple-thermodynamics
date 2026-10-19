@@ -1,0 +1,19 @@
+{
+  "id": "F28",
+  "title": "Combined temperature prediction",
+  "visibility": "public-student",
+  "unit_id": "U3",
+  "topic_ids": [
+    "TOP20"
+  ],
+  "equation": "T_f=T_i+(P_in−P_out)Δt/C_total",
+  "variables_and_units": {
+    "P_in,P_out": "W",
+    "Δt": "s",
+    "C_total": "J/K",
+    "T_i,T_f": "°C"
+  },
+  "use_case": "Rates constant or interval-averaged; distinct boundary paths and same-temperature parts; no phase change.",
+  "mini_example": "20 °C+(10−4) W×100 s/(300 J/K)=22 °C.",
+  "status": "complete"
+}

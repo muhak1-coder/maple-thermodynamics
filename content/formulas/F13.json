@@ -1,0 +1,18 @@
+{
+  "id": "F13",
+  "title": "Energy at constant net input",
+  "visibility": "public-student",
+  "unit_id": "U2",
+  "topic_ids": [
+    "TOP09"
+  ],
+  "equation": "Q=P_netΔt",
+  "variables_and_units": {
+    "Q": "J",
+    "P_net": "W=J/s",
+    "Δt": "s"
+  },
+  "use_case": "P_net is the stated transfer into the sample, not automatically a lamp’s electrical rating.",
+  "mini_example": "50 W×120 s=6000 J.",
+  "status": "complete"
+}

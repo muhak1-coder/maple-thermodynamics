@@ -1,0 +1,17 @@
+{
+  "id": "F04",
+  "title": "Fahrenheit to Celsius",
+  "visibility": "public-student",
+  "unit_id": "U1",
+  "topic_ids": [
+    "TOP05"
+  ],
+  "equation": "T_C=(T_F−32)×5/9",
+  "variables_and_units": {
+    "T_F": "°F",
+    "T_C": "°C"
+  },
+  "use_case": "Subtract the offset before rescaling.",
+  "mini_example": "59 °F → 15 °C.",
+  "status": "complete"
+}

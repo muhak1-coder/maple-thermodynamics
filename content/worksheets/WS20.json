@@ -1,0 +1,169 @@
+{
+  "id": "WS20",
+  "title": "Combined Heat Transfer and Experimental Reasoning",
+  "visibility": "public-student",
+  "level": "All competition levels",
+  "unit_id": "U3",
+  "objectives": "Combine energy paths with heat capacity; read interval slopes; evaluate controls, uncertainty and device-model limits; justify competition-style predictions.",
+  "suggested_duration": "25–30 minutes",
+  "difficulty": "Beginner through application; final question is a challenge",
+  "total_points": 20,
+  "instructions": "Show the equation, substitution, arithmetic and units for numerical answers. Explain physical meaning. Use given constants. Retain intermediate digits and round final answers as requested; for unspecified precision, accept sensible rounding. Graphs and data are simulated educational models.",
+  "questions": [
+    {
+      "id": "WS20-Q01",
+      "assessment_id": "WS20",
+      "topic_ids": [
+        "TOP20"
+      ],
+      "prompt": "A cup-and-water system has absorbed input 10 W and total separate losses 6 W. State net power and whether its temperature rises in a no-phase-change, negligible-work model.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS20-Q02",
+      "assessment_id": "WS20",
+      "topic_ids": [
+        "TOP20"
+      ],
+      "prompt": "Why is a lamp’s electrical wattage insufficient to calculate the water temperature rise? Name two missing quantities or processes.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS20-Q03",
+      "assessment_id": "WS20",
+      "topic_ids": [
+        "TOP20"
+      ],
+      "prompt": "A model water-and-cup system has capacity 500 J/K and receives net 2000 J. Find ΔT and final temperature from 21 °C.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS20-Q04",
+      "assessment_id": "WS20",
+      "topic_ids": [
+        "TOP20"
+      ],
+      "prompt": "Name two controls for comparing surface treatments using water temperature gain, and explain why final temperature alone can be misleading.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS20-Q05",
+      "assessment_id": "WS20",
+      "topic_ids": [
+        "TOP20"
+      ],
+      "prompt": "100 g water (c=4.18 J/(g·°C)) and a cup(C=32 J/K) share a temperature. Absorbed input is 14 W; separate losses are 3 W and 2 W. Constant rates act for 250 s from 20 °C. Find final temperature.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS20-Q06",
+      "assessment_id": "WS20",
+      "topic_ids": [
+        "TOP20"
+      ],
+      "prompt": "Use the WS 20 simulated curve for C=500 J/K. Calculate average net powers for 0–100 s and 100–200 s. If absorbed input stays 20 W, infer average total losses in each interval.",
+      "question_type": "graph",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS20-Q07",
+      "assessment_id": "WS20",
+      "topic_ids": [
+        "TOP20"
+      ],
+      "prompt": "Trials A and B show gains 3.0 °C and 3.2 °C. Each initial and final reading has a stated possible error±.1 °C. Give worst-case gain ranges and assess whether the bounds prove B is better.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS20-Q08",
+      "assessment_id": "WS20",
+      "topic_ids": [
+        "TOP20"
+      ],
+      "prompt": "Challenge: The WS 20 system levels at 27 °C from 400–500 s while still absorbing 20 W. Explain its net power and loss rate. Why is a prediction made by extending the first 100 s slope to 500 s unjustified?",
+      "question_type": "data-analysis",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    }
+  ],
+  "reference_material": {
+    "description": "Simulated common-temperature cup-and-water system with C=500 J/K, no phase change and negligible work. Absorbed input stays20 W. Use interval averages; these are not actual device measurements.",
+    "figure_path": "../lessons/figures/U3-WS20.svg",
+    "figure_alt": "Temperatures20,23,25,26.5,27,27 °C at0,100,200,300,400,500 s.",
+    "columns": [
+      "time_s",
+      "temperature_C"
+    ],
+    "rows": [
+      [
+        0,
+        20
+      ],
+      [
+        100,
+        23
+      ],
+      [
+        200,
+        25
+      ],
+      [
+        300,
+        26.5
+      ],
+      [
+        400,
+        27
+      ],
+      [
+        500,
+        27
+      ]
+    ]
+  }
+}

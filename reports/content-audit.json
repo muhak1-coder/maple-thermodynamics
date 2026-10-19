@@ -1,0 +1,1360 @@
+{
+  "chapters": 33,
+  "worksheets": 33,
+  "tests": 4,
+  "diagnostics": 1,
+  "questions": 368,
+  "formulas": 42,
+  "pdfs": 21,
+  "validatedLinks": 92,
+  "files": [
+    {
+      "path": "content_manifest.json",
+      "sha256": "dfc14b3b31ce8a8f3de7aee335daf1dbc504cf2553f98a50fe205da05f1f9ea4"
+    },
+    {
+      "path": "release_index.json",
+      "sha256": "827f1fc9ed6f4c80727dd34c935a140a11a717bf75ca90c1b610288059bf3be9"
+    },
+    {
+      "path": "diagnostics/D01.json",
+      "sha256": "bfbc772e02fdd3de9b08b837880cb5a11e61d0e83d4564da52b8c1a510a6b128"
+    },
+    {
+      "path": "diagnostics/D01.md",
+      "sha256": "2439df5b85257819df58829376293a5046094492b0a4518ad638ca5840aac0c5"
+    },
+    {
+      "path": "downloads/MAPLE_All_Tests.json",
+      "sha256": "f303eb5e86a3485be571c31376649a3d5e1467ab680532527b920f9122c59c63"
+    },
+    {
+      "path": "downloads/MAPLE_All_Tests.md",
+      "sha256": "01d3a1052353dccd54c0afa359278502d7d9fe2e59ff1aa00dc9bee40997afb0"
+    },
+    {
+      "path": "downloads/MAPLE_All_Tests.pdf",
+      "sha256": "db8058f750381d23fcdb0e7d40ac679637d2751e21673c3d0910048587395863"
+    },
+    {
+      "path": "downloads/MAPLE_Phase_A_Blueprint.md",
+      "sha256": "55ee1652cfe0e24b0e0c968fedec77c815755bb4f20f6cca612f28a73f2ce6bb"
+    },
+    {
+      "path": "downloads/MAPLE_Phase_A_Blueprint.pdf",
+      "sha256": "5638c8babe3abccb8db044c1204d1126ed440bfd72cc28c3908420d9c17e7e98"
+    },
+    {
+      "path": "downloads/MAPLE_Test_1.json",
+      "sha256": "65d5cd09de0cfc3ea70c2e0b169e3a33379c550ba2489ada46573ddf3217379a"
+    },
+    {
+      "path": "downloads/MAPLE_Test_1.md",
+      "sha256": "34980acdf1843125e218461a7ea3b02dc7274330db3ea45e8d8261a40751fc28"
+    },
+    {
+      "path": "downloads/MAPLE_Test_1.pdf",
+      "sha256": "ae09191978fd2b99308f2eac87547623a15418d645a46a367e79af9a3ccb9426"
+    },
+    {
+      "path": "downloads/MAPLE_Test_2.json",
+      "sha256": "9ee00098a239532390964b17754d78ae7e91f4452156403af14d4bb24858f578"
+    },
+    {
+      "path": "downloads/MAPLE_Test_2.md",
+      "sha256": "0cf546eb931c2bb296ad6eb2f29eb8078e4761bf284fefc463e496f36e227c35"
+    },
+    {
+      "path": "downloads/MAPLE_Test_2.pdf",
+      "sha256": "a2543e938cfa72d21886ab7a835817e7520f750f1458531ae380544f8ef55bd3"
+    },
+    {
+      "path": "downloads/MAPLE_Test_3.json",
+      "sha256": "61e6c24bfc80d95f047c310831aeff5d7619026a33a7fab03fedfa8e9a8959e7"
+    },
+    {
+      "path": "downloads/MAPLE_Test_3.md",
+      "sha256": "1a50c6d3ce14387ba6e4da770407daf21db7c0e67c61cee2daa957a22729be0f"
+    },
+    {
+      "path": "downloads/MAPLE_Test_3.pdf",
+      "sha256": "0dfbd67a87fdbf74b2d21f1d9988d9e211dffd54a190e03adbb80620fce35885"
+    },
+    {
+      "path": "downloads/MAPLE_Test_4.json",
+      "sha256": "28dc479099d20f228aa2ffd93a59c5a1599f2c3d6c1673225dd2b4c9d9bd7db9"
+    },
+    {
+      "path": "downloads/MAPLE_Test_4.md",
+      "sha256": "ee69f423d4a52ad707947865c065c7762cbcb7d2a5a4070a8e57267b3a4c01d4"
+    },
+    {
+      "path": "downloads/MAPLE_Test_4.pdf",
+      "sha256": "9d5b58f9efac2d0506bade88f43a29ed196092fd0e2d1a91bfb501c039d1b381"
+    },
+    {
+      "path": "downloads/MAPLE_Unit_1_Practice.pdf",
+      "sha256": "2a194e626182fc7564c4c034c03c9e2dd98a8705fc9489991bb828f57e812553"
+    },
+    {
+      "path": "downloads/MAPLE_Unit_1_Workbook.pdf",
+      "sha256": "20da58923956a654223aeffd840936531e6579e57ea054ff40a0dd8233124004"
+    },
+    {
+      "path": "downloads/MAPLE_Unit_2_Practice.pdf",
+      "sha256": "543b84ef6918f787dbd2696246d57a5968db820cc7938de1ac26249255d39553"
+    },
+    {
+      "path": "downloads/MAPLE_Unit_2_Workbook.pdf",
+      "sha256": "3686ac30ca72658c5feb7685cb84af48f4784f5fdcf86eb3ae7f4af26d30e411"
+    },
+    {
+      "path": "downloads/MAPLE_Unit_3_Practice.json",
+      "sha256": "2edd3f41cd41de2ce5318108ac9d592e4abb696c24e45eb57bd67a215cd6588f"
+    },
+    {
+      "path": "downloads/MAPLE_Unit_3_Practice.md",
+      "sha256": "e2f4fd96011354a75d0fd7811dd6b9a6bdd2ddbeff337d46d84b919f0e33505d"
+    },
+    {
+      "path": "downloads/MAPLE_Unit_3_Practice.pdf",
+      "sha256": "662506e421fca3ef546f2e783221fc4930676c7081ce7660c8402000a24b6584"
+    },
+    {
+      "path": "downloads/MAPLE_Unit_3_Workbook.json",
+      "sha256": "e15dabfd69107c46f947e15c9d516d1927093e44bd7e8f734428e25b04221c16"
+    },
+    {
+      "path": "downloads/MAPLE_Unit_3_Workbook.md",
+      "sha256": "e2b75b5e1ddf7e9cf1407ca78b5b4f2e2c285edbd1e6dceaed00a0f27e280a49"
+    },
+    {
+      "path": "downloads/MAPLE_Unit_3_Workbook.pdf",
+      "sha256": "6dd52d1e8d3a66567ba417eeedecc13f1b3b125606bb04a2b6f67f6d5d5ebe32"
+    },
+    {
+      "path": "downloads/MAPLE_Unit_4_Practice.json",
+      "sha256": "e6d7650af5f8fc5c7afa5a446ad7035ea4d97714c690e322453bdc971e14b00d"
+    },
+    {
+      "path": "downloads/MAPLE_Unit_4_Practice.md",
+      "sha256": "4234d76ecf84477e53909d98c6e59b56bd9b12071a7ac59f78ab941cef313363"
+    },
+    {
+      "path": "downloads/MAPLE_Unit_4_Practice.pdf",
+      "sha256": "17502d75f7ed55031534359c48eca8c45b4a0788779ce1cbeaadd63ce8b57585"
+    },
+    {
+      "path": "downloads/MAPLE_Unit_4_Workbook.json",
+      "sha256": "43b86b54675acec04339670d062918cd879a8863a27af72c3a534950835a8183"
+    },
+    {
+      "path": "downloads/MAPLE_Unit_4_Workbook.md",
+      "sha256": "0432ba29a066ad793226743f9da20acfad78a0c400b3334a4323a6b3da9eabe3"
+    },
+    {
+      "path": "downloads/MAPLE_Unit_4_Workbook.pdf",
+      "sha256": "73484adebd47b6ddf9cb0e9b158de6c3cc32cca1411941ae8d7d0a91ed710354"
+    },
+    {
+      "path": "downloads/MAPLE_Unit_5_Common_Confusions.pdf",
+      "sha256": "a97a204ed8c3a44a578f6cec7cd934fb28bf6e8886b0b606f04ebae04f4ab8a9"
+    },
+    {
+      "path": "downloads/MAPLE_Unit_5_Discoveries_and_Equations.pdf",
+      "sha256": "49c2584b99cbe0ba80b2e5a18f47c1e8a4f32a0ffa438e073a76eebe385ef2b0"
+    },
+    {
+      "path": "downloads/MAPLE_Unit_5_Historical_Connections.pdf",
+      "sha256": "a5365f1e5ed10976ebbcec2d6a80266487d61a2d927ab99244396625ba89c6a5"
+    },
+    {
+      "path": "downloads/MAPLE_Unit_5_Historical_Timeline.pdf",
+      "sha256": "6a367f95b1ead8fad177b2fab9e1e69ecef756fe5945c7fd7b9cfdbb9cd1e041"
+    },
+    {
+      "path": "downloads/MAPLE_Unit_5_Practice.json",
+      "sha256": "73748f85ef2b7aa11f697804ad80ce0dc8678fb511e0656b4888714554fcfd9e"
+    },
+    {
+      "path": "downloads/MAPLE_Unit_5_Practice.md",
+      "sha256": "057afbcf82b1d81686c5971d85804b06008b0597cd66c3c06a623032ae3efe3f"
+    },
+    {
+      "path": "downloads/MAPLE_Unit_5_Practice.pdf",
+      "sha256": "8be95959d49e7b3819ca0dbe83f56060e24c3f88252b18542fd0c20c4fe7b7dc"
+    },
+    {
+      "path": "downloads/MAPLE_Unit_5_Scientist_Comparison.pdf",
+      "sha256": "58ddf6e4432ba13b0fa777e4d1787f3f07b8a2d86bbbd1f4d1bff3284793433b"
+    },
+    {
+      "path": "downloads/MAPLE_Unit_5_Workbook.json",
+      "sha256": "10d35b2958a1e71db3760c7fe5e4a2670a39c90747ca751da9daa4e21194b6e9"
+    },
+    {
+      "path": "downloads/MAPLE_Unit_5_Workbook.md",
+      "sha256": "54e6d2acdda8e5649c9c0c71a6f8656c9119dd3ceaf822a5390317101caa44cc"
+    },
+    {
+      "path": "downloads/MAPLE_Unit_5_Workbook.pdf",
+      "sha256": "2b2946e59f2fd535cfada1d1aba3cd489661af31fc916b3cb441b792a9c08a2f"
+    },
+    {
+      "path": "formulas/F01.json",
+      "sha256": "4f898df8b59961a1ee063354429ed931c651f66c1d3e23e7cc677fc7ab9bc0f7"
+    },
+    {
+      "path": "formulas/F02.json",
+      "sha256": "45ad5ae314075ecbd6cf3745f905d84c31994e67f2908ef6d574b26a76f7fcf6"
+    },
+    {
+      "path": "formulas/F03.json",
+      "sha256": "24e80e6803d3b6ce3a6204f1abb21681d0fd774caf7391d8f333bd0f29a54385"
+    },
+    {
+      "path": "formulas/F04.json",
+      "sha256": "a475383469e10bd944f2fe5034a0fe07a215128e2f7eb3c0af48481a29780b1d"
+    },
+    {
+      "path": "formulas/F05.json",
+      "sha256": "3f5fe16743e8d7688ef220e95b9a1c3e1635636d62931e926505bddab7929440"
+    },
+    {
+      "path": "formulas/F06.json",
+      "sha256": "86957cdce30a759fbdf4e8709091c967b613f74ffcc76a4b9e27740f960e7b06"
+    },
+    {
+      "path": "formulas/F07.json",
+      "sha256": "fb4b765c23c679d7667d27099f0b303646961aeec9eb122b87eb2f64f8947ca5"
+    },
+    {
+      "path": "formulas/F08.json",
+      "sha256": "eb2c236a1b8b11f66a94b39d3df5d6fac576ecc8d1e9bb00962fc9c03944a524"
+    },
+    {
+      "path": "formulas/F09.json",
+      "sha256": "0e5179731f41c8233f6bf9bf5b412f2aa42b209113003fd532ead55e169817cc"
+    },
+    {
+      "path": "formulas/F10.json",
+      "sha256": "04d1a767245682a0e0b92363ffe126bd848044fee46f33bb1e413fcd43f1426e"
+    },
+    {
+      "path": "formulas/F11.json",
+      "sha256": "bb18d62df479f1d6fcd76ad4e684742f6f61e17d551464e62fcbf12fdb97f6ed"
+    },
+    {
+      "path": "formulas/F12.json",
+      "sha256": "051d8dcae56de39825b0b7a7fe374eec12d2bedf4b1c65f7760a393201898556"
+    },
+    {
+      "path": "formulas/F13.json",
+      "sha256": "1aaaa1842783ce4853074e3c39df37851fd4cd325ad18d8b055d7e5a10f4738e"
+    },
+    {
+      "path": "formulas/F14.json",
+      "sha256": "140c27af3a172a9874ce9a8898eaa924c77e7e8a6a25b8b1575dc8b9815c5f21"
+    },
+    {
+      "path": "formulas/F15.json",
+      "sha256": "8ac3faaa79362f0ecdc1e2f2fe32deff5b060cd8cb0a9527f9714b683f0f34a2"
+    },
+    {
+      "path": "formulas/F16.json",
+      "sha256": "c96c65f3c707fc1c5c2495e72276c30fdcd0f8010e0b0110a4dee4cb81d63454"
+    },
+    {
+      "path": "formulas/F17.json",
+      "sha256": "05e9a3083ab7b027e9128b3b017b0c8fa4fc927983a225557bdcc9e2d16e5d2d"
+    },
+    {
+      "path": "formulas/F18.json",
+      "sha256": "904cf49e600ace822f4781ae4d9ece05837de04eebcff76a5728c27198f4cfbd"
+    },
+    {
+      "path": "formulas/F19.json",
+      "sha256": "cce157036fd43162d7fb4ab50c9efd61e05ea54efa5205d52157fd3fe977a911"
+    },
+    {
+      "path": "formulas/F20.json",
+      "sha256": "dae4a46e7c85c0cda9460dea7cb06384d25c4252e71fb868d5efc4a42bc1b7c5"
+    },
+    {
+      "path": "formulas/F21.json",
+      "sha256": "6d12aed904c46226cb1c6f5e6aae97ef13fd49d7c77934e0b0b95a8979e4eb71"
+    },
+    {
+      "path": "formulas/F22.json",
+      "sha256": "ed6eb297a872de380fa97bab1b33ce25f76c62c087729c8cceec1792ff416bcb"
+    },
+    {
+      "path": "formulas/F23.json",
+      "sha256": "7c7f2b944b9a21c034c7739ef274f89018156eaeb01c98fb8fc2701e9f1b2787"
+    },
+    {
+      "path": "formulas/F24.json",
+      "sha256": "c3a1779ebd67e6e5604345159687bb4243d0d555ee6ed82158786d29a81a5c35"
+    },
+    {
+      "path": "formulas/F25.json",
+      "sha256": "f5b89bc90041912895fdc1f669a3e309152f6a6eb41b384dbcae009b74d7aee6"
+    },
+    {
+      "path": "formulas/F26.json",
+      "sha256": "c9d53678888bf5d6e0821b22e0732270b41329a692473c56d4ad2e04d2ce2bae"
+    },
+    {
+      "path": "formulas/F27.json",
+      "sha256": "759fd4291bfe303d05255c9e0283b135b99c90d1d11bc51a041fbc56e235ea7e"
+    },
+    {
+      "path": "formulas/F28.json",
+      "sha256": "6f3b981d4b7333b19e4e12d57d3d78ae524e2677587d9f2613b56a666c8f9f07"
+    },
+    {
+      "path": "formulas/F29.json",
+      "sha256": "945e1744a7cad0a44a064f19cdb2619c53dcf000abde710e3539b7bc91bc6c68"
+    },
+    {
+      "path": "formulas/F30.json",
+      "sha256": "814ddb8aea3714334d6c4ae76979aca6d7de879e986e4b89a82cf7d20f1d5599"
+    },
+    {
+      "path": "formulas/F31.json",
+      "sha256": "80979ff3f3320df2151a69b7e72982d0279970fd65e5ee354fa823950af50886"
+    },
+    {
+      "path": "formulas/F32.json",
+      "sha256": "1e0fe1aaddef0b9571173a2ca7d8515a7b5964551ab4e79d12dde5ee1749db67"
+    },
+    {
+      "path": "formulas/F33.json",
+      "sha256": "afe04366886cc6ec61564070a41da57409085c8803ce84422580b934bfff9a33"
+    },
+    {
+      "path": "formulas/F34.json",
+      "sha256": "57c07a6daa16d1cc5e5c47fe934146564ff7634b802b956e5526de9cdbc9e67a"
+    },
+    {
+      "path": "formulas/F35.json",
+      "sha256": "04ca699d3e562653b8744952b88c355259449213dac32fa1d44cc064ba8ae9fd"
+    },
+    {
+      "path": "formulas/F36.json",
+      "sha256": "51da7108c459cc4c40e7e2a644f2aa87f19a9ee1d0285bfa6c85c2c875616cd3"
+    },
+    {
+      "path": "formulas/F37.json",
+      "sha256": "a05749420f2400e84bd569a7526edee6b377b5f677f826b693188cea714c6ce0"
+    },
+    {
+      "path": "formulas/F38.json",
+      "sha256": "55822c2e86597d99de05a06253209a796bd4c00c760494538bdf7449feb86893"
+    },
+    {
+      "path": "formulas/F39.json",
+      "sha256": "f8873189c3b25106ca82e64cf2f0702cef15040b7fe66d6cd32fc483e779d666"
+    },
+    {
+      "path": "formulas/F40.json",
+      "sha256": "a158bae81ed9821a100e6af4d1d0533d92763b753df5c32a620fe3d7df763ee8"
+    },
+    {
+      "path": "formulas/F41.json",
+      "sha256": "73be0e09cf66fab026ce93be9cde0d67f47f7238eeb563751010ff8248592949"
+    },
+    {
+      "path": "formulas/F42.json",
+      "sha256": "6d9e9577a23478cfb1edc3b6523baecca0d33dd96fd9dcfc92138702de7f895d"
+    },
+    {
+      "path": "formulas/U1-formula-packet.md",
+      "sha256": "9aea1247598b0ae17de53cc112be1a1154aee367ab642aa152ba0cb42bcfb905"
+    },
+    {
+      "path": "formulas/U2-formula-packet.md",
+      "sha256": "784be1f45437e5cc5544abfeab85256c43c2509fd50e24b8f6858c430f7278fe"
+    },
+    {
+      "path": "formulas/U3-formula-packet.md",
+      "sha256": "def57866667e61903cfe086aa359699367ebcc09eddde154f4cf9d8f8b1d89e0"
+    },
+    {
+      "path": "formulas/U4-formula-packet.md",
+      "sha256": "815e11348935f3cb30e21e75e2746f67a38bc7b015357abeabed5d49421168d4"
+    },
+    {
+      "path": "lessons/U1-C01.md",
+      "sha256": "99fe9ad9e8eb528f44864b094b9cc51894db87b555bdcb197a17ab152f78226b"
+    },
+    {
+      "path": "lessons/U1-C02.md",
+      "sha256": "21c39257d472dc48cc374371a00ea482099bf1bf2b79f8f08974fa718e939e11"
+    },
+    {
+      "path": "lessons/U1-C03.md",
+      "sha256": "e110ddc917efaa681fdc99530c45772d448c72856a9b66bab16cb89ecf706e2a"
+    },
+    {
+      "path": "lessons/U1-C04.md",
+      "sha256": "54c49dd4df77b115c27130743af1a3ccbcc62bc692fc1a34f28ef69a64a6b58d"
+    },
+    {
+      "path": "lessons/U1-C05.md",
+      "sha256": "d6c67282c4acc974b733d024a8db75cab83530a41065453bf9b8ee3bffd5f9cc"
+    },
+    {
+      "path": "lessons/U1-C06.md",
+      "sha256": "5c1c070505c271b9397743063aa7a519838d022d35f901260c76e8900efa18da"
+    },
+    {
+      "path": "lessons/U2-C01.md",
+      "sha256": "4268362a3e91b041b5234fe0c98758e4b52c2abb9858210de3ca99c9d541dfc2"
+    },
+    {
+      "path": "lessons/U2-C02.md",
+      "sha256": "03c3c1e476ab21c95a0483cd7ac4efcde3328c334dc2fb42219eeeeccab53b3a"
+    },
+    {
+      "path": "lessons/U2-C03.md",
+      "sha256": "5fb714a87453b3d3015509a9c7d9d6f21445c2bd812fe8fdf0bd6ea200731f56"
+    },
+    {
+      "path": "lessons/U2-C04.md",
+      "sha256": "d406576f7838504e9e10823c0040ddcb442f6c09b9c0ddca2920834fdd73fa53"
+    },
+    {
+      "path": "lessons/U2-C05.md",
+      "sha256": "e667180f0e942a57b168ac83697aa95658487f03287cc067085ade282860bb18"
+    },
+    {
+      "path": "lessons/U2-C06.md",
+      "sha256": "c2fdb7dde1f3bd9cb7dc813c80a47502cc1823e23b43ec14b2812d8559cbc513"
+    },
+    {
+      "path": "lessons/U2-C07.md",
+      "sha256": "ce82223d520492d8512f1a327aab0ae79c9cea1763ee7033b4660bf7a5e024da"
+    },
+    {
+      "path": "lessons/U3-C01.json",
+      "sha256": "5d0db44759a10cf7d5e8907621aa1390f5660533693e68025375d3750edfac1f"
+    },
+    {
+      "path": "lessons/U3-C01.md",
+      "sha256": "28b1f3d8a864a3dd9e814ef68395bf4a6e025f5e284c42d0bdf61a8f9999020f"
+    },
+    {
+      "path": "lessons/U3-C02.json",
+      "sha256": "eba81587cb9f77dbda90274073e9492997f7734248292221823141b41d0a678c"
+    },
+    {
+      "path": "lessons/U3-C02.md",
+      "sha256": "9f557c480a2c248abd58a18680c5442c54e3b5898dbc4b672b9a8beafd7a8f02"
+    },
+    {
+      "path": "lessons/U3-C03.json",
+      "sha256": "b0d4b31c8fd99c1f8db89d0a3f91f4a7074e43c3180a7c0534f2bad288cc45c4"
+    },
+    {
+      "path": "lessons/U3-C03.md",
+      "sha256": "4ebb11c690f0cd0a4752c0b1d8293e94b2537a3f1aa95be9e343e505341d6932"
+    },
+    {
+      "path": "lessons/U3-C04.json",
+      "sha256": "fe1ada2b3be418a1096b091b46d673deb3ceaa160d075ff724236b79c5052b8f"
+    },
+    {
+      "path": "lessons/U3-C04.md",
+      "sha256": "52586a7887b9b73770765e189df6f0abfe38e5e9c281d8403527cbf6cb10582c"
+    },
+    {
+      "path": "lessons/U3-C05.json",
+      "sha256": "fbe562d5079b5bfd437b1fc61fefaed0249be263a046c06214c4ab8d2e46a6b7"
+    },
+    {
+      "path": "lessons/U3-C05.md",
+      "sha256": "362912eb05d6dce4d39ba156c69554dc8aba8de4f3aaf5797ef6937d810581ee"
+    },
+    {
+      "path": "lessons/U3-C06.json",
+      "sha256": "89ab13770874ea5ab7a8ee1b9520e2da77ced1b6c7982cb1aa51099f6cf533a1"
+    },
+    {
+      "path": "lessons/U3-C06.md",
+      "sha256": "1ed981106ec313a275c5f166fab6cff4fc432f85a6701fab8e58ecfa47ee660a"
+    },
+    {
+      "path": "lessons/U3-C07.json",
+      "sha256": "6b3b8990bdec3d029d2fa9fcea1620e8b59a7844d2510460fd1954473160caf8"
+    },
+    {
+      "path": "lessons/U3-C07.md",
+      "sha256": "cd3b153f3d29b3e96da3e54636284c85199a297229e8afe384edd6126d329834"
+    },
+    {
+      "path": "lessons/U4-C01.json",
+      "sha256": "1169194d1a733291d79765e5df2cee841dfa69aff4441fe887a3d22379ca2f61"
+    },
+    {
+      "path": "lessons/U4-C01.md",
+      "sha256": "63f08c576dfed8e50d31dbe32ef3c44713a132e83c70187dadba1193eeb7f18d"
+    },
+    {
+      "path": "lessons/U4-C02.json",
+      "sha256": "94302c9cc44ff9826855f23c49bbf8b3aabaa2f67ffc9d938343c970eaef2d10"
+    },
+    {
+      "path": "lessons/U4-C02.md",
+      "sha256": "73519c2de3e7def86e60de9d710de513bdd724c8055ecce6d37935df58cc90c3"
+    },
+    {
+      "path": "lessons/U4-C03.json",
+      "sha256": "2ad0ab902c421110d0c64c32198dca7ccfeb15aad68b5c2c82dd725a6af261c1"
+    },
+    {
+      "path": "lessons/U4-C03.md",
+      "sha256": "1e640a0b668633b3a5d346f312e12f932f87e3e64c73b9fba96aa6a9277aa686"
+    },
+    {
+      "path": "lessons/U4-C04.json",
+      "sha256": "83521def9d49aa079a1a8e26814872ef19c5b6bff90e038e8799583a40292271"
+    },
+    {
+      "path": "lessons/U4-C04.md",
+      "sha256": "fd94e640c73f1b6f697c8974c97b8678251bfba4e9678de662d0bc9d1f3d79f7"
+    },
+    {
+      "path": "lessons/U4-C05.json",
+      "sha256": "bd8240d604c8dc99387f7f57b4fc8c7d5f520de163abd05702b49c95d80b03e2"
+    },
+    {
+      "path": "lessons/U4-C05.md",
+      "sha256": "67c1d8652a31cbfebff30f1baf7266cc76138a8466db78fc46e8df013e14bea2"
+    },
+    {
+      "path": "lessons/U4-C06.json",
+      "sha256": "ceffb1663ac8de68b6dba7a2522183e329fc63d84daf9e004d928a5c03ce8396"
+    },
+    {
+      "path": "lessons/U4-C06.md",
+      "sha256": "c7ec69f4e9b9462fd92dfdc78b79518f4aa19e4c303e9a55f6603efdfbf09831"
+    },
+    {
+      "path": "lessons/U4-C07.json",
+      "sha256": "dd7d0829f99e4ae800932a9d66634dfb510f38af278c5de59d31a26644e824c1"
+    },
+    {
+      "path": "lessons/U4-C07.md",
+      "sha256": "1a7e3c1dff853d984958cc1d1a8091ed2b054dc37326838a874f1ab6105e74d1"
+    },
+    {
+      "path": "lessons/U4-C08.json",
+      "sha256": "6df58291f32c45964cbb869ce2c8d5409cf7d8d997311123abd733304a0bec87"
+    },
+    {
+      "path": "lessons/U4-C08.md",
+      "sha256": "24b55933229b28225cb9018e9209ea79356ba4a1ade0e24ac36b9aefac8196bb"
+    },
+    {
+      "path": "lessons/U5-C01.json",
+      "sha256": "25004cd7fb0e920235fae74cbdb934b2cc0f9a767e56014e4d80f8186136f3b8"
+    },
+    {
+      "path": "lessons/U5-C01.md",
+      "sha256": "59c62d9d9e71fd1d741ae4fe01fa406daa2df8b55a526efc9f4b14cdb25c8119"
+    },
+    {
+      "path": "lessons/U5-C02.json",
+      "sha256": "fe3df7422a8987bfb1c645db87e63370a9aad7a7ef8db4fddd1c4abe4d5e0e94"
+    },
+    {
+      "path": "lessons/U5-C02.md",
+      "sha256": "837e2423810addfbde3db7718c5703310c1d8fd7984084125a7047ebbab18cc6"
+    },
+    {
+      "path": "lessons/U5-C03.json",
+      "sha256": "000d93cc72c458062e8d397084061f837aafae2872bd10949b9d3051eb1e4686"
+    },
+    {
+      "path": "lessons/U5-C03.md",
+      "sha256": "b7121f5109487f604d88d9a1d07e8133838f32603310f93d3881a0081c7d6547"
+    },
+    {
+      "path": "lessons/U5-C04.json",
+      "sha256": "d279c6d58e98c6ef2843b7c41e8b685e028dc09b6e853b162bb4e86d9e6ef7bf"
+    },
+    {
+      "path": "lessons/U5-C04.md",
+      "sha256": "2509c86a187f1b83c23715207298f71e157299ec7581ef42aad4478111dbce14"
+    },
+    {
+      "path": "lessons/U5-C05.json",
+      "sha256": "5dfc3f285f399aaefada345f76be16a30f2b7f88ec5bd0d30555b47f9fab4ae0"
+    },
+    {
+      "path": "lessons/U5-C05.md",
+      "sha256": "e19e5e8b90c0b8a48e8790ebe84dc54c04cab495fa76af888b9d21bee644ef0b"
+    },
+    {
+      "path": "references/U1-glossary.md",
+      "sha256": "91aafd0faa57bd9d4818e2de67e16b891e6f0f04d4be574327bf567b4cfee407"
+    },
+    {
+      "path": "references/U1-review.md",
+      "sha256": "4bb5eab78d1ede4c369166a577a53081528879cb339a8f99dd012a287e0b7482"
+    },
+    {
+      "path": "references/U2-glossary.md",
+      "sha256": "1a6ad13edadd15819717a7147d746768d486cfe3315f9eaaa0926edb732368b4"
+    },
+    {
+      "path": "references/U2-review.md",
+      "sha256": "4004729f1f143554fa036835a75514d4a6219fae3d35efe06b5953f02ce12e0c"
+    },
+    {
+      "path": "references/U3-glossary.md",
+      "sha256": "4b3cb0eac9c74f3f6115cbed35787de05aa02029c29116902ce07220ff470c74"
+    },
+    {
+      "path": "references/U3-review.md",
+      "sha256": "721460f2a22b05f831b42e881b0e62b8ac273690bb9912d76bd0d087d78c2f06"
+    },
+    {
+      "path": "references/U4-glossary.md",
+      "sha256": "acd417c3a32b0db9e381c450353ff83105ad31f6759fe31e9e6fdc98224fa884"
+    },
+    {
+      "path": "references/U4-review.md",
+      "sha256": "854ac24cff004de76118b447a84b5ec151920617780da08ca533bd44b9b79982"
+    },
+    {
+      "path": "references/U5-common-confusions.json",
+      "sha256": "ce2b4e086872f057a2c3815176c24cb903d45338e371d850d018250e28065de1"
+    },
+    {
+      "path": "references/U5-common-confusions.md",
+      "sha256": "0b8356152f81e86f4c6e81e5fa59896e02927d8d8655b16cb4493f350275a1e6"
+    },
+    {
+      "path": "references/U5-discoveries-equations.json",
+      "sha256": "16897720e09f3a2e49191fec8086989788a3ce9f6765570cbdbf303fdda1a5c4"
+    },
+    {
+      "path": "references/U5-discoveries-equations.md",
+      "sha256": "6a20b456e76b9eb51e93e68168aca82eef7c0389917a99e654b6d1d10576af47"
+    },
+    {
+      "path": "references/U5-glossary.md",
+      "sha256": "a57280a5aa50134bb42f28c9b81949c02b961f79064db1bc833312aba69ff835"
+    },
+    {
+      "path": "references/U5-historical-connections.json",
+      "sha256": "7c6b370e90b6d873d3db3e9fb097edf22ff829dc65c9c91f935fac423659e199"
+    },
+    {
+      "path": "references/U5-historical-connections.md",
+      "sha256": "94990cd36e3ce528f8b2fc1253d4500217c5260131b3994f5db31a8bb3531da6"
+    },
+    {
+      "path": "references/U5-historical-timeline.json",
+      "sha256": "60d77c58f1f418868bb4067d2f896e739517e2a2abab56f761e963794f49cf1a"
+    },
+    {
+      "path": "references/U5-historical-timeline.md",
+      "sha256": "e7f75705d30d3a9aba3b2c66956c7ea60ec80bda8fd3a178511523885c0e80c6"
+    },
+    {
+      "path": "references/U5-history-data.json",
+      "sha256": "d9a353f3bf00efa1c3e3f5eedf81d5c06069a899e07303511fff672a115b6989"
+    },
+    {
+      "path": "references/U5-review.md",
+      "sha256": "69f0438e19237dfdb781227c2a4b1ddebc104a7b62dbe8ee6fefd11cb5cf6e9e"
+    },
+    {
+      "path": "references/U5-scientist-comparison.json",
+      "sha256": "d716cceeb20dfb2dac902b550f3c9e21817223b707d1c972e60e5ef7b4facee8"
+    },
+    {
+      "path": "references/U5-scientist-comparison.md",
+      "sha256": "1ba6e79cec7c42b6bf2f1b450dc656acbb27ec28a5cfdc6f4fa267ec4e8edb49"
+    },
+    {
+      "path": "references/U5-sources.json",
+      "sha256": "5e38f3a240f8ccf56da0f4d3c86a41b5ab38abd27b97a194b18a73eb32dbf01c"
+    },
+    {
+      "path": "references/U5-sources.md",
+      "sha256": "1842001781f494fc6d9957848401923dadc73627674ec464c9ae9a94aa3f8f56"
+    },
+    {
+      "path": "schemas/test-public.schema.json",
+      "sha256": "66d889b77c742391de807286fb87415dd845af2b7257229d403b68b88117e75d"
+    },
+    {
+      "path": "schemas/test-response.schema.json",
+      "sha256": "8ce9b6d6dd5ad50d61b8e9ac93a6cdca80d8bc62a1dc4322381df825274a4f63"
+    },
+    {
+      "path": "tests/T01.json",
+      "sha256": "65d5cd09de0cfc3ea70c2e0b169e3a33379c550ba2489ada46573ddf3217379a"
+    },
+    {
+      "path": "tests/T01.md",
+      "sha256": "14ba62ddecef0f6352943a59e6799feef64dc1b1e41e815faab92ab08af8950f"
+    },
+    {
+      "path": "tests/T02.json",
+      "sha256": "9ee00098a239532390964b17754d78ae7e91f4452156403af14d4bb24858f578"
+    },
+    {
+      "path": "tests/T02.md",
+      "sha256": "96e9dff51c4e5ac6483c374312bf80f4d6fc1ca6a439dc8cc99ec5ce7b40fd41"
+    },
+    {
+      "path": "tests/T03.json",
+      "sha256": "61e6c24bfc80d95f047c310831aeff5d7619026a33a7fab03fedfa8e9a8959e7"
+    },
+    {
+      "path": "tests/T03.md",
+      "sha256": "848f01301ce023864c478876441e33846a805cd2dda6f0a34269eca145f424e7"
+    },
+    {
+      "path": "tests/T04.json",
+      "sha256": "28dc479099d20f228aa2ffd93a59c5a1599f2c3d6c1673225dd2b4c9d9bd7db9"
+    },
+    {
+      "path": "tests/T04.md",
+      "sha256": "8d401e2cbf1a260a03f3e4a45f9599ec86bea0536bb47751349c94284923a989"
+    },
+    {
+      "path": "worksheets/WS01.json",
+      "sha256": "1050947fe4e93962daa321d4119df3f374a5a2b58306a30fc96363886c294ecb"
+    },
+    {
+      "path": "worksheets/WS01.md",
+      "sha256": "4f4c86057a05da3fae69471a2f85e4dbe2cfc3e06ad9c48dd176809a14271eed"
+    },
+    {
+      "path": "worksheets/WS02.json",
+      "sha256": "b286d6fe2ceb2ce29acf392a78b882b780b8e88674df733612c139fe9b8f76cd"
+    },
+    {
+      "path": "worksheets/WS02.md",
+      "sha256": "eed2de8dcf11e998b3f01c47c5675b7eb9001b56f6ab96f6ef3c09f112d027d4"
+    },
+    {
+      "path": "worksheets/WS03.json",
+      "sha256": "57b87df2ee12367eeb70f090aa4b0a2173c1618bb9100189fe7a5611345dbda8"
+    },
+    {
+      "path": "worksheets/WS03.md",
+      "sha256": "8e2fdf04ba87f7ba9ed75f82c8b77230a9ce1e4976bdc4588012dfab43fc2859"
+    },
+    {
+      "path": "worksheets/WS04.json",
+      "sha256": "bbb1cb571a81c3db9af307ad5b7fd6dcee2e41f4c110b71e0a64243e6b85b7c1"
+    },
+    {
+      "path": "worksheets/WS04.md",
+      "sha256": "2f1ec6a364aca2cec3fb1af359a9ac1698f4eb042165825639ef41347adda0a5"
+    },
+    {
+      "path": "worksheets/WS05.json",
+      "sha256": "16c08c26fb088838eb3d7b8989c496bdef680bee7c6c6ff38431a478e2e9682c"
+    },
+    {
+      "path": "worksheets/WS05.md",
+      "sha256": "9d1c2ded45d4bcddd5f9e20ca2456846005b65be5b54a4b0d9f66a170ab52ec4"
+    },
+    {
+      "path": "worksheets/WS06.json",
+      "sha256": "e6cac9f8e23f892f3a0bf7025d19bda7d82ed0a3845a448bf755d86557531040"
+    },
+    {
+      "path": "worksheets/WS06.md",
+      "sha256": "f99ae1f80dbe1bf8008bf4df66cc11dd72be6d54763525feedbe5510959b02c5"
+    },
+    {
+      "path": "worksheets/WS07.json",
+      "sha256": "349104f3d1e8b15d2e7d1e92e2055ee199dccf10aec3ed6ed553ee114b4d07bf"
+    },
+    {
+      "path": "worksheets/WS07.md",
+      "sha256": "f1621035ae45c02a3b19e4119838125663fdafca94e781116cd67be2d1ce8804"
+    },
+    {
+      "path": "worksheets/WS08.json",
+      "sha256": "39e8433606bc3b07acfa690f352b51150b48c4836984f023bd44df43c60417e8"
+    },
+    {
+      "path": "worksheets/WS08.md",
+      "sha256": "5e87636a40d47b4b3b69774b09d9a831d3c442f095363b7477431c74e49b540c"
+    },
+    {
+      "path": "worksheets/WS09.json",
+      "sha256": "62e99c538514465f50047f563b20c8c218d7ebde7d77920c45e575f60a89641c"
+    },
+    {
+      "path": "worksheets/WS09.md",
+      "sha256": "c5bc9b0547f63243e3359cbf05a0d9057d720c7d04b0ff29a69ba6c9d49563e1"
+    },
+    {
+      "path": "worksheets/WS10.json",
+      "sha256": "a77a17baeb414f17d64fe9d9512b41b4b46aa7a9cd045fd0f6459075238c0f15"
+    },
+    {
+      "path": "worksheets/WS10.md",
+      "sha256": "1a93ea20743d53ed7e3aa68bfba50f69f21ab203eeb1d0c24a2ba3f9ebde26d1"
+    },
+    {
+      "path": "worksheets/WS11.json",
+      "sha256": "6efb38d3817ad50e06d24a420a68f6d8439cad787d8b8f8d2830432d7795aec4"
+    },
+    {
+      "path": "worksheets/WS11.md",
+      "sha256": "1998e57b24532f6970fcfcaf46890cadeeb99e3c75977de87655420f13c86795"
+    },
+    {
+      "path": "worksheets/WS12.json",
+      "sha256": "ae87252a26187868105298a0d6ed0e82b14ff61196089ee97a45dbcb3401ec36"
+    },
+    {
+      "path": "worksheets/WS12.md",
+      "sha256": "9c0fd9190ec690791eaa2beff6677df1508c600a071960e1abea24028c745eeb"
+    },
+    {
+      "path": "worksheets/WS13.json",
+      "sha256": "84384668b29fcb1c7b262926050fba8f59bdfcda60128d48cb251f022916e358"
+    },
+    {
+      "path": "worksheets/WS13.md",
+      "sha256": "d8769e73a369789b66f8946298f1b342b243da14973233f1f3e2dae5667df2d9"
+    },
+    {
+      "path": "worksheets/WS14.json",
+      "sha256": "e7e5fdbacf3e2445b9e7fe5c673262a36dc7df3d1259862d33b18242f47baf8e"
+    },
+    {
+      "path": "worksheets/WS14.md",
+      "sha256": "9de9f18b034f5258fcef2103dccf7f9cb73caebb083888a1925a75beec2f8b48"
+    },
+    {
+      "path": "worksheets/WS15.json",
+      "sha256": "2101cfc49f8c532ca5b0d814f71b664423bdadb22673adea81dc94a924c9a6df"
+    },
+    {
+      "path": "worksheets/WS15.md",
+      "sha256": "a25fddc763b8a03800fc7340ebe2ae94a3406c5db26f212a6d5b7a4deb9cd9fe"
+    },
+    {
+      "path": "worksheets/WS16.json",
+      "sha256": "c928d7c960bd58b2cf31634665459b089b533f8de69cc8be00caaa7128470ed9"
+    },
+    {
+      "path": "worksheets/WS16.md",
+      "sha256": "9109f2d500fd935ac8886e243efe0fd542a91908f643d7bedae2b012249d2d9a"
+    },
+    {
+      "path": "worksheets/WS17.json",
+      "sha256": "7420e3b92871f4f1b155fb12ad97c1919eafd7b162fcb274c4adeb4d037416e7"
+    },
+    {
+      "path": "worksheets/WS17.md",
+      "sha256": "e0663f51aaf82aa454a34d2bede0cd20651c2fac486888bffc84f94a93dd9d88"
+    },
+    {
+      "path": "worksheets/WS18.json",
+      "sha256": "f167a5d71c7b0454ddb8d2ff6b4125ae7d79526b472282039222091dc6559b75"
+    },
+    {
+      "path": "worksheets/WS18.md",
+      "sha256": "26f92e66f589815173725068e7e66a85033ff5ac0f72a48782a1b586bf60546b"
+    },
+    {
+      "path": "worksheets/WS19.json",
+      "sha256": "49856847e7c22228485b28cfdd46bee47639bbbd93a10f5c145cb072856093f7"
+    },
+    {
+      "path": "worksheets/WS19.md",
+      "sha256": "c06961e5e0a6d8ab99a52971ddbd03813ab98957642b366131d9980c7e975420"
+    },
+    {
+      "path": "worksheets/WS20.json",
+      "sha256": "32dd7f7a22295e6c019026ba655c6f10f2a836f365f3c481c710308ce7fc4d1d"
+    },
+    {
+      "path": "worksheets/WS20.md",
+      "sha256": "0c45f62bbd2b868dc9614a702e826c35f2cca2306b8fcf553a9a480caabe8c70"
+    },
+    {
+      "path": "worksheets/WS21.json",
+      "sha256": "7eb78c4dda0cf1e0a42cf0ce6788dd48377b43e11a441cfb4bd0bf3980b12df0"
+    },
+    {
+      "path": "worksheets/WS21.md",
+      "sha256": "47d2e025bcffdacb4af761513754e4783936e02503a6f0797a297477800ce8ec"
+    },
+    {
+      "path": "worksheets/WS22.json",
+      "sha256": "0f0be923d40f9343e7ad7e79aa2e970a5378e37a0c8383c5f6b1d981a9a24d63"
+    },
+    {
+      "path": "worksheets/WS22.md",
+      "sha256": "92c50fbbd1a6369d9d4bf4ae168509447264548853b9aa7ac9febcd1cfec76a1"
+    },
+    {
+      "path": "worksheets/WS23.json",
+      "sha256": "491a56216242c899d14d5fed2a05da40769281a3367c53cdca4a8b68253ece64"
+    },
+    {
+      "path": "worksheets/WS23.md",
+      "sha256": "a0c110f7c2c7c28dbaa3d7fe1cf3e1a011d7a5e88500f67ca32f32a1708417f1"
+    },
+    {
+      "path": "worksheets/WS24.json",
+      "sha256": "57d6b6e00ba59844cecba94e849bfbb5adfb7b435347f0e9b2853cab1cceb134"
+    },
+    {
+      "path": "worksheets/WS24.md",
+      "sha256": "67c4f88899da3f428bea59b7f5f828b0503040cee96d16e73ddf99fdcf85306c"
+    },
+    {
+      "path": "worksheets/WS25.json",
+      "sha256": "41483c9f1a33903d1b172f45d47cc93325f9bca4f71e4c62a9d142ffc844eb13"
+    },
+    {
+      "path": "worksheets/WS25.md",
+      "sha256": "3616964e38c5607e58c86a96f70ea5fad2b95589ff802ceeab4624e6ff4abad3"
+    },
+    {
+      "path": "worksheets/WS26.json",
+      "sha256": "b4e910d0ae27d81bb6fe7d2cd3f68b2e87b7265b7e92878eb48728f24009525b"
+    },
+    {
+      "path": "worksheets/WS26.md",
+      "sha256": "182b591e6b13bf919ab0d61edc0b999190a7dc820c80352dfae2abd4f192d376"
+    },
+    {
+      "path": "worksheets/WS27.json",
+      "sha256": "a61c7152646a1c2b6641ea132651acb75a026aa71f132788885cb6c42b8a51dd"
+    },
+    {
+      "path": "worksheets/WS27.md",
+      "sha256": "569bdf2a501b032b209710e98e928495a48c60ace919cad407e3a443283e5083"
+    },
+    {
+      "path": "worksheets/WS28.json",
+      "sha256": "a6f3737d6379a9974e4e9f00d184553c79974ecd67640ac7ec5ed2d06d1393e6"
+    },
+    {
+      "path": "worksheets/WS28.md",
+      "sha256": "16684dccd858e341fff0f3b7d4de615844324dabb2f9d1743434cd682d27af3a"
+    },
+    {
+      "path": "worksheets/WS29.json",
+      "sha256": "153753c2bb3e6475a912a4fa71629a93e154315d5aa151260b0c8ff7d665edd3"
+    },
+    {
+      "path": "worksheets/WS29.md",
+      "sha256": "c97e4e3b1b57c0821182dc4b84ff0370137100236ba1752a8481784c26c1b070"
+    },
+    {
+      "path": "worksheets/WS30.json",
+      "sha256": "cd5eb2ac69617385a91b489cf8e830de72706451a869f86a721b2fc86c210c58"
+    },
+    {
+      "path": "worksheets/WS30.md",
+      "sha256": "a9c8f387458651ab7a576712370e8ec3f2f3025e41e35f893ebdbce9d4fbf54f"
+    },
+    {
+      "path": "worksheets/WS31.json",
+      "sha256": "41b9321a906f28a9f2d5207f9d481394fdf981de20919ecfa7070793fc94eb77"
+    },
+    {
+      "path": "worksheets/WS31.md",
+      "sha256": "509e72031e375c44844dfdcf22cecde248890cd0174d7e09afa45c4c3c7d624b"
+    },
+    {
+      "path": "worksheets/WS32.json",
+      "sha256": "a204899dbd1396b519c14357a6bd4ee5fd850f207051354078b28ab361d2e7d9"
+    },
+    {
+      "path": "worksheets/WS32.md",
+      "sha256": "484b42852f151607b19670e82a7d12e3348a782649ee59342f95a8eeafaa24c1"
+    },
+    {
+      "path": "worksheets/WS33.json",
+      "sha256": "3dc950dd11b4e19abeb335d527d25fd35a5e4a2df584b7f6bc9f75541bbd0e9c"
+    },
+    {
+      "path": "worksheets/WS33.md",
+      "sha256": "cc56937c1930db60055bd5d120fbf1091b6acd216474374e883bdef6e5e57c94"
+    },
+    {
+      "path": "lessons/figures/closed-system.svg",
+      "sha256": "411192a05911c03c6b76e565d444ac638e76292d9fd16ccdf9258f4554b418bd"
+    },
+    {
+      "path": "lessons/figures/heat-transfer.svg",
+      "sha256": "85ddccb2547448aea028fef848dcf1ffa837f4bdfd411fb601d85b9068be271e"
+    },
+    {
+      "path": "lessons/figures/temperature-scales.svg",
+      "sha256": "5f35690d412ee336e48ab254c6e6665cf55b07d4c4df9d0a03d7daf72f64f8f6"
+    },
+    {
+      "path": "lessons/figures/U2-heating-curve.png",
+      "sha256": "a2932a0b524d6fadbef9c38aab96d24417484392531f5f2e07412d9b0193b24f"
+    },
+    {
+      "path": "lessons/figures/U2-heating-curve.svg",
+      "sha256": "3eae22adcef1b806820750ebdf65f607517e92b17fb0716a4396a68d6ccc20ce"
+    },
+    {
+      "path": "lessons/figures/U2-particles.png",
+      "sha256": "f32f258fa847ee56f7177234ec95023f8042644e1ec60fda81275e35b3e88176"
+    },
+    {
+      "path": "lessons/figures/U2-particles.svg",
+      "sha256": "0d3d6daa46ccebd209311f163cc33b4ebfd287137efb42bcca6b3364bf27187a"
+    },
+    {
+      "path": "lessons/figures/U2-phase-diagram.png",
+      "sha256": "ea16d2bdecb5a4af0e62a8090ce1f2a59d356d03c2fe1982bad9c55358225028"
+    },
+    {
+      "path": "lessons/figures/U2-phase-diagram.svg",
+      "sha256": "6e5d1d292617d11de2ac3133f652ad759f2f28a5e1f54744bfdd413180c05e44"
+    },
+    {
+      "path": "lessons/figures/U2-transitions.png",
+      "sha256": "30bfb2e9d579fa36cd39169e7062fc89871ebb1259979bd561b4492e8068a4c6"
+    },
+    {
+      "path": "lessons/figures/U2-transitions.svg",
+      "sha256": "30774777c2f27a5eea78962c2cbaed225c019ee0ad5c858882f3321a46072406"
+    },
+    {
+      "path": "lessons/figures/U2-WS09-curve.png",
+      "sha256": "c6d1c6fa7fd3e0f6d06985fcf945747e7618429ac5840c60b29403cf03297634"
+    },
+    {
+      "path": "lessons/figures/U2-WS09-curve.svg",
+      "sha256": "3c7aba6c103e01c669403aac9950a13f377be8443259e748e689e63c0e0d956c"
+    },
+    {
+      "path": "lessons/figures/U3-C01.png",
+      "sha256": "e6bcf2be43272f398fec15e769bf5bbe7a39c0d4a84a3a87d45ee1694e07b795"
+    },
+    {
+      "path": "lessons/figures/U3-C01.svg",
+      "sha256": "fa2e8ecd376084e12127ffd020717f373dc8b0a2f538462af35d5fe8a052d5f6"
+    },
+    {
+      "path": "lessons/figures/U3-C02.png",
+      "sha256": "2df8033d0f30f5c2169d938bdc44481e16e4f829a8eb46e0013b523beec21b72"
+    },
+    {
+      "path": "lessons/figures/U3-C02.svg",
+      "sha256": "300d2ba70ccef7c003c5b8671fc78f7c88d236b849651078714f4c493a5b24f1"
+    },
+    {
+      "path": "lessons/figures/U3-C03.png",
+      "sha256": "959f047470c560eefb3c2da6a0b751597de4ca07f9e5edf84f1b5282357a6164"
+    },
+    {
+      "path": "lessons/figures/U3-C03.svg",
+      "sha256": "6f22904d363d77f0fcc4b76204142161d0107d505a28d4ea73ec723e751f4380"
+    },
+    {
+      "path": "lessons/figures/U3-C04.png",
+      "sha256": "8e868915766866868815a7d42e3537ceaeff21887d7a899b11ad12d2441a82d0"
+    },
+    {
+      "path": "lessons/figures/U3-C04.svg",
+      "sha256": "64b20b2be172b42defac292dd5420e71e6817e420b278d79e1fa6b76717bee9e"
+    },
+    {
+      "path": "lessons/figures/U3-C05.png",
+      "sha256": "419035cf36a3378243304608df7b404cb6865909cfe1bcc2d5abe91e00583436"
+    },
+    {
+      "path": "lessons/figures/U3-C05.svg",
+      "sha256": "341d8fe156df63a538aba9ca89402be2248e41a108b160788e7171659631773b"
+    },
+    {
+      "path": "lessons/figures/U3-C06.png",
+      "sha256": "f2e9754d056c13f026769ba63caa8acc5ed7051fbbf8a70524a00e783cea8582"
+    },
+    {
+      "path": "lessons/figures/U3-C06.svg",
+      "sha256": "811f1f815566f7e0d8811f895de5c037f9edaa7bb249035f9504705b32f6c283"
+    },
+    {
+      "path": "lessons/figures/U3-C07.png",
+      "sha256": "ffa5270673313f9e068f814c9a82a23de2fdd26a4f4f8d0cfb624076e7a01bcf"
+    },
+    {
+      "path": "lessons/figures/U3-C07.svg",
+      "sha256": "dd52ee915f48d5328a117bad876967397a2761b560270e4f41d883dde633c8ba"
+    },
+    {
+      "path": "lessons/figures/U3-WS14.png",
+      "sha256": "11e1b1148ccdc4aa164eed8a0c0581ef0d77e997b858573ae3e6fb4f3dce696c"
+    },
+    {
+      "path": "lessons/figures/U3-WS14.svg",
+      "sha256": "9ce86e73b9696af7b130caf54c1395221de4c44fa35b1b19d2e77d514904a65e"
+    },
+    {
+      "path": "lessons/figures/U3-WS15.png",
+      "sha256": "f70d1edf02572b36e505e3d3cd9440a4678de5e570f74b023f9a0dc0c64b2dc4"
+    },
+    {
+      "path": "lessons/figures/U3-WS15.svg",
+      "sha256": "70ccae713ef0fce946ef3400ac9248f260a7617b13ed5590d7b23297202583fb"
+    },
+    {
+      "path": "lessons/figures/U3-WS16.png",
+      "sha256": "93d2a5c5e4323798f22b9882c8ce5fdf6085d99f8c5491a6f483bf0c1155d7b3"
+    },
+    {
+      "path": "lessons/figures/U3-WS16.svg",
+      "sha256": "9df79e45a88ee71d89510fe5e979d1087f691e9589bb36503b09966b6a2aea8a"
+    },
+    {
+      "path": "lessons/figures/U3-WS18.png",
+      "sha256": "935d032e64f3ffb0c198b95404470451c23b6d0e25028f79c79343f074eb5664"
+    },
+    {
+      "path": "lessons/figures/U3-WS18.svg",
+      "sha256": "5e1d8107cba363e0ff8da24e15d9b407c448673b0a38e84165847ba2c6c7de50"
+    },
+    {
+      "path": "lessons/figures/U3-WS20.png",
+      "sha256": "7ecce8ef28c00aa4e00e79fbb1daa1a1c772e613494e63dc9cd9e1675dfcd1ce"
+    },
+    {
+      "path": "lessons/figures/U3-WS20.svg",
+      "sha256": "c53c732c98497b2aeb7327812b1026439dfc712ee5399656eee8f94b6526f4ec"
+    },
+    {
+      "path": "lessons/figures/U4-C01.png",
+      "sha256": "51ac40682ba1574dab4d9eea52f619cb3dc4e8c438db52ecd4f602b06e940531"
+    },
+    {
+      "path": "lessons/figures/U4-C01.svg",
+      "sha256": "1909e10dcf3238d9a2595e00a71aea6a13eabf802f1ffe06aa9acfd6d9ace6e3"
+    },
+    {
+      "path": "lessons/figures/U4-C02.png",
+      "sha256": "623e670d53fd445c4e096a742a24a4b02f0abb830c231d3ad45b15c1bd732583"
+    },
+    {
+      "path": "lessons/figures/U4-C02.svg",
+      "sha256": "5ff1938ccf83496a6540dc581e9819c2f7f44557bdbf864b738c6d3da8f61cdd"
+    },
+    {
+      "path": "lessons/figures/U4-C03.png",
+      "sha256": "9caa346e7748328aebb11ab97339833679698ff709b3c2beb5c8a69d7417bb60"
+    },
+    {
+      "path": "lessons/figures/U4-C03.svg",
+      "sha256": "a317075766e4b840f9b4d646bb74bbe254b08edf52be5ca1d81a21f532b00c4c"
+    },
+    {
+      "path": "lessons/figures/U4-C04.png",
+      "sha256": "666b81ba63086735e3677aec0e95449c7126929488b3c6c4cdbb50d48ccb37c7"
+    },
+    {
+      "path": "lessons/figures/U4-C04.svg",
+      "sha256": "adc67e341a25e478da136685c8254d6fa3a01f91731cd05e11102695d218ef5d"
+    },
+    {
+      "path": "lessons/figures/U4-C05.png",
+      "sha256": "940ad3bba5643fa7823717688191bd9c782eb9090ce3e13758cf24d976ba0d99"
+    },
+    {
+      "path": "lessons/figures/U4-C05.svg",
+      "sha256": "ad5b25426472d76710e1c3edb15985fe45cdb6090e610a1764ffd3670dcbcbd2"
+    },
+    {
+      "path": "lessons/figures/U4-C06.png",
+      "sha256": "e1c4be5a41ababe83f515e04e109460e43b4954c661f5f730ed78221c2a7c0f3"
+    },
+    {
+      "path": "lessons/figures/U4-C06.svg",
+      "sha256": "545d0b703604ebabfc15dc48e4ac73d5fee44f0fa18d63f74ac8bb1820faa38a"
+    },
+    {
+      "path": "lessons/figures/U4-C07.png",
+      "sha256": "e2497bdca4fb5e3f4214fbb9612bb8f361bc52a76f264d806265d0f58d427a85"
+    },
+    {
+      "path": "lessons/figures/U4-C07.svg",
+      "sha256": "f9e573be4e1064bc7092a653b4a1de084d039890fb2f5749a386bf660eb9a99e"
+    },
+    {
+      "path": "lessons/figures/U4-C08.png",
+      "sha256": "eaa41af5aea0ea3d0756a1bc4272cffa4d8bb75a02ead0348f68787856c3809f"
+    },
+    {
+      "path": "lessons/figures/U4-C08.svg",
+      "sha256": "90083e5df7113e990377913927a4d63fa81c7be7b4dc138e4d8d9cad6487b8b8"
+    },
+    {
+      "path": "lessons/figures/U4-efficiency.png",
+      "sha256": "14f59d913e7470cd47c67b9fc74e874e3da2ed6526a9b381d6f190f888b141c1"
+    },
+    {
+      "path": "lessons/figures/U4-efficiency.svg",
+      "sha256": "f5c5714676432e2f57135b59fd08b6a53d7e753893b2cca8a51d135c51a63647"
+    },
+    {
+      "path": "lessons/figures/U4-WS22.png",
+      "sha256": "2eb621844d7bbdb654e4cec163f5c3f276695b467630fb3811a8a4cd04a91bcb"
+    },
+    {
+      "path": "lessons/figures/U4-WS22.svg",
+      "sha256": "8048dac6405ad64aaa91ff01f8808a1c8bb45412a54b4e8fb9ebaede81f0db30"
+    },
+    {
+      "path": "lessons/figures/U4-WS23.png",
+      "sha256": "98847254db32dc4edd8057aeeb311eaa44f15da95555b82881e59c92942fe2ed"
+    },
+    {
+      "path": "lessons/figures/U4-WS23.svg",
+      "sha256": "656ea56c8e32e2710b65f33ade8856301bfa7721c4984bf30ab7b81bc9e1fca4"
+    },
+    {
+      "path": "lessons/figures/U4-WS25.png",
+      "sha256": "d09b840a94eab9063bb1d20a7628fe8bddb70380ec88f2d8e84251787f6862ff"
+    },
+    {
+      "path": "lessons/figures/U4-WS25.svg",
+      "sha256": "e0c13227c4ca6b2f7455fee55e3d61c4464a27d7044ff5f416561ee000d18eec"
+    },
+    {
+      "path": "lessons/figures/U4-WS26.png",
+      "sha256": "6a055e0786f46efc002316a65d14404564d18df26e25079c608d2c054c9b0cb0"
+    },
+    {
+      "path": "lessons/figures/U4-WS26.svg",
+      "sha256": "e2eff411e760ac07ce8e0533f33b455ab95ac0826ba8ac68723624dc379ba182"
+    },
+    {
+      "path": "lessons/figures/U4-WS27.png",
+      "sha256": "e1a617894bcc1c738bfc65bde9446dcfb09ca9e579efeda368a332719a77c82d"
+    },
+    {
+      "path": "lessons/figures/U4-WS27.svg",
+      "sha256": "05daf6257ea96e948ef0b1f4b57057e92f715010a6e3e8d0d285732ce64bb3c0"
+    },
+    {
+      "path": "lessons/figures/U5-C01.png",
+      "sha256": "75a0d9c2a34c7252e9bfdac29a3ad77fed6790f0fb2471d7aed649cb1afe05c6"
+    },
+    {
+      "path": "lessons/figures/U5-C01.svg",
+      "sha256": "b38e57adcfb35b13df28775971488c117f2421afe5ab865e2971c5f22ecfa8dd"
+    },
+    {
+      "path": "lessons/figures/U5-C02.png",
+      "sha256": "c58378d8e26702702de60be62b2c697e066f54e89717a70a40fa3af993c155ff"
+    },
+    {
+      "path": "lessons/figures/U5-C02.svg",
+      "sha256": "d81acea48d265f25a8cd4f234620693939bf2f231e5d1e48f43484ef2356deb1"
+    },
+    {
+      "path": "lessons/figures/U5-C03.png",
+      "sha256": "4bc01e160583d1309f7601c617b7f385d16e621f0cc892ddad693f93672c57c5"
+    },
+    {
+      "path": "lessons/figures/U5-C03.svg",
+      "sha256": "c575a41cbf6a8a0522c08cea39220e6a8153ecf9d294ebb08d2fd8548fdc0566"
+    },
+    {
+      "path": "lessons/figures/U5-C04.png",
+      "sha256": "51c1cefdc49fb20c898535577ee14e475fb3809138fef441983f8d9627691160"
+    },
+    {
+      "path": "lessons/figures/U5-C04.svg",
+      "sha256": "62510a83794cc946f66719a26ccad366fd59d9588c374a392f686b81b8dc57c5"
+    },
+    {
+      "path": "lessons/figures/U5-C05.png",
+      "sha256": "88af7c313ccfcf7d99ad2754d4c8ba8b3aa6fe8f6920a33dba2e8c1fba7bd0e4"
+    },
+    {
+      "path": "lessons/figures/U5-C05.svg",
+      "sha256": "1cb5ed3a5e52b498ab5124910106b6f511247a647f1ced9d216fed142a7c31c9"
+    },
+    {
+      "path": "tests/figures/T01-heating.png",
+      "sha256": "4ac6984a4e558674a8db1f9e3aad66b86a3eb3e500af57dfbbe0b4a8b2c3aa79"
+    },
+    {
+      "path": "tests/figures/T01-heating.svg",
+      "sha256": "2cb01e2bd6218305e337f6022beeaae6968746861c0014734ccb29f3a5a0b4ec"
+    },
+    {
+      "path": "tests/figures/T01-phase.png",
+      "sha256": "43ed4fd7c0369ba849cd5df8b1c421f712e56f82e176bf149cc7c135057d86d0"
+    },
+    {
+      "path": "tests/figures/T01-phase.svg",
+      "sha256": "d452bdb4c5ad238e3b13106b7f46f4bd9dd0563fa521026484f114a5eb8b42cd"
+    },
+    {
+      "path": "tests/figures/T02-cooling.png",
+      "sha256": "fa14316abe0aa7d0078b10c1d919041312572fbc4695de7f55836421769c1435"
+    },
+    {
+      "path": "tests/figures/T02-cooling.svg",
+      "sha256": "66f3905b95d248ffda47b699ca55e6f263c5571aefc245f034eefc94e886c448"
+    },
+    {
+      "path": "tests/figures/T03-cycle.png",
+      "sha256": "df18674913acc81152cc76d62780600a1e1043466afac215fc4aeca0ed358038"
+    },
+    {
+      "path": "tests/figures/T03-cycle.svg",
+      "sha256": "f74ccdd91450cd9e8de9fbb54da8131288ea6d9bf54d7b1783ebbee51ba09393"
+    },
+    {
+      "path": "tests/figures/T03-isotherm.png",
+      "sha256": "7d28c52015924eb55e27bd28f1011b8a3f85103634bbced451b94a177981b25e"
+    },
+    {
+      "path": "tests/figures/T03-isotherm.svg",
+      "sha256": "c045800e7f815f837cae4a6c6cf4cbb4fe598e897739eb76837f41c6eafa7c59"
+    },
+    {
+      "path": "tests/figures/T04-cycle.png",
+      "sha256": "51758eaa5cf58ecc6eed38e515f1b7b42c705b59aa75e5a5ff44bb43e7bf6fc7"
+    },
+    {
+      "path": "tests/figures/T04-cycle.svg",
+      "sha256": "7f8e9297d3fda67f42798cc88b288dec1e1f909e9e658699e40a56a8d814a45d"
+    },
+    {
+      "path": "tests/figures/T04-heating.png",
+      "sha256": "9b5b28a62d3eef54241b779cf2847803795b87e2cb088a0aab24e98a6f3dcbe4"
+    },
+    {
+      "path": "tests/figures/T04-heating.svg",
+      "sha256": "28eea527b9e569b3fe4240ebb628255392859c5b350bd47f9cdaa89b72915267"
+    },
+    {
+      "path": "tests/figures/T04-phase.png",
+      "sha256": "b0ca0c07cc2d003d79705902781d4993f4d1566898c66ebc711ba472d6ba9f90"
+    },
+    {
+      "path": "tests/figures/T04-phase.svg",
+      "sha256": "f4e003f8478459b1b1c8cad4fc6cde7f612c9250bdcea4e9eedbe00b23602865"
+    }
+  ]
+}

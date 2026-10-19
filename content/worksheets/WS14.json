@@ -1,0 +1,165 @@
+{
+  "id": "WS14",
+  "title": "Conduction",
+  "visibility": "public-student",
+  "level": "All competition levels",
+  "unit_id": "U3",
+  "objectives": "Explain conduction microscopically; identify its direction; interpret a temperature profile; calculate a gradient and energy from a constant rate.",
+  "suggested_duration": "25–30 minutes",
+  "difficulty": "Beginner through application; final question is a challenge",
+  "total_points": 20,
+  "instructions": "Show the equation, substitution, arithmetic and units for numerical answers. Explain physical meaning. Use given constants. Retain intermediate digits and round final answers as requested; for unspecified precision, accept sensible rounding. Graphs and data are simulated educational models.",
+  "questions": [
+    {
+      "id": "WS14-Q01",
+      "assessment_id": "WS14",
+      "topic_ids": [
+        "TOP14"
+      ],
+      "prompt": "A solid rod warms at one end. Explain how energy can reach the other end without the atoms flowing along the rod.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS14-Q02",
+      "assessment_id": "WS14",
+      "topic_ids": [
+        "TOP14"
+      ],
+      "prompt": "A rod has faces at 45 °C and 25 °C. In which direction is net conduction? What happens to the net conducting transfer if the entire rod reaches 25 °C?",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS14-Q03",
+      "assessment_id": "WS14",
+      "topic_ids": [
+        "TOP14"
+      ],
+      "prompt": "Which statement is correct? A. Only solids conduct. B. Still fluids can conduct. C. Conduction requires bulk circulation. Explain.",
+      "question_type": "multiple-choice",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [
+        "A. Only solids conduct",
+        "B. Still fluids can conduct",
+        "C. Conduction requires bulk circulation"
+      ],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS14-Q04",
+      "assessment_id": "WS14",
+      "topic_ids": [
+        "TOP14"
+      ],
+      "prompt": "A constant conducting rate is 4.0 W. State what this means in joules and seconds, then calculate the energy transferred in 30 s.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS14-Q05",
+      "assessment_id": "WS14",
+      "topic_ids": [
+        "TOP14"
+      ],
+      "prompt": "The WS 14 reference profile is steady. Calculate its gradient magnitude in K/m and identify the direction of net conduction.",
+      "question_type": "graph",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS14-Q06",
+      "assessment_id": "WS14",
+      "topic_ids": [
+        "TOP14"
+      ],
+      "prompt": "A conducting path transfers 2.5 W for 2.0 min and then 1.5 W for 1.0 min. Calculate total energy.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS14-Q07",
+      "assessment_id": "WS14",
+      "topic_ids": [
+        "TOP14"
+      ],
+      "prompt": "Two dry room-temperature blocks, metal and wood, have the same measured temperature. The metal feels colder. Explain and name a reason touch is a poor thermometer.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS14-Q08",
+      "assessment_id": "WS14",
+      "topic_ids": [
+        "TOP14"
+      ],
+      "prompt": "Challenge: A student compares equal-area slabs of the same material, one 5 mm thick and one 10 mm thick, with identical fixed face-temperature differences. Predict the ideal rate ratio, then explain why a real contact gap could spoil this comparison.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    }
+  ],
+  "reference_material": {
+    "description": "Ideal, uniform, steady one-dimensional profile. Position is measured from the warmer face. These are model values, not time readings.",
+    "figure_path": "../lessons/figures/U3-WS14.svg",
+    "figure_alt": "Temperature decreases from50 to20 °C over0.060 m.",
+    "columns": [
+      "position_m",
+      "temperature_C"
+    ],
+    "rows": [
+      [
+        0,
+        50
+      ],
+      [
+        0.02,
+        40
+      ],
+      [
+        0.04,
+        30
+      ],
+      [
+        0.06,
+        20
+      ]
+    ]
+  }
+}

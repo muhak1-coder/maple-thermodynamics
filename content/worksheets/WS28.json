@@ -1,0 +1,137 @@
+{
+  "id": "WS28",
+  "title": "Second Law and Entropy",
+  "visibility": "public-student",
+  "level": "All competition levels",
+  "unit_id": "U4",
+  "objectives": "Explain natural heat-flow direction, total entropy and irreversibility; distinguish reversible from merely repeatable; connect the first and second laws without advanced entropy mathematics.",
+  "suggested_duration": "25–30 minutes",
+  "difficulty": "Beginner through application; final question is a challenge",
+  "total_points": 20,
+  "instructions": "Use ΔU=Q−W: Q positive into the system and W positive by the system. Show the equation, signed substitution, arithmetic and units for numerical answers. Explain physical meaning. Use given constants. Retain intermediate digits and round final answers as requested; for unspecified precision, accept sensible rounding. Graphs and data are simulated educational models.",
+  "questions": [
+    {
+      "id": "WS28-Q01",
+      "assessment_id": "WS28",
+      "topic_ids": [
+        "TOP28"
+      ],
+      "prompt": "State the natural direction of net heat transfer between two objects with different temperatures and no external driving device.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS28-Q02",
+      "assessment_id": "WS28",
+      "topic_ids": [
+        "TOP28"
+      ],
+      "prompt": "Does a refrigerator moving heat from cold food to a warmer room violate the second law? Explain.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS28-Q03",
+      "assessment_id": "WS28",
+      "topic_ids": [
+        "TOP28"
+      ],
+      "prompt": "Which is a more reliable entropy statement? A. Entropy is simply visible messiness. B. Entropy is a state property related to microscopic energy distribution, and total entropy of an isolated combination cannot decrease. Explain.",
+      "question_type": "multiple-choice",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [
+        "A. Entropy is visible messiness",
+        "B. Entropy is a state property with an isolated-total constraint"
+      ],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS28-Q04",
+      "assessment_id": "WS28",
+      "topic_ids": [
+        "TOP28"
+      ],
+      "prompt": "State the unit of entropy and explain why it should not be confused with internal energy.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS28-Q05",
+      "assessment_id": "WS28",
+      "topic_ids": [
+        "TOP28"
+      ],
+      "prompt": "Supplied entropy changes for a complete isolated combination are ΔS_system=−3 J/K and ΔS_surroundings=+5 J/K. Find the total and assess consistency with the second law.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS28-Q06",
+      "assessment_id": "WS28",
+      "topic_ids": [
+        "TOP28"
+      ],
+      "prompt": "A claimed isolated process has supplied changes +1 J/K for the system and−2 J/K for all its surroundings. Find total entropy change and assess the claim.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS28-Q07",
+      "assessment_id": "WS28",
+      "topic_ids": [
+        "TOP28"
+      ],
+      "prompt": "A working gas completes a cycle and returns to its initial entropy. Does this prove the cycle is reversible? Explain with the surroundings included.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS28-Q08",
+      "assessment_id": "WS28",
+      "topic_ids": [
+        "TOP28"
+      ],
+      "prompt": "Challenge: A proposed cyclic engine takes 1000 J from 600 K, rejects 300 J to 300 K, and delivers 700 J work. Check both energy conservation and the two-reservoir efficiency limit. Which law rules it out?",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "F11",
+  "title": "Transition heat and partial transition",
+  "visibility": "public-student",
+  "unit_id": "U2",
+  "topic_ids": [
+    "TOP11"
+  ],
+  "equation": "|Q|=mL; m_changed=|Q|/L",
+  "variables_and_units": {
+    "Q": "J",
+    "m": "g",
+    "L": "J/g"
+  },
+  "use_case": "Use the correct transition and conditions. Heating transitions are positive for sample; reverse transitions negative.",
+  "mini_example": "2 g×334 J/g=668 J to melt ice at its melting point.",
+  "status": "complete"
+}

@@ -1,0 +1,133 @@
+{
+  "id": "WS05",
+  "title": "Celsius, Fahrenheit, Kelvin",
+  "visibility": "public-student",
+  "level": "All competition levels",
+  "objectives": "Convert °C, °F and K; distinguish absolute readings from changes; select the appropriate scale for a calculation.",
+  "suggested_duration": "20–25 minutes",
+  "difficulty": "Beginner through application; final question is a challenge",
+  "total_points": 20,
+  "instructions": "Show reasoning and units. Use a calculator when useful. For conversions use 273.15 and 4.184 J/cal. Numeric checking alone cannot award reasoning points.",
+  "questions": [
+    {
+      "id": "WS05-Q01",
+      "assessment_id": "WS05",
+      "topic_ids": [
+        "TOP05"
+      ],
+      "prompt": "Convert 15.0 °C to K. Round to one decimal place.",
+      "question_type": "numeric",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS05-Q02",
+      "assessment_id": "WS05",
+      "topic_ids": [
+        "TOP05"
+      ],
+      "prompt": "Convert 310.0 K to °C. Round to one decimal place.",
+      "question_type": "numeric",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS05-Q03",
+      "assessment_id": "WS05",
+      "topic_ids": [
+        "TOP05"
+      ],
+      "prompt": "Convert 10.0 °C to °F.",
+      "question_type": "numeric",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS05-Q04",
+      "assessment_id": "WS05",
+      "topic_ids": [
+        "TOP05"
+      ],
+      "prompt": "The temperature increases by 12.0 °C. What is the increase in K? Explain why no offset is needed.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS05-Q05",
+      "assessment_id": "WS05",
+      "topic_ids": [
+        "TOP05"
+      ],
+      "prompt": "Convert 68.0 °F to °C. Show the operation order.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS05-Q06",
+      "assessment_id": "WS05",
+      "topic_ids": [
+        "TOP05"
+      ],
+      "prompt": "A sample cools from 31.0 °C to 23.0 °C. Give final minus initial in °C, K and °F.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS05-Q07",
+      "assessment_id": "WS05",
+      "topic_ids": [
+        "TOP05"
+      ],
+      "prompt": "A learner enters 25 into an ideal-gas calculation that requires absolute temperature because the gas is at 25 °C. What reading should be used, and why? Give the unrounded conversion.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS05-Q08",
+      "assessment_id": "WS05",
+      "topic_ids": [
+        "TOP05"
+      ],
+      "prompt": "Challenge: At what temperature are the numerical Celsius and Fahrenheit readings equal? Use x=1.8x+32 and solve for x.",
+      "question_type": "numeric",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    }
+  ]
+}

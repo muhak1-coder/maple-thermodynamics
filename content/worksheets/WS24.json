@@ -1,0 +1,153 @@
+{
+  "id": "WS24",
+  "title": "Adiabatic Processes",
+  "visibility": "public-student",
+  "level": "All competition levels",
+  "unit_id": "U4",
+  "objectives": "Explain Q=0; apply the first law to expansion and compression; distinguish insulation, speed and reversibility; interpret a conceptual adiabatic P–V curve.",
+  "suggested_duration": "25–30 minutes",
+  "difficulty": "Beginner through application; final question is a challenge",
+  "total_points": 20,
+  "instructions": "Use ΔU=Q−W: Q positive into the system and W positive by the system. Show the equation, signed substitution, arithmetic and units for numerical answers. Explain physical meaning. Use given constants. Retain intermediate digits and round final answers as requested; for unspecified precision, accept sensible rounding. Graphs and data are simulated educational models.",
+  "questions": [
+    {
+      "id": "WS24-Q01",
+      "assessment_id": "WS24",
+      "topic_ids": [
+        "TOP24"
+      ],
+      "prompt": "Define adiabatic. Which quantity is constrained to zero?",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS24-Q02",
+      "assessment_id": "WS24",
+      "topic_ids": [
+        "TOP24"
+      ],
+      "prompt": "Adiabatic gas does 70 J of work. Calculate ΔU.",
+      "question_type": "numeric",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS24-Q03",
+      "assessment_id": "WS24",
+      "topic_ids": [
+        "TOP24"
+      ],
+      "prompt": "Explain why rapid motion alone does not prove a process is exactly adiabatic.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS24-Q04",
+      "assessment_id": "WS24",
+      "topic_ids": [
+        "TOP24"
+      ],
+      "prompt": "An insulated gas is compressed and 90 J of work is done on it. Give W_by and ΔU.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS24-Q05",
+      "assessment_id": "WS24",
+      "topic_ids": [
+        "TOP24"
+      ],
+      "prompt": "Adiabatic ideal gas begins at 310 K with supplied C_U=10 J/K. It does 150 J of work. Find final temperature.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS24-Q06",
+      "assessment_id": "WS24",
+      "topic_ids": [
+        "TOP24"
+      ],
+      "prompt": "Use the qualitative WS 24 graph. At the same enlarged volume, which path has lower pressure: reversible adiabatic or isothermal expansion from the same initial ideal-gas state? Explain.",
+      "question_type": "graph",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS24-Q07",
+      "assessment_id": "WS24",
+      "topic_ids": [
+        "TOP24"
+      ],
+      "prompt": "An insulated ideal gas expands into vacuum with no resisting load. Compare its endpoint ΔU and ΔT with those of an adiabatic expansion that does positive work.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS24-Q08",
+      "assessment_id": "WS24",
+      "topic_ids": [
+        "TOP24"
+      ],
+      "prompt": "Challenge: A gas with C_U=8 J/K falls from 300 K to 280 K while doing 200 J of work. Is the process adiabatic? Calculate Q and justify.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    }
+  ],
+  "reference_material": {
+    "description": "Conceptual comparison only: reversible ideal-gas expansion from the same state. Arbitrary-unit axes have no quantitative ticks. Use the relative curves, not invented numerical coordinates.",
+    "figure_path": "../lessons/figures/U4-C04.svg",
+    "figure_alt": "Adiabatic expansion falls below the isotherm at the same enlarged volume.",
+    "columns": [
+      "path",
+      "temperature_condition"
+    ],
+    "rows": [
+      [
+        "isothermal",
+        "constant T"
+      ],
+      [
+        "reversible adiabatic",
+        "Q=0 with positive work output"
+      ]
+    ]
+  }
+}

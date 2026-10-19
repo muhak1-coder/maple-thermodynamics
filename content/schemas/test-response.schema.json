@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Maple learner test response export 1.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "release",
+    "assessment_id",
+    "attempt_id",
+    "responses"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "release": {
+      "const": "REGIONAL WEBSITE RELEASE 1.0"
+    },
+    "assessment_id": {
+      "enum": [
+        "T01",
+        "T02",
+        "T03",
+        "T04"
+      ]
+    },
+    "attempt_id": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "responses": {
+      "type": "array",
+      "maxItems": 24,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "question_id"
+        ],
+        "properties": {
+          "question_id": {
+            "type": "string",
+            "maxLength": 20
+          },
+          "selected_choice_id": {
+            "enum": [
+              "A",
+              "B",
+              "C",
+              "D",
+              null
+            ]
+          },
+          "numeric_values": {
+            "type": "object",
+            "maxProperties": 10,
+            "additionalProperties": {
+              "type": "number"
+            }
+          },
+          "reasoning": {
+            "type": "string",
+            "maxLength": 20000
+          }
+        }
+      }
+    }
+  }
+}

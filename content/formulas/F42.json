@@ -1,0 +1,16 @@
+{
+  "id": "F42",
+  "title": "Total entropy bookkeeping",
+  "visibility": "public-student",
+  "unit_id": "U4",
+  "topic_ids": [
+    "TOP28"
+  ],
+  "equation": "ΔS_total=ΔS_system+ΔS_surroundings",
+  "variables_and_units": {
+    "ΔS": "J/K"
+  },
+  "use_case": "For a complete isolated combination, total≥0. Add supplied values; no advanced entropy calculation required.",
+  "mini_example": "−1 J/K+2 J/K=+1 J/K.",
+  "status": "complete"
+}

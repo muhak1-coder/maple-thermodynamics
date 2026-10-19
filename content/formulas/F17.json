@@ -1,0 +1,18 @@
+{
+  "id": "F17",
+  "title": "Two ideal-gas states",
+  "visibility": "public-student",
+  "unit_id": "U2",
+  "topic_ids": [
+    "TOP13"
+  ],
+  "equation": "P_1V_1/T_1=P_2V_2/T_2",
+  "variables_and_units": {
+    "P_1,P_2": "same absolute-pressure unit",
+    "V_1,V_2": "same volume unit",
+    "T_1,T_2": "K"
+  },
+  "use_case": "Requires constant n and ideal behavior; simplify only quantities explicitly fixed.",
+  "mini_example": "At fixed n,V: 100 kPa×330 K/300 K=110 kPa.",
+  "status": "complete"
+}

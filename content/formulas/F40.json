@@ -1,0 +1,17 @@
+{
+  "id": "F40",
+  "title": "Thermal efficiency",
+  "visibility": "public-student",
+  "unit_id": "U4",
+  "topic_ids": [
+    "TOP27"
+  ],
+  "equation": "η=W_net/Q_H=1−Q_C/Q_H",
+  "variables_and_units": {
+    "η": "dimensionless fraction",
+    "W_net,Q_H,Q_C": "J/cycle"
+  },
+  "use_case": "Heat engine; Q_H and Q_C positive magnitudes. Percent=100η.",
+  "mini_example": "300/1000=.30=30%.",
+  "status": "complete"
+}

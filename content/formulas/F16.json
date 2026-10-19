@@ -1,0 +1,18 @@
+{
+  "id": "F16",
+  "title": "Mass to moles",
+  "visibility": "public-student",
+  "unit_id": "U2",
+  "topic_ids": [
+    "TOP13"
+  ],
+  "equation": "n=m/M",
+  "variables_and_units": {
+    "n": "mol",
+    "m": "g",
+    "M": "g/mol"
+  },
+  "use_case": "M is supplied molar mass; do not substitute grams for moles.",
+  "mini_example": "6.00 g/(12.0 g/mol)=0.500 mol.",
+  "status": "complete"
+}

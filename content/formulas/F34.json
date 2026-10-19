@@ -1,0 +1,17 @@
+{
+  "id": "F34",
+  "title": "Isobaric gas ratio",
+  "visibility": "public-student",
+  "unit_id": "U4",
+  "topic_ids": [
+    "TOP25"
+  ],
+  "equation": "V_f=V_iT_f/T_i",
+  "variables_and_units": {
+    "V": "consistent volume units",
+    "T": "K"
+  },
+  "use_case": "Fixed amount of ideal gas and fixed pressure.",
+  "mini_example": "2 L×450 K/300 K=3 L.",
+  "status": "complete"
+}

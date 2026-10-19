@@ -1,0 +1,161 @@
+{
+  "id": "WS22",
+  "title": "First Law of Thermodynamics",
+  "visibility": "public-student",
+  "level": "All competition levels",
+  "unit_id": "U4",
+  "objectives": "Apply ΔU=Q−W consistently; solve for any one unknown; translate work-on language; compare processes with the same endpoints and identify model limits.",
+  "suggested_duration": "25–30 minutes",
+  "difficulty": "Beginner through application; final question is a challenge",
+  "total_points": 20,
+  "instructions": "Use ΔU=Q−W: Q positive into the system and W positive by the system. Show the equation, signed substitution, arithmetic and units for numerical answers. Explain physical meaning. Use given constants. Retain intermediate digits and round final answers as requested; for unspecified precision, accept sensible rounding. Graphs and data are simulated educational models.",
+  "questions": [
+    {
+      "id": "WS22-Q01",
+      "assessment_id": "WS22",
+      "topic_ids": [
+        "TOP22"
+      ],
+      "prompt": "State the Unit 4 first law and define both transfer signs.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS22-Q02",
+      "assessment_id": "WS22",
+      "topic_ids": [
+        "TOP22"
+      ],
+      "prompt": "A gas receives 90 J of heat and does 30 J of work. Find ΔU.",
+      "question_type": "numeric",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS22-Q03",
+      "assessment_id": "WS22",
+      "topic_ids": [
+        "TOP22"
+      ],
+      "prompt": "A source says 40 J of work is done ON the gas. What value belongs in W in ΔU=Q−W?",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS22-Q04",
+      "assessment_id": "WS22",
+      "topic_ids": [
+        "TOP22"
+      ],
+      "prompt": "True or false: If ΔU=0, both Q and W must be zero. Give a numerical counterexample or justification.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS22-Q05",
+      "assessment_id": "WS22",
+      "topic_ids": [
+        "TOP22"
+      ],
+      "prompt": "A closed gas releases 120 J as heat while surroundings do 200 J of work on it. Calculate ΔU and explain the direction of its change.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS22-Q06",
+      "assessment_id": "WS22",
+      "topic_ids": [
+        "TOP22"
+      ],
+      "prompt": "A process has ΔU=−150 J and W=+250 J. Find Q and explain how heat input can accompany decreasing U.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS22-Q07",
+      "assessment_id": "WS22",
+      "topic_ids": [
+        "TOP22"
+      ],
+      "prompt": "Use the WS 22 energy ledger: 600 J heat enters, 100 J heat leaves and 220 J work leaves the gas. Calculate net Q and ΔU.",
+      "question_type": "diagram",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS22-Q08",
+      "assessment_id": "WS22",
+      "topic_ids": [
+        "TOP22"
+      ],
+      "prompt": "Challenge: Routes A and B connect exactly the same initial and final states of a closed gas. A has Q=400 J and W=150 J. B has W=−50 J. Find ΔU for each and Q for B; explain why the heats can differ.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    }
+  ],
+  "reference_material": {
+    "description": "All arrows cross the boundary of one closed gas system. Whole-system motion and height changes are negligible. The heat arrows are separate transfers, not already net quantities.",
+    "figure_path": "../lessons/figures/U4-WS22.svg",
+    "figure_alt": "600 J heat enters,100 J heat leaves,220 J work leaves.",
+    "columns": [
+      "transfer",
+      "energy_J",
+      "direction"
+    ],
+    "rows": [
+      [
+        "heat",
+        600,
+        "in"
+      ],
+      [
+        "heat",
+        100,
+        "out"
+      ],
+      [
+        "work",
+        220,
+        "out"
+      ]
+    ]
+  }
+}

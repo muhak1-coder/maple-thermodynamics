@@ -1,0 +1,159 @@
+{
+  "id": "WS23",
+  "title": "Isothermal Processes",
+  "visibility": "public-student",
+  "level": "All competition levels",
+  "unit_id": "U4",
+  "objectives": "Explain constant-temperature ideal-gas behavior; use Boyle’s law and Kelvin; interpret curved P–V paths; connect ΔU=0 to heat and work without calculating curved-path areas.",
+  "suggested_duration": "25–30 minutes",
+  "difficulty": "Beginner through application; final question is a challenge",
+  "total_points": 20,
+  "instructions": "Use ΔU=Q−W: Q positive into the system and W positive by the system. Show the equation, signed substitution, arithmetic and units for numerical answers. Explain physical meaning. Use given constants. Retain intermediate digits and round final answers as requested; for unspecified precision, accept sensible rounding. Graphs and data are simulated educational models.",
+  "questions": [
+    {
+      "id": "WS23-Q01",
+      "assessment_id": "WS23",
+      "topic_ids": [
+        "TOP23"
+      ],
+      "prompt": "Define isothermal. Does merely ending at the starting temperature prove that an entire process was isothermal?",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS23-Q02",
+      "assessment_id": "WS23",
+      "topic_ids": [
+        "TOP23"
+      ],
+      "prompt": "A fixed ideal gas doubles its volume isothermally. What happens to its absolute pressure?",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS23-Q03",
+      "assessment_id": "WS23",
+      "topic_ids": [
+        "TOP23"
+      ],
+      "prompt": "For fixed ideal gas undergoing isothermal expansion, choose the correct statement: A. Q=0 always. B. ΔU=0 and Q=W. Explain.",
+      "question_type": "multiple-choice",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [
+        "A. Q=0 always",
+        "B. ΔU=0 and Q=W"
+      ],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS23-Q04",
+      "assessment_id": "WS23",
+      "topic_ids": [
+        "TOP23"
+      ],
+      "prompt": "Why should an isothermal melting process not automatically be assigned ΔU=0 using the ideal-gas rule?",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS23-Q05",
+      "assessment_id": "WS23",
+      "topic_ids": [
+        "TOP23"
+      ],
+      "prompt": "Fixed ideal gas starts at 300 kPa and 2.0 L. It expands isothermally to 5.0 L. Find final absolute pressure.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS23-Q06",
+      "assessment_id": "WS23",
+      "topic_ids": [
+        "TOP23"
+      ],
+      "prompt": "A fixed ideal gas does 180 J of work during isothermal expansion. Find Q and ΔU.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS23-Q07",
+      "assessment_id": "WS23",
+      "topic_ids": [
+        "TOP23"
+      ],
+      "prompt": "Use the WS 23 curve. Verify PV at A and B, then state why P_A(V_B−V_A) is not a valid work calculation for this curved path.",
+      "question_type": "graph",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS23-Q08",
+      "assessment_id": "WS23",
+      "topic_ids": [
+        "TOP23"
+      ],
+      "prompt": "Challenge: Surroundings do 110 J of work ON a fixed ideal gas compressed isothermally. A student writes Q=+110 J because “compression heats gas.” Correct the signs and explain how temperature remains fixed.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    }
+  ],
+  "reference_material": {
+    "description": "Fixed amount of ideal gas on a slow, mechanically balanced isothermal expansion. The curve has PV=600 kPa·L. Do not calculate its curved-path work using a rectangle.",
+    "figure_path": "../lessons/figures/U4-WS23.svg",
+    "figure_alt": "A at2 L and300 kPa; B at5 L and120 kPa.",
+    "columns": [
+      "state",
+      "volume_L",
+      "absolute_pressure_kPa"
+    ],
+    "rows": [
+      [
+        "A",
+        2,
+        300
+      ],
+      [
+        "B",
+        5,
+        120
+      ]
+    ]
+  }
+}

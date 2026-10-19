@@ -1,0 +1,404 @@
+# T03 - Thermodynamic Laws and Processes
+
+REGIONAL WEBSITE RELEASE 1.0 | public-student
+
+Name/team: ____________________  Date: ______________
+
+24 questions | 60 points
+
+## Instructions
+Use metric units and show reasoning. Suggested practice time: 45–55 minutes. These are instructional practice timings, not official event allocations. The full official event includes device testing. Use 273.15 for Celsius-to-Kelvin conversion and supplied constants. Q is positive into the system; W is positive by it; ΔU=Q−W. Closed-system energy calculations neglect bulk kinetic/potential changes unless stated. No calculus, trigonometry, logarithms or State/National-only radiation/third-law calculations are required. All datasets are original illustrative models.
+
+Tests 1–3 are focused practice and are not full official written-test simulations. Test 4 covers all five Regional written categories; device items use supplied foundational models and do not require deferred Unit 7.
+
+## T03-F1 - Rectangular cycle
+Slowly mechanically balanced paths. Follow A→B→C→D→A. 1 kPa·L=1 J.
+
+![A(1 L,320 kPa), B(4 L,320 kPa), C(4 L,120 kPa), D(1 L,120 kPa), returning to A clockwise.](../tests/figures/T03-cycle.svg)
+
+| State | V (L) | P (kPa) |
+| --- | --- | --- |
+| A | 1 | 320 |
+| B | 4 | 320 |
+| C | 4 | 120 |
+| D | 1 | 120 |
+
+## T03-F2 - Isothermal path
+PV=300 kPa·L for this fixed ideal-gas teaching model. Use the supplied work in Q24; do not integrate or replace the curve with a rectangle.
+
+![Pressure falls from 300 kPa at 1 L to 100 kPa at 3 L along a curved isotherm.](../tests/figures/T03-isotherm.svg)
+
+| V (L) | P (kPa) |
+| --- | --- |
+| 1 | 300 |
+| 1.5 | 200 |
+| 2 | 150 |
+| 3 | 100 |
+
+## T03-Q01 (2 points)
+Which statement describes internal energy U? Choose and explain.
+
+A. Only energy presently crossing a wall
+
+B. Microscopic energy of the system state
+
+C. Work stored as a substance
+
+D. Temperature in joules
+
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+## T03-Q02 (2 points)
+For a rigid closed vessel, which statement about work is always justified by constant volume alone? Choose and explain.
+
+A. No energy can enter
+
+B. All work must be zero
+
+C. PV boundary work is zero
+
+D. Temperature must stay fixed
+
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+## T03-Q03 (2 points)
+Which condition defines an adiabatic process? Choose and explain what it does not necessarily imply.
+
+A. No heat transfer
+
+B. Constant temperature
+
+C. Constant pressure
+
+D. No work transfer
+
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+## T03-Q04 (2 points)
+Which proposal contradicts the second law under ordinary positive-temperature conditions? Choose and explain.
+
+A. A cup cools in a cooler room
+
+B. A refrigerator uses work
+
+C. Friction warms a brake
+
+D. A cycle converts single-reservoir heat entirely into work with no other effect
+
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+## T03-Q05 (2 points)
+A closed system receives 620 J of heat and does 230 J of work. Find ΔU.
+
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+## T03-Q06 (2 points)
+A fixed ideal gas expands isothermally from 90 kPa at 6.0 L to 9.0 L. Find its final absolute pressure.
+
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+## T03-Q07 (2 points)
+Convert 75 kPa·L to joules, explaining the conversion.
+
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+## T03-Q08 (2 points)
+A fixed ideal gas at constant volume doubles its Kelvin temperature. How does absolute pressure change? Explain.
+
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+## T03-Q09 (2 points)
+A fixed ideal gas is heated at constant pressure from 250 K to 325 K. Its initial volume is 2.0 L. Find the final volume.
+
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+## T03-Q10 (2 points)
+All affected parts of an isolated combination have supplied entropy changes −5 J/K and +8 J/K. Find the total and state whether the signs alone conflict with the second law.
+
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+## T03-Q11 (2 points)
+A working gas completes a thermodynamic cycle. What is its net internal-energy change? Can net work still be nonzero?
+
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+## T03-Q12 (2 points)
+An insulated ideal-gas sample does 150 J of work on its surroundings. What is ΔU, and does its temperature rise or fall?
+
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+## T03-Q13 (3 points)
+A gas expands slowly against constant opposing pressure 140 kPa from 1.5 L to 4.0 L. Find its boundary work. If Q=510 J enters, find ΔU.
+
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+## T03-Q14 (3 points)
+During compression, the surroundings do 280 J of work on a gas while the gas releases 95 J of heat. Find ΔU with the work-by convention and explain its sign.
+
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+## T03-Q15 (3 points)
+A fixed ideal gas is compressed isothermally. Work done by the gas is −210 J. Find ΔU and Q, and explain the direction of heat transfer.
+
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+## T03-Q16 (3 points)
+An adiabatic compression supplies 540 J of work to a fixed ideal gas with supplied internal-energy coefficient C_U=90 J/K. Find ΔU and ΔT.
+
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+## T03-Q17 (3 points)
+Use the T03 rectangular cycle A→B→C→D→A. Find work on each horizontal segment and the net work. Assume slowly balanced pressure-volume paths.
+
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+## T03-Q18 (3 points)
+Reverse the cycle in Q17. State the new net work and net heat into the gas over the complete cycle, explaining why its net ΔU remains zero.
+
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+## T03-Q19 (3 points)
+Three stages of a four-stage cycle have internal-energy changes +170 J, −260 J and +40 J. Find the fourth change. If that stage does 65 J of work, find its heat input.
+
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+## T03-Q20 (3 points)
+An engine absorbs 1800 J and rejects 1080 J each cycle. Its reservoirs are 600 K and 330 K. Calculate work, actual efficiency and the modern ideal maximum.
+
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+## T03-Q21 (3 points)
+A student uses W/Q_net as heat-engine efficiency. Explain why this denominator is wrong and state what the ratio would give for a cycle with nonzero net output.
+
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+## T03-Q22 (3 points)
+A gas returns to the same state every cycle, but friction is present. A student concludes each cycle is reversible because the gas’s entropy returns to its initial value. Diagnose the error.
+
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+## T03-Q23 (3 points)
+Two paths connect the same initial and final states of a closed system. Path A has Q=400 J and W=240 J. Path B does 90 J of work. Find Q for B and explain why it differs from A.
+
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+## T03-Q24 (3 points)
+The T03 isotherm goes from 300 kPa at 1.0 L to 100 kPa at 3.0 L. The measured work for this ideal-gas expansion is supplied as 330 J. Find Q. Explain why using the starting pressure times the entire volume change is not a valid work calculation.
+
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________
+
+____________________________________________

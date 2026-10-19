@@ -1,0 +1,133 @@
+{
+  "id": "WS06",
+  "title": "Heat-energy units and numerical conversions",
+  "visibility": "public-student",
+  "level": "All competition levels",
+  "objectives": "Convert heat-related energy units; distinguish power from energy; use unit cancellation to check a calculation.",
+  "suggested_duration": "20–25 minutes",
+  "difficulty": "Beginner through application; final question is a challenge",
+  "total_points": 20,
+  "instructions": "Show reasoning and units. Use a calculator when useful. For conversions use 273.15 and 4.184 J/cal. Numeric checking alone cannot award reasoning points.",
+  "questions": [
+    {
+      "id": "WS06-Q01",
+      "assessment_id": "WS06",
+      "topic_ids": [
+        "TOP06"
+      ],
+      "prompt": "Convert 2.70 kJ to J.",
+      "question_type": "numeric",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS06-Q02",
+      "assessment_id": "WS06",
+      "topic_ids": [
+        "TOP06"
+      ],
+      "prompt": "Convert 840 J to kJ.",
+      "question_type": "numeric",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS06-Q03",
+      "assessment_id": "WS06",
+      "topic_ids": [
+        "TOP06"
+      ],
+      "prompt": "Using 1 cal=4.184 J, convert 15.0 cal to J. Give three significant figures.",
+      "question_type": "numeric",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS06-Q04",
+      "assessment_id": "WS06",
+      "topic_ids": [
+        "TOP06"
+      ],
+      "prompt": "Complete the statements: 1 food Calorie equals ___ small calories. A watt measures ___, not total energy.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS06-Q05",
+      "assessment_id": "WS06",
+      "topic_ids": [
+        "TOP06"
+      ],
+      "prompt": "A constant transfer rate is 4.0 W for 2.0 min. Find the transferred energy. Give two significant figures.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS06-Q06",
+      "assessment_id": "WS06",
+      "topic_ids": [
+        "TOP06"
+      ],
+      "prompt": "Convert 3.00 food Calories to kJ. Use the thermochemical calorie and give three significant figures.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS06-Q07",
+      "assessment_id": "WS06",
+      "topic_ids": [
+        "TOP06"
+      ],
+      "prompt": "A student claims that 1000 J always produces a 1000 °C rise. Explain what is wrong and name two sample properties needed for a simple single-phase calculation.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS06-Q08",
+      "assessment_id": "WS06",
+      "topic_ids": [
+        "TOP06"
+      ],
+      "prompt": "Challenge: An illustrative lamp supplies 90 W for 10 min. Suppose only 5.0% of that energy reaches the water. Find the supplied energy and the energy reaching the water. This is a math model, not a competition-lamp specification.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    }
+  ]
+}

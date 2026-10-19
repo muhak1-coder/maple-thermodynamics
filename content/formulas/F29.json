@@ -1,0 +1,19 @@
+{
+  "id": "F29",
+  "title": "First law: work-by convention",
+  "visibility": "public-student",
+  "unit_id": "U4",
+  "topic_ids": [
+    "TOP21",
+    "TOP22"
+  ],
+  "equation": "ΔU=Q−W",
+  "variables_and_units": {
+    "ΔU": "J, final minus initial",
+    "Q": "J, positive into system",
+    "W": "J, positive by system"
+  },
+  "use_case": "Closed system with negligible bulk kinetic/potential changes; include all work modes.",
+  "mini_example": "Q=300 J,W=80 J gives ΔU=220 J.",
+  "status": "complete"
+}

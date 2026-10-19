@@ -1,0 +1,134 @@
+{
+  "id": "WS08",
+  "title": "Phase transitions",
+  "visibility": "public-student",
+  "level": "All competition levels",
+  "unit_id": "U2",
+  "objectives": "Name and distinguish six phase transitions; identify energy absorbed or released; explain evaporation, boiling and condensation using particles.",
+  "suggested_duration": "20–25 minutes",
+  "difficulty": "Beginner through application; final question is a challenge",
+  "total_points": 20,
+  "instructions": "Show the equation, substitution, arithmetic and units for numerical answers. Explain physical meaning. Use given constants. Retain intermediate digits and round final answers as requested; for unspecified precision, accept sensible rounding. Graphs and data are simulated educational models.",
+  "questions": [
+    {
+      "id": "WS08-Q01",
+      "assessment_id": "WS08",
+      "topic_ids": [
+        "TOP08"
+      ],
+      "prompt": "Name solid→liquid and liquid→solid transitions.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS08-Q02",
+      "assessment_id": "WS08",
+      "topic_ids": [
+        "TOP08"
+      ],
+      "prompt": "Name gas→liquid and solid→gas transitions.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS08-Q03",
+      "assessment_id": "WS08",
+      "topic_ids": [
+        "TOP08"
+      ],
+      "prompt": "For the sample undergoing the transition, which absorbs heat: melting or freezing? State what the other process does.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS08-Q04",
+      "assessment_id": "WS08",
+      "topic_ids": [
+        "TOP08"
+      ],
+      "prompt": "A wet towel dries at 24 °C. Must its water have boiled? Name the applicable process.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS08-Q05",
+      "assessment_id": "WS08",
+      "topic_ids": [
+        "TOP08"
+      ],
+      "prompt": "A 75.0 g sealed sample of ice is partly melted. There are 27.0 g of liquid water. Find the remaining ice mass and percentage melted.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS08-Q06",
+      "assessment_id": "WS08",
+      "topic_ids": [
+        "TOP08"
+      ],
+      "prompt": "Water vapor forms liquid droplets on a cooler surface. Name the transition, identify the energy direction for the vapor becoming liquid, and state whether H₂O becomes a new chemical substance.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS08-Q07",
+      "assessment_id": "WS08",
+      "topic_ids": [
+        "TOP08"
+      ],
+      "prompt": "During one modeled interval, 9.0 g evaporates and 4.0 g condenses inside a closed container. Find the net liquid-mass change and explain what happens to total mass.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS08-Q08",
+      "assessment_id": "WS08",
+      "topic_ids": [
+        "TOP08"
+      ],
+      "prompt": "Challenge: A student labels a frost crystal forming directly from water vapor “freezing” and says it absorbs heat. Correct both claims and explain the particle change.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    }
+  ]
+}

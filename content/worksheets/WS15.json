@@ -1,0 +1,161 @@
+{
+  "id": "WS15",
+  "title": "Convection",
+  "visibility": "public-student",
+  "level": "All competition levels",
+  "unit_id": "U3",
+  "objectives": "Explain buoyancy-driven circulation and forced circulation; distinguish flow from molecular conduction; analyze rates, density and cooling data.",
+  "suggested_duration": "25–30 minutes",
+  "difficulty": "Beginner through application; final question is a challenge",
+  "total_points": 20,
+  "instructions": "Show the equation, substitution, arithmetic and units for numerical answers. Explain physical meaning. Use given constants. Retain intermediate digits and round final answers as requested; for unspecified precision, accept sensible rounding. Graphs and data are simulated educational models.",
+  "questions": [
+    {
+      "id": "WS15-Q01",
+      "assessment_id": "WS15",
+      "topic_ids": [
+        "TOP15"
+      ],
+      "prompt": "Define a fluid and explain why a rigid solid cannot transfer energy by bulk convection within itself.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS15-Q02",
+      "assessment_id": "WS15",
+      "topic_ids": [
+        "TOP15"
+      ],
+      "prompt": "Ordinary air well above freezing warms and expands at nearly constant pressure with no mass change. Explain the density change and its possible buoyant motion.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS15-Q03",
+      "assessment_id": "WS15",
+      "topic_ids": [
+        "TOP15"
+      ],
+      "prompt": "Classify (a) a pump circulating radiator water and (b) air rising above a warm radiator without a fan.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS15-Q04",
+      "assessment_id": "WS15",
+      "topic_ids": [
+        "TOP15"
+      ],
+      "prompt": "A sealed flexible model parcel contains 2.0 g of air in 2.5 L. Calculate density.",
+      "question_type": "numeric",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS15-Q05",
+      "assessment_id": "WS15",
+      "topic_ids": [
+        "TOP15"
+      ],
+      "prompt": "Sketch a plausible natural-convection loop for water heated gently from below and cooled near the top. Label warmer/less-dense and cooler/denser regions. Assume water stays above 10 °C.",
+      "question_type": "diagram",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS15-Q06",
+      "assessment_id": "WS15",
+      "topic_ids": [
+        "TOP15"
+      ],
+      "prompt": "Use the WS 15 cooling data. Calculate the average 0–4 min slopes for still air and moving air. Which has larger cooling magnitude?",
+      "question_type": "graph",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS15-Q07",
+      "assessment_id": "WS15",
+      "topic_ids": [
+        "TOP15"
+      ],
+      "prompt": "A fan moves 45 °C dry air over a dry object at 25 °C. Predict the direction of convective transfer and explain why “fans always cool” fails.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS15-Q08",
+      "assessment_id": "WS15",
+      "topic_ids": [
+        "TOP15"
+      ],
+      "prompt": "Challenge: Two equal water samples begin at 30 °C. One is heated from below and one from above. Explain which arrangement more readily produces natural overturning. Name two controls needed to compare it fairly.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    }
+  ],
+  "reference_material": {
+    "description": "Simulated equal-capacity dry samples, identical starts and room conditions. Only imposed airflow differs in this ideal comparison.",
+    "figure_path": "../lessons/figures/U3-WS15.svg",
+    "figure_alt": "Still air40,37,34 °C and moving air40,34,28 °C at0,2,4 min.",
+    "columns": [
+      "time_min",
+      "still_air_C",
+      "moving_air_C"
+    ],
+    "rows": [
+      [
+        0,
+        40,
+        40
+      ],
+      [
+        2,
+        37,
+        34
+      ],
+      [
+        4,
+        34,
+        28
+      ]
+    ]
+  }
+}

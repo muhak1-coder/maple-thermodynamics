@@ -1,0 +1,16 @@
+{
+  "id": "F18",
+  "title": "Gas-law unit and pressure conversions",
+  "visibility": "public-student",
+  "unit_id": "U2",
+  "topic_ids": [
+    "TOP13"
+  ],
+  "equation": "1 kPa=1000 Pa; 1 L=0.001 m³; 1 atm=101.325 kPa; P_abs=P_gauge+P_atm",
+  "variables_and_units": {
+    "P_abs,P_gauge,P_atm": "same pressure unit"
+  },
+  "use_case": "Pressure in PV=nRT is relative to vacuum. 1 kPa·L=1 Pa·m³=1 J.",
+  "mini_example": "A 15 kPa gauge reading with local atmosphere 99 kPa gives 114 kPa absolute.",
+  "status": "complete"
+}

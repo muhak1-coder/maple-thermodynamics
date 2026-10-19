@@ -1,0 +1,20 @@
+{
+  "id": "F20",
+  "title": "Steady slab conduction",
+  "visibility": "public-student",
+  "unit_id": "U3",
+  "topic_ids": [
+    "TOP18"
+  ],
+  "equation": "P_cond=kAΔT/L",
+  "variables_and_units": {
+    "P_cond": "W",
+    "k": "W/(m·K)",
+    "A": "m²",
+    "ΔT": "K",
+    "L": "m"
+  },
+  "use_case": "Uniform k, steady one-dimensional conduction and negligible edge/contact complications; face temperatures specified.",
+  "mini_example": ".05×.20×10/.02=5 W.",
+  "status": "complete"
+}

@@ -1,0 +1,133 @@
+{
+  "id": "WS04",
+  "title": "Thermal equilibrium and zeroth law",
+  "visibility": "public-student",
+  "level": "All competition levels",
+  "objectives": "Use thermal equilibrium and the zeroth law; distinguish equilibrium from equal energy; explain how a thermometer obtains a useful reading.",
+  "suggested_duration": "20–25 minutes",
+  "difficulty": "Beginner through application; final question is a challenge",
+  "total_points": 20,
+  "instructions": "Show reasoning and units. Use a calculator when useful. For conversions use 273.15 and 4.184 J/cal. Numeric checking alone cannot award reasoning points.",
+  "questions": [
+    {
+      "id": "WS04-Q01",
+      "assessment_id": "WS04",
+      "topic_ids": [
+        "TOP04"
+      ],
+      "prompt": "In one sentence, define thermal equilibrium between two objects in thermal contact.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS04-Q02",
+      "assessment_id": "WS04",
+      "topic_ids": [
+        "TOP04"
+      ],
+      "prompt": "A is in equilibrium with reference C. B is also in equilibrium with unchanged C. What follows about A and B, and which law says so?",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS04-Q03",
+      "assessment_id": "WS04",
+      "topic_ids": [
+        "TOP04"
+      ],
+      "prompt": "Can a 20 g water sample and a 200 g water sample at the same temperature be in thermal equilibrium? Explain.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS04-Q04",
+      "assessment_id": "WS04",
+      "topic_ids": [
+        "TOP04"
+      ],
+      "prompt": "A probe starts colder than a sample. Why might an immediate reading be too low?",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS04-Q05",
+      "assessment_id": "WS04",
+      "topic_ids": [
+        "TOP04"
+      ],
+      "prompt": "Two equal water masses start at 16.0 °C and 28.0 °C. Assume equal constant specific heats, no work, no phase change, no external exchange and negligible container energy. Find the common final temperature.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS04-Q06",
+      "assessment_id": "WS04",
+      "topic_ids": [
+        "TOP04"
+      ],
+      "prompt": "Read this simulated dataset: time (min) 0, 2, 4, 6; object A (°C) 36, 32, 29, 27; object B (°C) 18, 22, 25, 27. At which listed time is thermal equilibrium indicated? State the earlier net-flow direction.",
+      "question_type": "data-analysis",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS04-Q07",
+      "assessment_id": "WS04",
+      "topic_ids": [
+        "TOP04"
+      ],
+      "prompt": "Explain two reasons “the particles have stopped” is a poor description of equilibrium.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS04-Q08",
+      "assessment_id": "WS04",
+      "topic_ids": [
+        "TOP04"
+      ],
+      "prompt": "Challenge: A 10 g sample at 80 °C and a 100 g sample at 20 °C are combined. A student uses 50 °C by averaging. Without finding the true final temperature, explain why that shortcut is unjustified and say which initial temperature the final value should be closer to if both are water and the system is insulated.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="494.64pt" height="264.189937pt" viewBox="0 0 494.64 264.189937" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-17T19:36:58.441084</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 264.189937 
+L 494.64 264.189937 
+L 494.64 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 12.0024 129.059271 
+L 112.8528 129.059271 
+Q 117.6552 129.059271 117.6552 125.296604 
+L 117.6552 87.669937 
+Q 117.6552 83.907271 112.8528 83.907271 
+L 12.0024 83.907271 
+Q 7.2 83.907271 7.2 87.669937 
+L 7.2 125.296604 
+Q 7.2 129.059271 12.0024 129.059271 
+z
+" clip-path="url(#pa49342c4d0)" style="fill: #e6f0ee; stroke: #216761; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 184.8888 170.448604 
+L 309.7512 170.448604 
+Q 314.5536 170.448604 314.5536 166.685937 
+L 314.5536 114.008604 
+Q 314.5536 110.245937 309.7512 110.245937 
+L 184.8888 110.245937 
+Q 180.0864 110.245937 180.0864 114.008604 
+L 180.0864 166.685937 
+Q 180.0864 170.448604 184.8888 170.448604 
+z
+" clip-path="url(#pa49342c4d0)" style="fill: #e6f0ee; stroke: #216761; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 376.9848 129.059271 
+L 477.8352 129.059271 
+Q 482.6376 129.059271 482.6376 125.296604 
+L 482.6376 87.669937 
+Q 482.6376 83.907271 477.8352 83.907271 
+L 376.9848 83.907271 
+Q 372.1824 83.907271 372.1824 87.669937 
+L 372.1824 125.296604 
+Q 372.1824 129.059271 376.9848 129.059271 
+z
+" clip-path="url(#pa49342c4d0)" style="fill: #e6f0ee; stroke: #216761; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="62.4276" y="109.242646" transform="rotate(-0 62.4276 109.242646)">Heat source</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(228.674688 137.50774)">System</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(216.074687 148.705552)">ΔU = +320 J</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="427.41" y="109.242646" transform="rotate(-0 427.41 109.242646)">Work output</text>
+   </g>
+   <g id="patch_5">
+    <path d="M 124.247069 107.37548 
+Q 148.869958 119.652184 171.49172 130.931148 
+" style="fill: none; stroke: #a44923; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 168.535667 126.999004 
+L 171.49172 130.931148 
+L 166.572373 130.936704 
+" style="fill: none; stroke: #a44923; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <g id="patch_6">
+     <path d="M 107.613394 84.697094 
+L 166.116206 84.697094 
+L 166.116206 68.066781 
+L 107.613394 68.066781 
+z
+" style="fill: #ffffff; opacity: 0.95"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="136.8648" y="78.865375" transform="rotate(-0 136.8648 78.865375)">Q = +500 J</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 321.11176 131.858994 
+Q 343.369031 119.652038 363.665741 108.520349 
+" style="fill: none; stroke: #a44923; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 358.749943 108.707255 
+L 363.665741 108.520349 
+L 360.865787 112.565131 
+" style="fill: none; stroke: #a44923; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <g id="patch_8">
+     <path d="M 322.814363 84.697094 
+L 383.131237 84.697094 
+L 383.131237 68.066781 
+L 322.814363 68.066781 
+z
+" style="fill: #ffffff; opacity: 0.95"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="352.9728" y="78.865375" transform="rotate(-0 352.9728 78.865375)">W = +180 J</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 13.2px; font-family: 'DejaVu Sans'; text-anchor: middle" x="247.32" y="17.229937" transform="rotate(-0 247.32 17.229937)">First-law ledger: ΔU = Q − W</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pa49342c4d0">
+   <rect x="7.2" y="31.229937" width="480.24" height="225.76"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="494.64pt" height="264.189937pt" viewBox="0 0 494.64 264.189937" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-17T19:36:59.408538</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 264.189937 
+L 494.64 264.189937 
+L 494.64 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 12.0024 129.059271 
+L 108.0504 129.059271 
+Q 112.8528 129.059271 112.8528 125.296604 
+L 112.8528 87.669937 
+Q 112.8528 83.907271 108.0504 83.907271 
+L 12.0024 83.907271 
+Q 7.2 83.907271 7.2 87.669937 
+L 7.2 125.296604 
+Q 7.2 129.059271 12.0024 129.059271 
+z
+" clip-path="url(#pe884cc6833)" style="fill: #e6f0ee; stroke: #216761; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 189.6912 166.685937 
+L 304.9488 166.685937 
+Q 309.7512 166.685937 309.7512 162.923271 
+L 309.7512 117.771271 
+Q 309.7512 114.008604 304.9488 114.008604 
+L 189.6912 114.008604 
+Q 184.8888 114.008604 184.8888 117.771271 
+L 184.8888 162.923271 
+Q 184.8888 166.685937 189.6912 166.685937 
+z
+" clip-path="url(#pe884cc6833)" style="fill: #e6f0ee; stroke: #216761; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 381.7872 102.720604 
+L 477.8352 102.720604 
+Q 482.6376 102.720604 482.6376 98.957937 
+L 482.6376 61.331271 
+Q 482.6376 57.568604 477.8352 57.568604 
+L 381.7872 57.568604 
+Q 376.9848 57.568604 376.9848 61.331271 
+L 376.9848 98.957937 
+Q 376.9848 102.720604 381.7872 102.720604 
+z
+" clip-path="url(#pe884cc6833)" style="fill: #e6f0ee; stroke: #216761; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 381.7872 234.413938 
+L 477.8352 234.413938 
+Q 482.6376 234.413938 482.6376 230.651271 
+L 482.6376 193.024604 
+Q 482.6376 189.261937 477.8352 189.261937 
+L 381.7872 189.261937 
+Q 376.9848 189.261937 376.9848 193.024604 
+L 376.9848 230.651271 
+Q 376.9848 234.413938 381.7872 234.413938 
+z
+" clip-path="url(#pe884cc6833)" style="fill: #e6f0ee; stroke: #216761; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="60.0264" y="109.242646" transform="rotate(-0 60.0264 109.242646)">Heat source</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="247.32" y="143.106646" transform="rotate(-0 247.32 143.106646)">Gas system</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="429.8112" y="82.903979" transform="rotate(-0 429.8112 82.903979)">Heat sink</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="429.8112" y="214.597312" transform="rotate(-0 429.8112 214.597312)">Work output</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 119.457566 107.352285 
+Q 148.870913 121.533992 176.270088 134.744562 
+" style="fill: none; stroke: #a44923; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 173.262194 130.851932 
+L 176.270088 134.744562 
+L 171.351248 134.815299 
+" style="fill: none; stroke: #a44923; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <g id="patch_7">
+     <path d="M 120.827981 88.45976 
+L 162.506419 88.45976 
+L 162.506419 71.829448 
+L 120.827981 71.829448 
+z
+" style="fill: #ffffff; opacity: 0.95"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="141.6672" y="82.628042" transform="rotate(-0 141.6672 82.628042)">600 J in</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 316.027383 131.474782 
+Q 343.36628 106.484843 369.054726 83.003548 
+" style="fill: none; stroke: #a44923; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 364.322756 84.348339 
+L 369.054726 83.003548 
+L 367.291377 87.595999 
+" style="fill: none; stroke: #a44923; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <g id="patch_9">
+     <path d="M 324.063759 111.03576 
+L 372.277041 111.03576 
+L 372.277041 94.405448 
+L 324.063759 94.405448 
+z
+" style="fill: #ffffff; opacity: 0.95"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="348.1704" y="105.204042" transform="rotate(-0 348.1704 105.204042)">100 J out</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 315.93769 153.081178 
+Q 343.368315 181.736933 369.252707 208.777396 
+" style="fill: none; stroke: #a44923; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 367.799361 204.077632 
+L 369.252707 208.777396 
+L 364.620888 207.120215 
+" style="fill: none; stroke: #a44923; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_7">
+    <g id="patch_11">
+     <path d="M 328.866159 190.05176 
+L 377.079441 190.05176 
+L 377.079441 173.421448 
+L 328.866159 173.421448 
+z
+" style="fill: #ffffff; opacity: 0.95"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle" x="352.9728" y="184.220042" transform="rotate(-0 352.9728 184.220042)">220 J out</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 13.2px; font-family: 'DejaVu Sans'; text-anchor: middle" x="247.32" y="17.229937" transform="rotate(-0 247.32 17.229937)">WS22: separate transfers across one boundary</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pe884cc6833">
+   <rect x="7.2" y="31.229937" width="480.24" height="225.76"/>
+  </clipPath>
+ </defs>
+</svg>

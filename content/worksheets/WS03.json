@@ -1,0 +1,137 @@
+{
+  "id": "WS03",
+  "title": "Intensive and extensive properties",
+  "visibility": "public-student",
+  "level": "All competition levels",
+  "objectives": "Classify intensive and extensive properties; apply the split/combine test; use density and mass consistently.",
+  "suggested_duration": "20–25 minutes",
+  "difficulty": "Beginner through application; final question is a challenge",
+  "total_points": 20,
+  "instructions": "Show reasoning and units. Use a calculator when useful. For conversions use 273.15 and 4.184 J/cal. Numeric checking alone cannot award reasoning points.",
+  "questions": [
+    {
+      "id": "WS03-Q01",
+      "assessment_id": "WS03",
+      "topic_ids": [
+        "TOP03"
+      ],
+      "prompt": "Classify mass and temperature as extensive or intensive.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS03-Q02",
+      "assessment_id": "WS03",
+      "topic_ids": [
+        "TOP03"
+      ],
+      "prompt": "Classify volume and density for uniform samples at the same state.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS03-Q03",
+      "assessment_id": "WS03",
+      "topic_ids": [
+        "TOP03"
+      ],
+      "prompt": "Two identical 30 °C portions are combined without energy loss or phase change. Choose the final temperature: A. 15 °C B. 30 °C C. 60 °C. Explain.",
+      "question_type": "multiple-choice",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [
+        "A. 15 °C",
+        "B. 30 °C",
+        "C. 60 °C"
+      ],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS03-Q04",
+      "assessment_id": "WS03",
+      "topic_ids": [
+        "TOP03"
+      ],
+      "prompt": "A homogeneous 90 g sample is divided into three equal portions with no state change. What is each mass? What happens to its density?",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS03-Q05",
+      "assessment_id": "WS03",
+      "topic_ids": [
+        "TOP03"
+      ],
+      "prompt": "A liquid sample has mass 63 g and volume 70 mL. Calculate its density.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS03-Q06",
+      "assessment_id": "WS03",
+      "topic_ids": [
+        "TOP03"
+      ],
+      "prompt": "Double the sample in Q05 using an identical portion. Give the new mass, volume and density.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS03-Q07",
+      "assessment_id": "WS03",
+      "topic_ids": [
+        "TOP03"
+      ],
+      "prompt": "A student argues pressure is extensive because it can change when a gas is compressed. Explain the mistake.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS03-Q08",
+      "assessment_id": "WS03",
+      "topic_ids": [
+        "TOP03"
+      ],
+      "prompt": "Challenge: Under a stated consistent energy reference, one uniform portion has U=600 J, mass 20 g and temperature 28 °C. Combine three identical portions without other effects. Give total U, total mass and temperature.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    }
+  ]
+}

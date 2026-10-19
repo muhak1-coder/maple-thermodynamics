@@ -1,0 +1,18 @@
+{
+  "id": "F38",
+  "title": "Rectangular cycle area",
+  "visibility": "public-student",
+  "unit_id": "U4",
+  "topic_ids": [
+    "TOP26"
+  ],
+  "equation": "|W_net|=(P_high−P_low)(V_max−V_min)",
+  "variables_and_units": {
+    "P": "kPa",
+    "V": "L",
+    "W_net": "J/cycle"
+  },
+  "use_case": "Simple mechanically balanced PV cycle; clockwise positive, reverse negative.",
+  "mini_example": "(250−100) kPa×(4−2) L=300 J magnitude.",
+  "status": "complete"
+}

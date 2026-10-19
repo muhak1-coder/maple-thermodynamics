@@ -1,0 +1,19 @@
+{
+  "id": "F10",
+  "title": "Temperature from heat",
+  "visibility": "public-student",
+  "unit_id": "U2",
+  "topic_ids": [
+    "TOP10"
+  ],
+  "equation": "ΔT=Q/(mc); T_f=T_i+ΔT",
+  "variables_and_units": {
+    "ΔT": "°C or K change",
+    "Q": "J",
+    "m": "g",
+    "c": "J/(g·°C)"
+  },
+  "use_case": "Find a rise before adding it to the starting reading; verify no phase boundary is crossed.",
+  "mini_example": "836 J/(40 g×4.18 J/(g·°C))=5 °C; from 19 °C gives 24 °C.",
+  "status": "complete"
+}

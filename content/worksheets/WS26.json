@@ -1,0 +1,166 @@
+{
+  "id": "WS26",
+  "title": "Thermodynamic Cycles",
+  "visibility": "public-student",
+  "level": "All competition levels",
+  "unit_id": "U4",
+  "objectives": "Explain return to the initial state; calculate rectangular and triangular cycle work geometrically; use ΔU_cycle=0; interpret direction and net heat.",
+  "suggested_duration": "25–30 minutes",
+  "difficulty": "Beginner through application; final question is a challenge",
+  "total_points": 20,
+  "instructions": "Use ΔU=Q−W: Q positive into the system and W positive by the system. Show the equation, signed substitution, arithmetic and units for numerical answers. Explain physical meaning. Use given constants. Retain intermediate digits and round final answers as requested; for unspecified precision, accept sensible rounding. Graphs and data are simulated educational models.",
+  "questions": [
+    {
+      "id": "WS26-Q01",
+      "assessment_id": "WS26",
+      "topic_ids": [
+        "TOP26"
+      ],
+      "prompt": "What must return to its starting value in a complete thermodynamic cycle: U, total heat transferred, or total work transferred? Explain.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS26-Q02",
+      "assessment_id": "WS26",
+      "topic_ids": [
+        "TOP26"
+      ],
+      "prompt": "On a P-vertical, V-horizontal diagram, what sign is net PV work by the gas for a simple clockwise loop?",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS26-Q03",
+      "assessment_id": "WS26",
+      "topic_ids": [
+        "TOP26"
+      ],
+      "prompt": "A cycle receives net 300 J of heat. Determine ΔU_cycle and W_net.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS26-Q04",
+      "assessment_id": "WS26",
+      "topic_ids": [
+        "TOP26"
+      ],
+      "prompt": "A gas moves vertically on a standard P–V plot. What is its PV work and why?",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS26-Q05",
+      "assessment_id": "WS26",
+      "topic_ids": [
+        "TOP26"
+      ],
+      "prompt": "Use the WS 26 rectangle A→B→C→D→A. Find the work on each horizontal segment and the net work.",
+      "question_type": "graph",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS26-Q06",
+      "assessment_id": "WS26",
+      "topic_ids": [
+        "TOP26"
+      ],
+      "prompt": "A clockwise triangular cycle encloses a right triangle with base 3.0 L and pressure height 160 kPa. Find net work and net heat per cycle.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS26-Q07",
+      "assessment_id": "WS26",
+      "topic_ids": [
+        "TOP26"
+      ],
+      "prompt": "A cycle absorbs 900 J and rejects 650 J. Find W_net. If it completes 4 cycles each second at these values, find average mechanical output power.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS26-Q08",
+      "assessment_id": "WS26",
+      "topic_ids": [
+        "TOP26"
+      ],
+      "prompt": "Challenge: Reverse the WS 26 rectangular cycle. Find signed W_net and Q_net. Explain why negative work by the gas means work input, and why the diagram alone does not fully specify a refrigerator.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    }
+  ],
+  "reference_material": {
+    "description": "Clockwise cycle A→B→C→D→A. Mechanically balanced, only PV work, closed gas returns to its original state. All segments are horizontal or vertical.",
+    "figure_path": "../lessons/figures/U4-WS26.svg",
+    "figure_alt": "Rectangle from1 to5 L and80 to200 kPa with clockwise arrows.",
+    "columns": [
+      "state",
+      "volume_L",
+      "absolute_pressure_kPa"
+    ],
+    "rows": [
+      [
+        "A",
+        1,
+        80
+      ],
+      [
+        "B",
+        1,
+        200
+      ],
+      [
+        "C",
+        5,
+        200
+      ],
+      [
+        "D",
+        5,
+        80
+      ]
+    ]
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "id": "U5-HISTORY-DATA",
+  "unit_id": "U5",
+  "visibility": "public-student",
+  "timeline": [
+    {
+      "date": "c.1760–1762",
+      "scientist": "Joseph Black",
+      "event": "Development and presentation of specific/latent heat ideas",
+      "significance": "Temperature alone does not measure thermal transfer.",
+      "source_ids": [
+        "H01",
+        "H02"
+      ]
+    },
+    {
+      "date": "1803",
+      "scientist": "Black / editor John Robison",
+      "event": "Posthumous collected lectures published",
+      "significance": "Publication is later than the work and Black’s death.",
+      "source_ids": [
+        "H02"
+      ]
+    },
+    {
+      "date": "1824",
+      "scientist": "Sadi Carnot",
+      "event": "Book on motive power of heat",
+      "significance": "Reversible-engine reasoning within a caloric framework.",
+      "source_ids": [
+        "H06"
+      ]
+    },
+    {
+      "date": "1834",
+      "scientist": "Émile Clapeyron",
+      "event": "Reformulation of Carnot’s work",
+      "significance": "A documented route for transmission of ideas; not one of the eight required scientists.",
+      "source_ids": [
+        "H06"
+      ]
+    },
+    {
+      "date": "1840s",
+      "scientist": "James Prescott Joule",
+      "event": "Mechanical and thermal experiments",
+      "significance": "Work and thermal effects are quantitatively related.",
+      "source_ids": [
+        "H05"
+      ]
+    },
+    {
+      "date": "1848",
+      "scientist": "William Thomson / Kelvin",
+      "event": "Absolute thermometric-scale proposal",
+      "significance": "An early proposal, not the final modern Kelvin definition.",
+      "source_ids": [
+        "H03"
+      ]
+    },
+    {
+      "date": "1850",
+      "scientist": "Rudolf Clausius",
+      "event": "Mechanical theory of heat paper",
+      "significance": "Reconciles engine reasoning with heat-work conversion.",
+      "source_ids": [
+        "H07"
+      ]
+    },
+    {
+      "date": "1860",
+      "scientist": "James Clerk Maxwell",
+      "event": "Gas distribution papers",
+      "significance": "A population of molecular velocities replaces one common speed.",
+      "source_ids": [
+        "H10"
+      ]
+    },
+    {
+      "date": "1865",
+      "scientist": "Rudolf Clausius",
+      "event": "Entropy named and defined",
+      "significance": "Developed over preceding years; distinct from energy.",
+      "source_ids": [
+        "H07"
+      ]
+    },
+    {
+      "date": "1867 / 1871",
+      "scientist": "James Clerk Maxwell",
+      "event": "Demon privately described / publicly discussed",
+      "significance": "Thought experiment probes microscopic control and boundaries.",
+      "source_ids": [
+        "H14"
+      ]
+    },
+    {
+      "date": "1877",
+      "scientist": "Ludwig Boltzmann",
+      "event": "Probability and entropy paper",
+      "significance": "Statistical interpretation of thermal behavior.",
+      "source_ids": [
+        "H12"
+      ]
+    },
+    {
+      "date": "1900",
+      "scientist": "Max Planck",
+      "event": "Radiation theory and energy elements",
+      "significance": "Beginning of quantum theory, not the completed photon picture.",
+      "source_ids": [
+        "H08",
+        "H09"
+      ]
+    },
+    {
+      "date": "1905",
+      "scientist": "Albert Einstein",
+      "event": "Light-quantum development",
+      "significance": "Later contribution distinguished from Planck; contextual name.",
+      "source_ids": [
+        "H09"
+      ]
+    },
+    {
+      "date": "1918",
+      "scientist": "Max Planck",
+      "event": "Nobel Prize in Physics",
+      "significance": "Recognition of earlier work, not the discovery date.",
+      "source_ids": [
+        "H08"
+      ]
+    }
+  ],
+  "scientists": [
+    {
+      "name": "Joseph Black",
+      "lifespan": "1728–1799",
+      "contribution": "Specific heat; latent heat",
+      "modern_association": "Q=mcΔT; Q=mL (modern notation)",
+      "significance": "Separated temperature from thermal quantity; foundation for calorimetry.",
+      "source_ids": [
+        "H01",
+        "H02"
+      ]
+    },
+    {
+      "name": "Sadi Carnot",
+      "lifespan": "1796–1832",
+      "contribution": "Ideal reversible engine reasoning",
+      "modern_association": "Modern η_max=1−T_C/T_H",
+      "significance": "Established roots of a general performance limit; original caloric framework later revised.",
+      "source_ids": [
+        "H06"
+      ]
+    },
+    {
+      "name": "James Prescott Joule",
+      "lifespan": "1818–1889",
+      "contribution": "Mechanical equivalent of heat",
+      "modern_association": "ΔU=Q−W; joule J",
+      "significance": "Quantitative experimental support for energy conversion and conservation.",
+      "source_ids": [
+        "H05"
+      ]
+    },
+    {
+      "name": "Rudolf Clausius",
+      "lifespan": "1822–1888",
+      "contribution": "Second-law development; entropy",
+      "modern_association": "Total isolated entropy cannot decrease",
+      "significance": "Added direction and irreversibility to energy accounting.",
+      "source_ids": [
+        "H07"
+      ]
+    },
+    {
+      "name": "William Thomson / Lord Kelvin",
+      "lifespan": "1824–1907",
+      "contribution": "Absolute temperature; thermodynamic theory",
+      "modern_association": "T=t+273.15; Kelvin ratios",
+      "significance": "Developed a general temperature framework; original proposal later refined.",
+      "source_ids": [
+        "H03",
+        "H04"
+      ]
+    },
+    {
+      "name": "James Clerk Maxwell",
+      "lifespan": "1831–1879",
+      "contribution": "Molecular velocity distribution; demon",
+      "modern_association": "Statistical gas description",
+      "significance": "Connected particle populations with bulk properties; examined second-law assumptions.",
+      "source_ids": [
+        "H10",
+        "H11",
+        "H14"
+      ]
+    },
+    {
+      "name": "Ludwig Boltzmann",
+      "lifespan": "1844–1906",
+      "contribution": "Statistical interpretation of entropy",
+      "modern_association": "Multiplicity; k_B links energy and K",
+      "significance": "Explained thermal regularities through microscopic possibilities.",
+      "source_ids": [
+        "H12",
+        "H13",
+        "H04"
+      ]
+    },
+    {
+      "name": "Max Planck",
+      "lifespan": "1858–1947",
+      "contribution": "Radiation law; energy quanta",
+      "modern_association": "ε=hf conceptually",
+      "significance": "Opened quantum theory through the thermal-radiation problem.",
+      "source_ids": [
+        "H08",
+        "H09"
+      ]
+    }
+  ]
+}

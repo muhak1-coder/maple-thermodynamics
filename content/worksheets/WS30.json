@@ -1,0 +1,134 @@
+{
+  "id": "WS30",
+  "title": "James Prescott Joule and Sadi Carnot",
+  "visibility": "public-student",
+  "level": "All competition levels",
+  "unit_id": "U5",
+  "objectives": "Interpret work-to-warming experiments; use the first law consistently; explain reversible engine limits; distinguish Carnot’s original caloric framework from modern energy accounting.",
+  "suggested_duration": "25–30 minutes",
+  "difficulty": "foundation through challenge",
+  "total_points": 20,
+  "instructions": "Explain historical significance, not only names. Use modern equations with their assumptions. Show units and reasoning. Unless labeled otherwise, data are original illustrative models.",
+  "questions": [
+    {
+      "id": "WS30-Q01",
+      "assessment_id": "WS30",
+      "topic_ids": [
+        "TOP30"
+      ],
+      "prompt": "Which observation most directly supports Joule’s mechanical-equivalence work? A. A compass turns near a magnet. B. Falling weights drive paddles and produce a reproducible thermal rise. C. A black surface looks dark. D. A gas has many speeds. Explain.",
+      "question_type": "multiple-choice",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS30-Q02",
+      "assessment_id": "WS30",
+      "topic_ids": [
+        "TOP30"
+      ],
+      "prompt": "Match the questions to Joule or Carnot: (i) How much thermal change corresponds to a measured mechanical input? (ii) What limits the performance of an ideal reversible heat engine? Explain the difference.",
+      "question_type": "matching",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS30-Q03",
+      "assessment_id": "WS30",
+      "topic_ids": [
+        "TOP30"
+      ],
+      "prompt": "The water in an insulated paddle vessel warms. For the water system, is the paddle-shaft energy transfer heat or work? State the sign of W in ΔU=Q−W.",
+      "question_type": "conceptual",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS30-Q04",
+      "assessment_id": "WS30",
+      "topic_ids": [
+        "TOP30"
+      ],
+      "prompt": "Correct this statement: “Carnot’s 1824 book already used the modern energy ledger Q_H=W+Q_C, with exactly the same physical assumptions as today.”",
+      "question_type": "historical-analysis",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS30-Q05",
+      "assessment_id": "WS30",
+      "topic_ids": [
+        "TOP30"
+      ],
+      "prompt": "A stirred water-plus-vessel system receives 900 J of mechanical work and loses 150 J as heat. Its supplied heat capacity is 250 J/K. Find ΔU and its temperature rise. Use the established work-by convention.",
+      "question_type": "calculation",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS30-Q06",
+      "assessment_id": "WS30",
+      "topic_ids": [
+        "TOP30"
+      ],
+      "prompt": "A cyclic engine absorbs 2000 J and rejects 1400 J each cycle. Its reservoirs are 600 K and 300 K. Find its work, actual efficiency and ideal upper bound. Does passing the bound alone prove the design works?",
+      "question_type": "calculation",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS30-Q07",
+      "assessment_id": "WS30",
+      "topic_ids": [
+        "TOP30"
+      ],
+      "prompt": "In a Joule-style teaching experiment, students compare shaft work with only the water’s calculated thermal gain. The gain is smaller. Give two plausible omitted energy destinations and one improvement to the measurement.",
+      "question_type": "experimental-reasoning",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS30-Q08",
+      "assessment_id": "WS30",
+      "topic_ids": [
+        "TOP30"
+      ],
+      "prompt": "A salesperson proposes a cyclic engine between 500 K and 300 K: it absorbs 1000 J, rejects 200 J and delivers 800 J of work. Evaluate both the first-law ledger and the modern Carnot limit, then explain why both Joule-associated and Carnot-associated ideas are needed.",
+      "question_type": "extended-calculation",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    }
+  ]
+}

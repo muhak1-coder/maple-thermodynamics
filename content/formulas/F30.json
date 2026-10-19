@@ -1,0 +1,19 @@
+{
+  "id": "F30",
+  "title": "Constant-pressure boundary work",
+  "visibility": "public-student",
+  "unit_id": "U4",
+  "topic_ids": [
+    "TOP21",
+    "TOP25"
+  ],
+  "equation": "W=P_ext(V_f−V_i)",
+  "variables_and_units": {
+    "W": "J",
+    "P_ext": "kPa",
+    "V": "L"
+  },
+  "use_case": "Constant opposing pressure; positive expansion. A balanced gas path permits using gas pressure.",
+  "mini_example": "100 kPa×(4−2) L=+200 J.",
+  "status": "complete"
+}

@@ -1,0 +1,134 @@
+{
+  "id": "WS11",
+  "title": "Latent heat and multistage changes",
+  "visibility": "public-student",
+  "level": "All competition levels",
+  "unit_id": "U2",
+  "objectives": "Use Q=mL for phase transitions; determine partial melting; combine sensible and latent stages without skipping boundaries.",
+  "suggested_duration": "25–30 minutes",
+  "difficulty": "Beginner through application; final question is a challenge",
+  "total_points": 20,
+  "instructions": "Show the equation, substitution, arithmetic and units for numerical answers. Explain physical meaning. Use given constants. Retain intermediate digits and round final answers as requested; for unspecified precision, accept sensible rounding. Graphs and data are simulated educational models.",
+  "questions": [
+    {
+      "id": "WS11-Q01",
+      "assessment_id": "WS11",
+      "topic_ids": [
+        "TOP11"
+      ],
+      "prompt": "Which equation models melting at constant temperature: Q=mcΔT or Q=mL? Explain.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS11-Q02",
+      "assessment_id": "WS11",
+      "topic_ids": [
+        "TOP11"
+      ],
+      "prompt": "State one valid unit of latent heat L and explain why it has no temperature-change denominator.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS11-Q03",
+      "assessment_id": "WS11",
+      "topic_ids": [
+        "TOP11"
+      ],
+      "prompt": "For water condensing at its boiling temperature under fixed pressure, is Q positive or negative for the condensing water? What about the surroundings receiving that heat?",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS11-Q04",
+      "assessment_id": "WS11",
+      "topic_ids": [
+        "TOP11"
+      ],
+      "prompt": "A 30 g ice sample is already at 0 °C. Is “at 0 °C” enough to conclude it is all liquid? Explain.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS11-Q05",
+      "assessment_id": "WS11",
+      "topic_ids": [
+        "TOP11"
+      ],
+      "prompt": "Find the heat required to melt 25.0 g ice at 0 °C to water at 0 °C near 1 atm. Use L_f=334 J/g.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS11-Q06",
+      "assessment_id": "WS11",
+      "topic_ids": [
+        "TOP11"
+      ],
+      "prompt": "A 60.0 g ice sample at 0 °C receives 6680 J near 1 atm. Use L_f=334 J/g and neglect other energy terms. Find liquid mass, remaining ice and final temperature.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS11-Q07",
+      "assessment_id": "WS11",
+      "topic_ids": [
+        "TOP11"
+      ],
+      "prompt": "How much heat is released when 3.00 g water vapor condenses to liquid at 100 °C near 1 atm? Use L_v=2260 J/g. Give the signed heat for the water too.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS11-Q08",
+      "assessment_id": "WS11",
+      "topic_ids": [
+        "TOP11"
+      ],
+      "prompt": "Challenge: Heat 15.0 g ice from −8.0 °C to liquid water at 12.0 °C near 1 atm. Use c_ice=2.10 J/(g·°C), L_f=334 J/g and c_water=4.18 J/(g·°C). Neglect losses and container energy. Show all three stages and total heat.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    }
+  ]
+}

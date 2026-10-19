@@ -1,0 +1,17 @@
+{
+  "id": "F12",
+  "title": "Stage-by-stage energy",
+  "visibility": "public-student",
+  "unit_id": "U2",
+  "topic_ids": [
+    "TOP10",
+    "TOP11"
+  ],
+  "equation": "Q_total=Q_1+Q_2+…",
+  "variables_and_units": {
+    "Q_i": "J per stage"
+  },
+  "use_case": "Separate warming/cooling from each phase change. Use a different c for each phase when needed.",
+  "mini_example": "Ice warming 42 J + melting 668 J + liquid warming 83.6 J =793.6 J.",
+  "status": "complete"
+}

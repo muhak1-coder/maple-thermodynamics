@@ -1,0 +1,169 @@
+{
+  "id": "WS09",
+  "title": "Heating and cooling curves",
+  "visibility": "public-student",
+  "level": "All competition levels",
+  "unit_id": "U2",
+  "objectives": "Read axes, slopes and plateaus; distinguish temperature change from phase change; calculate interval energy from stated net power without calculus.",
+  "suggested_duration": "20–25 minutes",
+  "difficulty": "Beginner through application; final question is a challenge",
+  "total_points": 20,
+  "instructions": "Show the equation, substitution, arithmetic and units for numerical answers. Explain physical meaning. Use given constants. Retain intermediate digits and round final answers as requested; for unspecified precision, accept sensible rounding. Graphs and data are simulated educational models.",
+  "questions": [
+    {
+      "id": "WS09-Q01",
+      "assessment_id": "WS09",
+      "topic_ids": [
+        "TOP09"
+      ],
+      "prompt": "Use the WS09 reference graph for hypothetical Y. Identify both axes and their units.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS09-Q02",
+      "assessment_id": "WS09",
+      "topic_ids": [
+        "TOP09"
+      ],
+      "prompt": "What are the melting and boiling temperatures in the stated Y model?",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS09-Q03",
+      "assessment_id": "WS09",
+      "topic_ids": [
+        "TOP09"
+      ],
+      "prompt": "At t=4 min, name the coexisting phases and state whether heat can still enter.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS09-Q04",
+      "assessment_id": "WS09",
+      "topic_ids": [
+        "TOP09"
+      ],
+      "prompt": "Which interval shows warming of liquid only: 0–2, 2–5, 5–10, 10–16, or 16–18 min? Explain.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS09-Q05",
+      "assessment_id": "WS09",
+      "topic_ids": [
+        "TOP09"
+      ],
+      "prompt": "Find the average temperature-change rate from t=5 min to t=10 min, including units.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS09-Q06",
+      "assessment_id": "WS09",
+      "topic_ids": [
+        "TOP09"
+      ],
+      "prompt": "The constant net input is 80 W. Find the energy received during the boiling plateau from 10 to 16 min.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS09-Q07",
+      "assessment_id": "WS09",
+      "topic_ids": [
+        "TOP09"
+      ],
+      "prompt": "Sketch an ideal cooling curve for the same pure Y at the same pressure, beginning with gas at 85 °C and ending with solid at −5 °C. Label both plateau temperatures and their transitions; exact time lengths are not specified.",
+      "question_type": "graph",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS09-Q08",
+      "assessment_id": "WS09",
+      "topic_ids": [
+        "TOP09"
+      ],
+      "prompt": "Challenge: During the melting plateau, net power stays constant and all input drives melting. What fraction of the sample has melted at 3 min 30 s? Assume all solid at 2 min and all liquid at 5 min. Explain why using temperature alone cannot find this fraction.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    }
+  ],
+  "reference_material": {
+    "description": "Hypothetical Y, pure substance at constant pressure; ideal equilibrium transitions and straight segments. The sample is solid at the start. Net power into the sample is a constant 80 W. These are simulated teaching data, not a real experiment.",
+    "figure_path": "../lessons/figures/U2-WS09-curve.svg",
+    "figure_alt": "Temperature rises −5 to 15 °C, stays 15, rises to 65, stays 65, then rises to 85 °C over the listed times.",
+    "columns": [
+      "time_min",
+      "temperature_C"
+    ],
+    "rows": [
+      [
+        0,
+        -5
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        5,
+        15
+      ],
+      [
+        10,
+        65
+      ],
+      [
+        16,
+        65
+      ],
+      [
+        18,
+        85
+      ]
+    ]
+  }
+}

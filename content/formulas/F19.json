@@ -1,0 +1,18 @@
+{
+  "id": "F19",
+  "title": "Spatial temperature gradient",
+  "visibility": "public-student",
+  "unit_id": "U3",
+  "topic_ids": [
+    "TOP14"
+  ],
+  "equation": "G=(T_hot−T_cold)/L",
+  "variables_and_units": {
+    "G": "K/m",
+    "T_hot,T_cold": "°C or K; difference only",
+    "L": "m"
+  },
+  "use_case": "Magnitude for a specified uniform path; do not confuse position with time.",
+  "mini_example": "(40−20) K/.05 m=400 K/m.",
+  "status": "complete"
+}

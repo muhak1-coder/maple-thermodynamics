@@ -1,0 +1,749 @@
+{
+  "id": "T03",
+  "title": "Thermodynamic Laws and Processes",
+  "schema_version": "1.1.0",
+  "release": "REGIONAL WEBSITE RELEASE 1.0",
+  "visibility": "public-student",
+  "level": "Regional",
+  "unit_ids": [
+    "U4"
+  ],
+  "status": "complete",
+  "assessment_type": "practice-test",
+  "question_count": 24,
+  "total_points": 60,
+  "suggested_duration": "45–55 minutes",
+  "instructions": "Use metric units and show reasoning. Suggested practice time: 45–55 minutes. These are instructional practice timings, not official event allocations. The full official event includes device testing. Use 273.15 for Celsius-to-Kelvin conversion and supplied constants. Q is positive into the system; W is positive by it; ΔU=Q−W. Closed-system energy calculations neglect bulk kinetic/potential changes unless stated. No calculus, trigonometry, logarithms or State/National-only radiation/third-law calculations are required. All datasets are original illustrative models.",
+  "reference_materials": [
+    {
+      "id": "T03-F1",
+      "title": "Rectangular cycle",
+      "figure_path": "figures/T03-cycle.svg",
+      "description": "Slowly mechanically balanced paths. Follow A→B→C→D→A. 1 kPa·L=1 J.",
+      "alt": "A(1 L,320 kPa), B(4 L,320 kPa), C(4 L,120 kPa), D(1 L,120 kPa), returning to A clockwise.",
+      "columns": [
+        "State",
+        "V (L)",
+        "P (kPa)"
+      ],
+      "rows": [
+        [
+          "A",
+          1,
+          320
+        ],
+        [
+          "B",
+          4,
+          320
+        ],
+        [
+          "C",
+          4,
+          120
+        ],
+        [
+          "D",
+          1,
+          120
+        ]
+      ]
+    },
+    {
+      "id": "T03-F2",
+      "title": "Isothermal path",
+      "figure_path": "figures/T03-isotherm.svg",
+      "description": "PV=300 kPa·L for this fixed ideal-gas teaching model. Use the supplied work in Q24; do not integrate or replace the curve with a rectangle.",
+      "alt": "Pressure falls from 300 kPa at 1 L to 100 kPa at 3 L along a curved isotherm.",
+      "columns": [
+        "V (L)",
+        "P (kPa)"
+      ],
+      "rows": [
+        [
+          1,
+          300
+        ],
+        [
+          1.5,
+          200
+        ],
+        [
+          2,
+          150
+        ],
+        [
+          3,
+          100
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "T03-Q01",
+      "assessment_id": "T03",
+      "topic_ids": [
+        "TOP21"
+      ],
+      "prompt": "Which statement describes internal energy U? Choose and explain.",
+      "question_type": "multiple-choice",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "Only energy presently crossing a wall"
+        },
+        {
+          "id": "B",
+          "text": "Microscopic energy of the system state"
+        },
+        {
+          "id": "C",
+          "text": "Work stored as a substance"
+        },
+        {
+          "id": "D",
+          "text": "Temperature in joules"
+        }
+      ],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.iv",
+      "response_fields": [],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T03-Q02",
+      "assessment_id": "T03",
+      "topic_ids": [
+        "TOP25"
+      ],
+      "prompt": "For a rigid closed vessel, which statement about work is always justified by constant volume alone? Choose and explain.",
+      "question_type": "multiple-choice",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "No energy can enter"
+        },
+        {
+          "id": "B",
+          "text": "All work must be zero"
+        },
+        {
+          "id": "C",
+          "text": "PV boundary work is zero"
+        },
+        {
+          "id": "D",
+          "text": "Temperature must stay fixed"
+        }
+      ],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.iv",
+      "response_fields": [],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T03-Q03",
+      "assessment_id": "T03",
+      "topic_ids": [
+        "TOP24"
+      ],
+      "prompt": "Which condition defines an adiabatic process? Choose and explain what it does not necessarily imply.",
+      "question_type": "multiple-choice",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "No heat transfer"
+        },
+        {
+          "id": "B",
+          "text": "Constant temperature"
+        },
+        {
+          "id": "C",
+          "text": "Constant pressure"
+        },
+        {
+          "id": "D",
+          "text": "No work transfer"
+        }
+      ],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.iv",
+      "response_fields": [],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T03-Q04",
+      "assessment_id": "T03",
+      "topic_ids": [
+        "TOP28"
+      ],
+      "prompt": "Which proposal contradicts the second law under ordinary positive-temperature conditions? Choose and explain.",
+      "question_type": "multiple-choice",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "A cup cools in a cooler room"
+        },
+        {
+          "id": "B",
+          "text": "A refrigerator uses work"
+        },
+        {
+          "id": "C",
+          "text": "Friction warms a brake"
+        },
+        {
+          "id": "D",
+          "text": "A cycle converts single-reservoir heat entirely into work with no other effect"
+        }
+      ],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.iv",
+      "response_fields": [],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T03-Q05",
+      "assessment_id": "T03",
+      "topic_ids": [
+        "TOP22"
+      ],
+      "prompt": "A closed system receives 620 J of heat and does 230 J of work. Find ΔU.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.iv",
+      "response_fields": [
+        {
+          "id": "internal_energy_change",
+          "label": "internal energy change",
+          "input_type": "number",
+          "expected_unit": "J"
+        }
+      ],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T03-Q06",
+      "assessment_id": "T03",
+      "topic_ids": [
+        "TOP23"
+      ],
+      "prompt": "A fixed ideal gas expands isothermally from 90 kPa at 6.0 L to 9.0 L. Find its final absolute pressure.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.iv",
+      "response_fields": [
+        {
+          "id": "pressure",
+          "label": "pressure",
+          "input_type": "number",
+          "expected_unit": "kPa"
+        }
+      ],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T03-Q07",
+      "assessment_id": "T03",
+      "topic_ids": [
+        "TOP21"
+      ],
+      "prompt": "Convert 75 kPa·L to joules, explaining the conversion.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.iv",
+      "response_fields": [
+        {
+          "id": "work",
+          "label": "work",
+          "input_type": "number",
+          "expected_unit": "J"
+        }
+      ],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T03-Q08",
+      "assessment_id": "T03",
+      "topic_ids": [
+        "TOP25"
+      ],
+      "prompt": "A fixed ideal gas at constant volume doubles its Kelvin temperature. How does absolute pressure change? Explain.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.iv",
+      "response_fields": [],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T03-Q09",
+      "assessment_id": "T03",
+      "topic_ids": [
+        "TOP25"
+      ],
+      "prompt": "A fixed ideal gas is heated at constant pressure from 250 K to 325 K. Its initial volume is 2.0 L. Find the final volume.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.iv",
+      "response_fields": [
+        {
+          "id": "volume",
+          "label": "volume",
+          "input_type": "number",
+          "expected_unit": "L"
+        }
+      ],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T03-Q10",
+      "assessment_id": "T03",
+      "topic_ids": [
+        "TOP28"
+      ],
+      "prompt": "All affected parts of an isolated combination have supplied entropy changes −5 J/K and +8 J/K. Find the total and state whether the signs alone conflict with the second law.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.iv",
+      "response_fields": [
+        {
+          "id": "entropy_change",
+          "label": "entropy change",
+          "input_type": "number",
+          "expected_unit": "J/K"
+        }
+      ],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T03-Q11",
+      "assessment_id": "T03",
+      "topic_ids": [
+        "TOP26"
+      ],
+      "prompt": "A working gas completes a thermodynamic cycle. What is its net internal-energy change? Can net work still be nonzero?",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.iv",
+      "response_fields": [],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T03-Q12",
+      "assessment_id": "T03",
+      "topic_ids": [
+        "TOP24"
+      ],
+      "prompt": "An insulated ideal-gas sample does 150 J of work on its surroundings. What is ΔU, and does its temperature rise or fall?",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.iv",
+      "response_fields": [
+        {
+          "id": "internal_energy_change",
+          "label": "internal energy change",
+          "input_type": "number",
+          "expected_unit": "J"
+        }
+      ],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T03-Q13",
+      "assessment_id": "T03",
+      "topic_ids": [
+        "TOP21",
+        "TOP22"
+      ],
+      "prompt": "A gas expands slowly against constant opposing pressure 140 kPa from 1.5 L to 4.0 L. Find its boundary work. If Q=510 J enters, find ΔU.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.iv",
+      "response_fields": [
+        {
+          "id": "work",
+          "label": "work",
+          "input_type": "number",
+          "expected_unit": "J"
+        },
+        {
+          "id": "internal_energy_change",
+          "label": "internal energy change",
+          "input_type": "number",
+          "expected_unit": "J"
+        }
+      ],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T03-Q14",
+      "assessment_id": "T03",
+      "topic_ids": [
+        "TOP22"
+      ],
+      "prompt": "During compression, the surroundings do 280 J of work on a gas while the gas releases 95 J of heat. Find ΔU with the work-by convention and explain its sign.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.iv",
+      "response_fields": [
+        {
+          "id": "internal_energy_change",
+          "label": "internal energy change",
+          "input_type": "number",
+          "expected_unit": "J"
+        }
+      ],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T03-Q15",
+      "assessment_id": "T03",
+      "topic_ids": [
+        "TOP23"
+      ],
+      "prompt": "A fixed ideal gas is compressed isothermally. Work done by the gas is −210 J. Find ΔU and Q, and explain the direction of heat transfer.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.iv",
+      "response_fields": [
+        {
+          "id": "heat",
+          "label": "heat",
+          "input_type": "number",
+          "expected_unit": "J"
+        }
+      ],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T03-Q16",
+      "assessment_id": "T03",
+      "topic_ids": [
+        "TOP24"
+      ],
+      "prompt": "An adiabatic compression supplies 540 J of work to a fixed ideal gas with supplied internal-energy coefficient C_U=90 J/K. Find ΔU and ΔT.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.iv",
+      "response_fields": [
+        {
+          "id": "internal_energy_change",
+          "label": "internal energy change",
+          "input_type": "number",
+          "expected_unit": "J"
+        },
+        {
+          "id": "temperature_change",
+          "label": "temperature change",
+          "input_type": "number",
+          "expected_unit": "K"
+        }
+      ],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T03-Q17",
+      "assessment_id": "T03",
+      "topic_ids": [
+        "TOP26"
+      ],
+      "prompt": "Use the T03 rectangular cycle A→B→C→D→A. Find work on each horizontal segment and the net work. Assume slowly balanced pressure-volume paths.",
+      "question_type": "graph-interpretation",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.iv",
+      "response_fields": [
+        {
+          "id": "top_work",
+          "label": "top work",
+          "input_type": "number",
+          "expected_unit": "J"
+        },
+        {
+          "id": "bottom_work",
+          "label": "bottom work",
+          "input_type": "number",
+          "expected_unit": "J"
+        },
+        {
+          "id": "net_work",
+          "label": "net work",
+          "input_type": "number",
+          "expected_unit": "J"
+        }
+      ],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T03-Q18",
+      "assessment_id": "T03",
+      "topic_ids": [
+        "TOP26",
+        "TOP22"
+      ],
+      "prompt": "Reverse the cycle in Q17. State the new net work and net heat into the gas over the complete cycle, explaining why its net ΔU remains zero.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.iv",
+      "response_fields": [
+        {
+          "id": "net_work",
+          "label": "net work",
+          "input_type": "number",
+          "expected_unit": "J"
+        },
+        {
+          "id": "net_heat",
+          "label": "net heat",
+          "input_type": "number",
+          "expected_unit": "J"
+        }
+      ],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T03-Q19",
+      "assessment_id": "T03",
+      "topic_ids": [
+        "TOP26",
+        "TOP22"
+      ],
+      "prompt": "Three stages of a four-stage cycle have internal-energy changes +170 J, −260 J and +40 J. Find the fourth change. If that stage does 65 J of work, find its heat input.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.iv",
+      "response_fields": [
+        {
+          "id": "fourth_change",
+          "label": "fourth change",
+          "input_type": "number",
+          "expected_unit": "J"
+        },
+        {
+          "id": "heat",
+          "label": "heat",
+          "input_type": "number",
+          "expected_unit": "J"
+        }
+      ],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T03-Q20",
+      "assessment_id": "T03",
+      "topic_ids": [
+        "TOP27"
+      ],
+      "prompt": "An engine absorbs 1800 J and rejects 1080 J each cycle. Its reservoirs are 600 K and 330 K. Calculate work, actual efficiency and the modern ideal maximum.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.iv",
+      "response_fields": [
+        {
+          "id": "work",
+          "label": "work",
+          "input_type": "number",
+          "expected_unit": "J"
+        },
+        {
+          "id": "efficiency_percent",
+          "label": "efficiency percent",
+          "input_type": "number",
+          "expected_unit": "%"
+        },
+        {
+          "id": "bound_percent",
+          "label": "bound percent",
+          "input_type": "number",
+          "expected_unit": "%"
+        }
+      ],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T03-Q21",
+      "assessment_id": "T03",
+      "topic_ids": [
+        "TOP27"
+      ],
+      "prompt": "A student uses W/Q_net as heat-engine efficiency. Explain why this denominator is wrong and state what the ratio would give for a cycle with nonzero net output.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.iv",
+      "response_fields": [],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T03-Q22",
+      "assessment_id": "T03",
+      "topic_ids": [
+        "TOP28"
+      ],
+      "prompt": "A gas returns to the same state every cycle, but friction is present. A student concludes each cycle is reversible because the gas’s entropy returns to its initial value. Diagnose the error.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.iv",
+      "response_fields": [],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T03-Q23",
+      "assessment_id": "T03",
+      "topic_ids": [
+        "TOP21",
+        "TOP22"
+      ],
+      "prompt": "Two paths connect the same initial and final states of a closed system. Path A has Q=400 J and W=240 J. Path B does 90 J of work. Find Q for B and explain why it differs from A.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.iv",
+      "response_fields": [
+        {
+          "id": "heat_B",
+          "label": "heat B",
+          "input_type": "number",
+          "expected_unit": "J"
+        }
+      ],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T03-Q24",
+      "assessment_id": "T03",
+      "topic_ids": [
+        "TOP23"
+      ],
+      "prompt": "The T03 isotherm goes from 300 kPa at 1.0 L to 100 kPa at 3.0 L. The measured work for this ideal-gas expansion is supplied as 330 J. Find Q. Explain why using the starting pressure times the entire volume change is not a valid work calculation.",
+      "question_type": "graph-interpretation",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.iv",
+      "response_fields": [
+        {
+          "id": "heat",
+          "label": "heat",
+          "input_type": "number",
+          "expected_unit": "J"
+        }
+      ],
+      "requires_reasoning": true
+    }
+  ],
+  "prerequisite_note": "Tests 1–3 are focused practice and are not full official written-test simulations. Test 4 covers all five Regional written categories; device items use supplied foundational models and do not require deferred Unit 7."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "F15",
+  "title": "Ideal gas law",
+  "visibility": "public-student",
+  "unit_id": "U2",
+  "topic_ids": [
+    "TOP13"
+  ],
+  "equation": "PV=nRT",
+  "variables_and_units": {
+    "P": "absolute kPa",
+    "V": "L",
+    "n": "mol",
+    "T": "K",
+    "R": "8.314 kPa·L/(mol·K)"
+  },
+  "use_case": "Ideal-gas approximation; Kelvin and absolute pressure. Alternative matched sets use Pa/m³ or atm/L with matching R.",
+  "mini_example": "0.100 mol×8.314×300 K / 2.00 L=124.71 kPa≈125 kPa.",
+  "status": "complete"
+}

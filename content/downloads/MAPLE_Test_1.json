@@ -1,0 +1,684 @@
+{
+  "id": "T01",
+  "title": "Thermodynamics Fundamentals and Phase Changes",
+  "schema_version": "1.1.0",
+  "release": "REGIONAL WEBSITE RELEASE 1.0",
+  "visibility": "public-student",
+  "level": "Regional",
+  "unit_ids": [
+    "U1",
+    "U2"
+  ],
+  "status": "complete",
+  "assessment_type": "practice-test",
+  "question_count": 24,
+  "total_points": 60,
+  "suggested_duration": "45–55 minutes",
+  "instructions": "Use metric units and show reasoning. Suggested practice time: 45–55 minutes. These are instructional practice timings, not official event allocations. The full official event includes device testing. Use 273.15 for Celsius-to-Kelvin conversion and supplied constants. Q is positive into the system; W is positive by it; ΔU=Q−W. Closed-system energy calculations neglect bulk kinetic/potential changes unless stated. No calculus, trigonometry, logarithms or State/National-only radiation/third-law calculations are required. All datasets are original illustrative models.",
+  "reference_materials": [
+    {
+      "id": "T01-F1",
+      "title": "Heating graph",
+      "figure_path": "figures/T01-heating.svg",
+      "description": "A pure substance at fixed pressure is initially solid, melts on the plateau, then is liquid. Input is steady; all data are illustrative.",
+      "alt": "Time-temperature points: (0,−10), (2,10), (5,10), (7,30); units minutes and Celsius.",
+      "columns": [
+        "Time (min)",
+        "Temperature (°C)"
+      ],
+      "rows": [
+        [
+          0,
+          -10
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          7,
+          30
+        ]
+      ]
+    },
+    {
+      "id": "T01-F2",
+      "title": "Phase diagram",
+      "figure_path": "figures/T01-phase.svg",
+      "description": "Generic schematic, not a water diagram and not quantitatively scaled. X joins three boundaries; Y is below the liquid–gas boundary. Region labels are part of the reference.",
+      "alt": "Pressure vertical, temperature horizontal. X lies at the meeting of solid–gas, solid–liquid and liquid–gas boundaries; Y lies in the gas region.",
+      "columns": [
+        "Feature",
+        "Description"
+      ],
+      "rows": [
+        [
+          "X",
+          "Three boundaries meet"
+        ],
+        [
+          "Y",
+          "Marked point at lower pressure than liquid–gas boundary"
+        ]
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "T01-Q01",
+      "assessment_id": "T01",
+      "topic_ids": [
+        "TOP02",
+        "TOP03"
+      ],
+      "prompt": "A sealed flexible bag is warmed without leaking. Which system description applies? Choose and explain.",
+      "question_type": "multiple-choice",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "Open"
+        },
+        {
+          "id": "B",
+          "text": "Closed"
+        },
+        {
+          "id": "C",
+          "text": "Isolated"
+        },
+        {
+          "id": "D",
+          "text": "No thermodynamic system"
+        }
+      ],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.i",
+      "response_fields": [],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T01-Q02",
+      "assessment_id": "T01",
+      "topic_ids": [
+        "TOP04"
+      ],
+      "prompt": "A thermometer is in equilibrium with block A and separately with block B. What follows if both readings represent the same equilibrium state? Choose and explain.",
+      "question_type": "multiple-choice",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "Equal mass"
+        },
+        {
+          "id": "B",
+          "text": "Equal internal energy"
+        },
+        {
+          "id": "C",
+          "text": "Equal temperature"
+        },
+        {
+          "id": "D",
+          "text": "Zero molecular motion"
+        }
+      ],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.i",
+      "response_fields": [],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T01-Q03",
+      "assessment_id": "T01",
+      "topic_ids": [
+        "TOP01"
+      ],
+      "prompt": "Which statement uses heat correctly? Choose and explain.",
+      "question_type": "multiple-choice",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "Energy transferred because of a temperature difference"
+        },
+        {
+          "id": "B",
+          "text": "A fluid stored inside matter"
+        },
+        {
+          "id": "C",
+          "text": "The same quantity as temperature"
+        },
+        {
+          "id": "D",
+          "text": "A synonym for mass"
+        }
+      ],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.i",
+      "response_fields": [],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T01-Q04",
+      "assessment_id": "T01",
+      "topic_ids": [
+        "TOP03"
+      ],
+      "prompt": "Cut a uniform solid into two equal pieces at the same temperature. Which property ideally stays the same for each piece? Choose and explain.",
+      "question_type": "multiple-choice",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [
+        {
+          "id": "A",
+          "text": "Mass"
+        },
+        {
+          "id": "B",
+          "text": "Volume"
+        },
+        {
+          "id": "C",
+          "text": "Sample heat capacity"
+        },
+        {
+          "id": "D",
+          "text": "Density"
+        }
+      ],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.i",
+      "response_fields": [],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T01-Q05",
+      "assessment_id": "T01",
+      "topic_ids": [
+        "TOP05"
+      ],
+      "prompt": "Convert −12.0 °C to Kelvin. Report one decimal place.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.i",
+      "response_fields": [
+        {
+          "id": "kelvin",
+          "label": "kelvin",
+          "input_type": "number",
+          "expected_unit": "K"
+        }
+      ],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T01-Q06",
+      "assessment_id": "T01",
+      "topic_ids": [
+        "TOP05"
+      ],
+      "prompt": "Convert 95.0 °F to Celsius.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.i",
+      "response_fields": [
+        {
+          "id": "celsius",
+          "label": "celsius",
+          "input_type": "number",
+          "expected_unit": "°C"
+        }
+      ],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T01-Q07",
+      "assessment_id": "T01",
+      "topic_ids": [
+        "TOP05"
+      ],
+      "prompt": "A sample warms from 18.5 °C to 26.0 °C. Give the temperature increase in K and explain whether 273.15 is added.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.i",
+      "response_fields": [
+        {
+          "id": "temperature_change",
+          "label": "temperature change",
+          "input_type": "number",
+          "expected_unit": "K"
+        }
+      ],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T01-Q08",
+      "assessment_id": "T01",
+      "topic_ids": [
+        "TOP06"
+      ],
+      "prompt": "A process supplies 85.0 cal. Use 1 cal=4.184 J to find the energy in joules to three significant figures.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.i",
+      "response_fields": [
+        {
+          "id": "energy",
+          "label": "energy",
+          "input_type": "number",
+          "expected_unit": "J"
+        }
+      ],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T01-Q09",
+      "assessment_id": "T01",
+      "topic_ids": [
+        "TOP08"
+      ],
+      "prompt": "Name the phase changes (a) frost forming directly from water vapor and (b) solid dry ice becoming gas without a liquid stage.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.ii",
+      "response_fields": [],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T01-Q10",
+      "assessment_id": "T01",
+      "topic_ids": [
+        "TOP07",
+        "TOP08"
+      ],
+      "prompt": "A liquid and its vapor coexist in a sealed container at equilibrium. Are particles still changing phases? Explain.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.ii",
+      "response_fields": [],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T01-Q11",
+      "assessment_id": "T01",
+      "topic_ids": [
+        "TOP09",
+        "TOP11"
+      ],
+      "prompt": "On the T01 heating graph, temperature remains 10 °C from 2 to 5 minutes while energy is supplied steadily. The material is a pure substance at fixed pressure. What change occurs and why does temperature stay fixed?",
+      "question_type": "graph-interpretation",
+      "difficulty": "application",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.ii",
+      "response_fields": [],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T01-Q12",
+      "assessment_id": "T01",
+      "topic_ids": [
+        "TOP12"
+      ],
+      "prompt": "On the T01 schematic phase diagram, identify what is special about point X and state the phase at point Y.",
+      "question_type": "graph-interpretation",
+      "difficulty": "application",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.ii",
+      "response_fields": [],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T01-Q13",
+      "assessment_id": "T01",
+      "topic_ids": [
+        "TOP10"
+      ],
+      "prompt": "A 0.240 kg metal block with c=450 J/(kg·K) warms by 15.0 K. Ignore losses and phase changes. Find Q and interpret its sign.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.ii",
+      "response_fields": [
+        {
+          "id": "heat",
+          "label": "heat",
+          "input_type": "number",
+          "expected_unit": "J"
+        }
+      ],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T01-Q14",
+      "assessment_id": "T01",
+      "topic_ids": [
+        "TOP11"
+      ],
+      "prompt": "How much energy is absorbed when 0.0750 kg of a solid melts at its melting temperature? Use L=2.40×10⁵ J/kg.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.ii",
+      "response_fields": [
+        {
+          "id": "heat",
+          "label": "heat",
+          "input_type": "number",
+          "expected_unit": "J"
+        }
+      ],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T01-Q15",
+      "assessment_id": "T01",
+      "topic_ids": [
+        "TOP13"
+      ],
+      "prompt": "A gas has n=0.200 mol, V=0.00400 m³ and T=300 K. With R=8.31 J/(mol·K), calculate its absolute pressure.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.ii",
+      "response_fields": [
+        {
+          "id": "pressure",
+          "label": "pressure",
+          "input_type": "number",
+          "expected_unit": "Pa"
+        }
+      ],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T01-Q16",
+      "assessment_id": "T01",
+      "topic_ids": [
+        "TOP13"
+      ],
+      "prompt": "A fixed ideal-gas sample at constant temperature changes from 180 kPa and 2.50 L to a volume of 3.75 L. Find its final absolute pressure and explain the trend.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.ii",
+      "response_fields": [
+        {
+          "id": "pressure",
+          "label": "pressure",
+          "input_type": "number",
+          "expected_unit": "kPa"
+        }
+      ],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T01-Q17",
+      "assessment_id": "T01",
+      "topic_ids": [
+        "TOP09"
+      ],
+      "prompt": "Using the T01 heating graph, find the warming rate between 0 and 2 minutes. If the heater supplies 24 J each second, how much energy enters during the 2-to-5-minute plateau?",
+      "question_type": "graph-interpretation",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.ii",
+      "response_fields": [
+        {
+          "id": "warming_rate",
+          "label": "warming rate",
+          "input_type": "number",
+          "expected_unit": "°C/min"
+        },
+        {
+          "id": "plateau_energy",
+          "label": "plateau energy",
+          "input_type": "number",
+          "expected_unit": "J"
+        }
+      ],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T01-Q18",
+      "assessment_id": "T01",
+      "topic_ids": [
+        "TOP08"
+      ],
+      "prompt": "Explain why an open dish of water can lose mass by evaporation at 22 °C even though it is not boiling. Include a particle-level explanation.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.ii",
+      "response_fields": [],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T01-Q19",
+      "assessment_id": "T01",
+      "topic_ids": [
+        "TOP10",
+        "TOP11"
+      ],
+      "prompt": "At the pressure of a teaching experiment, 0.0400 kg ice at 0 °C melts and the resulting water warms to 12.0 °C. Use L=334000 J/kg and c_water=4200 J/(kg·K). Ignore losses. Find the total energy input.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.ii",
+      "response_fields": [
+        {
+          "id": "total_energy",
+          "label": "total energy",
+          "input_type": "number",
+          "expected_unit": "J"
+        }
+      ],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T01-Q20",
+      "assessment_id": "T01",
+      "topic_ids": [
+        "TOP13"
+      ],
+      "prompt": "A rigid sealed container of fixed ideal gas goes from 290 K to 348 K. Its initial absolute pressure is 125 kPa. Find the final pressure and state two conditions needed for your ratio.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.ii",
+      "response_fields": [
+        {
+          "id": "pressure",
+          "label": "pressure",
+          "input_type": "number",
+          "expected_unit": "kPa"
+        }
+      ],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T01-Q21",
+      "assessment_id": "T01",
+      "topic_ids": [
+        "TOP05",
+        "TOP13"
+      ],
+      "prompt": "A student calculates a gas pressure using 20 in a formula that requires Kelvin because the gas is at 20 °C. Identify the correction and explain why this is more than a harmless change of notation.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.i",
+      "response_fields": [
+        {
+          "id": "temperature",
+          "label": "temperature",
+          "input_type": "number",
+          "expected_unit": "K"
+        }
+      ],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T01-Q22",
+      "assessment_id": "T01",
+      "topic_ids": [
+        "TOP10"
+      ],
+      "prompt": "An insulated mixing model has 0.100 kg water at 50 °C and 0.300 kg water at 20 °C. Assume equal constant c, no phase change and negligible container capacity. Using T_f=(m₁T₁+m₂T₂)/(m₁+m₂), find the final temperature and explain why it is not 35 °C.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.ii",
+      "response_fields": [
+        {
+          "id": "final_temperature",
+          "label": "final temperature",
+          "input_type": "number",
+          "expected_unit": "°C"
+        }
+      ],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T01-Q23",
+      "assessment_id": "T01",
+      "topic_ids": [
+        "TOP01",
+        "TOP03"
+      ],
+      "prompt": "A cup and a bucket of the same liquid have equal temperatures. Explain why this neither guarantees equal internal energies nor tells you how much energy was transferred while each reached that state.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.i",
+      "response_fields": [],
+      "requires_reasoning": true
+    },
+    {
+      "id": "T01-Q24",
+      "assessment_id": "T01",
+      "topic_ids": [
+        "TOP09",
+        "TOP11"
+      ],
+      "prompt": "Two runs melt the same pure solid at fixed pressure. Run B’s plateau lasts twice as long as run A’s. The net power reaching the sample is constant and equal in both runs, and all solid melts during the plateau. What mass ratio m_B/m_A follows? Give one experimental condition that would make this inference unreliable.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student",
+      "rule_category": "5.c.ii",
+      "response_fields": [
+        {
+          "id": "mass_ratio",
+          "label": "mass ratio",
+          "input_type": "number",
+          "expected_unit": "ratio"
+        }
+      ],
+      "requires_reasoning": true
+    }
+  ],
+  "prerequisite_note": "Tests 1–3 are focused practice and are not full official written-test simulations. Test 4 covers all five Regional written categories; device items use supplied foundational models and do not require deferred Unit 7."
+}

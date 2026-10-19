@@ -1,0 +1,4647 @@
+{
+  "schema_version": "1.0.0",
+  "release": "REGIONAL WEBSITE RELEASE 1.0",
+  "visibility": "public-student",
+  "curriculum_status": "regional-release-complete",
+  "units": [
+    {
+      "id": "U1",
+      "title": "Fundamentals",
+      "status": "complete"
+    },
+    {
+      "id": "U2",
+      "title": "Matter and phase transitions",
+      "status": "complete"
+    },
+    {
+      "id": "U3",
+      "title": "Heat transfer",
+      "status": "complete"
+    },
+    {
+      "id": "U4",
+      "title": "Processes and laws",
+      "status": "complete"
+    },
+    {
+      "id": "U5",
+      "title": "Historical scientists",
+      "status": "complete"
+    },
+    {
+      "id": "U6",
+      "title": "State/National extension",
+      "status": "deferred"
+    },
+    {
+      "id": "U7",
+      "title": "Heat collection and competition",
+      "status": "deferred"
+    }
+  ],
+  "counts": {
+    "chapters_complete": 33,
+    "chapters_planned_total": 47,
+    "worksheets_complete": 33,
+    "worksheets_planned_total": 47,
+    "quizzes_complete": 0,
+    "tests_complete": 4,
+    "diagnostics_complete": 1,
+    "assessment_questions_complete": 368,
+    "formulas_complete": 42,
+    "quizzes_deferred": 6,
+    "worksheets_deferred": 14,
+    "units_deferred": 2
+  },
+  "resources": [
+    {
+      "resource_id": "D01-json",
+      "title": "D01",
+      "path": "diagnostics/D01.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagnostic",
+      "unit_id": null,
+      "topic_ids": [
+        "PREREQ"
+      ],
+      "size_bytes": 3783
+    },
+    {
+      "resource_id": "D01-md",
+      "title": "D01",
+      "path": "diagnostics/D01.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagnostic",
+      "unit_id": null,
+      "topic_ids": [
+        "PREREQ"
+      ],
+      "size_bytes": 3561
+    },
+    {
+      "resource_id": "RES-77f430aa9d",
+      "title": "MAPLE All Tests",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "downloads/MAPLE_All_Tests.json",
+      "size_bytes": 97374
+    },
+    {
+      "resource_id": "RES-b48ecae4f7",
+      "title": "MAPLE All Tests",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "downloads/MAPLE_All_Tests.md",
+      "size_bytes": 48212
+    },
+    {
+      "resource_id": "RES-8248ab48a4",
+      "title": "MAPLE All Tests",
+      "format": "pdf",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "downloads/MAPLE_All_Tests.pdf",
+      "size_bytes": 498810
+    },
+    {
+      "resource_id": "MAPLE_Phase_A_Blueprint-pdf",
+      "title": "MAPLE Phase A Blueprint",
+      "path": "downloads/MAPLE_Phase_A_Blueprint.pdf",
+      "format": "pdf",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "print-download",
+      "unit_id": null,
+      "topic_ids": [],
+      "size_bytes": 84596
+    },
+    {
+      "resource_id": "RES-77156fb930",
+      "title": "MAPLE Test 1",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "downloads/MAPLE_Test_1.json",
+      "size_bytes": 20714
+    },
+    {
+      "resource_id": "RES-c036549a0f",
+      "title": "MAPLE Test 1",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "downloads/MAPLE_Test_1.md",
+      "size_bytes": 11887
+    },
+    {
+      "resource_id": "RES-f0eb7bda5d",
+      "title": "MAPLE Test 1",
+      "format": "pdf",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "downloads/MAPLE_Test_1.pdf",
+      "size_bytes": 161901
+    },
+    {
+      "resource_id": "RES-a2247d8b83",
+      "title": "MAPLE Test 2",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "downloads/MAPLE_Test_2.json",
+      "size_bytes": 20816
+    },
+    {
+      "resource_id": "RES-50c8747197",
+      "title": "MAPLE Test 2",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "downloads/MAPLE_Test_2.md",
+      "size_bytes": 11780
+    },
+    {
+      "resource_id": "RES-754b103a97",
+      "title": "MAPLE Test 2",
+      "format": "pdf",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "downloads/MAPLE_Test_2.pdf",
+      "size_bytes": 118135
+    },
+    {
+      "resource_id": "RES-6cee388fc5",
+      "title": "MAPLE Test 3",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "downloads/MAPLE_Test_3.json",
+      "size_bytes": 21856
+    },
+    {
+      "resource_id": "RES-c26ad21ffe",
+      "title": "MAPLE Test 3",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "downloads/MAPLE_Test_3.md",
+      "size_bytes": 11563
+    },
+    {
+      "resource_id": "RES-56a09061c2",
+      "title": "MAPLE Test 3",
+      "format": "pdf",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "downloads/MAPLE_Test_3.pdf",
+      "size_bytes": 144228
+    },
+    {
+      "resource_id": "RES-3671300f2c",
+      "title": "MAPLE Test 4",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "downloads/MAPLE_Test_4.json",
+      "size_bytes": 22434
+    },
+    {
+      "resource_id": "RES-635eff3ef6",
+      "title": "MAPLE Test 4",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "downloads/MAPLE_Test_4.md",
+      "size_bytes": 12976
+    },
+    {
+      "resource_id": "RES-54479d6d38",
+      "title": "MAPLE Test 4",
+      "format": "pdf",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "downloads/MAPLE_Test_4.pdf",
+      "size_bytes": 206211
+    },
+    {
+      "resource_id": "MAPLE_Unit_1_Practice-pdf",
+      "title": "MAPLE Unit 1 Practice",
+      "path": "downloads/MAPLE_Unit_1_Practice.pdf",
+      "format": "pdf",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "print-download",
+      "unit_id": null,
+      "topic_ids": [],
+      "size_bytes": 78142
+    },
+    {
+      "resource_id": "MAPLE_Unit_1_Workbook-pdf",
+      "title": "MAPLE Unit 1 Workbook",
+      "path": "downloads/MAPLE_Unit_1_Workbook.pdf",
+      "format": "pdf",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "print-download",
+      "unit_id": null,
+      "topic_ids": [],
+      "size_bytes": 168092
+    },
+    {
+      "resource_id": "RES-eaae95021d",
+      "title": "MAPLE Unit 2 Practice",
+      "path": "downloads/MAPLE_Unit_2_Practice.pdf",
+      "format": "pdf",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "print-download",
+      "unit_id": "U2",
+      "topic_ids": [],
+      "size_bytes": 248683
+    },
+    {
+      "resource_id": "RES-785770298a",
+      "title": "MAPLE Unit 2 Workbook",
+      "path": "downloads/MAPLE_Unit_2_Workbook.pdf",
+      "format": "pdf",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "print-download",
+      "unit_id": "U2",
+      "topic_ids": [],
+      "size_bytes": 392686
+    },
+    {
+      "resource_id": "RES-8dac9b0363",
+      "title": "MAPLE Unit 3 Practice",
+      "path": "downloads/MAPLE_Unit_3_Practice.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "compiled-download",
+      "unit_id": "U3",
+      "topic_ids": [],
+      "size_bytes": 41787,
+      "content_id": "MAPLE_Unit_3_Practice"
+    },
+    {
+      "resource_id": "RES-915d2b9dc4",
+      "title": "MAPLE Unit 3 Practice",
+      "path": "downloads/MAPLE_Unit_3_Practice.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "compiled-download",
+      "unit_id": "U3",
+      "topic_ids": [],
+      "size_bytes": 33842
+    },
+    {
+      "resource_id": "RES-3b108337d5",
+      "title": "MAPLE Unit 3 Practice",
+      "path": "downloads/MAPLE_Unit_3_Practice.pdf",
+      "format": "pdf",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "print-download",
+      "unit_id": "U3",
+      "topic_ids": [],
+      "size_bytes": 424176
+    },
+    {
+      "resource_id": "RES-4c0545c42d",
+      "title": "MAPLE Unit 3 Workbook",
+      "path": "downloads/MAPLE_Unit_3_Workbook.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "compiled-download",
+      "unit_id": "U3",
+      "topic_ids": [],
+      "size_bytes": 75280,
+      "content_id": "MAPLE_Unit_3_Workbook"
+    },
+    {
+      "resource_id": "RES-b0b4ce432f",
+      "title": "MAPLE Unit 3 Workbook",
+      "path": "downloads/MAPLE_Unit_3_Workbook.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "compiled-download",
+      "unit_id": "U3",
+      "topic_ids": [],
+      "size_bytes": 72631
+    },
+    {
+      "resource_id": "RES-600e671a8e",
+      "title": "MAPLE Unit 3 Workbook",
+      "path": "downloads/MAPLE_Unit_3_Workbook.pdf",
+      "format": "pdf",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "print-download",
+      "unit_id": "U3",
+      "topic_ids": [],
+      "size_bytes": 467807
+    },
+    {
+      "resource_id": "RES-68dd996717",
+      "title": "MAPLE Unit 4 Practice",
+      "path": "downloads/MAPLE_Unit_4_Practice.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "compiled-download",
+      "unit_id": "U4",
+      "topic_ids": [],
+      "size_bytes": 47457,
+      "content_id": "MAPLE_Unit_4_Practice"
+    },
+    {
+      "resource_id": "RES-e8fef4a4ef",
+      "title": "MAPLE Unit 4 Practice",
+      "path": "downloads/MAPLE_Unit_4_Practice.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "compiled-download",
+      "unit_id": "U4",
+      "topic_ids": [],
+      "size_bytes": 38499
+    },
+    {
+      "resource_id": "RES-46ef2b7873",
+      "title": "MAPLE Unit 4 Practice",
+      "path": "downloads/MAPLE_Unit_4_Practice.pdf",
+      "format": "pdf",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "print-download",
+      "unit_id": "U4",
+      "topic_ids": [],
+      "size_bytes": 468960
+    },
+    {
+      "resource_id": "RES-693cc2ae3c",
+      "title": "MAPLE Unit 4 Workbook",
+      "path": "downloads/MAPLE_Unit_4_Workbook.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "compiled-download",
+      "unit_id": "U4",
+      "topic_ids": [],
+      "size_bytes": 90810,
+      "content_id": "MAPLE_Unit_4_Workbook"
+    },
+    {
+      "resource_id": "RES-5787647f86",
+      "title": "MAPLE Unit 4 Workbook",
+      "path": "downloads/MAPLE_Unit_4_Workbook.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "compiled-download",
+      "unit_id": "U4",
+      "topic_ids": [],
+      "size_bytes": 87744
+    },
+    {
+      "resource_id": "RES-17fa8c2787",
+      "title": "MAPLE Unit 4 Workbook",
+      "path": "downloads/MAPLE_Unit_4_Workbook.pdf",
+      "format": "pdf",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "print-download",
+      "unit_id": "U4",
+      "topic_ids": [],
+      "size_bytes": 576210
+    },
+    {
+      "resource_id": "RES-440b3a2dea",
+      "title": "MAPLE Unit 5 Common Confusions",
+      "path": "downloads/MAPLE_Unit_5_Common_Confusions.pdf",
+      "format": "pdf",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "print-download",
+      "unit_id": "U5",
+      "topic_ids": [],
+      "size_bytes": 45574
+    },
+    {
+      "resource_id": "RES-c9a9d117dd",
+      "title": "MAPLE Unit 5 Discoveries and Equations",
+      "path": "downloads/MAPLE_Unit_5_Discoveries_and_Equations.pdf",
+      "format": "pdf",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "print-download",
+      "unit_id": "U5",
+      "topic_ids": [],
+      "size_bytes": 47539
+    },
+    {
+      "resource_id": "RES-70cae7ea71",
+      "title": "MAPLE Unit 5 Historical Connections",
+      "path": "downloads/MAPLE_Unit_5_Historical_Connections.pdf",
+      "format": "pdf",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "print-download",
+      "unit_id": "U5",
+      "topic_ids": [],
+      "size_bytes": 46580
+    },
+    {
+      "resource_id": "RES-42d8914c60",
+      "title": "MAPLE Unit 5 Historical Timeline",
+      "path": "downloads/MAPLE_Unit_5_Historical_Timeline.pdf",
+      "format": "pdf",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "print-download",
+      "unit_id": "U5",
+      "topic_ids": [],
+      "size_bytes": 47205
+    },
+    {
+      "resource_id": "RES-c32e75e074",
+      "title": "MAPLE Unit 5 Practice",
+      "path": "downloads/MAPLE_Unit_5_Practice.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "compiled-download",
+      "unit_id": "U5",
+      "topic_ids": [],
+      "size_bytes": 31922,
+      "content_id": "MAPLE_Unit_5_Practice"
+    },
+    {
+      "resource_id": "RES-74cb4ee711",
+      "title": "MAPLE Unit 5 Practice",
+      "path": "downloads/MAPLE_Unit_5_Practice.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "compiled-download",
+      "unit_id": "U5",
+      "topic_ids": [],
+      "size_bytes": 23732
+    },
+    {
+      "resource_id": "RES-d455386e64",
+      "title": "MAPLE Unit 5 Practice",
+      "path": "downloads/MAPLE_Unit_5_Practice.pdf",
+      "format": "pdf",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "print-download",
+      "unit_id": "U5",
+      "topic_ids": [],
+      "size_bytes": 294731
+    },
+    {
+      "resource_id": "RES-91d1bc4f4c",
+      "title": "MAPLE Unit 5 Scientist Comparison",
+      "path": "downloads/MAPLE_Unit_5_Scientist_Comparison.pdf",
+      "format": "pdf",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "print-download",
+      "unit_id": "U5",
+      "topic_ids": [],
+      "size_bytes": 46013
+    },
+    {
+      "resource_id": "RES-11a1c54290",
+      "title": "MAPLE Unit 5 Workbook",
+      "path": "downloads/MAPLE_Unit_5_Workbook.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "compiled-download",
+      "unit_id": "U5",
+      "topic_ids": [],
+      "size_bytes": 89095,
+      "content_id": "MAPLE_Unit_5_Workbook"
+    },
+    {
+      "resource_id": "RES-600f090337",
+      "title": "MAPLE Unit 5 Workbook",
+      "path": "downloads/MAPLE_Unit_5_Workbook.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "compiled-download",
+      "unit_id": "U5",
+      "topic_ids": [],
+      "size_bytes": 85512
+    },
+    {
+      "resource_id": "RES-826034651d",
+      "title": "MAPLE Unit 5 Workbook",
+      "path": "downloads/MAPLE_Unit_5_Workbook.pdf",
+      "format": "pdf",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "print-download",
+      "unit_id": "U5",
+      "topic_ids": [],
+      "size_bytes": 476350
+    },
+    {
+      "resource_id": "F01-json",
+      "title": "F01",
+      "path": "formulas/F01.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U1",
+      "topic_ids": [],
+      "size_bytes": 382
+    },
+    {
+      "resource_id": "F02-json",
+      "title": "F02",
+      "path": "formulas/F02.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U1",
+      "topic_ids": [],
+      "size_bytes": 348
+    },
+    {
+      "resource_id": "F03-json",
+      "title": "F03",
+      "path": "formulas/F03.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U1",
+      "topic_ids": [],
+      "size_bytes": 340
+    },
+    {
+      "resource_id": "F04-json",
+      "title": "F04",
+      "path": "formulas/F04.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U1",
+      "topic_ids": [],
+      "size_bytes": 364
+    },
+    {
+      "resource_id": "F05-json",
+      "title": "F05",
+      "path": "formulas/F05.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U1",
+      "topic_ids": [],
+      "size_bytes": 454
+    },
+    {
+      "resource_id": "F06-json",
+      "title": "F06",
+      "path": "formulas/F06.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U1",
+      "topic_ids": [],
+      "size_bytes": 399
+    },
+    {
+      "resource_id": "F07-json",
+      "title": "F07",
+      "path": "formulas/F07.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U1",
+      "topic_ids": [],
+      "size_bytes": 416
+    },
+    {
+      "resource_id": "F08-json",
+      "title": "F08",
+      "path": "formulas/F08.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U1",
+      "topic_ids": [],
+      "size_bytes": 491
+    },
+    {
+      "resource_id": "RES-acf8666fb6",
+      "title": "Sensible heat",
+      "path": "formulas/F09.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U2",
+      "topic_ids": [
+        "TOP10"
+      ],
+      "size_bytes": 453,
+      "content_id": "F09"
+    },
+    {
+      "resource_id": "RES-22da916f3d",
+      "title": "Temperature from heat",
+      "path": "formulas/F10.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U2",
+      "topic_ids": [
+        "TOP10"
+      ],
+      "size_bytes": 510,
+      "content_id": "F10"
+    },
+    {
+      "resource_id": "RES-9bf5d43885",
+      "title": "Transition heat and partial transition",
+      "path": "formulas/F11.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U2",
+      "topic_ids": [
+        "TOP11"
+      ],
+      "size_bytes": 507,
+      "content_id": "F11"
+    },
+    {
+      "resource_id": "RES-e332aa3b86",
+      "title": "Stage-by-stage energy",
+      "path": "formulas/F12.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U2",
+      "topic_ids": [
+        "TOP10",
+        "TOP11"
+      ],
+      "size_bytes": 472,
+      "content_id": "F12"
+    },
+    {
+      "resource_id": "RES-f894226aad",
+      "title": "Energy at constant net input",
+      "path": "formulas/F13.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U2",
+      "topic_ids": [
+        "TOP09"
+      ],
+      "size_bytes": 435,
+      "content_id": "F13"
+    },
+    {
+      "resource_id": "RES-509c66a85b",
+      "title": "Average graph slope",
+      "path": "formulas/F14.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U2",
+      "topic_ids": [
+        "TOP09"
+      ],
+      "size_bytes": 451,
+      "content_id": "F14"
+    },
+    {
+      "resource_id": "RES-903980f047",
+      "title": "Ideal gas law",
+      "path": "formulas/F15.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U2",
+      "topic_ids": [
+        "TOP13"
+      ],
+      "size_bytes": 525,
+      "content_id": "F15"
+    },
+    {
+      "resource_id": "RES-5f2bbc0756",
+      "title": "Mass to moles",
+      "path": "formulas/F16.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U2",
+      "topic_ids": [
+        "TOP13"
+      ],
+      "size_bytes": 389,
+      "content_id": "F16"
+    },
+    {
+      "resource_id": "RES-ca2f06d6c3",
+      "title": "Two ideal-gas states",
+      "path": "formulas/F17.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U2",
+      "topic_ids": [
+        "TOP13"
+      ],
+      "size_bytes": 500,
+      "content_id": "F17"
+    },
+    {
+      "resource_id": "RES-64e493728c",
+      "title": "Gas-law unit and pressure conversions",
+      "path": "formulas/F18.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U2",
+      "topic_ids": [
+        "TOP13"
+      ],
+      "size_bytes": 527,
+      "content_id": "F18"
+    },
+    {
+      "resource_id": "RES-ac22dfe9d4",
+      "title": "Spatial temperature gradient",
+      "path": "formulas/F19.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP14"
+      ],
+      "size_bytes": 460,
+      "content_id": "F19"
+    },
+    {
+      "resource_id": "RES-836609704c",
+      "title": "Steady slab conduction",
+      "path": "formulas/F20.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP18"
+      ],
+      "size_bytes": 492,
+      "content_id": "F20"
+    },
+    {
+      "resource_id": "RES-375ef71efa",
+      "title": "Infer conductivity",
+      "path": "formulas/F21.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP18"
+      ],
+      "size_bytes": 455,
+      "content_id": "F21"
+    },
+    {
+      "resource_id": "RES-6bb52d7781",
+      "title": "Radiation partition",
+      "path": "formulas/F22.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP16"
+      ],
+      "size_bytes": 470,
+      "content_id": "F22"
+    },
+    {
+      "resource_id": "RES-f0cb527623",
+      "title": "Sample heat capacity",
+      "path": "formulas/F23.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP19"
+      ],
+      "size_bytes": 486,
+      "content_id": "F23"
+    },
+    {
+      "resource_id": "RES-10af0d7cbc",
+      "title": "Ideal two-part mixing",
+      "path": "formulas/F24.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP19"
+      ],
+      "size_bytes": 473,
+      "content_id": "F24"
+    },
+    {
+      "resource_id": "RES-bce42ac497",
+      "title": "Boundary energy ledger",
+      "path": "formulas/F25.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP17",
+        "TOP20"
+      ],
+      "size_bytes": 444,
+      "content_id": "F25"
+    },
+    {
+      "resource_id": "RES-62d5a33cbc",
+      "title": "Power from a temperature interval",
+      "path": "formulas/F26.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP20"
+      ],
+      "size_bytes": 482,
+      "content_id": "F26"
+    },
+    {
+      "resource_id": "RES-6146fdffc2",
+      "title": "Area and thickness conversions",
+      "path": "formulas/F27.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP18"
+      ],
+      "size_bytes": 405,
+      "content_id": "F27"
+    },
+    {
+      "resource_id": "RES-c78fbde57d",
+      "title": "Combined temperature prediction",
+      "path": "formulas/F28.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP20"
+      ],
+      "size_bytes": 527,
+      "content_id": "F28"
+    },
+    {
+      "resource_id": "RES-c31c80b13e",
+      "title": "First law: work-by convention",
+      "path": "formulas/F29.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP21",
+        "TOP22"
+      ],
+      "size_bytes": 507,
+      "content_id": "F29"
+    },
+    {
+      "resource_id": "RES-787ef6629a",
+      "title": "Constant-pressure boundary work",
+      "path": "formulas/F30.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP21",
+        "TOP25"
+      ],
+      "size_bytes": 464,
+      "content_id": "F30"
+    },
+    {
+      "resource_id": "RES-155d5f66cb",
+      "title": "Work units and sign translation",
+      "path": "formulas/F31.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP21",
+        "TOP22"
+      ],
+      "size_bytes": 433,
+      "content_id": "F31"
+    },
+    {
+      "resource_id": "RES-ca0b4f625d",
+      "title": "Isothermal ideal-gas ratio",
+      "path": "formulas/F32.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP23"
+      ],
+      "size_bytes": 447,
+      "content_id": "F32"
+    },
+    {
+      "resource_id": "RES-21d3495eb2",
+      "title": "Isochoric gas ratio",
+      "path": "formulas/F33.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP25"
+      ],
+      "size_bytes": 382,
+      "content_id": "F33"
+    },
+    {
+      "resource_id": "RES-235ed1a5b7",
+      "title": "Isobaric gas ratio",
+      "path": "formulas/F34.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP25"
+      ],
+      "size_bytes": 381,
+      "content_id": "F34"
+    },
+    {
+      "resource_id": "RES-2b7840ef29",
+      "title": "Adiabatic first law",
+      "path": "formulas/F35.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP24"
+      ],
+      "size_bytes": 362,
+      "content_id": "F35"
+    },
+    {
+      "resource_id": "RES-cf856144bd",
+      "title": "Internal-energy temperature model",
+      "path": "formulas/F36.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP22",
+        "TOP24",
+        "TOP25"
+      ],
+      "size_bytes": 536,
+      "content_id": "F36"
+    },
+    {
+      "resource_id": "RES-23dee643a2",
+      "title": "Cycle energy balance",
+      "path": "formulas/F37.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP26",
+        "TOP27"
+      ],
+      "size_bytes": 504,
+      "content_id": "F37"
+    },
+    {
+      "resource_id": "RES-cf8ab45cea",
+      "title": "Rectangular cycle area",
+      "path": "formulas/F38.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP26"
+      ],
+      "size_bytes": 467,
+      "content_id": "F38"
+    },
+    {
+      "resource_id": "RES-80ed98dd1e",
+      "title": "Triangular cycle area",
+      "path": "formulas/F39.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP26"
+      ],
+      "size_bytes": 464,
+      "content_id": "F39"
+    },
+    {
+      "resource_id": "RES-fd2df3f359",
+      "title": "Thermal efficiency",
+      "path": "formulas/F40.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP27"
+      ],
+      "size_bytes": 420,
+      "content_id": "F40"
+    },
+    {
+      "resource_id": "RES-c3af7a2c63",
+      "title": "Two-reservoir reversible bound",
+      "path": "formulas/F41.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP27",
+        "TOP28"
+      ],
+      "size_bytes": 468,
+      "content_id": "F41"
+    },
+    {
+      "resource_id": "RES-24f65e0a49",
+      "title": "Total entropy bookkeeping",
+      "path": "formulas/F42.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP28"
+      ],
+      "size_bytes": 445,
+      "content_id": "F42"
+    },
+    {
+      "resource_id": "U1-formula-packet-md",
+      "title": "U1-formula-packet",
+      "path": "formulas/U1-formula-packet.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula-packet",
+      "unit_id": "U1",
+      "topic_ids": [],
+      "size_bytes": 1641
+    },
+    {
+      "resource_id": "RES-fc657f430b",
+      "title": "U2-formula-packet",
+      "path": "formulas/U2-formula-packet.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula-packet",
+      "unit_id": "U2",
+      "topic_ids": [],
+      "size_bytes": 3041
+    },
+    {
+      "resource_id": "RES-53c2af95a9",
+      "title": "U3-formula-packet",
+      "path": "formulas/U3-formula-packet.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula-packet",
+      "unit_id": "U3",
+      "topic_ids": [],
+      "size_bytes": 2848
+    },
+    {
+      "resource_id": "RES-7165d6bb7a",
+      "title": "U4-formula-packet",
+      "path": "formulas/U4-formula-packet.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "formula-packet",
+      "unit_id": "U4",
+      "topic_ids": [],
+      "size_bytes": 3660
+    },
+    {
+      "resource_id": "U1-C01-md",
+      "title": "U1-C01",
+      "path": "lessons/U1-C01.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U1",
+      "topic_ids": [],
+      "size_bytes": 5687
+    },
+    {
+      "resource_id": "U1-C02-md",
+      "title": "U1-C02",
+      "path": "lessons/U1-C02.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U1",
+      "topic_ids": [],
+      "size_bytes": 5290
+    },
+    {
+      "resource_id": "U1-C03-md",
+      "title": "U1-C03",
+      "path": "lessons/U1-C03.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U1",
+      "topic_ids": [],
+      "size_bytes": 5496
+    },
+    {
+      "resource_id": "U1-C04-md",
+      "title": "U1-C04",
+      "path": "lessons/U1-C04.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U1",
+      "topic_ids": [],
+      "size_bytes": 5654
+    },
+    {
+      "resource_id": "U1-C05-md",
+      "title": "U1-C05",
+      "path": "lessons/U1-C05.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U1",
+      "topic_ids": [],
+      "size_bytes": 5317
+    },
+    {
+      "resource_id": "U1-C06-md",
+      "title": "U1-C06",
+      "path": "lessons/U1-C06.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U1",
+      "topic_ids": [],
+      "size_bytes": 5644
+    },
+    {
+      "resource_id": "RES-20df6cdc7d",
+      "title": "U2-C01 - States of matter and particle behavior",
+      "path": "lessons/U2-C01.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U2",
+      "topic_ids": [
+        "TOP07"
+      ],
+      "size_bytes": 8267,
+      "content_id": "U2-C01"
+    },
+    {
+      "resource_id": "RES-5f5b7b3628",
+      "title": "U2-C02 - Phase transitions",
+      "path": "lessons/U2-C02.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U2",
+      "topic_ids": [
+        "TOP08"
+      ],
+      "size_bytes": 8399,
+      "content_id": "U2-C02"
+    },
+    {
+      "resource_id": "RES-4b53c53838",
+      "title": "U2-C03 - Heating and cooling curves",
+      "path": "lessons/U2-C03.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U2",
+      "topic_ids": [
+        "TOP09"
+      ],
+      "size_bytes": 8145,
+      "content_id": "U2-C03"
+    },
+    {
+      "resource_id": "RES-b4427d3a72",
+      "title": "U2-C04 - Sensible heat",
+      "path": "lessons/U2-C04.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U2",
+      "topic_ids": [
+        "TOP10"
+      ],
+      "size_bytes": 8039,
+      "content_id": "U2-C04"
+    },
+    {
+      "resource_id": "RES-bffe027c67",
+      "title": "U2-C05 - Latent heat and multistage changes",
+      "path": "lessons/U2-C05.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U2",
+      "topic_ids": [
+        "TOP11"
+      ],
+      "size_bytes": 8605,
+      "content_id": "U2-C05"
+    },
+    {
+      "resource_id": "RES-16a0c39dda",
+      "title": "U2-C06 - Reading phase diagrams",
+      "path": "lessons/U2-C06.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U2",
+      "topic_ids": [
+        "TOP12"
+      ],
+      "size_bytes": 9371,
+      "content_id": "U2-C06"
+    },
+    {
+      "resource_id": "RES-cd2194f12a",
+      "title": "U2-C07 - Ideal gas law and units",
+      "path": "lessons/U2-C07.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U2",
+      "topic_ids": [
+        "TOP13"
+      ],
+      "size_bytes": 8300,
+      "content_id": "U2-C07"
+    },
+    {
+      "resource_id": "RES-539fe63c61",
+      "title": "Conduction",
+      "path": "lessons/U3-C01.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP14"
+      ],
+      "size_bytes": 9339,
+      "content_id": "U3-C01"
+    },
+    {
+      "resource_id": "RES-bdbca47eba",
+      "title": "U3-C01",
+      "path": "lessons/U3-C01.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP14"
+      ],
+      "size_bytes": 8626,
+      "content_id": "U3-C01"
+    },
+    {
+      "resource_id": "RES-c818877df5",
+      "title": "Convection",
+      "path": "lessons/U3-C02.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP15"
+      ],
+      "size_bytes": 9655,
+      "content_id": "U3-C02"
+    },
+    {
+      "resource_id": "RES-445b9c8831",
+      "title": "U3-C02",
+      "path": "lessons/U3-C02.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP15"
+      ],
+      "size_bytes": 8937,
+      "content_id": "U3-C02"
+    },
+    {
+      "resource_id": "RES-1dc1521c98",
+      "title": "Thermal Radiation",
+      "path": "lessons/U3-C03.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP16"
+      ],
+      "size_bytes": 9957,
+      "content_id": "U3-C03"
+    },
+    {
+      "resource_id": "RES-c7819fae26",
+      "title": "U3-C03",
+      "path": "lessons/U3-C03.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP16"
+      ],
+      "size_bytes": 9210,
+      "content_id": "U3-C03"
+    },
+    {
+      "resource_id": "RES-3f77f3cfe1",
+      "title": "Comparing Heat Transfer Mechanisms",
+      "path": "lessons/U3-C04.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP17"
+      ],
+      "size_bytes": 9703,
+      "content_id": "U3-C04"
+    },
+    {
+      "resource_id": "RES-306a318170",
+      "title": "U3-C04",
+      "path": "lessons/U3-C04.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP17"
+      ],
+      "size_bytes": 8974,
+      "content_id": "U3-C04"
+    },
+    {
+      "resource_id": "RES-b895fcad90",
+      "title": "Thermal Conductivity",
+      "path": "lessons/U3-C05.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP18"
+      ],
+      "size_bytes": 9222,
+      "content_id": "U3-C05"
+    },
+    {
+      "resource_id": "RES-d7ce584e94",
+      "title": "U3-C05",
+      "path": "lessons/U3-C05.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP18"
+      ],
+      "size_bytes": 8468,
+      "content_id": "U3-C05"
+    },
+    {
+      "resource_id": "RES-7bb5bb2194",
+      "title": "Heat Capacity and Specific Heat",
+      "path": "lessons/U3-C06.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP19"
+      ],
+      "size_bytes": 9861,
+      "content_id": "U3-C06"
+    },
+    {
+      "resource_id": "RES-6a406a04f5",
+      "title": "U3-C06",
+      "path": "lessons/U3-C06.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP19"
+      ],
+      "size_bytes": 9115,
+      "content_id": "U3-C06"
+    },
+    {
+      "resource_id": "RES-850a2470e6",
+      "title": "Combined Heat Transfer and Experimental Reasoning",
+      "path": "lessons/U3-C07.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP20"
+      ],
+      "size_bytes": 11128,
+      "content_id": "U3-C07"
+    },
+    {
+      "resource_id": "RES-3957a2bd91",
+      "title": "U3-C07",
+      "path": "lessons/U3-C07.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP20"
+      ],
+      "size_bytes": 10321,
+      "content_id": "U3-C07"
+    },
+    {
+      "resource_id": "RES-32e24370e8",
+      "title": "Internal Energy, Heat, and Work",
+      "path": "lessons/U4-C01.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP21"
+      ],
+      "size_bytes": 10176,
+      "content_id": "U4-C01"
+    },
+    {
+      "resource_id": "RES-51c48fec6c",
+      "title": "U4-C01",
+      "path": "lessons/U4-C01.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP21"
+      ],
+      "size_bytes": 9387,
+      "content_id": "U4-C01"
+    },
+    {
+      "resource_id": "RES-7fdbc9d10b",
+      "title": "First Law of Thermodynamics",
+      "path": "lessons/U4-C02.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP22"
+      ],
+      "size_bytes": 9964,
+      "content_id": "U4-C02"
+    },
+    {
+      "resource_id": "RES-59f93e90a3",
+      "title": "U4-C02",
+      "path": "lessons/U4-C02.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP22"
+      ],
+      "size_bytes": 9135,
+      "content_id": "U4-C02"
+    },
+    {
+      "resource_id": "RES-050f1cbd24",
+      "title": "Isothermal Processes",
+      "path": "lessons/U4-C03.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP23"
+      ],
+      "size_bytes": 9967,
+      "content_id": "U4-C03"
+    },
+    {
+      "resource_id": "RES-023a84556e",
+      "title": "U4-C03",
+      "path": "lessons/U4-C03.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP23"
+      ],
+      "size_bytes": 9176,
+      "content_id": "U4-C03"
+    },
+    {
+      "resource_id": "RES-aee6756c37",
+      "title": "Adiabatic Processes",
+      "path": "lessons/U4-C04.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP24"
+      ],
+      "size_bytes": 10261,
+      "content_id": "U4-C04"
+    },
+    {
+      "resource_id": "RES-b4a690b08c",
+      "title": "U4-C04",
+      "path": "lessons/U4-C04.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP24"
+      ],
+      "size_bytes": 9463,
+      "content_id": "U4-C04"
+    },
+    {
+      "resource_id": "RES-d2561282d8",
+      "title": "Isochoric and Isobaric Processes",
+      "path": "lessons/U4-C05.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP25"
+      ],
+      "size_bytes": 10330,
+      "content_id": "U4-C05"
+    },
+    {
+      "resource_id": "RES-9d704f7a97",
+      "title": "U4-C05",
+      "path": "lessons/U4-C05.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP25"
+      ],
+      "size_bytes": 9521,
+      "content_id": "U4-C05"
+    },
+    {
+      "resource_id": "RES-f06ffb144e",
+      "title": "Thermodynamic Cycles",
+      "path": "lessons/U4-C06.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP26"
+      ],
+      "size_bytes": 9853,
+      "content_id": "U4-C06"
+    },
+    {
+      "resource_id": "RES-8946d06aba",
+      "title": "U4-C06",
+      "path": "lessons/U4-C06.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP26"
+      ],
+      "size_bytes": 9050,
+      "content_id": "U4-C06"
+    },
+    {
+      "resource_id": "RES-8e1042b953",
+      "title": "Heat Engines and Thermal Efficiency",
+      "path": "lessons/U4-C07.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP27"
+      ],
+      "size_bytes": 10798,
+      "content_id": "U4-C07"
+    },
+    {
+      "resource_id": "RES-3c30d9cbfe",
+      "title": "U4-C07",
+      "path": "lessons/U4-C07.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP27"
+      ],
+      "size_bytes": 9967,
+      "content_id": "U4-C07"
+    },
+    {
+      "resource_id": "RES-3c8318d7a2",
+      "title": "Second Law and Entropy",
+      "path": "lessons/U4-C08.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP28"
+      ],
+      "size_bytes": 11425,
+      "content_id": "U4-C08"
+    },
+    {
+      "resource_id": "RES-54666562f3",
+      "title": "U4-C08",
+      "path": "lessons/U4-C08.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP28"
+      ],
+      "size_bytes": 10595,
+      "content_id": "U4-C08"
+    },
+    {
+      "resource_id": "RES-d5dc07f7b2",
+      "title": "Lord Kelvin and Joseph Black",
+      "path": "lessons/U5-C01.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U5",
+      "topic_ids": [
+        "TOP29"
+      ],
+      "size_bytes": 12607,
+      "content_id": "U5-C01"
+    },
+    {
+      "resource_id": "RES-f4a40d4fac",
+      "title": "U5-C01",
+      "path": "lessons/U5-C01.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U5",
+      "topic_ids": [
+        "TOP29"
+      ],
+      "size_bytes": 11935,
+      "content_id": "U5-C01"
+    },
+    {
+      "resource_id": "RES-97472d7209",
+      "title": "James Prescott Joule and Sadi Carnot",
+      "path": "lessons/U5-C02.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U5",
+      "topic_ids": [
+        "TOP30"
+      ],
+      "size_bytes": 12074,
+      "content_id": "U5-C02"
+    },
+    {
+      "resource_id": "RES-e9285d093e",
+      "title": "U5-C02",
+      "path": "lessons/U5-C02.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U5",
+      "topic_ids": [
+        "TOP30"
+      ],
+      "size_bytes": 11400,
+      "content_id": "U5-C02"
+    },
+    {
+      "resource_id": "RES-e703e81018",
+      "title": "Max Planck and Rudolf Clausius",
+      "path": "lessons/U5-C03.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U5",
+      "topic_ids": [
+        "TOP31"
+      ],
+      "size_bytes": 12078,
+      "content_id": "U5-C03"
+    },
+    {
+      "resource_id": "RES-5418f49d28",
+      "title": "U5-C03",
+      "path": "lessons/U5-C03.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U5",
+      "topic_ids": [
+        "TOP31"
+      ],
+      "size_bytes": 11404,
+      "content_id": "U5-C03"
+    },
+    {
+      "resource_id": "RES-7b76b9b1fe",
+      "title": "Ludwig Boltzmann and James Clerk Maxwell",
+      "path": "lessons/U5-C04.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U5",
+      "topic_ids": [
+        "TOP32"
+      ],
+      "size_bytes": 13166,
+      "content_id": "U5-C04"
+    },
+    {
+      "resource_id": "RES-b80255b073",
+      "title": "U5-C04",
+      "path": "lessons/U5-C04.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U5",
+      "topic_ids": [
+        "TOP32"
+      ],
+      "size_bytes": 12483,
+      "content_id": "U5-C04"
+    },
+    {
+      "resource_id": "RES-addf0e5882",
+      "title": "Historical Development and Scientific Connections",
+      "path": "lessons/U5-C05.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U5",
+      "topic_ids": [
+        "TOP33"
+      ],
+      "size_bytes": 15883,
+      "content_id": "U5-C05"
+    },
+    {
+      "resource_id": "RES-f25007c874",
+      "title": "U5-C05",
+      "path": "lessons/U5-C05.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "chapter",
+      "unit_id": "U5",
+      "topic_ids": [
+        "TOP33"
+      ],
+      "size_bytes": 15156,
+      "content_id": "U5-C05"
+    },
+    {
+      "resource_id": "RES-8fbc1e8edf",
+      "title": "U2-WS09-curve",
+      "path": "lessons/figures/U2-WS09-curve.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U2",
+      "topic_ids": [],
+      "size_bytes": 50815
+    },
+    {
+      "resource_id": "RES-d26a5164fa",
+      "title": "U2-WS09-curve",
+      "path": "lessons/figures/U2-WS09-curve.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U2",
+      "topic_ids": [],
+      "size_bytes": 10743
+    },
+    {
+      "resource_id": "RES-ec12cbad3a",
+      "title": "U2-heating-curve",
+      "path": "lessons/figures/U2-heating-curve.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U2",
+      "topic_ids": [],
+      "size_bytes": 56336
+    },
+    {
+      "resource_id": "RES-3e53476eec",
+      "title": "U2-heating-curve",
+      "path": "lessons/figures/U2-heating-curve.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U2",
+      "topic_ids": [],
+      "size_bytes": 12661
+    },
+    {
+      "resource_id": "RES-54726f1da0",
+      "title": "U2-particles",
+      "path": "lessons/figures/U2-particles.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U2",
+      "topic_ids": [],
+      "size_bytes": 63892
+    },
+    {
+      "resource_id": "RES-ef8f1e372c",
+      "title": "U2-particles",
+      "path": "lessons/figures/U2-particles.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U2",
+      "topic_ids": [],
+      "size_bytes": 30971
+    },
+    {
+      "resource_id": "RES-019871b574",
+      "title": "U2-phase-diagram",
+      "path": "lessons/figures/U2-phase-diagram.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U2",
+      "topic_ids": [],
+      "size_bytes": 105451
+    },
+    {
+      "resource_id": "RES-34a611a3c3",
+      "title": "U2-phase-diagram",
+      "path": "lessons/figures/U2-phase-diagram.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U2",
+      "topic_ids": [],
+      "size_bytes": 19468
+    },
+    {
+      "resource_id": "RES-6fca37b08a",
+      "title": "U2-transitions",
+      "path": "lessons/figures/U2-transitions.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U2",
+      "topic_ids": [],
+      "size_bytes": 48718
+    },
+    {
+      "resource_id": "RES-d5f76e9c86",
+      "title": "U2-transitions",
+      "path": "lessons/figures/U2-transitions.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U2",
+      "topic_ids": [],
+      "size_bytes": 6666
+    },
+    {
+      "resource_id": "RES-c77c7246b7",
+      "title": "U3-C01",
+      "path": "lessons/figures/U3-C01.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP14"
+      ],
+      "size_bytes": 58667,
+      "content_id": "U3-C01"
+    },
+    {
+      "resource_id": "RES-1acd94b727",
+      "title": "U3-C01",
+      "path": "lessons/figures/U3-C01.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP14"
+      ],
+      "size_bytes": 12930,
+      "content_id": "U3-C01"
+    },
+    {
+      "resource_id": "RES-3c72f7522b",
+      "title": "U3-C02",
+      "path": "lessons/figures/U3-C02.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP15"
+      ],
+      "size_bytes": 47095,
+      "content_id": "U3-C02"
+    },
+    {
+      "resource_id": "RES-4792f3268b",
+      "title": "U3-C02",
+      "path": "lessons/figures/U3-C02.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP15"
+      ],
+      "size_bytes": 6980,
+      "content_id": "U3-C02"
+    },
+    {
+      "resource_id": "RES-46085086b7",
+      "title": "U3-C03",
+      "path": "lessons/figures/U3-C03.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP16"
+      ],
+      "size_bytes": 44659,
+      "content_id": "U3-C03"
+    },
+    {
+      "resource_id": "RES-0c3ab57644",
+      "title": "U3-C03",
+      "path": "lessons/figures/U3-C03.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP16"
+      ],
+      "size_bytes": 5330,
+      "content_id": "U3-C03"
+    },
+    {
+      "resource_id": "RES-da2a15ea54",
+      "title": "U3-C04",
+      "path": "lessons/figures/U3-C04.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP17"
+      ],
+      "size_bytes": 43005,
+      "content_id": "U3-C04"
+    },
+    {
+      "resource_id": "RES-e7215a7550",
+      "title": "U3-C04",
+      "path": "lessons/figures/U3-C04.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP17"
+      ],
+      "size_bytes": 6316,
+      "content_id": "U3-C04"
+    },
+    {
+      "resource_id": "RES-b7b4ab3cee",
+      "title": "U3-C05",
+      "path": "lessons/figures/U3-C05.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP18"
+      ],
+      "size_bytes": 59071,
+      "content_id": "U3-C05"
+    },
+    {
+      "resource_id": "RES-9c48d3eb4c",
+      "title": "U3-C05",
+      "path": "lessons/figures/U3-C05.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP18"
+      ],
+      "size_bytes": 12765,
+      "content_id": "U3-C05"
+    },
+    {
+      "resource_id": "RES-c558436e7d",
+      "title": "U3-C06",
+      "path": "lessons/figures/U3-C06.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP19"
+      ],
+      "size_bytes": 37070,
+      "content_id": "U3-C06"
+    },
+    {
+      "resource_id": "RES-0d2ac4895f",
+      "title": "U3-C06",
+      "path": "lessons/figures/U3-C06.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP19"
+      ],
+      "size_bytes": 6548,
+      "content_id": "U3-C06"
+    },
+    {
+      "resource_id": "RES-d03879182d",
+      "title": "U3-C07",
+      "path": "lessons/figures/U3-C07.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP20"
+      ],
+      "size_bytes": 52479,
+      "content_id": "U3-C07"
+    },
+    {
+      "resource_id": "RES-8706aeefc8",
+      "title": "U3-C07",
+      "path": "lessons/figures/U3-C07.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP20"
+      ],
+      "size_bytes": 13873,
+      "content_id": "U3-C07"
+    },
+    {
+      "resource_id": "RES-71334c9ef7",
+      "title": "U3-WS14",
+      "path": "lessons/figures/U3-WS14.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U3",
+      "topic_ids": [],
+      "size_bytes": 59970
+    },
+    {
+      "resource_id": "RES-700ca51ef8",
+      "title": "U3-WS14",
+      "path": "lessons/figures/U3-WS14.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U3",
+      "topic_ids": [],
+      "size_bytes": 12762
+    },
+    {
+      "resource_id": "RES-b16ebcc500",
+      "title": "U3-WS15",
+      "path": "lessons/figures/U3-WS15.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U3",
+      "topic_ids": [],
+      "size_bytes": 75545
+    },
+    {
+      "resource_id": "RES-d2f892efbb",
+      "title": "U3-WS15",
+      "path": "lessons/figures/U3-WS15.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U3",
+      "topic_ids": [],
+      "size_bytes": 16434
+    },
+    {
+      "resource_id": "RES-d8c3418437",
+      "title": "U3-WS16",
+      "path": "lessons/figures/U3-WS16.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U3",
+      "topic_ids": [],
+      "size_bytes": 41960
+    },
+    {
+      "resource_id": "RES-f025b57d30",
+      "title": "U3-WS16",
+      "path": "lessons/figures/U3-WS16.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U3",
+      "topic_ids": [],
+      "size_bytes": 7544
+    },
+    {
+      "resource_id": "RES-e29fed9b35",
+      "title": "U3-WS18",
+      "path": "lessons/figures/U3-WS18.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U3",
+      "topic_ids": [],
+      "size_bytes": 57602
+    },
+    {
+      "resource_id": "RES-ba3e3bae95",
+      "title": "U3-WS18",
+      "path": "lessons/figures/U3-WS18.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U3",
+      "topic_ids": [],
+      "size_bytes": 14149
+    },
+    {
+      "resource_id": "RES-1e76e5484c",
+      "title": "U3-WS20",
+      "path": "lessons/figures/U3-WS20.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U3",
+      "topic_ids": [],
+      "size_bytes": 51397
+    },
+    {
+      "resource_id": "RES-4efcbc5b97",
+      "title": "U3-WS20",
+      "path": "lessons/figures/U3-WS20.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U3",
+      "topic_ids": [],
+      "size_bytes": 12988
+    },
+    {
+      "resource_id": "RES-aea9111662",
+      "title": "U4-C01",
+      "path": "lessons/figures/U4-C01.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP21"
+      ],
+      "size_bytes": 27567,
+      "content_id": "U4-C01"
+    },
+    {
+      "resource_id": "RES-fba807af54",
+      "title": "U4-C01",
+      "path": "lessons/figures/U4-C01.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP21"
+      ],
+      "size_bytes": 5378,
+      "content_id": "U4-C01"
+    },
+    {
+      "resource_id": "RES-dd60212a28",
+      "title": "U4-C02",
+      "path": "lessons/figures/U4-C02.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP22"
+      ],
+      "size_bytes": 35860,
+      "content_id": "U4-C02"
+    },
+    {
+      "resource_id": "RES-212d49c958",
+      "title": "U4-C02",
+      "path": "lessons/figures/U4-C02.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP22"
+      ],
+      "size_bytes": 4851,
+      "content_id": "U4-C02"
+    },
+    {
+      "resource_id": "RES-5b8fdfaaf4",
+      "title": "U4-C03",
+      "path": "lessons/figures/U4-C03.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP23"
+      ],
+      "size_bytes": 66377,
+      "content_id": "U4-C03"
+    },
+    {
+      "resource_id": "RES-aa81d62b98",
+      "title": "U4-C03",
+      "path": "lessons/figures/U4-C03.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP23"
+      ],
+      "size_bytes": 13622,
+      "content_id": "U4-C03"
+    },
+    {
+      "resource_id": "RES-e64bc0b0d5",
+      "title": "U4-C04",
+      "path": "lessons/figures/U4-C04.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP24"
+      ],
+      "size_bytes": 73932,
+      "content_id": "U4-C04"
+    },
+    {
+      "resource_id": "RES-0c059aa987",
+      "title": "U4-C04",
+      "path": "lessons/figures/U4-C04.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP24"
+      ],
+      "size_bytes": 9878,
+      "content_id": "U4-C04"
+    },
+    {
+      "resource_id": "RES-e3c1de5445",
+      "title": "U4-C05",
+      "path": "lessons/figures/U4-C05.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP25"
+      ],
+      "size_bytes": 56859,
+      "content_id": "U4-C05"
+    },
+    {
+      "resource_id": "RES-1adacc785c",
+      "title": "U4-C05",
+      "path": "lessons/figures/U4-C05.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP25"
+      ],
+      "size_bytes": 18746,
+      "content_id": "U4-C05"
+    },
+    {
+      "resource_id": "RES-f83ad256e0",
+      "title": "U4-C06",
+      "path": "lessons/figures/U4-C06.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP26"
+      ],
+      "size_bytes": 52441,
+      "content_id": "U4-C06"
+    },
+    {
+      "resource_id": "RES-70a4f9abe3",
+      "title": "U4-C06",
+      "path": "lessons/figures/U4-C06.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP26"
+      ],
+      "size_bytes": 15967,
+      "content_id": "U4-C06"
+    },
+    {
+      "resource_id": "RES-9876612187",
+      "title": "U4-C07",
+      "path": "lessons/figures/U4-C07.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP27"
+      ],
+      "size_bytes": 37945,
+      "content_id": "U4-C07"
+    },
+    {
+      "resource_id": "RES-1e0e52a779",
+      "title": "U4-C07",
+      "path": "lessons/figures/U4-C07.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP27"
+      ],
+      "size_bytes": 6097,
+      "content_id": "U4-C07"
+    },
+    {
+      "resource_id": "RES-d46ba366eb",
+      "title": "U4-C08",
+      "path": "lessons/figures/U4-C08.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP28"
+      ],
+      "size_bytes": 49664,
+      "content_id": "U4-C08"
+    },
+    {
+      "resource_id": "RES-418eca3fc3",
+      "title": "U4-C08",
+      "path": "lessons/figures/U4-C08.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP28"
+      ],
+      "size_bytes": 5509,
+      "content_id": "U4-C08"
+    },
+    {
+      "resource_id": "RES-5f4ccb21e6",
+      "title": "U4-WS22",
+      "path": "lessons/figures/U4-WS22.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U4",
+      "topic_ids": [],
+      "size_bytes": 52885
+    },
+    {
+      "resource_id": "RES-4dca385404",
+      "title": "U4-WS22",
+      "path": "lessons/figures/U4-WS22.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U4",
+      "topic_ids": [],
+      "size_bytes": 6150
+    },
+    {
+      "resource_id": "RES-7573c9c910",
+      "title": "U4-WS23",
+      "path": "lessons/figures/U4-WS23.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U4",
+      "topic_ids": [],
+      "size_bytes": 66647
+    },
+    {
+      "resource_id": "RES-54f1cf1df0",
+      "title": "U4-WS23",
+      "path": "lessons/figures/U4-WS23.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U4",
+      "topic_ids": [],
+      "size_bytes": 16578
+    },
+    {
+      "resource_id": "RES-a4765a6f56",
+      "title": "U4-WS25",
+      "path": "lessons/figures/U4-WS25.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U4",
+      "topic_ids": [],
+      "size_bytes": 54755
+    },
+    {
+      "resource_id": "RES-5c4293a7c9",
+      "title": "U4-WS25",
+      "path": "lessons/figures/U4-WS25.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U4",
+      "topic_ids": [],
+      "size_bytes": 18034
+    },
+    {
+      "resource_id": "RES-d6e5a1e4c8",
+      "title": "U4-WS26",
+      "path": "lessons/figures/U4-WS26.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U4",
+      "topic_ids": [],
+      "size_bytes": 49141
+    },
+    {
+      "resource_id": "RES-e8c309e0fc",
+      "title": "U4-WS26",
+      "path": "lessons/figures/U4-WS26.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U4",
+      "topic_ids": [],
+      "size_bytes": 14715
+    },
+    {
+      "resource_id": "RES-cdc7fa2f44",
+      "title": "U4-WS27",
+      "path": "lessons/figures/U4-WS27.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U4",
+      "topic_ids": [],
+      "size_bytes": 44614
+    },
+    {
+      "resource_id": "RES-01eafeb9f1",
+      "title": "U4-WS27",
+      "path": "lessons/figures/U4-WS27.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U4",
+      "topic_ids": [],
+      "size_bytes": 5745
+    },
+    {
+      "resource_id": "RES-08d57d84d1",
+      "title": "U4-efficiency",
+      "path": "lessons/figures/U4-efficiency.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U4",
+      "topic_ids": [],
+      "size_bytes": 38198
+    },
+    {
+      "resource_id": "RES-698c059505",
+      "title": "U4-efficiency",
+      "path": "lessons/figures/U4-efficiency.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U4",
+      "topic_ids": [],
+      "size_bytes": 6741
+    },
+    {
+      "resource_id": "RES-51536a9cc0",
+      "title": "U5-C01",
+      "path": "lessons/figures/U5-C01.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U5",
+      "topic_ids": [
+        "TOP29"
+      ],
+      "size_bytes": 75545,
+      "content_id": "U5-C01"
+    },
+    {
+      "resource_id": "RES-cec08b04cc",
+      "title": "U5-C01",
+      "path": "lessons/figures/U5-C01.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U5",
+      "topic_ids": [
+        "TOP29"
+      ],
+      "size_bytes": 15376,
+      "content_id": "U5-C01"
+    },
+    {
+      "resource_id": "RES-6370d7645d",
+      "title": "U5-C02",
+      "path": "lessons/figures/U5-C02.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U5",
+      "topic_ids": [
+        "TOP30"
+      ],
+      "size_bytes": 39738,
+      "content_id": "U5-C02"
+    },
+    {
+      "resource_id": "RES-44548b6517",
+      "title": "U5-C02",
+      "path": "lessons/figures/U5-C02.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U5",
+      "topic_ids": [
+        "TOP30"
+      ],
+      "size_bytes": 5763,
+      "content_id": "U5-C02"
+    },
+    {
+      "resource_id": "RES-433f7e589a",
+      "title": "U5-C03",
+      "path": "lessons/figures/U5-C03.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U5",
+      "topic_ids": [
+        "TOP31"
+      ],
+      "size_bytes": 65697,
+      "content_id": "U5-C03"
+    },
+    {
+      "resource_id": "RES-91204f6c6c",
+      "title": "U5-C03",
+      "path": "lessons/figures/U5-C03.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U5",
+      "topic_ids": [
+        "TOP31"
+      ],
+      "size_bytes": 11819,
+      "content_id": "U5-C03"
+    },
+    {
+      "resource_id": "RES-592289107e",
+      "title": "U5-C04",
+      "path": "lessons/figures/U5-C04.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U5",
+      "topic_ids": [
+        "TOP32"
+      ],
+      "size_bytes": 64572,
+      "content_id": "U5-C04"
+    },
+    {
+      "resource_id": "RES-dbdcb250b1",
+      "title": "U5-C04",
+      "path": "lessons/figures/U5-C04.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U5",
+      "topic_ids": [
+        "TOP32"
+      ],
+      "size_bytes": 18708,
+      "content_id": "U5-C04"
+    },
+    {
+      "resource_id": "RES-c1ee0a0828",
+      "title": "U5-C05",
+      "path": "lessons/figures/U5-C05.png",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U5",
+      "topic_ids": [
+        "TOP33"
+      ],
+      "size_bytes": 92477,
+      "content_id": "U5-C05"
+    },
+    {
+      "resource_id": "RES-ad5c4f787d",
+      "title": "U5-C05",
+      "path": "lessons/figures/U5-C05.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U5",
+      "topic_ids": [
+        "TOP33"
+      ],
+      "size_bytes": 6944,
+      "content_id": "U5-C05"
+    },
+    {
+      "resource_id": "closed-system-svg",
+      "title": "closed-system",
+      "path": "lessons/figures/closed-system.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U1",
+      "topic_ids": [],
+      "size_bytes": 742
+    },
+    {
+      "resource_id": "heat-transfer-svg",
+      "title": "heat-transfer",
+      "path": "lessons/figures/heat-transfer.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U1",
+      "topic_ids": [],
+      "size_bytes": 846
+    },
+    {
+      "resource_id": "temperature-scales-svg",
+      "title": "temperature-scales",
+      "path": "lessons/figures/temperature-scales.svg",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": "U1",
+      "topic_ids": [],
+      "size_bytes": 775
+    },
+    {
+      "resource_id": "RES-08330aedf4-md",
+      "title": "U1-glossary",
+      "path": "references/U1-glossary.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": null,
+      "topic_ids": [],
+      "size_bytes": 2553
+    },
+    {
+      "resource_id": "RES-473ab2fff6-md",
+      "title": "U1-review",
+      "path": "references/U1-review.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": null,
+      "topic_ids": [],
+      "size_bytes": 1984
+    },
+    {
+      "resource_id": "RES-6adfe0dd84",
+      "title": "U2-glossary",
+      "path": "references/U2-glossary.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": "U2",
+      "topic_ids": [],
+      "size_bytes": 2734
+    },
+    {
+      "resource_id": "RES-96c79facf3",
+      "title": "U2-review",
+      "path": "references/U2-review.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": "U2",
+      "topic_ids": [],
+      "size_bytes": 2693
+    },
+    {
+      "resource_id": "RES-b879f692a7",
+      "title": "U3-glossary",
+      "path": "references/U3-glossary.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": "U3",
+      "topic_ids": [],
+      "size_bytes": 2381
+    },
+    {
+      "resource_id": "RES-52bbee9263",
+      "title": "U3-review",
+      "path": "references/U3-review.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": "U3",
+      "topic_ids": [],
+      "size_bytes": 3123
+    },
+    {
+      "resource_id": "RES-c293f95e54",
+      "title": "U4-glossary",
+      "path": "references/U4-glossary.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": "U4",
+      "topic_ids": [],
+      "size_bytes": 3298
+    },
+    {
+      "resource_id": "RES-7f47df97fa",
+      "title": "U4-review",
+      "path": "references/U4-review.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": "U4",
+      "topic_ids": [],
+      "size_bytes": 3660
+    },
+    {
+      "resource_id": "RES-c59f20463a",
+      "title": "U5-common-confusions",
+      "path": "references/U5-common-confusions.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": "U5",
+      "topic_ids": [],
+      "size_bytes": 2407,
+      "content_id": "U5-COMMON-CONFUSIONS"
+    },
+    {
+      "resource_id": "RES-722b563d0c",
+      "title": "U5-common-confusions",
+      "path": "references/U5-common-confusions.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": "U5",
+      "topic_ids": [],
+      "size_bytes": 2248
+    },
+    {
+      "resource_id": "RES-e52a6fba11",
+      "title": "U5-discoveries-equations",
+      "path": "references/U5-discoveries-equations.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": "U5",
+      "topic_ids": [],
+      "size_bytes": 3492,
+      "content_id": "U5-DISCOVERIES-EQUATIONS"
+    },
+    {
+      "resource_id": "RES-3c0d623869",
+      "title": "U5-discoveries-equations",
+      "path": "references/U5-discoveries-equations.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": "U5",
+      "topic_ids": [],
+      "size_bytes": 3323
+    },
+    {
+      "resource_id": "RES-ea9474e408",
+      "title": "U5-glossary",
+      "path": "references/U5-glossary.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": "U5",
+      "topic_ids": [],
+      "size_bytes": 1549
+    },
+    {
+      "resource_id": "RES-3a3088419d",
+      "title": "U5-historical-connections",
+      "path": "references/U5-historical-connections.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": "U5",
+      "topic_ids": [],
+      "size_bytes": 3341,
+      "content_id": "U5-HISTORICAL-CONNECTIONS"
+    },
+    {
+      "resource_id": "RES-684531fc1a",
+      "title": "U5-historical-connections",
+      "path": "references/U5-historical-connections.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": "U5",
+      "topic_ids": [],
+      "size_bytes": 3171
+    },
+    {
+      "resource_id": "RES-9c4c8862a2",
+      "title": "U5-historical-timeline",
+      "path": "references/U5-historical-timeline.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": "U5",
+      "topic_ids": [],
+      "size_bytes": 2722,
+      "content_id": "U5-HISTORICAL-TIMELINE"
+    },
+    {
+      "resource_id": "RES-adb38be23c",
+      "title": "U5-historical-timeline",
+      "path": "references/U5-historical-timeline.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": "U5",
+      "topic_ids": [],
+      "size_bytes": 2557
+    },
+    {
+      "resource_id": "RES-a03af88ce6",
+      "title": "U5-history-data",
+      "path": "references/U5-history-data.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": "U5",
+      "topic_ids": [],
+      "size_bytes": 6569,
+      "content_id": "U5-HISTORY-DATA"
+    },
+    {
+      "resource_id": "RES-9191733710",
+      "title": "U5-review",
+      "path": "references/U5-review.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": "U5",
+      "topic_ids": [],
+      "size_bytes": 1356
+    },
+    {
+      "resource_id": "RES-d211d001af",
+      "title": "U5-scientist-comparison",
+      "path": "references/U5-scientist-comparison.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": "U5",
+      "topic_ids": [],
+      "size_bytes": 2286,
+      "content_id": "U5-SCIENTIST-COMPARISON"
+    },
+    {
+      "resource_id": "RES-4c091b3eda",
+      "title": "U5-scientist-comparison",
+      "path": "references/U5-scientist-comparison.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": "U5",
+      "topic_ids": [],
+      "size_bytes": 2126
+    },
+    {
+      "resource_id": "RES-8e205a861d",
+      "title": "U5-sources",
+      "path": "references/U5-sources.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": "U5",
+      "topic_ids": [],
+      "size_bytes": 5199,
+      "content_id": "U5-SOURCES"
+    },
+    {
+      "resource_id": "RES-c85bde05de",
+      "title": "U5-sources",
+      "path": "references/U5-sources.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": "U5",
+      "topic_ids": [],
+      "size_bytes": 5893
+    },
+    {
+      "resource_id": "RES-74f6f0eda8",
+      "title": "release index",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "release_index.json",
+      "size_bytes": 11518
+    },
+    {
+      "resource_id": "RES-be95631142",
+      "title": "test-public.schema",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "schemas/test-public.schema.json",
+      "size_bytes": 4042
+    },
+    {
+      "resource_id": "RES-1a6d200892",
+      "title": "test-response.schema",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "reference",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "schemas/test-response.schema.json",
+      "size_bytes": 1431
+    },
+    {
+      "resource_id": "RES-c4279730c3",
+      "title": "T01",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "test",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "tests/T01.json",
+      "size_bytes": 20714,
+      "content_id": "T01"
+    },
+    {
+      "resource_id": "RES-db82dbecf1",
+      "title": "T01",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "test",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "tests/T01.md",
+      "size_bytes": 11869,
+      "content_id": "T01"
+    },
+    {
+      "resource_id": "RES-e03168a533",
+      "title": "T02",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "test",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "tests/T02.json",
+      "size_bytes": 20816,
+      "content_id": "T02"
+    },
+    {
+      "resource_id": "RES-e8a1bea6c4",
+      "title": "T02",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "test",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "tests/T02.md",
+      "size_bytes": 11771,
+      "content_id": "T02"
+    },
+    {
+      "resource_id": "RES-6e9268c6f5",
+      "title": "T03",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "test",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "tests/T03.json",
+      "size_bytes": 21856,
+      "content_id": "T03"
+    },
+    {
+      "resource_id": "RES-aa606dd94d",
+      "title": "T03",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "test",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "tests/T03.md",
+      "size_bytes": 11545,
+      "content_id": "T03"
+    },
+    {
+      "resource_id": "RES-6abb223e19",
+      "title": "T04",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "test",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "tests/T04.json",
+      "size_bytes": 22434,
+      "content_id": "T04"
+    },
+    {
+      "resource_id": "RES-3e71f016af",
+      "title": "T04",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "test",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "tests/T04.md",
+      "size_bytes": 12949,
+      "content_id": "T04"
+    },
+    {
+      "resource_id": "RES-1eaed282cd",
+      "title": "T01-heating",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "tests/figures/T01-heating.png",
+      "size_bytes": 45419
+    },
+    {
+      "resource_id": "RES-534659080b",
+      "title": "T01-heating",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "tests/figures/T01-heating.svg",
+      "size_bytes": 12120
+    },
+    {
+      "resource_id": "RES-fcdc7615ad",
+      "title": "T01-phase",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "tests/figures/T01-phase.png",
+      "size_bytes": 53272
+    },
+    {
+      "resource_id": "RES-18f41c44ff",
+      "title": "T01-phase",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "tests/figures/T01-phase.svg",
+      "size_bytes": 5023
+    },
+    {
+      "resource_id": "RES-9c9954b6ef",
+      "title": "T02-cooling",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "tests/figures/T02-cooling.png",
+      "size_bytes": 55849
+    },
+    {
+      "resource_id": "RES-9f83843690",
+      "title": "T02-cooling",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "tests/figures/T02-cooling.svg",
+      "size_bytes": 13934
+    },
+    {
+      "resource_id": "RES-7765529c4c",
+      "title": "T03-cycle",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "tests/figures/T03-cycle.png",
+      "size_bytes": 33233
+    },
+    {
+      "resource_id": "RES-e263b9afcf",
+      "title": "T03-cycle",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "tests/figures/T03-cycle.svg",
+      "size_bytes": 10220
+    },
+    {
+      "resource_id": "RES-864eb80051",
+      "title": "T03-isotherm",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "tests/figures/T03-isotherm.png",
+      "size_bytes": 48037
+    },
+    {
+      "resource_id": "RES-887f026c64",
+      "title": "T03-isotherm",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "tests/figures/T03-isotherm.svg",
+      "size_bytes": 13664
+    },
+    {
+      "resource_id": "RES-3f107d2e77",
+      "title": "T04-cycle",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "tests/figures/T04-cycle.png",
+      "size_bytes": 42736
+    },
+    {
+      "resource_id": "RES-c58c65dd50",
+      "title": "T04-cycle",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "tests/figures/T04-cycle.svg",
+      "size_bytes": 9461
+    },
+    {
+      "resource_id": "RES-b54747efd9",
+      "title": "T04-heating",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "tests/figures/T04-heating.png",
+      "size_bytes": 45695
+    },
+    {
+      "resource_id": "RES-86e43789fb",
+      "title": "T04-heating",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "tests/figures/T04-heating.svg",
+      "size_bytes": 12741
+    },
+    {
+      "resource_id": "RES-5843230fae",
+      "title": "T04-phase",
+      "format": "png",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "tests/figures/T04-phase.png",
+      "size_bytes": 55703
+    },
+    {
+      "resource_id": "RES-fc30a379bc",
+      "title": "T04-phase",
+      "format": "svg",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "diagram",
+      "unit_id": null,
+      "topic_ids": [],
+      "path": "tests/figures/T04-phase.svg",
+      "size_bytes": 5218
+    },
+    {
+      "resource_id": "WS01-json",
+      "title": "WS01",
+      "path": "worksheets/WS01.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U1",
+      "topic_ids": [
+        "TOP01"
+      ],
+      "size_bytes": 4747
+    },
+    {
+      "resource_id": "WS01-md",
+      "title": "WS01",
+      "path": "worksheets/WS01.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U1",
+      "topic_ids": [
+        "TOP01"
+      ],
+      "size_bytes": 4359
+    },
+    {
+      "resource_id": "WS02-json",
+      "title": "WS02",
+      "path": "worksheets/WS02.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U1",
+      "topic_ids": [
+        "TOP02"
+      ],
+      "size_bytes": 4424
+    },
+    {
+      "resource_id": "WS02-md",
+      "title": "WS02",
+      "path": "worksheets/WS02.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U1",
+      "topic_ids": [
+        "TOP02"
+      ],
+      "size_bytes": 4192
+    },
+    {
+      "resource_id": "WS03-json",
+      "title": "WS03",
+      "path": "worksheets/WS03.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U1",
+      "topic_ids": [
+        "TOP03"
+      ],
+      "size_bytes": 4391
+    },
+    {
+      "resource_id": "WS03-md",
+      "title": "WS03",
+      "path": "worksheets/WS03.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U1",
+      "topic_ids": [
+        "TOP03"
+      ],
+      "size_bytes": 4083
+    },
+    {
+      "resource_id": "WS04-json",
+      "title": "WS04",
+      "path": "worksheets/WS04.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U1",
+      "topic_ids": [
+        "TOP04"
+      ],
+      "size_bytes": 4678
+    },
+    {
+      "resource_id": "WS04-md",
+      "title": "WS04",
+      "path": "worksheets/WS04.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U1",
+      "topic_ids": [
+        "TOP04"
+      ],
+      "size_bytes": 4441
+    },
+    {
+      "resource_id": "WS05-json",
+      "title": "WS05",
+      "path": "worksheets/WS05.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U1",
+      "topic_ids": [
+        "TOP05"
+      ],
+      "size_bytes": 4067
+    },
+    {
+      "resource_id": "WS05-md",
+      "title": "WS05",
+      "path": "worksheets/WS05.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U1",
+      "topic_ids": [
+        "TOP05"
+      ],
+      "size_bytes": 3844
+    },
+    {
+      "resource_id": "WS06-json",
+      "title": "WS06",
+      "path": "worksheets/WS06.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U1",
+      "topic_ids": [
+        "TOP06"
+      ],
+      "size_bytes": 4235
+    },
+    {
+      "resource_id": "WS06-md",
+      "title": "WS06",
+      "path": "worksheets/WS06.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U1",
+      "topic_ids": [
+        "TOP06"
+      ],
+      "size_bytes": 4028
+    },
+    {
+      "resource_id": "RES-ab413d5092",
+      "title": "States of matter and particle behavior",
+      "path": "worksheets/WS07.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U2",
+      "topic_ids": [
+        "TOP07"
+      ],
+      "size_bytes": 4867,
+      "content_id": "WS07"
+    },
+    {
+      "resource_id": "RES-fa2d76266b",
+      "title": "WS07",
+      "path": "worksheets/WS07.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U2",
+      "topic_ids": [
+        "TOP07"
+      ],
+      "size_bytes": 4457
+    },
+    {
+      "resource_id": "RES-e61c3905a7",
+      "title": "Phase transitions",
+      "path": "worksheets/WS08.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U2",
+      "topic_ids": [
+        "TOP08"
+      ],
+      "size_bytes": 4569,
+      "content_id": "WS08"
+    },
+    {
+      "resource_id": "RES-c9f539de2a",
+      "title": "WS08",
+      "path": "worksheets/WS08.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U2",
+      "topic_ids": [
+        "TOP08"
+      ],
+      "size_bytes": 4310
+    },
+    {
+      "resource_id": "RES-b2b88767fc",
+      "title": "Heating and cooling curves",
+      "path": "worksheets/WS09.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U2",
+      "topic_ids": [
+        "TOP09"
+      ],
+      "size_bytes": 5416,
+      "content_id": "WS09"
+    },
+    {
+      "resource_id": "RES-3132b2dcad",
+      "title": "WS09",
+      "path": "worksheets/WS09.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U2",
+      "topic_ids": [
+        "TOP09"
+      ],
+      "size_bytes": 4895
+    },
+    {
+      "resource_id": "RES-10f99abb41",
+      "title": "Sensible heat",
+      "path": "worksheets/WS10.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U2",
+      "topic_ids": [
+        "TOP10"
+      ],
+      "size_bytes": 4666,
+      "content_id": "WS10"
+    },
+    {
+      "resource_id": "RES-a940de1696",
+      "title": "WS10",
+      "path": "worksheets/WS10.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U2",
+      "topic_ids": [
+        "TOP10"
+      ],
+      "size_bytes": 4417
+    },
+    {
+      "resource_id": "RES-db9b970c5d",
+      "title": "Latent heat and multistage changes",
+      "path": "worksheets/WS11.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U2",
+      "topic_ids": [
+        "TOP11"
+      ],
+      "size_bytes": 4677,
+      "content_id": "WS11"
+    },
+    {
+      "resource_id": "RES-5bde5c08c6",
+      "title": "WS11",
+      "path": "worksheets/WS11.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U2",
+      "topic_ids": [
+        "TOP11"
+      ],
+      "size_bytes": 4423
+    },
+    {
+      "resource_id": "RES-8b71f73ebf",
+      "title": "Reading phase diagrams",
+      "path": "worksheets/WS12.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U2",
+      "topic_ids": [
+        "TOP12"
+      ],
+      "size_bytes": 6018,
+      "content_id": "WS12"
+    },
+    {
+      "resource_id": "RES-f9e375da36",
+      "title": "WS12",
+      "path": "worksheets/WS12.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U2",
+      "topic_ids": [
+        "TOP12"
+      ],
+      "size_bytes": 5277
+    },
+    {
+      "resource_id": "RES-30ec7461bd",
+      "title": "Ideal gas law and units",
+      "path": "worksheets/WS13.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U2",
+      "topic_ids": [
+        "TOP13"
+      ],
+      "size_bytes": 4904,
+      "content_id": "WS13"
+    },
+    {
+      "resource_id": "RES-c803e5b2be",
+      "title": "WS13",
+      "path": "worksheets/WS13.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U2",
+      "topic_ids": [
+        "TOP13"
+      ],
+      "size_bytes": 4552
+    },
+    {
+      "resource_id": "RES-71489d33a7",
+      "title": "Conduction",
+      "path": "worksheets/WS14.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP14"
+      ],
+      "size_bytes": 5445,
+      "content_id": "WS14"
+    },
+    {
+      "resource_id": "RES-516eb1df4f",
+      "title": "WS14",
+      "path": "worksheets/WS14.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP14"
+      ],
+      "size_bytes": 4842
+    },
+    {
+      "resource_id": "RES-f43656d0d7",
+      "title": "Convection",
+      "path": "worksheets/WS15.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP15"
+      ],
+      "size_bytes": 5280,
+      "content_id": "WS15"
+    },
+    {
+      "resource_id": "RES-3a1a6c589a",
+      "title": "WS15",
+      "path": "worksheets/WS15.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP15"
+      ],
+      "size_bytes": 4821
+    },
+    {
+      "resource_id": "RES-6bce71b980",
+      "title": "Thermal Radiation",
+      "path": "worksheets/WS16.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP16"
+      ],
+      "size_bytes": 5280,
+      "content_id": "WS16"
+    },
+    {
+      "resource_id": "RES-b84b212e59",
+      "title": "WS16",
+      "path": "worksheets/WS16.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP16"
+      ],
+      "size_bytes": 4807
+    },
+    {
+      "resource_id": "RES-7bc3c26af7",
+      "title": "Comparing Heat Transfer Mechanisms",
+      "path": "worksheets/WS17.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP17"
+      ],
+      "size_bytes": 5643,
+      "content_id": "WS17"
+    },
+    {
+      "resource_id": "RES-c95efcb1ce",
+      "title": "WS17",
+      "path": "worksheets/WS17.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP17"
+      ],
+      "size_bytes": 5083
+    },
+    {
+      "resource_id": "RES-ff0bc00adb",
+      "title": "Thermal Conductivity",
+      "path": "worksheets/WS18.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP18"
+      ],
+      "size_bytes": 5117,
+      "content_id": "WS18"
+    },
+    {
+      "resource_id": "RES-03f810090f",
+      "title": "WS18",
+      "path": "worksheets/WS18.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP18"
+      ],
+      "size_bytes": 4624
+    },
+    {
+      "resource_id": "RES-bb584ce3dd",
+      "title": "Heat Capacity and Specific Heat",
+      "path": "worksheets/WS19.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP19"
+      ],
+      "size_bytes": 4731,
+      "content_id": "WS19"
+    },
+    {
+      "resource_id": "RES-6ea5f47e58",
+      "title": "WS19",
+      "path": "worksheets/WS19.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP19"
+      ],
+      "size_bytes": 4492
+    },
+    {
+      "resource_id": "RES-723ad2e857",
+      "title": "Combined Heat Transfer and Experimental Reasoning",
+      "path": "worksheets/WS20.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP20"
+      ],
+      "size_bytes": 5688,
+      "content_id": "WS20"
+    },
+    {
+      "resource_id": "RES-3e88b3497c",
+      "title": "WS20",
+      "path": "worksheets/WS20.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U3",
+      "topic_ids": [
+        "TOP20"
+      ],
+      "size_bytes": 5161
+    },
+    {
+      "resource_id": "RES-6e1715176f",
+      "title": "Internal Energy, Heat, and Work",
+      "path": "worksheets/WS21.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP21"
+      ],
+      "size_bytes": 5560,
+      "content_id": "WS21"
+    },
+    {
+      "resource_id": "RES-cc480b82eb",
+      "title": "WS21",
+      "path": "worksheets/WS21.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP21"
+      ],
+      "size_bytes": 5022
+    },
+    {
+      "resource_id": "RES-89c5c0bc7f",
+      "title": "First Law of Thermodynamics",
+      "path": "worksheets/WS22.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP22"
+      ],
+      "size_bytes": 5184,
+      "content_id": "WS22"
+    },
+    {
+      "resource_id": "RES-5d99628b98",
+      "title": "WS22",
+      "path": "worksheets/WS22.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP22"
+      ],
+      "size_bytes": 4716
+    },
+    {
+      "resource_id": "RES-a59119b681",
+      "title": "Isothermal Processes",
+      "path": "worksheets/WS23.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP23"
+      ],
+      "size_bytes": 5271,
+      "content_id": "WS23"
+    },
+    {
+      "resource_id": "RES-83f56585fb",
+      "title": "WS23",
+      "path": "worksheets/WS23.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP23"
+      ],
+      "size_bytes": 4776
+    },
+    {
+      "resource_id": "RES-107499e009",
+      "title": "Adiabatic Processes",
+      "path": "worksheets/WS24.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP24"
+      ],
+      "size_bytes": 5161,
+      "content_id": "WS24"
+    },
+    {
+      "resource_id": "RES-b4ec7dcc2d",
+      "title": "WS24",
+      "path": "worksheets/WS24.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP24"
+      ],
+      "size_bytes": 4744
+    },
+    {
+      "resource_id": "RES-32465f8a18",
+      "title": "Isochoric and Isobaric Processes",
+      "path": "worksheets/WS25.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP25"
+      ],
+      "size_bytes": 5429,
+      "content_id": "WS25"
+    },
+    {
+      "resource_id": "RES-72c9800abb",
+      "title": "WS25",
+      "path": "worksheets/WS25.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP25"
+      ],
+      "size_bytes": 4927
+    },
+    {
+      "resource_id": "RES-86b21388b6",
+      "title": "Thermodynamic Cycles",
+      "path": "worksheets/WS26.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP26"
+      ],
+      "size_bytes": 5309,
+      "content_id": "WS26"
+    },
+    {
+      "resource_id": "RES-f33dab628e",
+      "title": "WS26",
+      "path": "worksheets/WS26.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP26"
+      ],
+      "size_bytes": 4797
+    },
+    {
+      "resource_id": "RES-d52d33cf58",
+      "title": "Heat Engines and Thermal Efficiency",
+      "path": "worksheets/WS27.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP27"
+      ],
+      "size_bytes": 5280,
+      "content_id": "WS27"
+    },
+    {
+      "resource_id": "RES-fb5b433980",
+      "title": "WS27",
+      "path": "worksheets/WS27.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP27"
+      ],
+      "size_bytes": 4802
+    },
+    {
+      "resource_id": "RES-a47c7bcc53",
+      "title": "Second Law and Entropy",
+      "path": "worksheets/WS28.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP28"
+      ],
+      "size_bytes": 5083,
+      "content_id": "WS28"
+    },
+    {
+      "resource_id": "RES-3c2ff44c60",
+      "title": "WS28",
+      "path": "worksheets/WS28.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U4",
+      "topic_ids": [
+        "TOP28"
+      ],
+      "size_bytes": 4701
+    },
+    {
+      "resource_id": "RES-cb5a7294e2",
+      "title": "Lord Kelvin and Joseph Black",
+      "path": "worksheets/WS29.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U5",
+      "topic_ids": [
+        "TOP29"
+      ],
+      "size_bytes": 6052,
+      "content_id": "WS29"
+    },
+    {
+      "resource_id": "RES-fe18ecda45",
+      "title": "WS29",
+      "path": "worksheets/WS29.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U5",
+      "topic_ids": [
+        "TOP29"
+      ],
+      "size_bytes": 4939
+    },
+    {
+      "resource_id": "RES-cbe73e5314",
+      "title": "James Prescott Joule and Sadi Carnot",
+      "path": "worksheets/WS30.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U5",
+      "topic_ids": [
+        "TOP30"
+      ],
+      "size_bytes": 5214,
+      "content_id": "WS30"
+    },
+    {
+      "resource_id": "RES-1fe471477a",
+      "title": "WS30",
+      "path": "worksheets/WS30.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U5",
+      "topic_ids": [
+        "TOP30"
+      ],
+      "size_bytes": 4388
+    },
+    {
+      "resource_id": "RES-c5933c8793",
+      "title": "Max Planck and Rudolf Clausius",
+      "path": "worksheets/WS31.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U5",
+      "topic_ids": [
+        "TOP31"
+      ],
+      "size_bytes": 6080,
+      "content_id": "WS31"
+    },
+    {
+      "resource_id": "RES-5c2fb1b455",
+      "title": "WS31",
+      "path": "worksheets/WS31.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U5",
+      "topic_ids": [
+        "TOP31"
+      ],
+      "size_bytes": 5022
+    },
+    {
+      "resource_id": "RES-f814f93b10",
+      "title": "Ludwig Boltzmann and James Clerk Maxwell",
+      "path": "worksheets/WS32.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U5",
+      "topic_ids": [
+        "TOP32"
+      ],
+      "size_bytes": 5903,
+      "content_id": "WS32"
+    },
+    {
+      "resource_id": "RES-71fc5918ce",
+      "title": "WS32",
+      "path": "worksheets/WS32.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U5",
+      "topic_ids": [
+        "TOP32"
+      ],
+      "size_bytes": 4778
+    },
+    {
+      "resource_id": "RES-21dbdadeda",
+      "title": "Historical Discoveries and Contributions",
+      "path": "worksheets/WS33.json",
+      "format": "json",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U5",
+      "topic_ids": [
+        "TOP33"
+      ],
+      "size_bytes": 5448,
+      "content_id": "WS33"
+    },
+    {
+      "resource_id": "RES-e5df439ea5",
+      "title": "WS33",
+      "path": "worksheets/WS33.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "worksheet",
+      "unit_id": "U5",
+      "topic_ids": [
+        "TOP33"
+      ],
+      "size_bytes": 4597
+    },
+    {
+      "resource_id": "MAPLE_Phase_A_Blueprint-md",
+      "title": "MAPLE Phase A Blueprint",
+      "path": "downloads/MAPLE_Phase_A_Blueprint.md",
+      "format": "md",
+      "visibility": "public-student",
+      "status": "complete",
+      "resource_type": "print-download",
+      "unit_id": null,
+      "topic_ids": [],
+      "size_bytes": 10774
+    }
+  ]
+}

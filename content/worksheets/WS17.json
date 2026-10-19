@@ -1,0 +1,160 @@
+{
+  "id": "WS17",
+  "title": "Comparing Heat Transfer Mechanisms",
+  "visibility": "public-student",
+  "level": "All competition levels",
+  "unit_id": "U3",
+  "objectives": "Identify multiple transfer paths; trace energy across chosen boundaries; avoid double counting; evaluate explanations and diagrams.",
+  "suggested_duration": "25–30 minutes",
+  "difficulty": "Beginner through application; final question is a challenge",
+  "total_points": 20,
+  "instructions": "Show the equation, substitution, arithmetic and units for numerical answers. Explain physical meaning. Use given constants. Retain intermediate digits and round final answers as requested; for unspecified precision, accept sensible rounding. Graphs and data are simulated educational models.",
+  "questions": [
+    {
+      "id": "WS17-Q01",
+      "assessment_id": "WS17",
+      "topic_ids": [
+        "TOP17"
+      ],
+      "prompt": "Match three stages: (a) energy across empty space from lamp, (b) through a stationary solid cup wall, (c) carried by circulating water.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS17-Q02",
+      "assessment_id": "WS17",
+      "topic_ids": [
+        "TOP17"
+      ],
+      "prompt": "A warm cup transfers energy to cooler air while absorbing lamp radiation. Can it warm overall? Explain.",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS17-Q03",
+      "assessment_id": "WS17",
+      "topic_ids": [
+        "TOP17"
+      ],
+      "prompt": "Choose the most precise claim: A. Only conduction occurs in a spoon-in-soup setup. B. Conduction carries energy along the solid spoon, while other paths may coexist. Explain.",
+      "question_type": "multiple-choice",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [
+        "A. Only conduction occurs",
+        "B. Conduction along spoon; other paths coexist"
+      ],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS17-Q04",
+      "assessment_id": "WS17",
+      "topic_ids": [
+        "TOP17"
+      ],
+      "prompt": "In an ideal lossless sequence, 400 J is absorbed by a plate, then passes through a wall, then enters water. How much reaches water, and why not 1200 J?",
+      "question_type": "short-answer",
+      "difficulty": "foundation",
+      "points": 2,
+      "choices": [],
+      "response_space_lines": 4,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS17-Q05",
+      "assessment_id": "WS17",
+      "topic_ids": [
+        "TOP17"
+      ],
+      "prompt": "A selected system gains 200 J by one boundary path and 350 J independently by another, while losing 150 J. Find net input and explain why these quantities may be combined.",
+      "question_type": "short-answer",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS17-Q06",
+      "assessment_id": "WS17",
+      "topic_ids": [
+        "TOP17"
+      ],
+      "prompt": "Use the WS 17 reference diagram. For a cup-plus-water boundary, is wall-to-water transfer external or internal? Name one external input and one external output in the diagram.",
+      "question_type": "diagram",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS17-Q07",
+      "assessment_id": "WS17",
+      "topic_ids": [
+        "TOP17"
+      ],
+      "prompt": "A system receives 10 W by a separate radiative input and 3 W by conduction, while losing 5 W to air. All rates are constant for 2 min. Calculate net energy input.",
+      "question_type": "numeric",
+      "difficulty": "application",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    },
+    {
+      "id": "WS17-Q08",
+      "assessment_id": "WS17",
+      "topic_ids": [
+        "TOP17"
+      ],
+      "prompt": "Challenge: A covering reduces a cup’s measured cooling rate. A student concludes it changed only conduction. Explain why that conclusion is too strong and propose a better comparison.",
+      "question_type": "short-answer",
+      "difficulty": "challenge",
+      "points": 3,
+      "choices": [],
+      "response_space_lines": 6,
+      "state_national_only": false,
+      "visibility": "public-student"
+    }
+  ],
+  "reference_material": {
+    "description": "The selected boundary encloses both cup wall and water; lamp and room air are outside. The diagram shows a simplified set of paths, not every possible transfer.",
+    "figure_path": "../lessons/figures/U3-C04.svg",
+    "figure_alt": "Lamp radiation enters cup wall; wall transfers to water; a separate loss goes to room air.",
+    "columns": [
+      "path",
+      "description"
+    ],
+    "rows": [
+      [
+        "lamp to wall",
+        "radiation"
+      ],
+      [
+        "wall to water",
+        "transfer at wall and water circulation"
+      ],
+      [
+        "cup to air",
+        "loss to cooler room air"
+      ]
+    ]
+  }
+}

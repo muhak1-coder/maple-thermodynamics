@@ -1,0 +1,18 @@
+{
+  "id": "F06",
+  "title": "Density",
+  "visibility": "public-student",
+  "unit_id": "U1",
+  "topic_ids": [
+    "TOP03"
+  ],
+  "equation": "ρ=m/V",
+  "variables_and_units": {
+    "ρ": "g/mL or kg/m³",
+    "m": "g or kg",
+    "V": "mL or m³"
+  },
+  "use_case": "Match the mass and volume units to the requested density unit.",
+  "mini_example": "40 g/50 mL=0.80 g/mL.",
+  "status": "complete"
+}
